@@ -1,0 +1,132 @@
+# I wanted to keep the code in the manuscript.org file to a minimum
+# so I put some code here, which manuscript.org 'ingests'
+# 
+# This file also contains the code that is tangled to global_fns.R
+
+#+NAME: report-funs
+#+BEGIN_SRC R :exports none :results silent
+
+#########################################################
+  ## SOME USEFUL OBJECTS AND FUNCTIONS FOR REPORTING RESULTS
+
+  library("rlang") # needed for !!
+  as.perc <- function(x) sprintf("%0.1f%%", x * 100)
+
+  ## what R version are we using?
+  this_r <- sub("^R version ([0-9]{1}\\.[0-9]{1}\\.[0-9]{1}).+",
+		"\\1", R.version.string)
+
+  ## APA style for reporting numbers <= 10
+  nums <- function(x) {
+    v <- c("one", "two", "three", "four", "five", "six", "seven",
+           "eight", "nine", "ten")
+    res <- which(x == seq_along(v))
+    if (length(res)) v[res] else x
+  }
+
+  .n <- function(x) {
+    if (x < 10) nums(x) else x
+  }
+
+  # Wald z to p value
+  z2p <- function(z, tails = 2L) {
+    if (tails == 1) {
+      p <- 1 - pnorm(z)
+    } else {
+      p <- 2 * (1 - pnorm(abs(z)))
+    }
+    if (p < .001) {
+      "\\(p < .001\\)"
+    } else {
+      sprintf("\\(p = %0.3f\\)", p)
+    }
+  }
+
+  ## some useful functions
+  bstr <- function(m, x, tails = 2L) {
+    ix <- which(names(lme4::fixef(m)) == x)
+    prm <- lme4::fixef(m)[x]
+    se <- sqrt(Matrix::diag(vcov(m)))[ix]
+    str1 <- sprintf("\\(\\beta = %0.2f\\), \\(SE = %0.2f\\), Wald \\(z = %0.2f\\)",
+                    prm, se, prm / se)
+    paste0(str1, ", ", z2p(prm / se, tails))
+  }
+
+  M_SD <- function(d, mvar, sdvar, digits = 0, units = "", usep = " ") {
+    fstr <- paste0("%0." ,digits, "f")
+    .mv <- rlang::enquo(mvar)
+    .sd <- rlang::enquo(sdvar)
+    m <- pull(d, !!.mv)
+    sd <- pull(d, !!.sd)
+    sprintf(sprintf("\\(M = %s\\)%s%s \\((SD = %s)\\)",
+                    fstr, usep, units, fstr),
+            m, sd)
+  }
+#+END_SRC
+
+#+NAME: global-fns
+#+BEGIN_SRC R :tangle global_fns.R
+  suppressWarnings(
+    suppressPackageStartupMessages({
+      library("rlang")
+      library("tidyverse")
+    }))
+
+  ## bootstrap the dataset
+  boot_once <- function(data, unit) {
+    unitv <- enquo(unit)
+    group_by(data, !!unitv) %>%
+      nest() %>%
+      sample_n(nrow(.), TRUE) %>%
+      group_by(!!unitv) %>%
+      mutate(boot_id = row_number()) %>%
+      select(!!unitv, boot_id, data) %>%
+      ungroup() %>%
+      unnest()
+  }
+
+  agg_up <- function(data, dv, ..., na.rm = FALSE) {
+    dvv <- rlang::enquo(dv)
+    dvn <- rlang::quo_name(dvv)
+    gvars <- rlang::enquos(...)
+    gd = group_by(data, !!!gvars)
+    ungroup(summarize(gd, !!dvn := mean(!!dvv, na.rm = na.rm)))
+  }
+
+  agg_up2 <- function(data, yvar, nvar, ..., na.rm = FALSE) {
+    dv_yvar <- rlang::enquo(yvar)
+    dv_nvar <- rlang::enquo(nvar)
+    gvars <- rlang::enquos(...)
+    gd = group_by(data, !!!gvars)
+    ungroup(
+      summarize(gd,
+		p = sum(!!dv_yvar, na.rm = na.rm) /
+                  sum(!!dv_nvar, na.rm = na.rm)))
+  }
+
+  stix_plot <- function(dd, x, y, ...) {
+    xv <- rlang::enquo(x)
+    yv <- rlang::enquo(y)
+    ## zv <- rlang::enquo(z)
+    dotsv <- c(xv, rlang::enquos(...))
+    yvn <- rlang::quo_name(yv)
+    ## fmla <- as.formula(paste0("~", substitute(z)))
+
+    gd <- group_by(dd, !!!dotsv)
+    cmeans <- ungroup(summarize(gd, !!yvn := mean(!!yv)))
+
+    ggplot(dd,
+	   aes(!!xv, !!yv)) +
+      geom_point(data = cmeans,
+		 color = "red", size = 5, alpha = .35) +
+      geom_line(data = cmeans,
+		group = 1, color = "red", alpha = .35) +
+      geom_point(alpha = .2) +
+      geom_line(aes(group = SessionID), alpha = .2) ## +
+    ##  facet_wrap(fmla)    
+  }
+
+  # colorblind palette with grey:
+  cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73",
+		 "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+#+END_SRC

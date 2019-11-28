@@ -1,0 +1,31 @@
+#+OPTIONS: author:nil date:nil title:nil toc:nil
+#+PROPERTY: header-args:R :exports results :results output value :session *R*
+
+# C-c C-e t u   to export to abstract.txt
+
+#+BEGIN_SRC R :exports none :results silent :session *R*
+  library("dplyr")
+  .e1 <- new.env()
+  .e2 <- new.env()
+  .e3 <- new.env()
+
+  load("exp1/data_images/02_analyze_speech.rda", .e1)
+  load("exp2/data_images/02_analyze_speech.rda", .e2)
+  load("exp3/data_images/01_preprocess.rda", .e3)
+
+  .n1 <- .e1$dat_mis$SessionID %>% unique() %>% length()
+  .n2 <- .e2$main_data$SessionID %>% unique() %>% length()
+  .n3 <- .e3$main_data$SessionID %>% unique() %>% length()
+
+  .nt1 <- .e1$n_obs
+  .nt2 <- .e2$n_rem
+  .nt3 <- .e3$n_trials_tot
+
+  ll <- 17L
+#+END_SRC
+
+How do speakers produce referential descriptions that satisfy addressees' informational needs during real-time conversation?  A recent proposal is that ordinary memory processes can serve as a proxy for the consideration of common ground.  But this is only possible if speakers encode and access sufficiently detailed memory representations.  We tested this proposal by having speakers describe referents in contexts varying in perceptual similarity to previous contexts in the dialogue. Based on the analysis of a total of 
+src_R{prettyNum(.nt1 + .nt2 + .nt3, big.mark = ",")}  
+descriptions from 
+src_R{.n1 + .n2 + .n3} 
+speakers over three experiments, we found little evidence that contextual similarity modulated the informational content of speakers' descriptions, regardless of whether that similarity was based on configurational cues (Exps. 1 and 2), or on the perceptual experience of interacting with a conversational partner (Exp. 3).  In contrast, speakers did modulate their descriptions when their beliefs about the addressee changed, even when the perceptual match between encoding and retrieval contexts was identical.  This suggests that the episodic representations accessed during message generation may be too impoverished to serve as an effective proxy for common ground.

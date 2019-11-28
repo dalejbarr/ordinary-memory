@@ -1,0 +1,177 @@
+#+TITLE: Supplementary Information
+#+AUTHOR: Dale Barr
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
+#+OPTIONS: html-preamble:t html-scripts:t html-style:t
+#+OPTIONS: html5-fancy:nil tex:t ^:nil num:nil
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 9.0.3)
+#+PROPERTY: header-args:R :session *R*
+
+#+NAME: setup
+#+begin_src R :exports none :results silent
+  suppressPackageStartupMessages(library("dplyr"))
+  suppressPackageStartupMessages(library("tidyr"))
+  suppressPackageStartupMessages(library("purrr"))
+  suppressPackageStartupMessages(library("forcats"))
+  suppressPackageStartupMessages(library("base64"))
+
+  html_table <- function(item_id, data, imgpath = "exp3_stimuli",
+			 th2 = "Competitor", th3 = "Foil") {
+    cat("<h4>Item ", item_id, "</h4>\n", sep = "")
+    cat("<table>\n")
+    cat("<tr>\n")
+    cat("<th><b>Target</b></th>\n")
+    cat("<th><b>", th2, "</b></th>\n", sep = "")
+    cat("<th><b>", th3, "</b></th>\n", sep = "") 
+    walk(seq_len(length(data$Resource) - 3L),
+	 ~ cat("<th><b>Unrelated</b></th>\n"))
+	 cat("</tr>\n")
+    cat("<tr>\n")
+    walk(data$Resource, ~ cat("<td>",
+			      img(file.path(imgpath, .x)),
+			      "</td>\n", sep = ""))
+    cat("</tr>\n")
+    cat("</table>\n\n")
+  }
+#+end_src
+
+* Experiments 1 and 2: Sequencing of trials within a block
+
+Each of the two blocks of trials (in which 24 sequences were presented) was further divided up into six sub-blocks, each of which contained the training and test trials for four sequences. The motivation for this was to have all of the training/test trials for a given sequence in relative proximity within the block, but to also make the position of the test trial for each sequence unpredictable. Trials for the first five of the six sub-blocks were sequenced as follows. First, the last fifteen trials of the sub-block were created, consisting of (a) the four test trials from the four sequences, at serial positions three, seven, eleven, and fifteen within the fifteen trial sequence; (b) the last training trial for three of the four sequences, with one at position four or five (randomly chosen), another at position eight or nine (randomly chosen); and the third at position twelve or thirteen (randomly chosen); (c) the third and fourth training trials for each of the four sequences in the next sub-block, which filled up the remaining empty slots of the final fifteen. After the final fifteen trials were determined in this way, the remaining training trials from the current four sequences, as well as the first two training trials from the next four sequences, were randomly shuffled to form the first part of the sub-block.  The sixth sub-block within each block was determined similarly, with the exception that there were no new training trials from the next sub-block to be intermingled. For this block, the last nine trials were constructed first, with test trials for each of the four sequences appearing at serial positions one, five, eight, and nine. Positions six and seven had the last two training trials for the sequence tested at eight and nine; position two had the last training trial for the sequence tested at position five; and positions three and four had the second to last training trials for the series tested at eight and nine.  
+
+* Materials for Experiment 2
+
+#+begin_src R :exports results :results output html
+  con <- DBI::dbConnect(RSQLite::SQLite(),
+			file.path("work", "exp2", 
+				  "data_raw", "EESP3.db"))
+
+  suppressWarnings({
+    aoi <- tbl(con, "AOI") %>%
+      filter(Link == "itemcell",
+	     Name != "Highlight", x1 < 1024) %>%
+      select(AOIID, ID, Name, Resource) %>%
+      collect()
+  })
+
+  itm <- tbl(con, "ListOrder") %>%
+    filter(ListID < 999L) %>%
+    select(ListID, ItemCellID) %>%
+    inner_join(tbl(con, "Item"), "ItemCellID") %>%
+    filter(Cell != 0L, TemplateID == 1L) %>%
+    collect() %>%
+    separate(Item, c("item_id", "mode"), "_", convert = TRUE) %>%
+    select(ListID, ID = ItemCellID, item_id, Cell)
+
+  alltargs <- inner_join(aoi, itm, "ID") %>%
+    filter(Name == "Target") %>%
+    distinct(ListID, item_id, target = Resource)
+
+  tid <- distinct(alltargs, target) %>%
+    mutate(tid = sub("\\.[A-Za-z]{3}$", "", target))
+
+  fcomp <- aoi %>%
+    inner_join(itm, "ID") %>%
+    select(ListID, item_id, ID, Name, Resource)
+
+  dat <- inner_join(tid,
+	     alltargs, "target") %>%
+    inner_join(fcomp, c("ListID", "item_id")) %>%
+    distinct(item_id = tid, Name, Resource) %>%
+    mutate(Name = fct_relevel(Name, c("Target", "Competitor", "Foil"))) %>%
+    arrange(item_id, Name) %>%
+    group_by(item_id) %>%
+    nest() %>%
+    mutate(item_id = row_number())
+
+  DBI::dbDisconnect(con)
+
+  pwalk(dat, html_table, imgpath = "exp2_stimuli")
+#+end_src
+
+* Materials for Experiment 3
+
+** Main displays with target/competitor/foil triplets and filler images
+
+#+begin_src R :exports results :results output html
+  con <- DBI::dbConnect(RSQLite::SQLite(),
+			file.path("work", "exp3", 
+				  "data_raw", "EESP4_Speaker.db"))
+
+  suppressWarnings({
+    aoi <- tbl(con, "AOI") %>%
+      filter(Link == "itemcell",
+	     Name != "Highlight") %>%
+      select(AOIID, ID, Name, Resource) %>%
+      collect()
+
+    itm <- tbl(con, "Item") %>%
+      collect() %>%
+      filter(grepl("^[0-9]{2}.+", Item)) %>%
+      separate(Item, c("item_id", "mode"), "-", convert = TRUE) %>%
+      select(ID = ItemCellID, item_id) %>%
+      arrange(item_id)
+
+    unconv <- tbl(con, "Item") %>%
+      collect() %>%
+      filter(grepl("^F_uncv_[0-9]{1,2}$", Item)) %>%
+      separate(Item, c("junk1", "junk2", "item_id"), "_",
+	       convert = TRUE) %>%
+      select(ID = ItemCellID, item_id) %>%
+      mutate(item_id = item_id - 12)
+
+    conv <- tbl(con, "Item") %>%
+      collect() %>%
+      filter(grepl("^F_conv_[0-9]{1,2}$", Item)) %>%
+      separate(Item, c("junk1", "junk2", "item_id"), "_",
+	       convert = TRUE) %>%
+      select(ID = ItemCellID, item_id)
+
+    DBI::dbDisconnect(con)
+  })
+
+  dat <- inner_join(itm, aoi, "ID") %>%
+    distinct(item_id, Name, Resource) %>%
+    mutate(Name = fct_relevel(Name, c("Target", "Competitor", "Foil"))) %>%
+    arrange(item_id, Name, Resource) %>%
+    group_by(item_id) %>%
+    nest()
+
+  pwalk(dat, html_table)
+#+end_src
+
+** Unconventional test displays
+
+#+begin_src R :exports results :results output html
+  unconv_img <- inner_join(aoi, unconv, "ID") %>%
+    mutate(Name = fct_relevel(Name, c("Target", "Filler"))) %>%
+    arrange(ID, Name) %>%
+    select(item_id, Name, Resource) %>%
+    group_by(item_id) %>%
+    nest()
+
+  pwalk(unconv_img, html_table, th2 = "Unrelated", th3 = "Unrelated")
+#+end_src
+
+** Conventional filler displays
+
+#+begin_src R :exports results :results output html
+  conv_img <- inner_join(aoi, conv, "ID") %>%
+    mutate(Name = fct_relevel(Name, c("Target", "Filler"))) %>%
+    arrange(ID, Name) %>%
+    select(item_id, Name, Resource) %>%
+    group_by(item_id) %>%
+    nest()
+
+  pwalk(conv_img, html_table, th2 = "Unrelated", th3 = "Unrelated")
+#+end_src

@@ -1,0 +1,173 @@
+options(warn = -1)
+
+# load in the exp 1 data and compute things we need for tables and text
+suppressWarnings(suppressPackageStartupMessages({
+  library("tidyverse")
+  library("lme4")
+}))
+
+message("    Calculating descriptives...")
+
+source("../global_fns.R")
+
+old_obj <- load("data_images/01_preprocess.rda")
+dat <- main_data
+
+## how many observations
+n_obs <- dat %>% filter(!Invalid, !is.na(Misspecification)) %>% nrow()
+n_inv <- dat %>% filter(Invalid) %>% nrow()
+n_oth <- dat %>% filter(!Invalid, is.na(Misspecification)) %>% nrow()
+
+# observations removed for speech onset analysis
+n_mis <- dat %>% filter(!Invalid, !is.na(Misspecification)) %>%
+  filter(Misspecification) %>% nrow()
+n_na <- dat %>% filter(!Invalid, !is.na(Misspecification)) %>%
+  filter(Misspecification) %>%
+  filter(is.na(OnsetChg)) %>% nrow()
+
+dat_mis <- dat %>%
+  filter(!Invalid, !is.na(Misspecification)) 
+
+## calculate the cell means
+cell_means0 <- dat_mis %>%
+  group_by(`Shift Direction` = `Direction of Shift`, 
+	   `Distortion Level`) %>%
+  summarise(mis_rate = mean(Misspecification, na.rm = TRUE)) %>%
+  ungroup()
+
+cell_means <- cell_means0 %>%
+  rename(shiftdir = `Shift Direction`) %>%
+  spread("Distortion Level", "mis_rate")
+
+## grand means by distortion
+marg_dist <- dat_mis %>%
+  group_by(dist = `Distortion Level`) %>%
+  summarise(mis_rate = mean(Misspecification, na.rm = TRUE))
+
+## grand means by shift dir
+marg_shift <- dat_mis %>%
+  group_by(shiftdir = `Direction of Shift`) %>%
+  summarise(mis_rate = mean(Misspecification, na.rm = TRUE))
+
+coding_tbl <- dat_mis %>%
+  filter(!is.na(Code)) %>%
+  mutate(`Shift Direction` = factor(`Direction of Shift`),
+	 Distortion = factor(`Distortion Level`) %>% fct_relevel("Low"),
+	 code = factor(Code,
+		       levels = c("NO", "PR", "PO", "DE", "AS", "AO")) %>%
+	   fct_infreq()) %>%
+  group_by(`Shift Direction`, Distortion, code, .drop = FALSE) %>%
+  summarize(Y = n()) %>%
+  ungroup() %>%
+  group_by(`Shift Direction`, Distortion) %>%
+  mutate(N = sum(Y), p = Y / N,
+	 p2 = sprintf("%0.1f%%", 100 * p)) %>%
+  ungroup() %>%
+  select(-Y, -N, -p) %>%
+  spread("code", "p2")
+
+dat_sol <- dat %>%
+  filter(!Invalid, !is.na(Misspecification)) %>%
+  filter(!Misspecification, !is.na(OnsetChg))
+
+cell_means_sol <- dat_sol %>%
+  group_by(Distortion = fct_relevel(`Distortion Level`, "Low"),
+	   `Shift Direction` = `Direction of Shift`) %>%
+  summarize(m = mean(OnsetChg),
+	    sd = sd(OnsetChg))
+
+marg_dist_sol <- dat_sol %>%
+  group_by(Distortion = fct_relevel(`Distortion Level`, "Low")) %>%
+  summarize(m = mean(OnsetChg),
+	    sd = sd(OnsetChg))
+
+marg_shift_sol <- dat_sol %>%
+  group_by(shiftdir = `Direction of Shift`) %>%
+  summarize(m = mean(OnsetChg),
+	    sd = sd(OnsetChg))
+
+message("    Creating plot of misspecification rate...")
+
+mis_plot_d <- dat_mis %>%
+  mutate(dist = fct_relevel(`Distortion Level`, "Low")) %>%
+  group_by(SessionID,
+	   shiftdir = `Direction of Shift`,
+	   dist) %>%
+  summarize(m = mean(Misspecification, na.rm = TRUE)) %>%
+  ungroup()
+
+                                        # from global.org
+mis_plot <- stix_plot(mis_plot_d, dist, m, shiftdir) +
+  facet_wrap(~shiftdir) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(y = "Misspecification Rate", x = "Distortion Level")
+
+message("    Creating plot of speech onset latency...")
+
+sol_plot_d <- dat_sol %>%
+  mutate(dist = fct_relevel(`Distortion Level`, "Low")) %>%
+  group_by(SessionID,
+	   shiftdir = `Direction of Shift`,
+	   dist) %>%
+  summarize(m = mean(OnsetChg, na.rm = TRUE)) %>%
+  ungroup()
+
+# from global.org
+sol_plot <- stix_plot(sol_plot_d, dist, m, shiftdir) +
+  facet_wrap(~shiftdir) +
+  labs(y = "Difference in Onset Latency (Test - Train)", x = "Distortion Level")
+
+message("    Fitting mixed-effects model of misspecification rate... (model 1)")
+
+mod_mis <- glmer(
+  Misspecification ~ S * D + (S * D | SessionID),
+  dat %>%
+  filter(!Invalid, !is.na(Misspecification)) %>%
+  mutate(S = `Direction of Shift` == "Singleton-Contrast",
+         S = S - mean(S),
+         D = `Distortion Level` == "Low",
+         D = D - mean(D)),
+  family = binomial(link = logit),
+  control = glmerControl(optimizer = "bobyqa"))
+# it's singular, so let's reduce to get rid of the message
+
+message("    Fitting mixed-effects model of misspecification rate... (model 2)")
+
+mod_mis2 <- glmer(
+  Misspecification ~ S * D + (S + S:D || SessionID),
+  dat %>%
+  filter(!Invalid, !is.na(Misspecification)) %>%
+  mutate(S = `Direction of Shift` == "Singleton-Contrast",
+         S = S - mean(S),
+         D = `Distortion Level` == "Low",
+         D = D - mean(D)),
+  family = binomial(link = logit),
+  control = glmerControl(optimizer = "bobyqa"))
+
+message("    Fitting mixed-effects model of speech onset latency... (model 1)")
+
+mod_sol <- lmer(
+  OnsetChg ~ S * D + (S * D | SessionID),
+  dat %>%
+  filter(!Invalid, !is.na(Misspecification)) %>%
+  filter(!Misspecification) %>%
+  mutate(S = `Direction of Shift` == "Singleton-Contrast",
+         S = S - mean(S),
+         D = `Distortion Level` == "Low",
+         D = D - mean(D)), REML = FALSE)
+# it's singular, so let's reduce to get rid of the message
+
+message("    Fitting mixed-effects model of speech onset latency... (model 2)")
+
+mod_sol2 <- lmer(
+  OnsetChg ~ S * D + (S || SessionID),
+  dat %>%
+  filter(!Invalid, !is.na(Misspecification)) %>%
+  filter(!Misspecification) %>%
+  mutate(S = `Direction of Shift` == "Singleton-Contrast",
+         S = S - mean(S),
+         D = `Distortion Level` == "Low",
+         D = D - mean(D)), REML = FALSE)
+
+message("    Saving session data...")
+save(list = setdiff(ls(), old_obj), file = "data_images/02_analyze_speech.rda")

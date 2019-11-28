@@ -1,0 +1,1308 @@
+X1,SessionID,Series,Target_Competitor,Role,Soundfile,Modifier,Transcription,SpeechFluency,Adjective,RelevantMod,Onset,Comments,ShiftDir,Fluency,Misspec
+1,1,2,bin_lid / bin_pedal,Test,T_02.wav,1,bin you don't use (something) foot for,FL,PO,PO,1014,onset of bin noted,Contrast_Singleton,High,TRUE
+2,1,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,em cup without saucer,FP,PO,PO,2295,,Contrast_Singleton,High,TRUE
+3,1,5,mirror_wall / mirror_hand,Test,T_05.wav,1,decorative mirror,FL,PR,PR,1338,,Contrast_Singleton,High,TRUE
+4,1,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,949,,Contrast_Singleton,High,TRUE
+5,1,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lit lighter,FL,PR,PR,1333,,Contrast_Singleton,High,TRUE
+6,1,8,egg_shell / egg_yolk,Test,T_08.wav,1,full egg,FL,PR,PR,1533,,Contrast_Singleton,High,TRUE
+7,1,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,open umbrella,FL,PR,PR,1413,,Contrast_Singleton,High,TRUE
+8,1,10,candle_unused / candle_melted,Test,T_10.wav,1,unused candle,FL,PR,PR,1168,,Contrast_Singleton,High,TRUE
+9,1,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,kitchen knife,FL,PR,PR,869,,Contrast_Singleton,High,TRUE
+10,1,12,car_family / car_sports,Test,T_12.wav,1,eh car that's not a sports car,FP,PO,PO,2199,,Contrast_Singleton,High,TRUE
+11,1,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,2460,,Singleton_Contrast,Low,FALSE
+12,1,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle {which one?] the horse saddle,RE,AO,,,,Singleton_Contrast,Low,TRUE
+13,1,16,pad_unlocked / pad_locked,Test,T_16.wav,1,sounds like starts to say 'open padlock' hard to tell????,FL,PR,PR,2128,check *** she more or less commits to the word open so think this is a 1,Singleton_Contrast,Low,FALSE
+14,1,17,headphones_large / headphones_small,Test,T_17.wav,0,headpones {which ones?} eem the over-ears,RE,AO,,,,Singleton_Contrast,Low,TRUE
+15,1,18,battery_AA / battery_car,Test,T_18.wav,0,battery {which one?] eem the duracel one,RE,AO,,,check,Singleton_Contrast,Low,TRUE
+16,1,19,wine_glass / wine_red,Test,T_19.wav,1,ehh empty wineglass,FP,PR,PR,1823,,Singleton_Contrast,Low,FALSE
+17,1,20,money_notes / money_coins,Test,T_20.wav,0,money…notes,RE,AS,,,long enough pause for correction - notes onset noted - check?,Singleton_Contrast,Low,TRUE
+18,1,21,boot_foot / boot_car,Test,T_21.wav,0,boot…eh foot boot,RE,AS,,,,Singleton_Contrast,Low,TRUE
+19,1,22,camera_corder / camera_cctv,Test,T_22.wav,1,eh video camera,FP,PR,PR,2616,,Singleton_Contrast,Low,FALSE
+20,1,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,guitar {which one?} acoustic,RE,AO,,,,Singleton_Contrast,Low,TRUE
+21,1,24,glove_wooly / glove_boxing,Test,T_24.wav,0,red glove {which one?} em the non boxing glove,RE,AO,,,onset of non noted,Singleton_Contrast,Low,TRUE
+22,1,25,teapot_white / teapot_cosy,Test,T_25.wav,1,teapot without a cosy,FL,PO,PO,796,,Contrast_Singleton,Low,TRUE
+23,1,27,saw_hand / saw_electric,Test,T_27.wav,1,emm (h) non electric saw,FP,PR,PR,2552,,Contrast_Singleton,Low,TRUE
+24,1,28,fan_hand / fan_electric,Test,T_28.wav,1,handheld fan,FL,PR,PR,1640,,Contrast_Singleton,Low,TRUE
+25,1,29,orange_skin / orange_slice,Test,T_29.wav,1,full orange,FL,PR,PR,1085,,Contrast_Singleton,Low,TRUE
+26,1,30,spade_garden / spade_beach,Test,T_30.wav,1,gardening spade,FL,PR,PR,1116,,Contrast_Singleton,Low,TRUE
+27,1,31,key_gold / key_car,Test,T_31.wav,1,house key,FL,PR,PR,1991,,Contrast_Singleton,Low,TRUE
+28,1,32,door_handle / door_knob,Test,T_32.wav,1,full door handle,FL,PR,PR,1389,,Contrast_Singleton,Low,TRUE
+29,1,33,bell_hand / bell_bike,Test,T_33.wav,1,handheld bell,FL,PR,PR,1347,check,Contrast_Singleton,Low,TRUE
+30,1,34,cheese_block / cheese_blue,Test,T_34.wav,1,eden white cheese,FL,PR,PR,1550,,Contrast_Singleton,Low,TRUE
+31,1,37,clock_wall / clock_digital,Test,T_37.wav,1,analogue clock,FL,PR,PR,2407,,Singleton_Contrast,High,FALSE
+32,1,38,hat_sun / hat_cowboy,Test,T_38.wav,1,eem female hat,FP,PR,PR,2729,,Singleton_Contrast,High,FALSE
+33,1,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,eh pen with the lid on,FP,PR,PR,2024,,Singleton_Contrast,High,FALSE
+34,1,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat {which one?} flying bat,RE,AO,,,very hard to get onset of f for flying check if you ahave time!,Singleton_Contrast,High,TRUE
+35,1,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {which one?} living,RE,AO,,,,Singleton_Contrast,High,TRUE
+36,1,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,yellow tshirt {which one?} emm the darker yellow,RE,AO,,,,Singleton_Contrast,High,TRUE
+37,1,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,ehh unpeeled potatoes,FP,PR,PR,2321,,Singleton_Contrast,High,FALSE
+38,2,2,bin_lid / bin_pedal,Test,T_02.wav,1,plastic bin,FL,PR,PR,1054,,Contrast_Singleton,High,TRUE
+39,2,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,cup of coffee without a saucer underneath it,FL,PO,PO,1381,onset of cup taken,Contrast_Singleton,High,TRUE
+40,2,5,mirror_wall / mirror_hand,Test,T_05.wav,1,wall mirror,FL,PR,PR,942,,Contrast_Singleton,High,TRUE
+41,2,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,1367,,Contrast_Singleton,High,TRUE
+42,2,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,eh lit lighter,FP,PR,PR,1279,,Contrast_Singleton,High,TRUE
+43,2,8,egg_shell / egg_yolk,Test,T_08.wav,0,uuuuuuhhhh egg,FP,NO,NO,2759,,Contrast_Singleton,High,FALSE
+44,2,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,open umbrella,FL,PR,PR,945,,Contrast_Singleton,High,TRUE
+45,2,10,candle_unused / candle_melted,Test,T_10.wav,1,unlit candle again,FL,PR,PR,1059,,Contrast_Singleton,High,TRUE
+46,2,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,kitchen knife,FL,PR,PR,833,,Contrast_Singleton,High,TRUE
+47,2,14,gun_real / gun_toy,Test,T_14.wav,1,uhh real gun,FP,PR,PR,1666,,Singleton_Contrast,Low,FALSE
+48,2,15,saddle_horse / saddle_bike,Test,T_15.wav,1,ssss uh biii  uhhh horse saddle,RE,PR,,,,Singleton_Contrast,Low,FALSE
+49,2,16,pad_unlocked / pad_locked,Test,T_16.wav,0,"uhhh padlock, uh unlocked padlock",RE,AS,,,onset of unlocked noted,Singleton_Contrast,Low,TRUE
+50,2,17,headphones_large / headphones_small,Test,T_17.wav,0,mmmm headphones {which ones?} like eh headphones as opposed to earphones,RE,AO,,,CHECK: onset of earphones taken?,Singleton_Contrast,Low,TRUE
+51,2,18,battery_AA / battery_car,Test,T_18.wav,1,umm  battery the small..um like a AA battery probably,RE,AS,,,check - onset of AA noted,Singleton_Contrast,Low,FALSE
+52,2,19,wine_glass / wine_red,Test,T_19.wav,1,uhh empty wine glass,FP,PR,PR,1805,,Singleton_Contrast,Low,FALSE
+53,2,20,money_notes / money_coins,Test,T_20.wav,0,uuh money..cash money {which one's?} the uhh notes ..,RE,AO,,,onset of notes taken,Singleton_Contrast,Low,TRUE
+54,2,21,boot_foot / boot_car,Test,T_21.wav,0,boot {which one?] uhhh oh boot like a shoe that you wear,RE,AO,,,onset of shoe taken **** should it be boot?,Singleton_Contrast,Low,TRUE
+55,2,22,camera_corder / camera_cctv,Test,T_22.wav,0,camera {which one?} uhh like a non cctv camera,RE,AO,,,cctv onset taken,Singleton_Contrast,Low,TRUE
+56,2,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,ahhhh acoutsic guitar,FP,PR,PR,2159,,Singleton_Contrast,Low,FALSE
+57,2,24,glove_wooly / glove_boxing,Test,T_24.wav,0,ahh red glove {WO?} the non boxing glove,RE,AO,,,onset of boxing,Singleton_Contrast,Low,TRUE
+58,2,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot,FL,NO,NO,1483,,Contrast_Singleton,Low,FALSE
+59,2,27,saw_hand / saw_electric,Test,T_27.wav,1,uh (mmm)manual saw..yep (cuts off),FP/LE,PR,PR,1861,,Contrast_Singleton,Low,TRUE
+60,2,28,fan_hand / fan_electric,Test,T_28.wav,1,ma(aaaa)nual fan,LE,PR,PR,1570,,Contrast_Singleton,Low,TRUE
+61,2,29,orange_skin / orange_slice,Test,T_29.wav,1,ahh whole orange,FP,PR,PR,1780,,Contrast_Singleton,Low,TRUE
+62,2,30,spade_garden / spade_beach,Test,T_30.wav,0,uhh shovel,FP,NO,NO,2295,***,Contrast_Singleton,Low,FALSE
+63,2,31,key_gold / key_car,Test,T_31.wav,1,uhhh door key,FP,PR,PR,2394,,Contrast_Singleton,Low,TRUE
+64,2,32,door_handle / door_knob,Test,T_32.wav,0,uuuhh door handle,FP,NO,NO,2852,CHECK - PR??,Contrast_Singleton,Low,FALSE
+65,2,34,cheese_block / cheese_blue,Test,T_34.wav,1,uuuhh swiss cheese??,FP,PR,PR,2619,check,Contrast_Singleton,Low,TRUE
+66,2,37,clock_wall / clock_digital,Test,T_37.wav,0,uhh clock {WO?} thee umm analogue clock,RE,AO,,,onset of anologue,Singleton_Contrast,High,TRUE
+67,2,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,biro uh  {WO?} uhh without the lid on no with the lid on,RE,AO,,,onset of 2nd lid,Singleton_Contrast,High,TRUE
+68,2,40,apple_red / apple_green,Test,T_40.wav,0,apple..uh red apple,RE,AS,,,onset of red,Singleton_Contrast,High,TRUE
+69,2,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,uh pipe uh umm sssmo..smoking tobacco pipe,RE,AS,,,onset of smoking taken,Singleton_Contrast,High,TRUE
+70,2,42,bat_animal / bat_baseball,Test,T_42.wav,0,umm uh a bat like a flying animal bat,RE,AS,,,onset of flying taken,Singleton_Contrast,High,TRUE
+71,2,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {WO?} oooh real horse,RE,AO,,,real onset taken,Singleton_Contrast,High,TRUE
+72,2,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,yellow tshirt…yellow male's tshirt,RE,AS,,,onset of 2nd yellow taken,Singleton_Contrast,High,TRUE
+73,2,46,eye_pupil / I_letter,Test,T_46.wav,0,eye {WO?} oh the uh human eye,RE,AO,,,human onset taken,Singleton_Contrast,High,TRUE
+74,2,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,pile of potatoes {WO?} oh yeah! Pile of unpeeled potatoes,RE,AO,,,onset of 2nd pile taken,Singleton_Contrast,High,TRUE
+75,3,2,bin_lid / bin_pedal,Test,T_02.wav,1,square based black bin,FL,PR,PR,1008,,Contrast_Singleton,High,TRUE
+76,3,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,cup of coffee no coaster,FL,PO,PO,1056,,Contrast_Singleton,High,TRUE
+77,3,5,mirror_wall / mirror_hand,Test,T_05.wav,1,large black circular mirror,FL,PR,PR,1014,,Contrast_Singleton,High,TRUE
+78,3,6,chair_wooden / chair_baby,Test,T_06.wav,1,uh wooden chair,FP,PR,PR,1627,,Contrast_Singleton,High,TRUE
+79,3,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,a burning lighter,FL,PR,PR,1152,,Contrast_Singleton,High,TRUE
+80,3,8,egg_shell / egg_yolk,Test,T_08.wav,1,whole egg,FL,PR,PR,635,CHECK THIS!!,Contrast_Singleton,High,TRUE
+81,3,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,uhh red open umbrella,FP,PR,PR,2754,,Contrast_Singleton,High,TRUE
+82,3,10,candle_unused / candle_melted,Test,T_10.wav,1,unburnt candle,FL,PR,PR,1561,,Contrast_Singleton,High,TRUE
+83,3,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,large black handled knife,FL,PR,PR,952,,Contrast_Singleton,High,TRUE
+84,3,12,car_family / car_sports,Test,T_12.wav,1,small silver hatchback,FL,PR,PR,910,,Contrast_Singleton,High,TRUE
+85,3,14,gun_real / gun_toy,Test,T_14.wav,0,gun {WO?} oh uh silver gun not black gun,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+86,3,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle…a horse saddle,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+87,3,17,headphones_large / headphones_small,Test,T_17.wav,1,um black headphones not earphones,FP,PR,PO,3725,,Singleton_Contrast,Low,FALSE
+88,3,18,battery_AA / battery_car,Test,T_18.wav,0,eh battery {WO?} oh um AA battery,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+89,3,20,money_notes / money_coins,Test,T_20.wav,0,"cash,money {uh WO?} oh the notes!",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+90,3,22,camera_corder / camera_cctv,Test,T_22.wav,1,uh ca…ff eh a carrier camera not security camera (think modifier used just not sure how to say it),FP,PR,PR,4249,check,Singleton_Contrast,Low,FALSE
+91,3,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,"ah guitar {WO} oh uh wooden, wooden guitar",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+92,3,24,glove_wooly / glove_boxing,Test,T_24.wav,0,"red glove {WO?} h uh red winter glove, not boxing glove, winter glove",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+93,3,25,teapot_white / teapot_cosy,Test,T_25.wav,1,a bare teapot,FL,PR,PR,1250,,Contrast_Singleton,Low,TRUE
+94,3,28,fan_hand / fan_electric,Test,T_28.wav,1,handheld fan,FL,PR,PR,1632,,Contrast_Singleton,Low,TRUE
+95,3,29,orange_skin / orange_slice,Test,T_29.wav,1,whole orange,FL,PR,PR,1517,,Contrast_Singleton,Low,TRUE
+96,3,30,spade_garden / spade_beach,Test,T_30.wav,1,metal shovel,FL,PR,PR,1594,,Contrast_Singleton,Low,TRUE
+97,3,31,key_gold / key_car,Test,T_31.wav,1,golden key,FL,PR,PR,864,,Contrast_Singleton,Low,TRUE
+98,3,32,door_handle / door_knob,Test,T_32.wav,1,long door handle,FL,PR,PR,1173,,Contrast_Singleton,Low,TRUE
+99,3,33,bell_hand / bell_bike,Test,T_33.wav,1,hand held bell,FL,PR,PR,840,,Contrast_Singleton,Low,TRUE
+100,3,34,cheese_block / cheese_blue,Test,T_34.wav,1,cheese with no mould,FL,PO,PR,1155,,Contrast_Singleton,Low,TRUE
+101,3,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,blue bic pen {WO?} oh eh cap on,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+102,3,43,horse_animal / horse_rocking,Test,T_43.wav,0,brown horse,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+103,3,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,yellow tshirt,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+104,3,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,em red potatoes.. Em bunch of red potatoes {confusion with matcher} they're red unpeeled,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+105,5,2,bin_lid / bin_pedal,Test,T_02.wav,0,the bin…the um eh plastic one..not the one with the pedal,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+106,5,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,the um coffee cup not on the saucer,FP,PO,PO,2061,onset of coffee taken,Singleton_Contrast,High,FALSE
+107,5,5,mirror_wall / mirror_hand,Test,T_05.wav,0,the mirror..the mirror with the black out bit,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+108,5,6,chair_wooden / chair_baby,Test,T_06.wav,0,the chair the uh wooden chair,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+109,5,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,the lighter {WO?} the one that's lit,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+110,5,8,egg_shell / egg_yolk,Test,T_08.wav,0,the egg {WO?} the um whole egg not the front (?),RE,AO,,NA,,Singleton_Contrast,High,TRUE
+111,5,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,the red umbrella the um one that's up,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+112,5,10,candle_unused / candle_melted,Test,T_10.wav,0,the candle eh the non lit one,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+113,5,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,the knife..the big one..the kitchen one,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+114,5,12,car_family / car_sports,Test,T_12.wav,0,the car..the um like not as good one,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+115,5,14,gun_real / gun_toy,Test,T_14.wav,1,the real gun,FL,PR,PR,1895,,Contrast_Singleton,High,TRUE
+116,5,15,saddle_horse / saddle_bike,Test,T_15.wav,1,the horse saddle ,FL,PR,PR,1304,,Contrast_Singleton,High,TRUE
+117,5,16,pad_unlocked / pad_locked,Test,T_16.wav,0,the padlock,FL,NO,NO,1352,,Contrast_Singleton,High,FALSE
+118,5,17,headphones_large / headphones_small,Test,T_17.wav,1,the over the head headphones,FL,PR,PR,1919,starts at over,Contrast_Singleton,High,TRUE
+119,5,18,battery_AA / battery_car,Test,T_18.wav,1,small battery,FL,PR,PR,1121,,Contrast_Singleton,High,TRUE
+120,5,19,wine_glass / wine_red,Test,T_19.wav,1,the empty wine glass,FL,PR,PR,1226,,Contrast_Singleton,High,TRUE
+121,5,20,money_notes / money_coins,Test,T_20.wav,1,the notes,FL,NO,NO,1373,,Contrast_Singleton,High,TRUE
+122,5,21,boot_foot / boot_car,Test,T_21.wav,1,the black boot,FL,PR ,PR,920,,Contrast_Singleton,High,TRUE
+123,5,22,camera_corder / camera_cctv,Test,T_22.wav,1,the big black camera,FL,PR,PR,1535,,Contrast_Singleton,High,TRUE
+124,5,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1, wooden guitar,FL,PR,PR,934,,Contrast_Singleton,High,TRUE
+125,5,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the red glove with the fingers,FL,PO,PO,1067,,Contrast_Singleton,High,TRUE
+126,5,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot..the one without the cosy on,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+127,5,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw {WO?} the one for like..the not electrical one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+128,5,29,orange_skin / orange_slice,Test,T_29.wav,0,the orange {WO?} the full orange,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+129,5,30,spade_garden / spade_beach,Test,T_30.wav,0,the shovel {WO?} the em metal one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+130,5,31,key_gold / key_car,Test,T_31.wav,0,the key {W..} the um metal eh the browny rusty one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+131,5,32,door_handle / door_knob,Test,T_32.wav,0,the door handle {WO?} the like long one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+132,5,33,bell_hand / bell_bike,Test,T_33.wav,1,the bell..as in the hand held ringing one,LE/UP,PO,PO,2455,close call as to whether this is acorrection or addition - onset of bell noted,Singleton_Contrast,Low,FALSE
+133,5,34,cheese_block / cheese_blue,Test,T_34.wav,0,block of cheese {WO?} the em one with the holes in,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+134,5,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock,UP,NO,NO,2399,difficult to find - check?,Contrast_Singleton,Low,FALSE
+135,5,38,hat_sun / hat_cowboy,Test,T_38.wav,0,the hat,FL,NO,NO,1217,difficult to find - check?,Contrast_Singleton,Low,FALSE
+136,5,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,the pen with..the pen,RE,DE,,NA,check with cailtyn coding,Contrast_Singleton,Low,FALSE
+137,5,40,apple_red / apple_green,Test,T_40.wav,1,eh the red apple,FP,PR,PR,2008,,Contrast_Singleton,Low,TRUE
+138,5,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,the smoking pipe,FL,PR,PR,1086,,Contrast_Singleton,Low,TRUE
+139,5,42,bat_animal / bat_baseball,Test,T_42.wav,0,the bat,FL,NO,NO,1449,,Contrast_Singleton,Low,FALSE
+140,5,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real horse,FL,PR,PR,1444,very difficult to find this onset,Contrast_Singleton,Low,TRUE
+141,5,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,the em orange mans tshirt,FP,PR,PR,2125,,Contrast_Singleton,Low,TRUE
+142,5,46,eye_pupil / I_letter,Test,T_46.wav,1,the eye as in part of the face,FL,PO,PO,1247,onset of eye noted,Contrast_Singleton,Low,TRUE
+143,5,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,the... pile of potatoes,UP,NO,NO,2713,,Contrast_Singleton,Low,FALSE
+144,6,2,bin_lid / bin_pedal,Test,T_02.wav,0,eh bin,FP,NO,NO,2217,,Contrast_Singleton,High,FALSE
+145,6,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,eh cup of tea,FP,NO,NO,2391,,Contrast_Singleton,High,FALSE
+146,6,5,mirror_wall / mirror_hand,Test,T_05.wav,0,eh mirror,FP,NO,NO,1722,,Contrast_Singleton,High,FALSE
+147,6,6,chair_wooden / chair_baby,Test,T_06.wav,0,ehh chair,FP,NO,NO,2415,,Contrast_Singleton,High,FALSE
+148,6,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,eh lighter,FP,NO,NO,3132,,Contrast_Singleton,High,FALSE
+149,6,8,egg_shell / egg_yolk,Test,T_08.wav,1,egg in it's shell,FL,PO,PO,1165,,Contrast_Singleton,High,TRUE
+150,6,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella,FL,NO,NO,2251,,Contrast_Singleton,High,FALSE
+151,6,10,candle_unused / candle_melted,Test,T_10.wav,1,unlit candle,FL,PR,PR,2146,,Contrast_Singleton,High,TRUE
+152,6,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,kitchen knife,FL,PR,PR,1429,,Contrast_Singleton,High,TRUE
+153,6,12,car_family / car_sports,Test,T_12.wav,0,eh car,FP,NO,NO,2366,,Contrast_Singleton,High,FALSE
+154,6,14,gun_real / gun_toy,Test,T_14.wav,1,eh real hand gun,FP,PR,PR,2338,,Singleton_Contrast,Low,FALSE
+155,6,15,saddle_horse / saddle_bike,Test,T_15.wav,1,eh horse saddle,FP,PR,PR,2320,,Singleton_Contrast,Low,FALSE
+156,6,16,pad_unlocked / pad_locked,Test,T_16.wav,1,eh open lock,FP,PR,PR,2118,,Singleton_Contrast,Low,FALSE
+157,6,17,headphones_large / headphones_small,Test,T_17.wav,1,em ear muffs,FP,PR,PR,4566,,Singleton_Contrast,Low,FALSE
+158,6,18,battery_AA / battery_car,Test,T_18.wav,0,"eh battery {pause} em AA battery, double A battery",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+159,6,19,wine_glass / wine_red,Test,T_19.wav,1,em empty wine glass,FP,PR,PR,2011,very difficult the 'eehh' and 'empty' run together,Singleton_Contrast,Low,FALSE
+160,6,20,money_notes / money_coins,Test,T_20.wav,1,em paper money,FP,PR,PR,2524,,Singleton_Contrast,Low,FALSE
+161,6,21,boot_foot / boot_car,Test,T_21.wav,1,eh leather boot,FP,PR,PR,3608,,Singleton_Contrast,Low,FALSE
+162,6,22,camera_corder / camera_cctv,Test,T_22.wav,1,em it’s a (noise 'dodododo') film camera,FP,PR,PR,7229,,Singleton_Contrast,Low,FALSE
+163,6,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,eh acoustic guitar,FP,PR,PR,1823,,Singleton_Contrast,Low,FALSE
+164,6,24,glove_wooly / glove_boxing,Test,T_24.wav,0,eh red glove {WO?} eh sort of wooly glove,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+165,6,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot,FL,NO,NO,1429,,Contrast_Singleton,Low,FALSE
+166,6,27,saw_hand / saw_electric,Test,T_27.wav,0,saw,FL,NO,NO,1534,,Contrast_Singleton,Low,FALSE
+167,6,28,fan_hand / fan_electric,Test,T_28.wav,0,eh fan,FP,NO,NO,2520,,Contrast_Singleton,Low,FALSE
+168,6,29,orange_skin / orange_slice,Test,T_29.wav,0,eh orange,FP,NO,NO,2229,,Contrast_Singleton,Low,FALSE
+169,6,30,spade_garden / spade_beach,Test,T_30.wav,0,eh spade,FP,NO,NO,2190,,Contrast_Singleton,Low,FALSE
+170,6,31,key_gold / key_car,Test,T_31.wav,0,eh key,FP,NO,NO,2164,,Contrast_Singleton,Low,FALSE
+171,6,32,door_handle / door_knob,Test,T_32.wav,0,eh door handle ,FP,NO,NO,2173,,Contrast_Singleton,Low,FALSE
+172,6,33,bell_hand / bell_bike,Test,T_33.wav,0,eh bell,FP,NO,NO,2472,,Contrast_Singleton,Low,FALSE
+173,6,34,cheese_block / cheese_blue,Test,T_34.wav,0,eh cheese,FP,NO,NO,3141,,Contrast_Singleton,Low,FALSE
+174,6,37,clock_wall / clock_digital,Test,T_37.wav,1,eh anologue clock,FP,PR,PR,2310,,Singleton_Contrast,High,FALSE
+175,6,38,hat_sun / hat_cowboy,Test,T_38.wav,1,eh woman's hat,FP,PR,PR,2348,,Singleton_Contrast,High,FALSE
+176,6,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,eh pen with it's lid on,FP,PO,PO,3184,,Singleton_Contrast,High,FALSE
+177,6,40,apple_red / apple_green,Test,T_40.wav,1,eh red apple,FP,PR,PR,2219,hard to find onset,Singleton_Contrast,High,FALSE
+178,6,42,bat_animal / bat_baseball,Test,T_42.wav,1,eh sort of nocturnal bat,FP,PR,PR,2604,nocturnal onset noted,Singleton_Contrast,High,FALSE
+179,6,43,horse_animal / horse_rocking,Test,T_43.wav,1,(noise) real horse,FP,PR,PR,3413,,Singleton_Contrast,High,FALSE
+180,6,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,eh male yellow tshirt,FP,PR,PR,2397,hard to find onset,Singleton_Contrast,High,FALSE
+181,6,46,eye_pupil / I_letter,Test,T_46.wav,1,eh human eye,FP,PR,PR,1957,,Singleton_Contrast,High,FALSE
+182,6,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes {pause} eh unpeeled potatoes,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+183,7,2,bin_lid / bin_pedal,Test,T_02.wav,1,the kitchen bin again with the foot pad,FL,PR/PO,OTHER,2081,Used PR first then PO,Contrast_Singleton,Low,TRUE
+184,7,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,nmmm the cup with no saucer,FP,PO,PO,2120,,Contrast_Singleton,Low,TRUE
+185,7,5,mirror_wall / mirror_hand,Test,T_05.wav,1,mkay it’s the wall mirror,FL,PR,PR,2539,onset of wall noted,Contrast_Singleton,Low,TRUE
+186,7,6,chair_wooden / chair_baby,Test,T_06.wav,1,kitchen chair the brown one,FL,PR,PR,1636,,Contrast_Singleton,Low,TRUE
+187,7,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,the lit lighter,FL,PR,PR,1746,,Contrast_Singleton,Low,TRUE
+188,7,8,egg_shell / egg_yolk,Test,T_08.wav,1,the uncracked egg,FL,PR,PR,1369,,Contrast_Singleton,Low,TRUE
+189,7,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,2402,,Contrast_Singleton,Low,TRUE
+190,7,10,candle_unused / candle_melted,Test,T_10.wav,1,the unlit candle,FL,PR,PR,1818,,Contrast_Singleton,Low,TRUE
+191,7,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,umm kitchen knife,FP,PR,PR,1810,,Contrast_Singleton,Low,TRUE
+192,7,12,car_family / car_sports,Test,T_12.wav,1,the bicycle {matcher speaks} - run over from last trial I think! - eh the little car!,,,,NA,,Contrast_Singleton,Low,TRUE
+193,7,14,gun_real / gun_toy,Test,T_14.wav,0,gun {WO?} um plain grey one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+194,7,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle {WO?} um like for horses or something,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+195,7,16,pad_unlocked / pad_locked,Test,T_16.wav,0,a padlock {WO?} um ehh oh its open,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+196,7,17,headphones_large / headphones_small,Test,T_17.wav,0,headphones (realises there's 2 and matcher asks {WO?}) - the bigger ones that go over your head,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+197,7,18,battery_AA / battery_car,Test,T_18.wav,0,the battery {WO?} small with plus showing on it,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+198,7,19,wine_glass / wine_red,Test,T_19.wav,0,glass {WO?} um wine glass with nothing in  it,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+199,7,20,money_notes / money_coins,Test,T_20.wav,0,money {WO?} um lots of notes!,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+200,7,21,boot_foot / boot_car,Test,T_21.wav,0,boot {WO?} oh the one on your foot,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+201,7,22,camera_corder / camera_cctv,Test,T_22.wav,0,"the camera {WO?} uh for taking photos, holding in your hand…(cuts off)",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+202,7,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,the guitar {WO?} oh the acoustic guitar,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+203,7,24,glove_wooly / glove_boxing,Test,T_24.wav,0,glove,FL,NO,NO,723,check?,Singleton_Contrast,High,TRUE
+204,7,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the... teapot,UP,NO,NO,2590,,Contrast_Singleton,High,FALSE
+205,7,27,saw_hand / saw_electric,Test,T_27.wav,1,the hand saw,FL,PR,PR,1576,,Contrast_Singleton,High,TRUE
+206,7,28,fan_hand / fan_electric,Test,T_28.wav,1,hand fan,FL,PR,PR,2088,you must check this!,Contrast_Singleton,High,TRUE
+207,7,31,key_gold / key_car,Test,T_31.wav,1,and the house key,FL,PR,PR,1773,,Contrast_Singleton,High,TRUE
+208,7,32,door_handle / door_knob,Test,T_32.wav,1,flat door handle,FL,PR,PR,1892,,Contrast_Singleton,High,TRUE
+209,7,33,bell_hand / bell_bike,Test,T_33.wav,1,and the bell for your hand,FL,PO,PO,2146,,Contrast_Singleton,High,TRUE
+210,7,34,cheese_block / cheese_blue,Test,T_34.wav,1,and orange cheese,FL,PR,PR,2981,,Contrast_Singleton,High,TRUE
+211,7,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock {WO?} wall clock,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+212,7,38,hat_sun / hat_cowboy,Test,T_38.wav,1,ladies hat (lots of background noise - sounds like having a drink),FL,PR,PR,3266,,Singleton_Contrast,Low,FALSE
+213,7,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,pen {WO?] the one with the lid still on,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+214,7,40,apple_red / apple_green,Test,T_40.wav,1,the red apple,FL,PR,PR,2297,,Singleton_Contrast,Low,FALSE
+215,7,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,(speech at the start) the pipe {WO?} a smoking pipe,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+216,7,42,bat_animal / bat_baseball,Test,T_42.wav,0,ah the bat {WO?} the flying one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+217,7,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {WO?} the real one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+218,7,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,the orange tshirt {WO?} the orange one…like a man's tshirt,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+219,7,46,eye_pupil / I_letter,Test,T_46.wav,0,eye {WO?} the one on your face,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+220,7,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes {WO?} right em they haven't been peeled,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+221,8,2,bin_lid / bin_pedal,Test,T_02.wav,1,the bin that you open with your hand,FL,PO,PO,1503,,Contrast_Singleton,Low,TRUE
+222,8,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,the cup,FL,NO,NO,2524,,Contrast_Singleton,Low,FALSE
+223,8,5,mirror_wall / mirror_hand,Test,T_05.wav,0,the mirror,FL,NO,NO,2398,,Contrast_Singleton,Low,FALSE
+224,8,6,chair_wooden / chair_baby,Test,T_06.wav,1,the wooden chair,FL,PR,PR,1422,,Contrast_Singleton,Low,TRUE
+225,8,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,the lighter with the flame,FL,PO,PO,1886,,Contrast_Singleton,Low,TRUE
+226,8,8,egg_shell / egg_yolk,Test,T_08.wav,0,the egg,FL,NO,NO,2619,difficult as the 'e' from the nd 'e' for egg runs together,Contrast_Singleton,Low,FALSE
+227,8,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,1307,Check!!,Contrast_Singleton,Low,TRUE
+228,8,10,candle_unused / candle_melted,Test,T_10.wav,0,the candle,FL,NO,NO,2749,,Contrast_Singleton,Low,FALSE
+229,8,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,the knife,FL,NO,NO,2156,,Contrast_Singleton,Low,FALSE
+230,8,12,car_family / car_sports,Test,T_12.wav,1,the cheaper car,FL,PR,PR,1534,,Contrast_Singleton,Low,TRUE
+231,8,14,gun_real / gun_toy,Test,T_14.wav,1,the real gun,FL,PR,PR,2192,,Singleton_Contrast,High,FALSE
+232,8,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle (pause) for horse riding,RE,AS,,NA,CHECK THIS,Singleton_Contrast,High,TRUE
+233,8,16,pad_unlocked / pad_locked,Test,T_16.wav,1,the unlocked padlock,FL,PR,PR,1498,,Singleton_Contrast,High,FALSE
+234,8,17,headphones_large / headphones_small,Test,T_17.wav,1,the headphones... not the earphones,UP,PO,PO,NA,,Singleton_Contrast,High,FALSE
+235,8,18,battery_AA / battery_car,Test,T_18.wav,1,the battery that’s..the little battery,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+236,8,20,money_notes / money_coins,Test,T_20.wav,1,the notes.. of money,FL,PR,PR,2023,,Singleton_Contrast,High,FALSE
+237,8,21,boot_foot / boot_car,Test,T_21.wav,0,the boot aww the black boot,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+238,8,22,camera_corder / camera_cctv,Test,T_22.wav,1,not the surveilance camera the filming camera,FL,PR,OTHER,2869,,Singleton_Contrast,High,FALSE
+239,8,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,the guitar {WO?} oh the wooden guitar,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+240,8,24,glove_wooly / glove_boxing,Test,T_24.wav,0,the glove…the non boxing glove,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+241,8,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot,FL,NO,,1481,,Contrast_Singleton,High,FALSE
+242,8,27,saw_hand / saw_electric,Test,T_27.wav,0,(odd start where she says something else) the saw,RE,DE,,NA,think she starts to say something else then changes to saw,Contrast_Singleton,High,FALSE
+243,8,28,fan_hand / fan_electric,Test,T_28.wav,0,the hand..the fan,RE,DE,,NA,,Contrast_Singleton,High,FALSE
+244,8,29,orange_skin / orange_slice,Test,T_29.wav,0,the o the orange,RE,DE,,NA,,Contrast_Singleton,High,FALSE
+245,8,30,spade_garden / spade_beach,Test,T_30.wav,1,the large spade (goes to say something else but it cuts off),FL,PR,PR,2212,cuts off before she adds to the description,Contrast_Singleton,High,TRUE
+246,8,31,key_gold / key_car,Test,T_31.wav,1,the gold..the key,RE,DE,,NA,,Contrast_Singleton,High,TRUE
+247,8,32,door_handle / door_knob,Test,T_32.wav,0,the door handle ,FL,NO,NO,1402,,Contrast_Singleton,High,FALSE
+248,8,33,bell_hand / bell_bike,Test,T_33.wav,1,the hand bell..or the bell,RE,DE,,NA,,Contrast_Singleton,High,TRUE
+249,8,34,cheese_block / cheese_blue,Test,T_34.wav,0,the cheese,FL,NO,NO,1451,,Contrast_Singleton,High,FALSE
+250,8,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock…that…the non digital clock,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+251,8,38,hat_sun / hat_cowboy,Test,T_38.wav,1,the…the ladies  hat,UP,PR,PR,2924,,Singleton_Contrast,Low,FALSE
+252,8,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the pen with the lid on,FL,PO,PO,1729,,Singleton_Contrast,Low,FALSE
+253,8,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,the pipe {WO?} ah the old man's pipe,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+254,8,42,bat_animal / bat_baseball,Test,T_42.wav,0,the bat {WO?} oh…the living bat,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+255,8,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real horse,FL,PR,PR,2309,,Singleton_Contrast,Low,FALSE
+256,8,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,"the male yellow tshirt, mans tshirt",RE,DE,,NA,tough call but RE as she's repeated 'man's' and 'tshirt',Singleton_Contrast,Low,FALSE
+257,8,46,eye_pupil / I_letter,Test,T_46.wav,0,the eye,FL,NO,NO,1380,,Singleton_Contrast,Low,TRUE
+258,8,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,the potatoes (slight pause) that are not peeled,UP,PR,PR,1770,if pause was longer then it would be RE - hard to find onset,Singleton_Contrast,Low,FALSE
+259,9,2,bin_lid / bin_pedal,Test,T_02.wav,0,black bin {WO?} black plastic bin that you would push up with your hand it doesnt have a pedal on it,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+260,9,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,ba eehh lack coffee without a saucer,FP,PO,PO,1463,,Singleton_Contrast,High,FALSE
+261,9,5,mirror_wall / mirror_hand,Test,T_05.wav,0,circular mirror {WO?} eh so one you would hang on the wall not hold to your face,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+262,9,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter {WO?} eh a lit lighter,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+263,9,8,egg_shell / egg_yolk,Test,T_08.wav,0,"egg, (faint sound of {WO}) eh so a raw, an egg before its been cracked",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+264,9,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,"eh a red umbrella {WO?} eh an unfurled red umbrella, its raining",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+265,9,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,"knife, eh its just a kitchen knife, one knife",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+266,9,12,car_family / car_sports,Test,T_12.wav,0,"silver car, eh small silver car",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+267,9,14,gun_real / gun_toy,Test,T_14.wav,1,black and brown gun,FL,PR,PR,691,,Contrast_Singleton,High,TRUE
+268,9,15,saddle_horse / saddle_bike,Test,T_15.wav,1,eh horse sadle,FP,PR,PR,1087,difficult to find,Contrast_Singleton,High,TRUE
+269,9,16,pad_unlocked / pad_locked,Test,T_16.wav,1,eh open padlock,FP,PR,PR,1053,,Contrast_Singleton,High,TRUE
+270,9,17,headphones_large / headphones_small,Test,T_17.wav,1,eh black headphones that wrap round your whole head,FP,PR,PO,1004,,Contrast_Singleton,High,TRUE
+271,9,18,battery_AA / battery_car,Test,T_18.wav,1,eh double AA battery,FP,PR,PR,1534,difficult to find,Contrast_Singleton,High,TRUE
+272,9,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1006,,Contrast_Singleton,High,TRUE
+273,9,20,money_notes / money_coins,Test,T_20.wav,1,notes of money,FL,PR,PR,935,,Contrast_Singleton,High,TRUE
+274,9,21,boot_foot / boot_car,Test,T_21.wav,1,eh black ankle length boot,FP,PR,PR,1504,,Contrast_Singleton,High,TRUE
+275,9,22,camera_corder / camera_cctv,Test,T_22.wav,1,fancy cam corder,FL,PR,PR,1172,very difficut to find start of 'f',Contrast_Singleton,High,TRUE
+276,9,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,605,,Contrast_Singleton,High,TRUE
+277,9,24,glove_wooly / glove_boxing,Test,T_24.wav,1,eh red gardening glove,FP,PR,PR,1242,,Contrast_Singleton,High,TRUE
+278,9,27,saw_hand / saw_electric,Test,T_27.wav,0,eh saw {WO?} so its a manual saw,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+279,9,28,fan_hand / fan_electric,Test,T_28.wav,0,fan,FL,NO,NO,678,as above hard to find start of 'f',Singleton_Contrast,Low,TRUE
+280,9,29,orange_skin / orange_slice,Test,T_29.wav,1,"eh, um, a full orange fruit",FP,PR,PR,2432,,Singleton_Contrast,Low,FALSE
+281,9,32,door_handle / door_knob,Test,T_32.wav,0,"eh door handle, {WO?} silver door handle {WO?} eh toilet door handle I guess, rectangular door handle I guess. ",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+282,9,37,clock_wall / clock_digital,Test,T_37.wav,1,"yeah analogue clock, 10 past 10",FL,PR,OTHER,1446,,Contrast_Singleton,Low,TRUE
+283,9,38,hat_sun / hat_cowboy,Test,T_38.wav,1,eh yeah womans hat with the black scarf tied around,FP,PR,PR,1418,,Contrast_Singleton,Low,TRUE
+284,9,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,eh blue biro lid on,FP,PO,PO,1273,,Contrast_Singleton,Low,TRUE
+285,9,40,apple_red / apple_green,Test,T_40.wav,1,eh red apple,FP,PR,PR,1271,,Contrast_Singleton,Low,TRUE
+286,9,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,"eh pipe, brown and black",FP,PO,PO,1265,,Contrast_Singleton,Low,TRUE
+287,9,42,bat_animal / bat_baseball,Test,T_42.wav,1,yeah flying bat,FL,PR,PR,1262,,Contrast_Singleton,Low,TRUE
+288,9,43,horse_animal / horse_rocking,Test,T_43.wav,1,live horse,FL,PR,PR,1232,,Contrast_Singleton,Low,TRUE
+289,9,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,orange male tshirt,FL,PR,PR,1144,,Contrast_Singleton,Low,TRUE
+290,9,46,eye_pupil / I_letter,Test,T_46.wav,1,human eye,FL,PR,PR,874,,Contrast_Singleton,Low,TRUE
+291,9,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,brown potatoes,FL,PR,PR,2051,,Contrast_Singleton,Low,TRUE
+292,10,2,bin_lid / bin_pedal,Test,T_02.wav,1,bin with a lid you open yourself,FL,PO,PO,1169,,Contrast_Singleton,Low,TRUE
+293,10,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,coffee without a saucer,FL,PO,PO,1144,,Contrast_Singleton,Low,TRUE
+294,10,5,mirror_wall / mirror_hand,Test,T_05.wav,1,a wall mounted mirror,FL,PR,PR,852,hard to find onset,Contrast_Singleton,Low,TRUE
+295,10,6,chair_wooden / chair_baby,Test,T_06.wav,1,a wooden chair,FL,PR,PR,844,,Contrast_Singleton,Low,TRUE
+296,10,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,a lighter with a flame,FL,PO,PO,1418,,Contrast_Singleton,Low,TRUE
+297,10,8,egg_shell / egg_yolk,Test,T_08.wav,1,the egg that's not been cracked,FL,PO,PO,1017,,Contrast_Singleton,Low,TRUE
+298,10,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,an open umbrella,FL,PR,PR ,1008,,Contrast_Singleton,Low,TRUE
+299,10,10,candle_unused / candle_melted,Test,T_10.wav,1,a candle thats not been lit,FL,PO,PO,1262,,Contrast_Singleton,Low,TRUE
+300,10,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,"a knife, not a pen knife",FL,PO,PO,1045,,Contrast_Singleton,Low,TRUE
+301,10,12,car_family / car_sports,Test,T_12.wav,1,car with tinted windows,FL,PO,PO,1301,,Contrast_Singleton,Low,TRUE
+302,10,14,gun_real / gun_toy,Test,T_14.wav,1,eeem a gun without a red bit on the end ,FP,PO,PO,2667,check again?? Hard to find onset of gun,Singleton_Contrast,High,FALSE
+303,10,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle,FL,PR,NO,973,,Singleton_Contrast,High,TRUE
+304,10,17,headphones_large / headphones_small,Test,T_17.wav,1,some headphones em that go over the top of your head,FP,PO,PO,1122,*********************** benefit of doubt given,Singleton_Contrast,High,FALSE
+305,10,18,battery_AA / battery_car,Test,T_18.wav,0,"a battery, (matcher about to speak) like an individual secular battery",RE,AS/AO,,NA,,Singleton_Contrast,High,TRUE
+306,10,21,boot_foot / boot_car,Test,T_21.wav,0,a boot,FL,NO,NO,840,,Singleton_Contrast,High,TRUE
+307,10,22,camera_corder / camera_cctv,Test,T_22.wav,0,"a camera, but not like a security camera, a film camera",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+308,10,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,"guitar, thats an acoustic",FL,PO,PO,963,,Singleton_Contrast,High,FALSE
+309,10,24,glove_wooly / glove_boxing,Test,T_24.wav,0,the red glove,FL,NO,NO,700,,Singleton_Contrast,High,TRUE
+310,10,25,teapot_white / teapot_cosy,Test,T_25.wav,1,the teapot without a teacosy ,FL,PO,PO,911,,Contrast_Singleton,High,TRUE
+311,10,27,saw_hand / saw_electric,Test,T_27.wav,1,non electric saw,FL,PR,PR,963,,Contrast_Singleton,High,TRUE
+312,10,28,fan_hand / fan_electric,Test,T_28.wav,1,handheld fan,FL,PR,PR,1131,,Contrast_Singleton,High,TRUE
+313,10,29,orange_skin / orange_slice,Test,T_29.wav,1,an orange thats not been cut,FL,PO,PO,996,,Contrast_Singleton,High,TRUE
+314,10,30,spade_garden / spade_beach,Test,T_30.wav,1,a metal spade,FL,PR,PR,772,,Contrast_Singleton,High,TRUE
+315,10,31,key_gold / key_car,Test,T_31.wav,1,the gold key,FL,PR,PR,911,,Contrast_Singleton,High,TRUE
+316,10,32,door_handle / door_knob,Test,T_32.wav,1,"door handle, not a door knob",UP,PO,PO,943,*** given the benefit of the doubt here ,Contrast_Singleton,High,TRUE
+317,10,33,bell_hand / bell_bike,Test,T_33.wav,1,a bell thats not for a bike,FL,PO,PO,940,,Contrast_Singleton,High,TRUE
+318,10,34,cheese_block / cheese_blue,Test,T_34.wav,1,cheese with holes in,FL,PO,PO,761,,Contrast_Singleton,High,TRUE
+319,10,37,clock_wall / clock_digital,Test,T_37.wav,0,"clock, (mutter), a non digital clock",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+320,10,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,a blue biro with the lid still on,FL,PO,PO,1363,,Singleton_Contrast,Low,FALSE
+321,10,42,bat_animal / bat_baseball,Test,T_42.wav,0,"the bat, but an animal bat not a wooden bat",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+322,10,43,horse_animal / horse_rocking,Test,T_43.wav,1,ehm an a real life horse,FP,PR,PR,2998,,Singleton_Contrast,Low,FALSE
+323,10,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,"yellow tshirt, but a less fitted one, a darker yellow",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+324,10,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes but unpeeled potatoes,RE,AS,,NA,******* check is this a repair?,Singleton_Contrast,Low,TRUE
+325,11,2,bin_lid / bin_pedal,Test,T_02.wav,1,the square bin,FL,PR,PR,1552,,Contrast_Singleton,Low,TRUE
+326,11,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,the coffee cup without the saucer,FL,PO,PO,1493,,Contrast_Singleton,Low,TRUE
+327,11,5,mirror_wall / mirror_hand,Test,T_05.wav,1,the fancy mirror,FL,PR,PR,1225,start of fa for fancy??,Contrast_Singleton,Low,TRUE
+328,11,6,chair_wooden / chair_baby,Test,T_06.wav,1,the kitchen chair,FL,PR,PR,1629,,Contrast_Singleton,Low,TRUE
+329,11,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,and the lighter with the flame,FL,PO,PO,1597,,Contrast_Singleton,Low,TRUE
+330,11,8,egg_shell / egg_yolk,Test,T_08.wav,1,the whole egg,FL,PR,PR,1036,hard to find onset of whole,Contrast_Singleton,Low,TRUE
+331,11,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,1388,,Contrast_Singleton,Low,TRUE
+332,11,10,candle_unused / candle_melted,Test,T_10.wav,1,eh a candle that hasn't been lit,FP,PO,PO,2197,,Contrast_Singleton,Low,TRUE
+333,11,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,the kitchen knife,FL,PR,PR,1121,,Contrast_Singleton,Low,TRUE
+334,11,12,car_family / car_sports,Test,T_12.wav,1,a small car,FL,PR,PR,1454,,Contrast_Singleton,Low,TRUE
+335,11,14,gun_real / gun_toy,Test,T_14.wav,0,"a gun, eh, the real gun",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+336,11,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle,FL,NO,NO,980,,Singleton_Contrast,High,TRUE
+337,11,16,pad_unlocked / pad_locked,Test,T_16.wav,1,"the pad-, the open padlock***",RE,AS,,NA,,Singleton_Contrast,High,FALSE
+338,11,17,headphones_large / headphones_small,Test,T_17.wav,1,"head, headphones, that like actually sit on your head",UP,PO,PO,1889,onset of headphones taken,Singleton_Contrast,High,FALSE
+339,11,18,battery_AA / battery_car,Test,T_18.wav,1,"eh the battery, like the singular battey not the battery pack",FP,PO,PO,1501,onset of the first battery taken,Singleton_Contrast,High,FALSE
+340,11,19,wine_glass / wine_red,Test,T_19.wav,1,the empty wine glass,FL,PR,PR,1290,,Singleton_Contrast,High,FALSE
+341,11,20,money_notes / money_coins,Test,T_20.wav,0,"money, eh the notes money",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+342,11,22,camera_corder / camera_cctv,Test,T_22.wav,0,"the camera, eh as in not the CCTV camera, the other one",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+343,11,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,"eh the guitar, the acoustic guitar",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+344,11,24,glove_wooly / glove_boxing,Test,T_24.wav,0,the red glove (WO?) eh not the boxing glove the otherone,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+345,11,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot (sounds like she might be about to say something as it cuts off),FL,NO,PR,1898,,Contrast_Singleton,High,FALSE
+346,11,27,saw_hand / saw_electric,Test,T_27.wav,1,the hand saw,FL,PR,PR,1864,,Contrast_Singleton,High,TRUE
+347,11,28,fan_hand / fan_electric,Test,T_28.wav,1,the handheld fan,FL,PR,PR,1650,,Contrast_Singleton,High,TRUE
+348,11,29,orange_skin / orange_slice,Test,T_29.wav,1,the whole orange,FL,PR,PR,1163,,Contrast_Singleton,High,TRUE
+349,11,30,spade_garden / spade_beach,Test,T_30.wav,1,the metal spade,FL,PR,PR,1426,,Contrast_Singleton,High,TRUE
+350,11,31,key_gold / key_car,Test,T_31.wav,1,(something) door key,FP,PR,PR,2097,starts saying 'd' for door then stops then starts - think FP fits best,Contrast_Singleton,High,TRUE
+351,11,32,door_handle / door_knob,Test,T_32.wav,1,the long door handle,FL,PR,PR,1905,,Contrast_Singleton,High,TRUE
+352,11,33,bell_hand / bell_bike,Test,T_33.wav,1,uh the copper bell,FP,PR,PR,1997,,Contrast_Singleton,High,TRUE
+353,11,34,cheese_block / cheese_blue,Test,T_34.wav,0,the cheese,FL,NO,NO,2215,,Contrast_Singleton,High,FALSE
+354,11,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock (WO?) ehm the analogue clock,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+355,11,38,hat_sun / hat_cowboy,Test,T_38.wav,0,"eh the hat (WO?) the sun hat, like the womans one",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+356,11,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the blue bi - eh the blue biro with the lid on,RE,AS,,NA,didn't finish saying 'biro' then added in more info,Singleton_Contrast,Low,FALSE
+357,11,40,apple_red / apple_green,Test,T_40.wav,0,ehm an apple (WO?) the red one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+358,11,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,a pipe (WO?) ehm the brown one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+359,11,42,bat_animal / bat_baseball,Test,T_42.wav,0,a bat (WO?) ehm like the animal one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+360,11,43,horse_animal / horse_rocking,Test,T_43.wav,0,the horse (WO?) eh the real one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+361,11,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,the yellow tshirt (WO?) eh the male one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+362,11,46,eye_pupil / I_letter,Test,T_46.wav,0,"the eye, (whi-) as in but the human eye",RE,AO/AS,,NA,listener begins to ask WO? And she fills in the info,Singleton_Contrast,Low,TRUE
+363,11,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,eh potatoes,FP,NO,NO,1932,hard to find onset,Singleton_Contrast,Low,TRUE
+364,12,2,bin_lid / bin_pedal,Test,T_02.wav,1,square bin,FL,PR,PR,4477,,Singleton_Contrast,High,FALSE
+365,12,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,coffee without a saucer,FL,PO,PO,2839,,Singleton_Contrast,High,FALSE
+366,12,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror.. With black around it ***,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+367,12,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair (WO?) wooden chair,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+368,12,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lit- lighter that's lit ***,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+369,12,8,egg_shell / egg_yolk,Test,T_08.wav,1,egg ...in its shell,FL,PO,PO,1116,,Singleton_Contrast,High,FALSE
+370,12,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,umbrella opened,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+371,12,10,candle_unused / candle_melted,Test,T_10.wav,1,"candle,that's not been lit",FL,PO,PO,1484,,Singleton_Contrast,High,FALSE
+372,12,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife (WO?) that's not a pen knife,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+373,12,12,car_family / car_sports,Test,T_12.wav,1,a little car,FL,PR,PR,5327,very hard to find,Singleton_Contrast,High,FALSE
+374,12,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1615,,Contrast_Singleton,High,TRUE
+375,12,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse saddle,FL,PR,PR,1371,,Contrast_Singleton,High,TRUE
+376,12,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked padlock,FL,PR,PR,1538,,Contrast_Singleton,High,TRUE
+377,12,17,headphones_large / headphones_small,Test,T_17.wav,1,big headphones,FL,PR,PR,1664,,Contrast_Singleton,High,TRUE
+378,12,18,battery_AA / battery_car,Test,T_18.wav,1,round battery,FL,PR,PR,1475,,Contrast_Singleton,High,TRUE
+379,12,19,wine_glass / wine_red,Test,T_19.wav,0,glass,FL,NO,NO,1679,,Contrast_Singleton,High,FALSE
+380,12,20,money_notes / money_coins,Test,T_20.wav,1,money notes,FL,PO,PO,1381,,Contrast_Singleton,High,TRUE
+381,12,21,boot_foot / boot_car,Test,T_21.wav,1,shoe,FL,NO,NO,1378,,Contrast_Singleton,High,TRUE
+382,12,22,camera_corder / camera_cctv,Test,T_22.wav,1,film camera,FL,PR,PR,1800,,Contrast_Singleton,High,TRUE
+383,12,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,2158,,Contrast_Singleton,High,TRUE
+384,12,24,glove_wooly / glove_boxing,Test,T_24.wav,1,fingered glove,FL,PR,PR,2579,,Contrast_Singleton,High,TRUE
+385,12,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot (pause) without a cosy,RE,AS,,NA,check?,Singleton_Contrast,Low,TRUE
+386,12,27,saw_hand / saw_electric,Test,T_27.wav,0,saw (WO?) not an electric one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+387,12,28,fan_hand / fan_electric,Test,T_28.wav,0,fan like annnn paper fan,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+388,12,29,orange_skin / orange_slice,Test,T_29.wav,0,"orange, a whole orange",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+389,12,30,spade_garden / spade_beach,Test,T_30.wav,0,"spppade, a metal spade",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+390,12,31,key_gold / key_car,Test,T_31.wav,0,"key, ehm a gold key",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+391,12,32,door_handle / door_knob,Test,T_32.wav,0,door handle (WO?) not a round one,RE ,AO,,NA,,Singleton_Contrast,Low,TRUE
+392,12,33,bell_hand / bell_bike,Test,T_33.wav,0,bell (WO?) not a bicycle bell,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+393,12,34,cheese_block / cheese_blue,Test,T_34.wav,0,"cheese (WO?) oh, ehm, not the stilton",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+394,12,37,clock_wall / clock_digital,Test,T_37.wav,1,face clock,FL,PR,PR,1176,,Contrast_Singleton,Low,TRUE
+395,12,38,hat_sun / hat_cowboy,Test,T_38.wav,1,a womans hat,FL,PR,PR,1150,,Contrast_Singleton,Low,TRUE
+396,12,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,pen,FL,NO,NO,1707,,Contrast_Singleton,Low,FALSE
+397,12,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1712,,Contrast_Singleton,Low,TRUE
+398,12,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,a pipe,FL,NO,NO,2114,,Contrast_Singleton,Low,FALSE
+399,12,42,bat_animal / bat_baseball,Test,T_42.wav,1,an animal bat,FL,PR,PR,1400,,Contrast_Singleton,Low,TRUE
+400,12,43,horse_animal / horse_rocking,Test,T_43.wav,1,live horse,FL,PR,PR,1934,,Contrast_Singleton,Low,TRUE
+401,12,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,mans tshiirt,FL,PR,PR,2407,,Contrast_Singleton,Low,TRUE
+402,12,46,eye_pupil / I_letter,Test,T_46.wav,1,eyeball,FL,NO,NO,1699,,Contrast_Singleton,Low,TRUE
+403,12,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,1598,,Contrast_Singleton,Low,TRUE
+404,13,2,bin_lid / bin_pedal,Test,T_02.wav,0,"black bin (WO?) a blackbin not a pedal bin, the other one",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+405,13,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,"black coffe in a white mug (WO?) uh black- without a saucer, a saucerless black coffee",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+406,13,5,mirror_wall / mirror_hand,Test,T_05.wav,0,uuhh mirror,FP,NO,NO,NA,sound runs over from previous trial,Singleton_Contrast,High,TRUE
+407,13,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,eh zippo lighter,FP,PR,NO,2026,,Singleton_Contrast,High,TRUE
+408,13,8,egg_shell / egg_yolk,Test,T_08.wav,0,"uh an egg, eh not a fried egg, a whole egg",RE,AO/AS,,NA,,Singleton_Contrast,High,TRUE
+409,13,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,"uhh red umrella (WO?) red umbrella, oh the red full expanded umbrella",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+410,13,10,candle_unused / candle_melted,Test,T_10.wav,0,candle (WO?)  candle with a wick thatÍs not been lit,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+411,13,12,car_family / car_sports,Test,T_12.wav,0,"silver car, eh a silver car thatÍs not fancy a peugot kinda car",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+412,13,14,gun_real / gun_toy,Test,T_14.wav,1,eh real life gun,FP,PR,PR,1341,,Contrast_Singleton,High,TRUE
+413,13,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse saddle (black?) speaks really quickly so hard to tell,FL,PR,PR,646,,Contrast_Singleton,High,TRUE
+414,13,16,pad_unlocked / pad_locked,Test,T_16.wav,1,open padlock,FL,PR,PR,782,,Contrast_Singleton,High,TRUE
+415,13,18,battery_AA / battery_car,Test,T_18.wav,1,AA battery,FL,PR,PR,1801,,Contrast_Singleton,High,TRUE
+416,13,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,833,,Contrast_Singleton,High,TRUE
+417,13,20,money_notes / money_coins,Test,T_20.wav,1,eh cash in note form (repeated - mouse got stuck),FP,PR,PO,1503,,Contrast_Singleton,High,TRUE
+418,13,21,boot_foot / boot_car,Test,T_21.wav,1,black boot,FL,PR,PR,1823,,Contrast_Singleton,High,TRUE
+419,13,22,camera_corder / camera_cctv,Test,T_22.wav,1,ehh zoom lens camera?,FP,PR,PR,1609,,Contrast_Singleton,High,TRUE
+420,13,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,789,,Contrast_Singleton,High,TRUE
+421,13,24,glove_wooly / glove_boxing,Test,T_24.wav,1,red hand glove,FL,PR,PR,1120,,Contrast_Singleton,High,TRUE
+422,13,29,orange_skin / orange_slice,Test,T_29.wav,1,ehh the full orange compared to the segment,FP,PR,OTHER,3655,,Singleton_Contrast,Low,FALSE
+423,13,30,spade_garden / spade_beach,Test,T_30.wav,0,ehhhm spade (WO?) ehm garden spade,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+424,13,31,key_gold / key_car,Test,T_31.wav,0,ehm key (WO?) eh key for the .. Getting into the house not a car,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+425,13,32,door_handle / door_knob,Test,T_32.wav,0,"ehm handle, door handle (WO?) with the larger knda rectangular knob compared to the circular",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+426,13,33,bell_hand / bell_bike,Test,T_33.wav,0,"eh a bell (WO?) bronze bell, with quite a wide eh diameter ehm bronze goldy kind of",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+427,13,37,clock_wall / clock_digital,Test,T_37.wav,1,eh analoge clock,FP,PR,PR,1960,,Contrast_Singleton,Low,TRUE
+428,13,38,hat_sun / hat_cowboy,Test,T_38.wav,1,eh yellow summery female hat,FP,PR,PR,1776,,Contrast_Singleton,Low,TRUE
+429,13,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,eh blue pen with a lid on,FP,PO,PO,2125,,Contrast_Singleton,Low,TRUE
+430,13,40,apple_red / apple_green,Test,T_40.wav,1,ehh red apple,FP,PR,PR,1731,,Contrast_Singleton,Low,TRUE
+431,13,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,uh pipe with the brown end,FP,PO,PO,1907,,Contrast_Singleton,Low,TRUE
+432,13,43,horse_animal / horse_rocking,Test,T_43.wav,1,ehh the real life horse.. Blimey (or something to that effect),FP,PR,PR,2490,no idea where this starts,Contrast_Singleton,Low,TRUE
+433,13,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,and again yellow tshirt but mens (says 'eye' first so might be off back of last trial),FL,PR,PR,NA,,Contrast_Singleton,Low,TRUE
+434,13,46,eye_pupil / I_letter,Test,T_46.wav,1,ehh pupil in eye,FP,PR,PR,1718,,Contrast_Singleton,Low,TRUE
+435,13,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,ehh brown skinned potatoes,FP,PR,PR,2692,,Contrast_Singleton,Low,TRUE
+436,14,2,bin_lid / bin_pedal,Test,T_02.wav,1,the black bin which is square,FL,PO,PO,1294,,Singleton_Contrast,Low,FALSE
+437,14,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,coffee (WO?) eh the one without the saucer,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+438,14,6,chair_wooden / chair_baby,Test,T_06.wav,1,the wooden chair,FL,PR,PR,1042,,Singleton_Contrast,Low,FALSE
+439,14,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg (pause) which isnt fried,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+440,14,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,red umbrella (WO?) the one which is unfurled,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+441,14,10,candle_unused / candle_melted,Test,T_10.wav,0,the candle by itself (WO?) the one which isnt burnt,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+442,14,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife...which isnt a bread knife?,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+443,14,12,car_family / car_sports,Test,T_12.wav,1,(can't make out word) ~something~ silver car which is not as cool,FL,PR,PO,1336,,Singleton_Contrast,Low,FALSE
+444,14,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1167,,Contrast_Singleton,Low,TRUE
+445,14,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse riding saddle,FL,PR,PR,1008,,Contrast_Singleton,Low,TRUE
+446,14,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked padlock,FL,PR,PR,797,,Contrast_Singleton,Low,TRUE
+447,14,17,headphones_large / headphones_small,Test,T_17.wav,1,the headphones that go over your head,FL,PO,PO,1106,hard to find onset,Contrast_Singleton,Low,TRUE
+448,14,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1590,,Contrast_Singleton,Low,TRUE
+449,14,20,money_notes / money_coins,Test,T_20.wav,1,eh notes of money,FP,PR,PR,1764,**,Contrast_Singleton,Low,TRUE
+450,14,21,boot_foot / boot_car,Test,T_21.wav,1,doc marten shoe,FL,PR,PR,1066,,Contrast_Singleton,Low,TRUE
+451,14,22,camera_corder / camera_cctv,Test,T_22.wav,1,a film camera that is used for filming,FL,PR,PR,1574,,Contrast_Singleton,Low,TRUE
+452,14,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,956,,Contrast_Singleton,Low,TRUE
+453,14,24,glove_wooly / glove_boxing,Test,T_24.wav,1,thee glove which isnt a boxing glove,FL,PO,PO,1832,,Contrast_Singleton,Low,TRUE
+454,14,25,teapot_white / teapot_cosy,Test,T_25.wav,1,white teapot,FL,PR,PR,779,,Singleton_Contrast,High,FALSE
+455,14,27,saw_hand / saw_electric,Test,T_27.wav,0,saw for wood (pause) manual,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+456,14,29,orange_skin / orange_slice,Test,T_29.wav,0,orange fruit (WO?) the whole one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+457,14,32,door_handle / door_knob,Test,T_32.wav,0,"door handle (WO?) sorry, the one which you push down",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+458,14,34,cheese_block / cheese_blue,Test,T_34.wav,0,"trianglular cheese (WO?) the block of triangular cheee, oh the yellow one",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+459,14,37,clock_wall / clock_digital,Test,T_37.wav,1,white wall clock,FL,PR,PR,1262,,Contrast_Singleton,High,TRUE
+460,14,38,hat_sun / hat_cowboy,Test,T_38.wav,1,ladies hat,FL,PR,PR,843,,Contrast_Singleton,High,TRUE
+461,14,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,pen with a lid on,FL,PO,PO,931,,Contrast_Singleton,High,TRUE
+462,14,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,959,,Contrast_Singleton,High,TRUE
+463,14,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,pipe for tobacco,FL,PR,PO,865,,Contrast_Singleton,High,TRUE
+464,14,42,bat_animal / bat_baseball,Test,T_42.wav,1,animal bat,FL,PR,PR,796,,Contrast_Singleton,High,TRUE
+465,14,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real life horse,FL,PR,PR,850,hard to find onset,Contrast_Singleton,High,TRUE
+466,14,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,male tshirt,FL,PR,PR,764,,Contrast_Singleton,High,TRUE
+467,14,46,eye_pupil / I_letter,Test,T_46.wav,1,human eye,FL,PR,PR,814,,Contrast_Singleton,High,TRUE
+468,14,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,600,,Contrast_Singleton,High,TRUE
+469,15,2,bin_lid / bin_pedal,Test,T_02.wav,1,the uh non pedal bin,FP,PR,PR,3267,,Singleton_Contrast,Low,FALSE
+470,15,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,"a cup of coffee, uh the cup of coffee without a saucer",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+471,15,5,mirror_wall / mirror_hand,Test,T_05.wav,0,"the mirror, um the wall mirror",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+472,15,6,chair_wooden / chair_baby,Test,T_06.wav,0,"uh chair, {WO} um the wooden chair",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+473,15,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,"lighter, um with flame***",FP,PO,PO,2022,,Singleton_Contrast,Low,FALSE
+474,15,8,egg_shell / egg_yolk,Test,T_08.wav,1,"the um, un cracked egg",FP,PR,PR,5457,,Singleton_Contrast,Low,FALSE
+475,15,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,"umbrella, um opened umbrella",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+476,15,10,candle_unused / candle_melted,Test,T_10.wav,1,um the unburned candle,FP,PR,PR,4520,,Singleton_Contrast,Low,FALSE
+477,15,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,um the kitchen knife,FP,PR,PR,2577,,Singleton_Contrast,Low,FALSE
+478,15,12,car_family / car_sports,Test,T_12.wav,1,the um the non sports car,FP,PR,PR,5044,,Singleton_Contrast,Low,FALSE
+479,15,14,gun_real / gun_toy,Test,T_14.wav,1,uh real gun,FP,PR,PR,1516,,Contrast_Singleton,Low,TRUE
+480,15,15,saddle_horse / saddle_bike,Test,T_15.wav,1,uh horses saddle,FP,PR,PR,2893,,Contrast_Singleton,Low,TRUE
+481,15,16,pad_unlocked / pad_locked,Test,T_16.wav,0,uh padlock,FP,NO,NO,2613,,Contrast_Singleton,Low,FALSE
+482,15,17,headphones_large / headphones_small,Test,T_17.wav,1,uh big headphones,FP,PR,PR,1477,,Contrast_Singleton,Low,TRUE
+483,15,18,battery_AA / battery_car,Test,T_18.wav,1,uh thin battery,FP,PR,PR,1283,,Contrast_Singleton,Low,TRUE
+484,15,19,wine_glass / wine_red,Test,T_19.wav,0,uh wine glass,FP,NO,NO,2391,,Contrast_Singleton,Low,FALSE
+485,15,20,money_notes / money_coins,Test,T_20.wav,1,uh paper money,FP,PR,PR,1677,,Contrast_Singleton,Low,TRUE
+486,15,21,boot_foot / boot_car,Test,T_21.wav,0,umm the boot,FP,NO,NO,2235,,Contrast_Singleton,Low,FALSE
+487,15,22,camera_corder / camera_cctv,Test,T_22.wav,1,uh hand camera,FP,PR,PR,1903,very hard to find onset,Contrast_Singleton,Low,TRUE
+488,15,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,uhh guitar,FP,NO,NO,2778,,Contrast_Singleton,Low,FALSE
+489,15,24,glove_wooly / glove_boxing,Test,T_24.wav,1,uh woolen glove,FP,PR,PR,2588,,Contrast_Singleton,Low,TRUE
+490,15,25,teapot_white / teapot_cosy,Test,T_25.wav,1,uh a white teapot,FP,PR,PR,2334,,Singleton_Contrast,High,FALSE
+491,15,27,saw_hand / saw_electric,Test,T_27.wav,0,saw um the hand saw,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+492,15,29,orange_skin / orange_slice,Test,T_29.wav,0,"uh orange, um an unpeeled orange",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+493,15,30,spade_garden / spade_beach,Test,T_30.wav,0,"uh spade um a, a garden shovel",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+494,15,31,key_gold / key_car,Test,T_31.wav,0,"key, (WO?) oh the brass key",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+495,15,32,door_handle / door_knob,Test,T_32.wav,0,"uh crown door handle (WO?) like a dull steel, more matte than gloss, itÍs a straightƒ",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+496,15,33,bell_hand / bell_bike,Test,T_33.wav,0,uh bell (WO?)oh a hand bell,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+497,15,34,cheese_block / cheese_blue,Test,T_34.wav,1,ehh (mumbles) the cheese with no blue bits in,FP,PO,PO,6442,,Singleton_Contrast,High,FALSE
+498,15,37,clock_wall / clock_digital,Test,T_37.wav,1,analogue clock,FL,PR,PR,1089,,Contrast_Singleton,High,TRUE
+499,15,38,hat_sun / hat_cowboy,Test,T_38.wav,0,a hat ,FL,NO,NO,1294,,Contrast_Singleton,High,FALSE
+500,15,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,a pen,FL,NO,NO,2171,,Contrast_Singleton,High,FALSE
+501,15,40,apple_red / apple_green,Test,T_40.wav,0,apple,FL,NO,NO,2061,,Contrast_Singleton,High,FALSE
+502,15,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,smoking pipe,FL,PR,PR,1247,,Contrast_Singleton,High,TRUE
+503,15,42,bat_animal / bat_baseball,Test,T_42.wav,1,animal bat,FL,PR,PR,1087,,Contrast_Singleton,High,TRUE
+504,15,43,horse_animal / horse_rocking,Test,T_43.wav,0,a uh horse,FP,NO,NO,3447,,Contrast_Singleton,High,FALSE
+505,15,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,dark yellow tshirt,FL,PR,PR,1540,,Contrast_Singleton,High,TRUE
+506,15,46,eye_pupil / I_letter,Test,T_46.wav,1,human eye,FL,PR,PR,1425,,Contrast_Singleton,High,TRUE
+507,15,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,2558,,Contrast_Singleton,High,TRUE
+508,16,2,bin_lid / bin_pedal,Test,T_02.wav,1,black bin that isnt a pedal bin,FL,PR,PO,1083,,Contrast_Singleton,High,TRUE
+509,16,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,cup of coffee without the plate,FL,PO,PO,853,,Contrast_Singleton,High,TRUE
+510,16,5,mirror_wall / mirror_hand,Test,T_05.wav,1,a wall mirror,FL,PR,PR,1033,hard to find onset of wall,Contrast_Singleton,High,TRUE
+511,16,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,865,,Contrast_Singleton,High,TRUE
+512,16,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lighter with a flame,FL,PO,PO,1378,,Contrast_Singleton,High,TRUE
+513,16,8,egg_shell / egg_yolk,Test,T_08.wav,1,a whole egg,FL,PR,PR,963,,Contrast_Singleton,High,TRUE
+514,16,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,open red umbrella,FL,PR,PR,1157,,Contrast_Singleton,High,TRUE
+515,16,10,candle_unused / candle_melted,Test,T_10.wav,1,candle that's not been lit,FL,PO,PO,1370,,Contrast_Singleton,High,TRUE
+516,16,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,normal knife not a swiss army knife,FL,PR,OTHER,1296,,Contrast_Singleton,High,TRUE
+517,16,12,car_family / car_sports,Test,T_12.wav,1,small unsporty car,FL,PR,PR,981,,Contrast_Singleton,High,TRUE
+518,16,14,gun_real / gun_toy,Test,T_14.wav,1,a gun not the one with a red tip,FL,PO,PO,2160,,Singleton_Contrast,Low,FALSE
+519,16,16,pad_unlocked / pad_locked,Test,T_16.wav,0,padlock (WO?) eh the open one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+520,16,17,headphones_large / headphones_small,Test,T_17.wav,0,headphones (WO?) oh uhh actual headphones not earphones,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+521,16,18,battery_AA / battery_car,Test,T_18.wav,0,battery (WO?) uhh the small AA battery,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+522,16,19,wine_glass / wine_red,Test,T_19.wav,0,"wine glass, empty wine glass",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+523,16,20,money_notes / money_coins,Test,T_20.wav,0,money (WO?) uhh the bank notes,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+524,16,22,camera_corder / camera_cctv,Test,T_22.wav,0,camera (WO?) uh not the security camera,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+525,16,24,glove_wooly / glove_boxing,Test,T_24.wav,0,red glove (WO?) uhh not the boxing glove,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+526,16,25,teapot_white / teapot_cosy,Test,T_25.wav,1,white teapot,FL,PR,PR,911,,Contrast_Singleton,Low,TRUE
+527,16,27,saw_hand / saw_electric,Test,T_27.wav,1,handheld saw,FL,PR,PR,1136,,Contrast_Singleton,Low,TRUE
+528,16,28,fan_hand / fan_electric,Test,T_28.wav,1,handheld fan,FL,PR,PR,765,,Contrast_Singleton,Low,TRUE
+529,16,29,orange_skin / orange_slice,Test,T_29.wav,1,whole orange,FL,PR,PR,1573,,Contrast_Singleton,Low,TRUE
+530,16,30,spade_garden / spade_beach,Test,T_30.wav,1,metal spade,FL,PR,PR,1258,,Contrast_Singleton,Low,TRUE
+531,16,31,key_gold / key_car,Test,T_31.wav,1,bronze key,FL,PR,PR,1280,,Contrast_Singleton,Low,TRUE
+532,16,32,door_handle / door_knob,Test,T_32.wav,1,door handle not door knob,FL,PO,PO ,1580,,Contrast_Singleton,Low,TRUE
+533,16,33,bell_hand / bell_bike,Test,T_33.wav,1,hand held bell,FL,PR,PR,1839,,Contrast_Singleton,Low,TRUE
+534,16,34,cheese_block / cheese_blue,Test,T_34.wav,1,holey cheese,FL,PR,PR,1260,,Contrast_Singleton,Low,TRUE
+535,16,38,hat_sun / hat_cowboy,Test,T_38.wav,0,"straw hat (WO?) uhh the one with the black trim, the ladies hat",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+536,16,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,blue biro pen (WO?) uhh with the lid on,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+537,16,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,a pipe,FL,NO,NO,1458,,Singleton_Contrast,High,TRUE
+538,16,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat (WO?) uh bat the animal,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+539,16,43,horse_animal / horse_rocking,Test,T_43.wav,0,a horse uhhh (which…) the real life horse not the rocking horse,RE,AO/AS,,NA,,Singleton_Contrast,High,TRUE
+540,16,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,"yellow tshirt, male tshirt",RE,AS,,NA,immediate correction ,Singleton_Contrast,High,TRUE
+541,16,46,eye_pupil / I_letter,Test,T_46.wav,0,black and white image of an eye (WO?) oh a human eye not a letter I,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+542,16,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,pile of potatoes (WO?) uhh with the skins on,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+543,17,2,bin_lid / bin_pedal,Test,T_02.wav,1,plastic trash can,FL,PR,PR,1110,,Contrast_Singleton,Low,TRUE
+544,17,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,cup of coffee without a saucer,FL,PO,PO,1190,,Contrast_Singleton,Low,TRUE
+545,17,5,mirror_wall / mirror_hand,Test,T_05.wav,1,fancy mirror,FL,PR,PR,1220,,Contrast_Singleton,Low,TRUE
+546,17,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,1257,,Contrast_Singleton,Low,TRUE
+547,17,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lit lighter,FL,PR,PR,1310,,Contrast_Singleton,Low,TRUE
+548,17,8,egg_shell / egg_yolk,Test,T_08.wav,1,the whole egg,FL,PR,PR,1864,,Contrast_Singleton,Low,TRUE
+549,17,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the opened umbrella,FL,PR,PR,1114,very hard to find onset of opened,Contrast_Singleton,Low,TRUE
+550,17,10,candle_unused / candle_melted,Test,T_10.wav,1,the unlit candle stick,FL,PR,PR,1272,,Contrast_Singleton,Low,TRUE
+551,17,12,car_family / car_sports,Test,T_12.wav,1,smaller car,FL,PR,PR,1252,,Contrast_Singleton,Low,TRUE
+552,17,14,gun_real / gun_toy,Test,T_14.wav,0,"hand gun (WO?) the grey one with the wooden, the original one",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+553,17,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle (um about to say WO?) which you put on a horse,RE,AO/AS,,NA,,Singleton_Contrast,High,TRUE
+554,17,16,pad_unlocked / pad_locked,Test,T_16.wav,0,the lock (WO?) uh the open one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+555,17,17,headphones_large / headphones_small,Test,T_17.wav,0,"headphones (WO?) the original, not earphones headphones",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+556,17,18,battery_AA / battery_car,Test,T_18.wav,0,"the battery (WO?) oh the same battery, the one with the plus  sign",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+557,17,19,wine_glass / wine_red,Test,T_19.wav,1,the wine glass which is empty,FL,PO,PO,926,,Singleton_Contrast,High,FALSE
+558,17,21,boot_foot / boot_car,Test,T_21.wav,0,boot (WO?) oh the black boot,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+559,17,22,camera_corder / camera_cctv,Test,T_22.wav,0,"camera (WO?) the old fashioned camera, the recording camera, not the CCTV camera the other one",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+560,17,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,the guitar (WO?) the acoustic,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+561,17,24,glove_wooly / glove_boxing,Test,T_24.wav,0,glove (WO?) the red one the orignial one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+562,17,27,saw_hand / saw_electric,Test,T_27.wav,1,the saw which isnt a chain saw,FL,PO,PO,2153,,Contrast_Singleton,High,TRUE
+563,17,28,fan_hand / fan_electric,Test,T_28.wav,1,the non electronic fan,FL,PR,PR,1059,,Contrast_Singleton,High,TRUE
+564,17,29,orange_skin / orange_slice,Test,T_29.wav,1,the full orange,FL,PR,PR,2002,,Contrast_Singleton,High,TRUE
+565,17,30,spade_garden / spade_beach,Test,T_30.wav,1,the grey spade,FL,PR,PR,945,weird noise in trial so hard to find onset,Contrast_Singleton,High,TRUE
+566,17,31,key_gold / key_car,Test,T_31.wav,1,the brass key,FL,PR,PR,1037,,Contrast_Singleton,High,TRUE
+567,17,33,bell_hand / bell_bike,Test,T_33.wav,1,the brass bell... that you hold,FL,PR,PR,1228,,Contrast_Singleton,High,TRUE
+568,17,34,cheese_block / cheese_blue,Test,T_34.wav,1,holey cheese,FL,PR,PR,839,,Contrast_Singleton,High,TRUE
+569,17,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock {Matcher 'um'} which.. is on the wall,RE,AO/AS,,NA,,Singleton_Contrast,Low,TRUE
+570,17,38,hat_sun / hat_cowboy,Test,T_38.wav,0,the hat (WO?) which is for women,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+571,17,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,pen which has its lid on,FL,PO,PO,1309,,Singleton_Contrast,Low,FALSE
+572,17,40,apple_red / apple_green,Test,T_40.wav,0,the apple (WO?) oh the red one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+573,17,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,the pipe,FL,NO,NO,2247,,Singleton_Contrast,Low,TRUE
+574,17,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat (WO?) the real bat,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+575,17,43,horse_animal / horse_rocking,Test,T_43.wav,0,the horse (WO?) the real one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+576,17,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,the yellow tshirt (WO?) which is for men,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+577,17,46,eye_pupil / I_letter,Test,T_46.wav,NA,the tc (tv?) flat scree --- named the wrong object,,,,NA,,Singleton_Contrast,Low,NA
+578,18,2,bin_lid / bin_pedal,Test,T_02.wav,1,the plastic bin,FL,PR,PR,1261,,Contrast_Singleton,High,TRUE
+579,18,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,the coffee,FL,NO,NO,1390,,Contrast_Singleton,High,FALSE
+580,18,5,mirror_wall / mirror_hand,Test,T_05.wav,1,the wall mirror,FL,PR,PR,1218,,Contrast_Singleton,High,TRUE
+581,18,6,chair_wooden / chair_baby,Test,T_06.wav,1,the dining room chair,FL,PR,PR,1348,,Contrast_Singleton,High,TRUE
+582,18,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,the lighter with the flame,FL,PO,PO,1307,,Contrast_Singleton,High,TRUE
+583,18,8,egg_shell / egg_yolk,Test,T_08.wav,1,the uncracked egg,FL,PR,PR,1135,,Contrast_Singleton,High,TRUE
+584,18,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,1234,,Contrast_Singleton,High,TRUE
+585,18,10,candle_unused / candle_melted,Test,T_10.wav,1,the unlit candle,FL,PR,PR,1406,,Contrast_Singleton,High,TRUE
+586,18,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,the kichen knife ,FL,PR,PR,1214,,Contrast_Singleton,High,TRUE
+587,18,12,car_family / car_sports,Test,T_12.wav,1,"the not a sports car, car",FL,PR,PR,1441,,Contrast_Singleton,High,TRUE
+588,18,14,gun_real / gun_toy,Test,T_14.wav,1,the real gun,FL,PR,PR,3040,,Singleton_Contrast,Low,FALSE
+589,18,16,pad_unlocked / pad_locked,Test,T_16.wav,1,the open padlock,FL,PR,PR,2486,,Singleton_Contrast,Low,FALSE
+590,18,17,headphones_large / headphones_small,Test,T_17.wav,0,the headphones,FL,NO,NO,1544,,Singleton_Contrast,Low,TRUE
+591,18,18,battery_AA / battery_car,Test,T_18.wav,0,the battery (WO?)  the not big battery the AA battery,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+592,18,19,wine_glass / wine_red,Test,T_19.wav,0,"the wine glass again, thatÍs empty",RE,AS,,NA,check?,Singleton_Contrast,Low,TRUE
+593,18,20,money_notes / money_coins,Test,T_20.wav,0,"the money, the note money",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+594,18,21,boot_foot / boot_car,Test,T_21.wav,0,"the boot, the not the car boot the shoe boot",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+595,18,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,the guitar (WO?) oh the acoustic guitar,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+596,18,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the red mitten glove,FL,PR,PR,2102,,Singleton_Contrast,Low,FALSE
+597,18,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot,FL,NO,NO,1354,not sure about exact onset,Contrast_Singleton,Low,FALSE
+598,18,27,saw_hand / saw_electric,Test,T_27.wav,1,the handheld saw,FL,PR,PR,1571,,Contrast_Singleton,Low,TRUE
+599,18,28,fan_hand / fan_electric,Test,T_28.wav,1,the handheld fan,FL,PR,PR,1686,,Contrast_Singleton,Low,TRUE
+600,18,29,orange_skin / orange_slice,Test,T_29.wav,1,the whole orange,FL,PR,PR,2337,,Contrast_Singleton,Low,TRUE
+601,18,30,spade_garden / spade_beach,Test,T_30.wav,1,the garden spade,FL,PR,PR,1941,,Contrast_Singleton,Low,TRUE
+602,18,31,key_gold / key_car,Test,T_31.wav,1,the door key,FL,PR,PR,1846,,Contrast_Singleton,Low,TRUE
+603,18,32,door_handle / door_knob,Test,T_32.wav,1,the bar door handle,FL,PR,PR,1880,,Contrast_Singleton,Low,TRUE
+604,18,34,cheese_block / cheese_blue,Test,T_34.wav,1,the cheddar cheese again,FL,PR,PR,1289,,Contrast_Singleton,Low,TRUE
+605,18,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock ,FL,NO,NO,1236,,Singleton_Contrast,High,TRUE
+606,18,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the pen with its lid on,FL,PO,PO,1995,,Singleton_Contrast,High,FALSE
+607,18,40,apple_red / apple_green,Test,T_40.wav,0,the apple (WO?) the red apple,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+608,18,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,the pipe (WO?) the smoking pipe,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+609,18,42,bat_animal / bat_baseball,Test,T_42.wav,0,"the bat, the animal bat",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+610,18,43,horse_animal / horse_rocking,Test,T_43.wav,0,"the horse, the real horse",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+611,18,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,the yellow tshirt (WO?) the mens yellow tshirt,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+612,18,46,eye_pupil / I_letter,Test,T_46.wav,0,"the eye, the human eye",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+613,18,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,"the potatoes, the peel, not the unpeeled potatoes- the ones with the skin on",RE,DE/AS,,NA,,Singleton_Contrast,High,TRUE
+614,19,2,bin_lid / bin_pedal,Test,T_02.wav,0,black bin (WO?) a black wheelie bin,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+615,19,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,"eh black coffe cup (WO?) a black cup of coffee (WO, there are 2on the screen) eh without a saucer",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+616,19,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror ,FL,NO,NO,717,,Singleton_Contrast,High,TRUE
+617,19,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,a zippo lighter (WO?) eh sorry eh lit zippo lighter,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+618,19,8,egg_shell / egg_yolk,Test,T_08.wav,0,an egg (WO?) sorry an uncooked egg,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+619,19,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,a red umbrella,FL,NO,NO,925,,Singleton_Contrast,High,TRUE
+620,19,10,candle_unused / candle_melted,Test,T_10.wav,0,"a candle (WO?) eh an unlit, an unused candle",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+621,19,12,car_family / car_sports,Test,T_12.wav,0,a silver car,FL,NO,NO,1577,,Singleton_Contrast,High,TRUE
+622,19,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,925,,Contrast_Singleton,High,TRUE
+623,19,15,saddle_horse / saddle_bike,Test,T_15.wav,1,large saddle,FL,PR,PR,1182,,Contrast_Singleton,High,TRUE
+624,19,16,pad_unlocked / pad_locked,Test,T_16.wav,1,eh an open padlock,FP,PR,PR,1197,,Contrast_Singleton,High,TRUE
+625,19,17,headphones_large / headphones_small,Test,T_17.wav,1,headphones that you wear on your head,FL,PO,PO,1716,,Contrast_Singleton,High,TRUE
+626,19,18,battery_AA / battery_car,Test,T_18.wav,1,house battery,FL,PR,PR,1731,,Contrast_Singleton,High,TRUE
+627,19,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1233,,Contrast_Singleton,High,TRUE
+628,19,20,money_notes / money_coins,Test,T_20.wav,1,paper money,FL,PR,PR,1154,,Contrast_Singleton,High,TRUE
+629,19,21,boot_foot / boot_car,Test,T_21.wav,1,ladies boot again,FL,PR,PR,1038,,Contrast_Singleton,High,TRUE
+630,19,22,camera_corder / camera_cctv,Test,T_22.wav,1,eh a video camera,FP,PR,PR,3140,,Contrast_Singleton,High,TRUE
+631,19,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,eh  acoustic guitar,FP,PR,PR,1263,some weird noise when he's speaking,Contrast_Singleton,High,TRUE
+632,19,24,glove_wooly / glove_boxing,Test,T_24.wav,1,a red hand glove,FL,PR,PR,1494,,Contrast_Singleton,High,TRUE
+633,19,28,fan_hand / fan_electric,Test,T_28.wav,0,"a fan (WO?) eh a ladies fan, hand fan",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+634,19,29,orange_skin / orange_slice,Test,T_29.wav,0,eh an orange (WO?) eh an unpeeled orange,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+635,19,32,door_handle / door_knob,Test,T_32.wav,0,"a door handle (WO?) ehm a silver, oh em a large door handle",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+636,19,34,cheese_block / cheese_blue,Test,T_34.wav,1,a slice of cheese (WO?) ehmm red cheese,RE,AO,,NA,,Singleton_Contrast,Low,FALSE
+637,19,37,clock_wall / clock_digital,Test,T_37.wav,1,wall clock,FL,PR,PR,2243,,Contrast_Singleton,Low,TRUE
+638,19,38,hat_sun / hat_cowboy,Test,T_38.wav,1,ladies hat,FL,PR,PR,1901,,Contrast_Singleton,Low,TRUE
+639,19,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,eh biro with lid on,FP,PO,PO,1661,,Contrast_Singleton,Low,TRUE
+640,19,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,2135,,Contrast_Singleton,Low,TRUE
+641,19,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,eh smoking pipe,FP,PR,PR,3195,,Contrast_Singleton,Low,TRUE
+642,19,42,bat_animal / bat_baseball,Test,T_42.wav,1,a flying bat,FL,PR,PR,2487,,Contrast_Singleton,Low,TRUE
+643,19,43,horse_animal / horse_rocking,Test,T_43.wav,1,a real horse,FL,PR,PR,1212,,Contrast_Singleton,Low,TRUE
+644,19,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,a mans orange tshirt,FL,PR,PR,3204,,Contrast_Singleton,Low,TRUE
+645,19,46,eye_pupil / I_letter,Test,T_46.wav,1,a ladies eye,FL,PR,PR,2806,,Contrast_Singleton,Low,TRUE
+646,19,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,3945,,Contrast_Singleton,Low,TRUE
+647,20,2,bin_lid / bin_pedal,Test,T_02.wav,0,bin {WO?} not the cylindircal one the sort of rectangle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+648,20,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,mug of coffee {WO?} eh not the one with the plates…,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+649,20,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair {WO?} eh not the babay chair just the other chair,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+650,20,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,open lighter {WO?} oh with the flame,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+651,20,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg {WO?} oh uh eh not the scram not the boiled one the whole egg,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+652,20,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,red umbrella {WO?} eh the open one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+653,20,10,candle_unused / candle_melted,Test,T_10.wav,0,white candle {WO?} eh the new one {new?} eh the one not used,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+654,20,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife {WO?} eh not the pen knife just the normal knife,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+655,20,12,car_family / car_sports,Test,T_12.wav,0,silver car {WO?} eh its facing directly sidey ways..can't see the front properly,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+656,20,14,gun_real / gun_toy,Test,T_14.wav,1,silver looking gun???,FL,PR,PR,1341,,Contrast_Singleton,High,TRUE
+657,20,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle..the large saddle,RE,AS,,NA,,Contrast_Singleton,High,FALSE
+658,20,16,pad_unlocked / pad_locked,Test,T_16.wav,1,open padlock,FL,PR,PR,1144,,Contrast_Singleton,High,TRUE
+659,20,17,headphones_large / headphones_small,Test,T_17.wav,1,big headphones,FL,PR,PR,1431,,Contrast_Singleton,High,TRUE
+660,20,18,battery_AA / battery_car,Test,T_18.wav,1,small battery,FL,PR,PR,1541,,Contrast_Singleton,High,TRUE
+661,20,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1758,,Contrast_Singleton,High,TRUE
+662,20,20,money_notes / money_coins,Test,T_20.wav,1,notes,FL,NO,NO,1442,,Contrast_Singleton,High,TRUE
+663,20,21,boot_foot / boot_car,Test,T_21.wav,1,shoe,FL,NO,NO,1229,,Contrast_Singleton,High,TRUE
+664,20,22,camera_corder / camera_cctv,Test,T_22.wav,1,professional camera,FL,PR,PR,823,,Contrast_Singleton,High,TRUE
+665,20,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,lighter coloured guitar,FL,PR,PR,684,,Contrast_Singleton,High,TRUE
+666,20,24,glove_wooly / glove_boxing,Test,T_24.wav,1,small red glove,FL,PR,PR,955,,Contrast_Singleton,High,TRUE
+667,20,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw {WO?} oh not the electric the one with the yellow and black handle,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+668,20,29,orange_skin / orange_slice,Test,T_29.wav,0,the orange {WO?} oh not the cliced one the whole one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+669,20,30,spade_garden / spade_beach,Test,T_30.wav,1,the real shovel,FL,PR,PR,2707,,Singleton_Contrast,Low,FALSE
+670,20,31,key_gold / key_car,Test,T_31.wav,0,the key {WO?} oh not the car key the house key,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+671,20,32,door_handle / door_knob,Test,T_32.wav,0,door handle {WO?} eh not the long one the door knob,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+672,20,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese {WO} the one with the holes in it not the one with the blueish colour in it,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+673,20,37,clock_wall / clock_digital,Test,T_37.wav,1,circular clock,FL,PR,PR,2160,,Contrast_Singleton,Low,TRUE
+674,20,38,hat_sun / hat_cowboy,Test,T_38.wav,1,hat with the ribbon on it,FL,PO,PO,1379,,Contrast_Singleton,Low,TRUE
+675,20,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,closed pen,FL,PR,PR,1439,,Contrast_Singleton,Low,TRUE
+676,20,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,2788,,Contrast_Singleton,Low,TRUE
+677,20,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,curved pipe,FL,PR,PR,1032,,Contrast_Singleton,Low,TRUE
+678,20,42,bat_animal / bat_baseball,Test,T_42.wav,1,the bat the animal,FL,PO,PO,2106,,Contrast_Singleton,Low,TRUE
+679,20,43,horse_animal / horse_rocking,Test,T_43.wav,1,real horse,FL,PR,PR,1113,,Contrast_Singleton,Low,TRUE
+680,20,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,the yellow gents tshirt,FL,PR,PR,2318,,Contrast_Singleton,Low,TRUE
+681,20,46,eye_pupil / I_letter,Test,T_46.wav,1,the human eye,FL,PR,PR,1851,diffciult to find exact onset,Contrast_Singleton,Low,TRUE
+682,20,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,2321,,Contrast_Singleton,Low,TRUE
+683,21,2,bin_lid / bin_pedal,Test,T_02.wav,1,cuboid bin,FL,PR,PR,1259,,Contrast_Singleton,Low,TRUE
+684,21,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,coffee on it's own,FL,PO,PO,1678,,Contrast_Singleton,Low,TRUE
+685,21,5,mirror_wall / mirror_hand,Test,T_05.wav,1,floral mirror,FL,PR,PR,1302,,Contrast_Singleton,Low,TRUE
+686,21,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,1719,,Contrast_Singleton,Low,TRUE
+687,21,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,alight lighter,FL,PR,PR,1433,,Contrast_Singleton,Low,TRUE
+688,21,8,egg_shell / egg_yolk,Test,T_08.wav,1,boiled egg,FL,PR,PR,1589,,Contrast_Singleton,Low,TRUE
+689,21,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,open umbrella,FL,PR,PR,886,,Contrast_Singleton,Low,TRUE
+690,21,10,candle_unused / candle_melted,Test,T_10.wav,1,unused candle,FL,PR,PR,959,,Contrast_Singleton,Low,TRUE
+691,21,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,big knife,FL,PR,PR,839,,Contrast_Singleton,Low,TRUE
+692,21,12,car_family / car_sports,Test,T_12.wav,1,small car,FL,PR,PR,1429,,Contrast_Singleton,Low,TRUE
+693,21,14,gun_real / gun_toy,Test,T_14.wav,1,em real gun,RE,AS,PR,2052,,Singleton_Contrast,High,FALSE
+694,21,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle..em no bike saddle,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+695,21,16,pad_unlocked / pad_locked,Test,T_16.wav,0,padlock em open padlock,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+696,21,17,headphones_large / headphones_small,Test,T_17.wav,0,headphones oh em big headphones,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+697,21,18,battery_AA / battery_car,Test,T_18.wav,0,battery {WO?} op em single battery..I dunno small battery,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+698,21,19,wine_glass / wine_red,Test,T_19.wav,0,wine glass {WO?} oh em empty wine glass,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+699,21,20,money_notes / money_coins,Test,T_20.wav,1,mon..em paper money,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+700,21,21,boot_foot / boot_car,Test,T_21.wav,0,boot em..boot shoe,RE,AS,,NA,check?,Singleton_Contrast,High,TRUE
+701,21,22,camera_corder / camera_cctv,Test,T_22.wav,0,camera {WO?} oh em manual camera like not the security one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+702,21,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,gu em acoustic guitar,RE,AS,,NA,check - starts then stops,Singleton_Contrast,High,FALSE
+703,21,24,glove_wooly / glove_boxing,Test,T_24.wav,0,red glove {WO?} oh oh em non boxing glove,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+704,21,25,teapot_white / teapot_cosy,Test,T_25.wav,1,plain tea pot,FL,PR,PR,718,,Contrast_Singleton,High,TRUE
+705,21,27,saw_hand / saw_electric,Test,T_27.wav,1,manual saw,FL,PR,PR,1130,,Contrast_Singleton,High,TRUE
+706,21,28,fan_hand / fan_electric,Test,T_28.wav,1,paper fan,FL,PR,PR,885,,Contrast_Singleton,High,TRUE
+707,21,29,orange_skin / orange_slice,Test,T_29.wav,1,full orange,FL,PR,PR,972,,Contrast_Singleton,High,TRUE
+708,21,30,spade_garden / spade_beach,Test,T_30.wav,1,real shovel,FL,PR,PR,819,,Contrast_Singleton,High,TRUE
+709,21,31,key_gold / key_car,Test,T_31.wav,1,door key,FL,PR,PR,779,,Contrast_Singleton,High,TRUE
+710,21,32,door_handle / door_knob,Test,T_32.wav,1,big handle,FL,PR,PR,1125,,Contrast_Singleton,High,TRUE
+711,21,33,bell_hand / bell_bike,Test,T_33.wav,1,brass bell,FL,PR,PR,1087,,Contrast_Singleton,High,TRUE
+712,21,34,cheese_block / cheese_blue,Test,T_34.wav,1,orange cheese,FL,PR,PR,1002,,Contrast_Singleton,High,TRUE
+713,21,37,clock_wall / clock_digital,Test,T_37.wav,0,clock {WO?} oh em wall clock,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+714,21,38,hat_sun / hat_cowboy,Test,T_38.wav,0,hat that's…womans hat,RE,AS,,NA,check this one - difficult - coded correctly?,Singleton_Contrast,Low,TRUE
+715,21,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,pen em with lid on ,FP,PO,PO,1574,onset of pen noted - check?? - tough call,Singleton_Contrast,Low,TRUE
+716,21,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1621,,Singleton_Contrast,Low,FALSE
+717,21,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,eh pipe {WO?} oh eh smoking pipe,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+718,21,42,bat_animal / bat_baseball,Test,T_42.wav,1,bat em animal *************************,FP,PO,PO,1281,another tough call ,Singleton_Contrast,Low,FALSE
+719,21,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {WO?} oh em real horse,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+720,21,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,tshirt {WO?} oh oh em man's tshirt,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+721,21,46,eye_pupil / I_letter,Test,T_46.wav,0,eye... oh em human eye,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+722,21,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,(Noises) potato {WO?} is there more than one?..oh oh sweet potato,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+723,22,2,bin_lid / bin_pedal,Test,T_02.wav,1,a plastic bin,FL,PR,PR,1715,,Contrast_Singleton,High,TRUE
+724,22,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,coffee without a saucer,FL,PO,PO,1191,,Contrast_Singleton,High,TRUE
+725,22,5,mirror_wall / mirror_hand,Test,T_05.wav,1,eh the wall mirror,FP,PR,PR,2904,,Contrast_Singleton,High,TRUE
+726,22,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden chair,FL,PR,PR,1365,,Contrast_Singleton,High,TRUE
+727,22,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,flaming lighter,FL,PR,PR,1181,,Contrast_Singleton,High,TRUE
+728,22,8,egg_shell / egg_yolk,Test,T_08.wav,1,egg in the shell,FL,PO,PO,1804,,Contrast_Singleton,High,TRUE
+729,22,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,em the open umbrella,FP,PR,PR,4058,,Contrast_Singleton,High,TRUE
+730,22,10,candle_unused / candle_melted,Test,T_10.wav,1,unlit candle,FL,PR,PR,1615,,Contrast_Singleton,High,TRUE
+731,22,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,sharp knife,FL,PR,PR,1338,,Contrast_Singleton,High,TRUE
+732,22,12,car_family / car_sports,Test,T_12.wav,1,blackout car,FL,PR,PR,2045,,Contrast_Singleton,High,TRUE
+733,22,14,gun_real / gun_toy,Test,T_14.wav,0,gun {WO?} looks like a hand gun,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+734,22,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle {WO?} uuh looks lie a saddle you would put on a horse,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+735,22,16,pad_unlocked / pad_locked,Test,T_16.wav,0,padlock,FL,NO,NO,1507,,Singleton_Contrast,Low,TRUE
+736,22,17,headphones_large / headphones_small,Test,T_17.wav,0,headphones {WO} headph..they're not on a wire. Look like wireless,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+737,22,18,battery_AA / battery_car,Test,T_18.wav,0,battery,FL,NO,NO,1930,,Singleton_Contrast,Low,TRUE
+738,22,19,wine_glass / wine_red,Test,T_19.wav,0,wine glass {WO?} empty wine glass,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+739,22,20,money_notes / money_coins,Test,T_20.wav,0,money {WO?} notes,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+740,22,24,glove_wooly / glove_boxing,Test,T_24.wav,0,red glove {WO?} eh looks like it's for a right hand,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+741,22,25,teapot_white / teapot_cosy,Test,T_25.wav,1,white ceramic teapot,FL,PR,PR,779,,Contrast_Singleton,Low,TRUE
+742,22,27,saw_hand / saw_electric,Test,T_27.wav,1,uhh handheld saw,FP,PR,PR,2455,,Contrast_Singleton,Low,TRUE
+743,22,28,fan_hand / fan_electric,Test,T_28.wav,1,eh geisha fan,FP,PR,PR,2693,,Contrast_Singleton,Low,TRUE
+744,22,29,orange_skin / orange_slice,Test,T_29.wav,1,full orange,FL,PR,PR,1236,,Contrast_Singleton,Low,TRUE
+745,22,30,spade_garden / spade_beach,Test,T_30.wav,1,garden shovel,FL,PR,PR,1887,,Contrast_Singleton,Low,TRUE
+746,22,31,key_gold / key_car,Test,T_31.wav,1,brass key,FL,PR,PR,1125,,Contrast_Singleton,Low,TRUE
+747,22,32,door_handle / door_knob,Test,T_32.wav,1,door handle that isn't a knob,FL,PO,PO,1848,,Contrast_Singleton,Low,TRUE
+748,22,33,bell_hand / bell_bike,Test,T_33.wav,1,brass bell,FL,PR,PR,1092,,Contrast_Singleton,Low,TRUE
+749,22,34,cheese_block / cheese_blue,Test,T_34.wav,1,holey cheese,FL,PR,PR,1870,difficult to find onselt of holey,Contrast_Singleton,Low,TRUE
+750,22,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,blue biro pen {WO?} its got the lid on,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+751,22,42,bat_animal / bat_baseball,Test,T_42.wav,0,the bat {WO?} looks like it's in flight,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+752,22,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {WO?} brown horse walking,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+753,22,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,yellow tshirt {WO?} eh it looks like a guys tshirt,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+754,22,46,eye_pupil / I_letter,Test,T_46.wav,0,the eye..{WO?} it's black and white the picture..em it looks like a girls eye,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+755,22,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes {WO?} eh raw potatoes they looked unicfooked there's 4…9 in the picture I can see,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+756,23,2,bin_lid / bin_pedal,Test,T_02.wav,1,lift up bin,FL,PR,PR,865,,Contrast_Singleton,Low,TRUE
+757,23,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,without a saucer,FL,PR,PR,1831,,Contrast_Singleton,Low,TRUE
+758,23,5,mirror_wall / mirror_hand,Test,T_05.wav,1,(background noise) fancy mirror,FL,PR,PR,1047,hard to find the onset of fancy (may have missed the 'f'),Contrast_Singleton,Low,TRUE
+759,23,6,chair_wooden / chair_baby,Test,T_06.wav,1,wooden c...wooden chair,RE,DE,,NA,,Contrast_Singleton,Low,TRUE
+760,23,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lit zippo,FL,PR,PR,1515,,Contrast_Singleton,Low,TRUE
+761,23,8,egg_shell / egg_yolk,Test,T_08.wav,1,uh uncracked egg,FP,PR,PR,1530,,Contrast_Singleton,Low,TRUE
+762,23,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,uh open umbrella,FP,PR,PR,1395,,Contrast_Singleton,Low,TRUE
+763,23,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,kitchen knife,FL,PR,PR,817,maybe faint sound of the k starting sooner but hard to tell,Contrast_Singleton,Low,TRUE
+764,23,12,car_family / car_sports,Test,T_12.wav,1,silver car from the side,FL,PR,PO,907,,Contrast_Singleton,Low,TRUE
+765,23,14,gun_real / gun_toy,Test,T_14.wav,0,"gun (WO?) electric, no sorry, like actual gun not the water pistol",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+766,23,16,pad_unlocked / pad_locked,Test,T_16.wav,0,padlock (WO?) ehh open padlock,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+767,23,17,headphones_large / headphones_small,Test,T_17.wav,0,headphones (WO?) eh the overhead ones,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+768,23,18,battery_AA / battery_car,Test,T_18.wav,0,"uh battery (WO?) oh eh the uh +/- one, the AA or whatever",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+769,23,19,wine_glass / wine_red,Test,T_19.wav,0,glass (WO?) oh uh empty glass,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+770,23,21,boot_foot / boot_car,Test,T_21.wav,0,boot (WO?) um foot boot,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+771,23,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,guitar oh uh acoustic guitar,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+772,23,24,glove_wooly / glove_boxing,Test,T_24.wav,0,"glove, (WO?) oh yeah not the boxing glove, its like a marigold",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+773,23,25,teapot_white / teapot_cosy,Test,T_25.wav,1,non-covered teapot,FL,PR,PR,1116,,Contrast_Singleton,High,TRUE
+774,23,27,saw_hand / saw_electric,Test,T_27.wav,1,hack saw,FL,PR,PR,1088,,Contrast_Singleton,High,TRUE
+775,23,28,fan_hand / fan_electric,Test,T_28.wav,1,handheld fan,FL,PR,PR,825,,Contrast_Singleton,High,TRUE
+776,23,29,orange_skin / orange_slice,Test,T_29.wav,1,full orange,FL,PR,PR,1220,,Contrast_Singleton,High,TRUE
+777,23,30,spade_garden / spade_beach,Test,T_30.wav,1,metal spade ,FL,PR,PR,840,,Contrast_Singleton,High,TRUE
+778,23,31,key_gold / key_car,Test,T_31.wav,1,house key,FL,PR,PR,1021,,Contrast_Singleton,High,TRUE
+779,23,32,door_handle / door_knob,Test,T_32.wav,1,thin handle,FL,PR,PR,1281,,Contrast_Singleton,High,TRUE
+780,23,33,bell_hand / bell_bike,Test,T_33.wav,1,uh yeah the uh handheld bell,FP,PR,PR,2080,,Contrast_Singleton,High,TRUE
+781,23,34,cheese_block / cheese_blue,Test,T_34.wav,1,swiss cheese,FL,PR,PR,1149,,Contrast_Singleton,High,TRUE
+782,23,38,hat_sun / hat_cowboy,Test,T_38.wav,0,hat (WO?) uhh the one with black ribbon on it,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+783,23,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,biro (WO?) uh one with lid on,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+784,23,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,pipe,FL,NO,NO,961,,Singleton_Contrast,Low,TRUE
+785,23,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat oh um animal bat,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+786,23,43,horse_animal / horse_rocking,Test,T_43.wav,0,ehm horse (WO?) ehm actual horse ,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+787,23,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,eh tshirt (WO?) ehm mens yellow thirt,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+788,23,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes oh um peel- unpeeled potatoes,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+789,24,2,bin_lid / bin_pedal,Test,T_02.wav,1,the bigger dustbin,FL,PR,PR,1270,,Contrast_Singleton,Low,TRUE
+790,24,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,the coffee cup,FL,NO,NO,1616,,Contrast_Singleton,Low,FALSE
+791,24,5,mirror_wall / mirror_hand,Test,T_05.wav,1,the wall mirror,FL,PR,PR,1345,,Contrast_Singleton,Low,TRUE
+792,24,6,chair_wooden / chair_baby,Test,T_06.wav,1,the wooden chair,FL,PR,PR,1053,,Contrast_Singleton,Low,TRUE
+793,24,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lit lighter,FL,PR,PR,2540,,Contrast_Singleton,Low,TRUE
+794,24,8,egg_shell / egg_yolk,Test,T_08.wav,1,uncracked egg,FL,PR,PR,1174,,Contrast_Singleton,Low,TRUE
+795,24,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,959,very hard to find the onset of open,Contrast_Singleton,Low,TRUE
+796,24,10,candle_unused / candle_melted,Test,T_10.wav,1,the new candle,FL,PR,PR,1905,,Contrast_Singleton,Low,TRUE
+797,24,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,kitchen knife,FL,PR,PR,1345,,Contrast_Singleton,Low,TRUE
+798,24,12,car_family / car_sports,Test,T_12.wav,1,4 door car,FL,PR,PR,1427,,Contrast_Singleton,Low,TRUE
+799,24,14,gun_real / gun_toy,Test,T_14.wav,0,"the gun (WO?) oh the the one that looks more real not like s toy gun with the orange on the end, so the one without the orange on the end/",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+800,24,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle  (WO?) oh uh the bigger one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+801,24,16,pad_unlocked / pad_locked,Test,T_16.wav,0,the padlock,FL,PR,NO,993,,Singleton_Contrast,High,TRUE
+802,24,17,headphones_large / headphones_small,Test,T_17.wav,1,the over the head headphones,FL,PR,PR,2243,hard to find exact onset of over,Singleton_Contrast,High,FALSE
+803,24,18,battery_AA / battery_car,Test,T_18.wav,0,battery {WO?} eh the battery..oh I see.. thee duracell one,RE,AO,,,,Singleton_Contrast,High,TRUE
+804,24,19,wine_glass / wine_red,Test,T_19.wav,1,the wine gl- the empty wine glass***,RE,AS,,NA,,Singleton_Contrast,High,FALSE
+805,24,20,money_notes / money_coins,Test,T_20.wav,0,"eh the money, oh the notes",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+806,24,21,boot_foot / boot_car,Test,T_21.wav,0,the boot (WO?) the shoe,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+807,24,23,guitar_acoustic / guitar_electric,Test,T_23.wav,0,the guitar (WO?) oh the acoustic,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+808,24,24,glove_wooly / glove_boxing,Test,T_24.wav,0,"the red glove (WO?) oh um thee, the driving glove",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+809,24,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot,FL,NO,NO,1765,,Contrast_Singleton,High,FALSE
+810,24,27,saw_hand / saw_electric,Test,T_27.wav,1,the handheld saw,FL,PR,PR,1622,,Contrast_Singleton,High,TRUE
+811,24,28,fan_hand / fan_electric,Test,T_28.wav,1,the handheld fan,FL,PR,PR,988,,Contrast_Singleton,High,TRUE
+812,24,29,orange_skin / orange_slice,Test,T_29.wav,1,the full orange,FL,PR,PR,1946,,Contrast_Singleton,High,TRUE
+813,24,30,spade_garden / spade_beach,Test,T_30.wav,1,the grey spade,FL,PR,PR,815,,Contrast_Singleton,High,TRUE
+814,24,31,key_gold / key_car,Test,T_31.wav,1,the gold key,FL,PR,PR,1157,,Contrast_Singleton,High,TRUE
+815,24,32,door_handle / door_knob,Test,T_32.wav,1,the grey door ha.. the rectangular door handle,RE,DE/AS,,NA,,Contrast_Singleton,High,TRUE
+816,24,33,bell_hand / bell_bike,Test,T_33.wav,1,the handheld bell,FL,PR,PR,1430,,Contrast_Singleton,High,TRUE
+817,24,34,cheese_block / cheese_blue,Test,T_34.wav,1,the cheese with holes in it,FL,PR,PR,828,,Contrast_Singleton,High,TRUE
+818,24,37,clock_wall / clock_digital,Test,T_37.wav,0,"the clock, oh the analoge clock",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+819,24,38,hat_sun / hat_cowboy,Test,T_38.wav,0,the hat..but the hat with the dark greeny black ribbon around it ,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+820,24,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the bi.. the biro with the lid on,RE,AS,,NA,,Singleton_Contrast,Low,FALSE
+821,24,40,apple_red / apple_green,Test,T_40.wav,0,"the apple, oh red apple",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+822,24,42,bat_animal / bat_baseball,Test,T_42.wav,1,the animal bat,FL,PR,PR,2471,,Singleton_Contrast,Low,FALSE
+823,24,43,horse_animal / horse_rocking,Test,T_43.wav,0,the horse (WO?) oh uh the real horse,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+824,24,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,"yellow tshirt, uh the male tshirt",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+825,24,46,eye_pupil / I_letter,Test,T_46.wav,0,the eye… oh the uh human eye,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+826,24,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,the potatoes (WO?) oh the unpeeled potatoes,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+827,25,2,bin_lid / bin_pedal,Test,T_02.wav,0,the bin,FL,PR,NO,2170,,Singleton_Contrast,Low,TRUE
+828,25,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,the ehhh  the cup of coffee without a saucer,FP,PO,PO,3528,,Singleton_Contrast,Low,FALSE
+829,25,5,mirror_wall / mirror_hand,Test,T_05.wav,0,"uh the miror (WO?) oh goodness, the same black mirror as before",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+830,25,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,"ehm the lighter oh theres two, ehm the one that has a flame",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+831,25,8,egg_shell / egg_yolk,Test,T_08.wav,0,the egg (WO?) eh the one thatÍs got a shell,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+832,25,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,ehm the red umbrella (WO?) the one thatÍs opne,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+833,25,10,candle_unused / candle_melted,Test,T_10.wav,1,theee candle that has a wick on it,LE,PR,PO,3583,,Singleton_Contrast,Low,FALSE
+834,25,12,car_family / car_sports,Test,T_12.wav,0,silver car again (WO?) ehm the cheaper one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+835,25,14,gun_real / gun_toy,Test,T_14.wav,1,the real gun again,FL,PR,PR,1487,,Contrast_Singleton,Low,TRUE
+836,25,15,saddle_horse / saddle_bike,Test,T_15.wav,1,the riding saddle,LE,PR,PR,2326,,Contrast_Singleton,Low,TRUE
+837,25,16,pad_unlocked / pad_locked,Test,T_16.wav,1,the unlocked padlock,FL,PR,PR,1875,,Contrast_Singleton,Low,TRUE
+838,25,17,headphones_large / headphones_small,Test,T_17.wav,1,the over the ear earphones,FL,PR,PR,1558,,Contrast_Singleton,Low,TRUE
+839,25,18,battery_AA / battery_car,Test,T_18.wav,1,the single battery again,FL,PR,PR,1964,,Contrast_Singleton,Low,TRUE
+840,25,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1013,,Contrast_Singleton,Low,TRUE
+841,25,20,money_notes / money_coins,Test,T_20.wav,1,the stack of notes,FL,PR,PR,1660,,Contrast_Singleton,Low,TRUE
+842,25,21,boot_foot / boot_car,Test,T_21.wav,1,theee black boot,LE,PR,PR,1757,,Contrast_Singleton,Low,TRUE
+843,25,22,camera_corder / camera_cctv,Test,T_22.wav,1,handheld video camera again,FL,PR,PR,3036,,Contrast_Singleton,Low,TRUE
+844,25,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,the wooden guitar,FL,PR,PR,1749,,Contrast_Singleton,Low,TRUE
+845,25,24,glove_wooly / glove_boxing,Test,T_24.wav,0,ehm the glove,FP,NO,NO,2836,,Contrast_Singleton,Low,FALSE
+846,25,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw eh the same manual saw,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+847,25,28,fan_hand / fan_electric,Test,T_28.wav,0,"the fan again, the same fan the handheld fan",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+848,25,29,orange_skin / orange_slice,Test,T_29.wav,1,ehm the same full orange,FP,PR,PR,1209,onset of same noted,Singleton_Contrast,High,FALSE
+849,25,30,spade_garden / spade_beach,Test,T_30.wav,0,the same shovel,FL,PR,PR,1577,onset of same noted,Singleton_Contrast,High,TRUE
+850,25,31,key_gold / key_car,Test,T_31.wav,0,"the key, ehm the same house key",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+851,25,32,door_handle / door_knob,Test,T_32.wav,0,the door handle the same door handle as before,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+852,25,33,bell_hand / bell_bike,Test,T_33.wav,0,"the bell, ehm the same hand held bell",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+853,25,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese eh the holey cheese,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+854,25,37,clock_wall / clock_digital,Test,T_37.wav,1,the circular clock,FL,PR,PR,937,,Contrast_Singleton,High,TRUE
+855,25,38,hat_sun / hat_cowboy,Test,T_38.wav,1,womans hat,FL,PR,PR,793,,Contrast_Singleton,High,TRUE
+856,25,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the same pen,FL,PR,PR,1152,onset of same noted,Contrast_Singleton,High,TRUE
+857,25,40,apple_red / apple_green,Test,T_40.wav,1,the red apple,UP,PR,PR,2711,,Contrast_Singleton,High,TRUE
+858,25,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,old fashioned pipe,FL,PR,PR,2366,,Contrast_Singleton,High,TRUE
+859,25,42,bat_animal / bat_baseball,Test,T_42.wav,1,em the same bat again,FP,PR,PR,2356,onset of same noted - clear from training trials that it is the animal bat,Contrast_Singleton,High,TRUE
+860,25,43,horse_animal / horse_rocking,Test,T_43.wav,1,real horse,FL,PR,PR,1004,,Contrast_Singleton,High,TRUE
+861,25,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,mens tshirt,FL,PR,PR,1537,,Contrast_Singleton,High,TRUE
+862,25,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,ehm unpeeled potatoes,FP,PR,PR,1859,,Contrast_Singleton,High,TRUE
+863,26,2,bin_lid / bin_pedal,Test,T_02.wav,0,black (pause) square black bin,RE,DE,,NA,,Singleton_Contrast,Low,TRUE
+864,26,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,coffee mug (WO?) without plate,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+865,26,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg (WO?) raw egg,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+866,26,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella (WO?) open umbrella,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+867,26,10,candle_unused / candle_melted,Test,T_10.wav,1,umm unlit candle,FP,PR,PR,2806,,Singleton_Contrast,Low,FALSE
+868,26,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,"knife (WO?) sharp kniw, ehm sorry okay, one blade",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+869,26,12,car_family / car_sports,Test,T_12.wav,1,light silver car…lighter silver car,RE,AS,,NA,adds in the 'er' to light,Singleton_Contrast,Low,FALSE
+870,26,14,gun_real / gun_toy,Test,T_14.wav,1,grey pistol,FL,PR,PR,1830,,Contrast_Singleton,Low,TRUE
+871,26,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse saddle,FL,PR,PR,2235,,Contrast_Singleton,Low,TRUE
+872,26,16,pad_unlocked / pad_locked,Test,T_16.wav,1,(inaudible words) open lock,RE,DE,,NA,starts to say something else (but inaudible),Contrast_Singleton,Low,TRUE
+873,26,18,battery_AA / battery_car,Test,T_18.wav,1,small battery,FL,PR,PR,1645,,Contrast_Singleton,Low,TRUE
+874,26,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1452,,Contrast_Singleton,Low,TRUE
+875,26,20,money_notes / money_coins,Test,T_20.wav,1,money notes,FL,PO,PO,1354,,Contrast_Singleton,Low,TRUE
+876,26,21,boot_foot / boot_car,Test,T_21.wav,1,black boot,FL,PR,PR,1976,,Contrast_Singleton,Low,TRUE
+877,26,22,camera_corder / camera_cctv,Test,T_22.wav,1,film camera,FL,PR,PR,1863,,Contrast_Singleton,Low,TRUE
+878,26,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,1281,,Contrast_Singleton,Low,TRUE
+879,26,24,glove_wooly / glove_boxing,Test,T_24.wav,1,eh winter glove,FP,PR,PR,2169,,Contrast_Singleton,Low,TRUE
+880,26,25,teapot_white / teapot_cosy,Test,T_25.wav,0,jug (WO?) cold jug,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+881,26,27,saw_hand / saw_electric,Test,T_27.wav,0,saw (WO?) handheld saw,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+882,26,29,orange_skin / orange_slice,Test,T_29.wav,0,edible orange (WO?) um whole orange,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+883,26,30,spade_garden / spade_beach,Test,T_30.wav,0,shovel ehm metal shovel,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+884,26,32,door_handle / door_knob,Test,T_32.wav,0,door handle (WO?) um long door handle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+885,26,34,cheese_block / cheese_blue,Test,T_34.wav,0,"cheese (WO?) tasty cheese, ehm yellow cheese",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+886,26,37,clock_wall / clock_digital,Test,T_37.wav,1,wall clock,FL,PR,PR,1163,,Contrast_Singleton,High,TRUE
+887,26,38,hat_sun / hat_cowboy,Test,T_38.wav,1,ladies hat,FL,PR,PR,1252,,Contrast_Singleton,High,TRUE
+888,26,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,lidded pen,FL,PR,PR,1544,,Contrast_Singleton,High,TRUE
+889,26,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1223,,Contrast_Singleton,High,TRUE
+890,26,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,smoking pipe,FL,PR,PR,1415,,Contrast_Singleton,High,TRUE
+891,26,42,bat_animal / bat_baseball,Test,T_42.wav,1,flying bat,FL,PR,PR,1315,,Contrast_Singleton,High,TRUE
+892,26,43,horse_animal / horse_rocking,Test,T_43.wav,1,animal horse,FL,PR,PR,1446,,Contrast_Singleton,High,TRUE
+893,26,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,mens tshirt,FL,PR,PR,1275,,Contrast_Singleton,High,TRUE
+894,26,46,eye_pupil / I_letter,Test,T_46.wav,1,eyeball,FL,NO,NO,2423,,Contrast_Singleton,High,TRUE
+895,26,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,skinned potatoes,FL,PR,PR,1843,,Contrast_Singleton,High,TRUE
+896,27,2,bin_lid / bin_pedal,Test,T_02.wav,1,binnnnn that does not open with your foot,LE,PO,PO,990,,Singleton_Contrast,Low,FALSE
+897,27,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,ehm coffee without a saucer,FP,PO,PO,3319,,Singleton_Contrast,Low,FALSE
+898,27,5,mirror_wall / mirror_hand,Test,T_05.wav,1,mirrorrrrr that's ornate,LE,PO,PO,964,,Singleton_Contrast,Low,FALSE
+899,27,6,chair_wooden / chair_baby,Test,T_06.wav,1,chairrrrr for an adult,LE,PO,PO,1210,,Singleton_Contrast,Low,FALSE
+900,27,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter ehm lit lighter,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+901,27,8,egg_shell / egg_yolk,Test,T_08.wav,1,ehm unnncracked egg,FP/LE,PR,PR,2299,,Singleton_Contrast,Low,FALSE
+902,27,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella (WO?) open umbrella,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+903,27,10,candle_unused / candle_melted,Test,T_10.wav,1,ccc eeh unmelted candle,RE,AS,,NA,repair but close call?,Singleton_Contrast,Low,FALSE
+904,27,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,ehm knife like normal knife not a swiss knife,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+905,27,12,car_family / car_sports,Test,T_12.wav,0,car ehm like a standard car- just description?,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+906,27,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1532,,Contrast_Singleton,Low,TRUE
+907,27,15,saddle_horse / saddle_bike,Test,T_15.wav,1,riding saddle,FL,PR,PR,1226,,Contrast_Singleton,Low,TRUE
+908,27,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked lock,FL,PR,PR,1366,,Contrast_Singleton,Low,TRUE
+909,27,18,battery_AA / battery_car,Test,T_18.wav,1,AA battery,FL,PR,PR,1233,,Contrast_Singleton,Low,TRUE
+910,27,19,wine_glass / wine_red,Test,T_19.wav,1,empty glass,FL,PR,PR,1091,,Contrast_Singleton,Low,TRUE
+911,27,20,money_notes / money_coins,Test,T_20.wav,1,paper money,FL,PR,PR,1022,,Contrast_Singleton,Low,TRUE
+912,27,21,boot_foot / boot_car,Test,T_21.wav,1,footwear boot,FL,PR,PR,1574,,Contrast_Singleton,Low,TRUE
+913,27,22,camera_corder / camera_cctv,Test,T_22.wav,1,fancy tv camera,FL,PR,PR,1789,,Contrast_Singleton,Low,TRUE
+914,27,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,1009,,Contrast_Singleton,Low,TRUE
+915,27,24,glove_wooly / glove_boxing,Test,T_24.wav,1,ehm ladies glove,FP,PR,PR,2455,,Contrast_Singleton,Low,TRUE
+916,27,25,teapot_white / teapot_cosy,Test,T_25.wav,1,ehm uncovered teapot,FP,PR,PR,2356,,Singleton_Contrast,High,FALSE
+917,27,27,saw_hand / saw_electric,Test,T_27.wav,0,saw  uh like manual saw,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+918,27,29,orange_skin / orange_slice,Test,T_29.wav,1,"orange, ehm uncut",FP,PO,PO,1299,close call,Singleton_Contrast,High,FALSE
+919,27,30,spade_garden / spade_beach,Test,T_30.wav,0,"shovel, oh metal shovel",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+920,27,31,key_gold / key_car,Test,T_31.wav,1,ehm like an old fashioned key,FP,PR,PR,3539,,Singleton_Contrast,High,FALSE
+921,27,32,door_handle / door_knob,Test,T_32.wav,1,door hanndleee with the pully bit,LE,PO,PO,1253,,Singleton_Contrast,High,FALSE
+922,27,33,bell_hand / bell_bike,Test,T_33.wav,1,ehm ringing bell like a holder one,FP,PR,OTHER,2690,ringing noted as initial modifier,Singleton_Contrast,High,FALSE
+923,27,34,cheese_block / cheese_blue,Test,T_34.wav,1,cheesssse eh with holes,FP/LE,PO,PO,1609,benefit of the doubt but could be repair,Singleton_Contrast,High,FALSE
+924,27,37,clock_wall / clock_digital,Test,T_37.wav,1,analoge clock,FL,PR,PR,1629,,Contrast_Singleton,High,TRUE
+925,27,38,hat_sun / hat_cowboy,Test,T_38.wav,1,female hat,FL,PR,PR,1330,,Contrast_Singleton,High,TRUE
+926,27,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,capped pen,FL,PR,PR,1119,,Contrast_Singleton,High,TRUE
+927,27,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1067,,Contrast_Singleton,High,TRUE
+928,27,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,smoking pipe,FL,PR,PR,1210,,Contrast_Singleton,High,TRUE
+929,27,42,bat_animal / bat_baseball,Test,T_42.wav,1,flying bat,FL,PR,PR,1314,hard to find the onset of flying,Contrast_Singleton,High,TRUE
+930,27,43,horse_animal / horse_rocking,Test,T_43.wav,1,real horse,FL,PR,PR,1378,,Contrast_Singleton,High,TRUE
+931,27,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,mans yellow tshirt,FL,PR,PR,1286,,Contrast_Singleton,High,TRUE
+932,27,46,eye_pupil / I_letter,Test,T_46.wav,1,human eye,FL,PR,PR,1085,,Contrast_Singleton,High,TRUE
+933,27,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potaotes,FL,PR,PR,1213,,Contrast_Singleton,High,TRUE
+934,28,2,bin_lid / bin_pedal,Test,T_02.wav,0,"the closed bin, ehm its not got a foot pedal just a pretty basic bin it's a bit grey***",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+935,28,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,theee coffee cup without the saucer,LE,PO,PO,2932,,Singleton_Contrast,Low,FALSE
+936,28,5,mirror_wall / mirror_hand,Test,T_05.wav,0,eh the miror (WO?) the one with the design on the outside not the hand one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+937,28,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,the zippo lighter that's alight,FL,PO,PO,2287,onset of zippo noted,Singleton_Contrast,Low,FALSE
+938,28,8,egg_shell / egg_yolk,Test,T_08.wav,0,"the egg, like not the fried one ",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+939,28,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,red umbrella agaiN (WO?) the open one,RE,AO,,NA,,Singleton_Contrast,Low,FALSE
+940,28,14,gun_real / gun_toy,Test,T_14.wav,1,the metal gun,FL,PR,PR,1297,,Contrast_Singleton,Low,TRUE
+941,28,15,saddle_horse / saddle_bike,Test,T_15.wav,1,the horse saddle,FL,PR,PR,1936,,Contrast_Singleton,Low,TRUE
+942,28,16,pad_unlocked / pad_locked,Test,T_16.wav,1,ehm the open padlock again,FP,PR,PR,2491,,Contrast_Singleton,Low,TRUE
+943,28,17,headphones_large / headphones_small,Test,T_17.wav,1,the over head headphones,FL,PR,PR,2005,,Contrast_Singleton,Low,TRUE
+944,28,18,battery_AA / battery_car,Test,T_18.wav,1,theeee small battery,LE,PR,PR,2143,,Contrast_Singleton,Low,TRUE
+945,28,19,wine_glass / wine_red,Test,T_19.wav,1,ehm the empty wineglass,FP,PR,PR,2311,end of the and start of empty blend together!,Contrast_Singleton,Low,TRUE
+946,28,20,money_notes / money_coins,Test,T_20.wav,1,ehm the bank notes,FP,PR,PR,2144,,Contrast_Singleton,Low,TRUE
+947,28,21,boot_foot / boot_car,Test,T_21.wav,1,eh the same boot ***,FP,PR,PR,1933,onset of same noted,Contrast_Singleton,Low,TRUE
+948,28,22,camera_corder / camera_cctv,Test,T_22.wav,1,ehm the cam corder,FP,PR,PR,2673,,Contrast_Singleton,Low,TRUE
+949,28,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,the acoustic guitar,FL,PR,PR,2125,,Contrast_Singleton,Low,TRUE
+950,28,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the red glove with fingers,FL,PR,PR,1589,,Contrast_Singleton,Low,TRUE
+951,28,25,teapot_white / teapot_cosy,Test,T_25.wav,1,ehm the teapot without a cosy,FP,PO,PO,2751,,Singleton_Contrast,High,FALSE
+952,28,28,fan_hand / fan_electric,Test,T_28.wav,0,"the fan (WO?) the fan, like the more chinese style one",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+953,28,29,orange_skin / orange_slice,Test,T_29.wav,1,"the orange fruit, like the whole one",FL,PO,PO,1646,,Singleton_Contrast,High,FALSE
+954,28,32,door_handle / door_knob,Test,T_32.wav,0,the door handle again (WO?) the door handle the like long one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+955,28,33,bell_hand / bell_bike,Test,T_33.wav,0,the bell (WO?) the like copper one with the black handle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+956,28,34,cheese_block / cheese_blue,Test,T_34.wav,1,eh same again the block of cheese but the one with holes in it,FP,PO,OTHER,2374,onset of same noted,Singleton_Contrast,High,FALSE
+957,28,37,clock_wall / clock_digital,Test,T_37.wav,1,ehm the clock with face and hands,FP,PO,PO,2627,,Contrast_Singleton,High,TRUE
+958,28,38,hat_sun / hat_cowboy,Test,T_38.wav,1,the summer hat wth black ribbon again,FL,PR,OTHER,2819,onset of summer noted,Contrast_Singleton,High,TRUE
+959,28,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the blue pen eh with the lid on,FP/LE,PO,PO,3109,,Contrast_Singleton,High,TRUE
+960,28,40,apple_red / apple_green,Test,T_40.wav,1,the red apple,FL,PR,PR,1266,,Contrast_Singleton,High,TRUE
+961,28,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,the smoking pipe again,FL,PR,PR,1331,,Contrast_Singleton,High,TRUE
+962,28,42,bat_animal / bat_baseball,Test,T_42.wav,1,the small grey bat again,FL,PR,PR,1868,,Contrast_Singleton,High,TRUE
+963,28,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real life horse,FL,PR,PR,2783,,Contrast_Singleton,High,TRUE
+964,28,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,and the same again ,FL,PR,PR,2118,onset of same noted,Contrast_Singleton,High,TRUE
+965,28,46,eye_pupil / I_letter,Test,T_46.wav,1,the human eye,FL,PR,PR,1424,,Contrast_Singleton,High,TRUE
+966,28,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,the unpeeled potatoes,FL,PR,PR,1399,,Contrast_Singleton,High,TRUE
+967,29,2,bin_lid / bin_pedal,Test,T_02.wav,0,bin (WO?) oh the um sqaured one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+968,29,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,teacup (WO?) oh ehm the one without the saucer,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+969,29,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror (WO?) oh ehm the wall mirror,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+970,29,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair (WO?) the original chair,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+971,29,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter (WO?) the lit up on the one thatÍs lighted,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+972,29,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg (WO?) the um full egg,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+973,29,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,"umbrella, uh the open umbrella",RE,AS,,NA,,Singleton_Contrast,High,TRUE
+974,29,10,candle_unused / candle_melted,Test,T_10.wav,0,candle (WO?) the un melted one the one with the full wick aswell,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+975,29,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife (WO?) eh the kitchen knife,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+976,29,12,car_family / car_sports,Test,T_12.wav,0,eh car (WO?) the small one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+977,29,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1113,,Contrast_Singleton,High,TRUE
+978,29,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse saddle,FL,PR,PR,1232,loud noise at start of speech ,Contrast_Singleton,High,TRUE
+979,29,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked padlock,FL,PR,PR,1086,,Contrast_Singleton,High,TRUE
+980,29,17,headphones_large / headphones_small,Test,T_17.wav,1,eh over the head headphones,FP,PR,PR,1797,,Contrast_Singleton,High,TRUE
+981,29,18,battery_AA / battery_car,Test,T_18.wav,1,eh the normal battery,FP,PR,PR,1798,,Contrast_Singleton,High,TRUE
+982,29,19,wine_glass / wine_red,Test,T_19.wav,1,the empty glass,FL,PR,PR,1114,,Contrast_Singleton,High,TRUE
+983,29,20,money_notes / money_coins,Test,T_20.wav,1,money notes,FL,PO,PO,934,,Contrast_Singleton,High,TRUE
+984,29,21,boot_foot / boot_car,Test,T_21.wav,1,eh shoe boot,FP,PR,PR,1553,,Contrast_Singleton,High,TRUE
+985,29,22,camera_corder / camera_cctv,Test,T_22.wav,1,hand camera,FL,PR,PR,979,,Contrast_Singleton,High,TRUE
+986,29,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,brown guitar,FL,PR,PR,1247,,Contrast_Singleton,High,TRUE
+987,29,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the normal hand glove,FL,PR,PR,1597,,Contrast_Singleton,High,TRUE
+988,29,25,teapot_white / teapot_cosy,Test,T_25.wav,0,the teapot (WO?) oh the white one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+989,29,27,saw_hand / saw_electric,Test,T_27.wav,0,saw (WO?) the eh hand one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+990,29,28,fan_hand / fan_electric,Test,T_28.wav,0,eh fan (WO?) the hand fan ,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+991,29,29,orange_skin / orange_slice,Test,T_29.wav,0,orange (WO?) the unpeeled,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+992,29,30,spade_garden / spade_beach,Test,T_30.wav,0,spade (WO?) eh the garden one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+993,29,31,key_gold / key_car,Test,T_31.wav,0,key uh like a house key one,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+994,29,32,door_handle / door_knob,Test,T_32.wav,0,door handle (WO?) eh the not the knob one but like the bar one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+995,29,33,bell_hand / bell_bike,Test,T_33.wav,0,bell (WO?) oh the em old fashioned kind of bell,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+996,29,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese (WO? Oh ehm the orange one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+997,29,37,clock_wall / clock_digital,Test,T_37.wav,1,wall clock,FL,PR,PR,1455,,Contrast_Singleton,Low,TRUE
+998,29,38,hat_sun / hat_cowboy,Test,T_38.wav,1,the black ribboned hat,FL,PR,PR,2161,,Contrast_Singleton,Low,TRUE
+999,29,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,lidded pen,FL,PR,PR,1388,,Contrast_Singleton,Low,TRUE
+1000,29,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1438,,Contrast_Singleton,Low,TRUE
+1001,29,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,grandad pipe,FL,PR,PR,1487,,Contrast_Singleton,Low,TRUE
+1002,29,42,bat_animal / bat_baseball,Test,T_42.wav,1,flying bat,FL,PR,PR,1612,very difficult to find the onset of the f,Contrast_Singleton,Low,TRUE
+1003,29,43,horse_animal / horse_rocking,Test,T_43.wav,1,real horse,FL,PR,PR,979,,Contrast_Singleton,Low,TRUE
+1004,29,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,eh mens thirt,FP,PR,PR,2524,,Contrast_Singleton,Low,TRUE
+1005,29,46,eye_pupil / I_letter,Test,T_46.wav,1,eh human eye,FP,PR,PR,1879,,Contrast_Singleton,Low,TRUE
+1006,29,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,1292,,Contrast_Singleton,Low,TRUE
+1007,30,2,bin_lid / bin_pedal,Test,T_02.wav,1,a bin without a pedal,FL,PO,PO,1847,,Contrast_Singleton,High,TRUE
+1008,30,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,the cup without a saucer,FL,PO,PO,1992,,Contrast_Singleton,High,TRUE
+1009,30,5,mirror_wall / mirror_hand,Test,T_05.wav,1,the mirror without a handle,FL,PO,PO,1672,,Contrast_Singleton,High,TRUE
+1010,30,6,chair_wooden / chair_baby,Test,T_06.wav,1,the wooden chair,FL,PR,PR,1490,,Contrast_Singleton,High,TRUE
+1011,30,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,lighter with a flame,FL,PO,PO,1287,,Contrast_Singleton,High,TRUE
+1012,30,8,egg_shell / egg_yolk,Test,T_08.wav,1,the unbroken egg,FL,PR,PR,1662,hard to find the onset of unbroken,Contrast_Singleton,High,TRUE
+1013,30,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,red open umbrella,FL,PR,PR,1065,,Contrast_Singleton,High,TRUE
+1014,30,10,candle_unused / candle_melted,Test,T_10.wav,1,the unused candle ,FL,PR,PR,974,,Contrast_Singleton,High,TRUE
+1015,30,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,the knife on it's own again,FL,PO,PO,1527,,Contrast_Singleton,High,TRUE
+1016,30,12,car_family / car_sports,Test,T_12.wav,1,small car,FL,PR,PR,934,,Contrast_Singleton,High,TRUE
+1017,30,14,gun_real / gun_toy,Test,T_14.wav,0,um the pistol {WO?} the uh realistic pistol,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1018,30,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle {WO?} the uuhh not the bike sadal,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1019,30,17,headphones_large / headphones_small,Test,T_17.wav,0,black headphones {WO?} the uh black headphones rather than the ear phones,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1020,30,19,wine_glass / wine_red,Test,T_19.wav,0,wine glass {WO?} uhh oh the empty wine glass,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1021,30,24,glove_wooly / glove_boxing,Test,T_24.wav,0,um the red glove {WO?} the uhh the open red glove {okay the..} not the boxing one,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1022,30,25,teapot_white / teapot_cosy,Test,T_25.wav,1,white teapot,FL,PR,PR,1035,,Contrast_Singleton,Low,TRUE
+1023,30,27,saw_hand / saw_electric,Test,T_27.wav,1,handheld saw,FL,PR,PR,1401,,Contrast_Singleton,Low,TRUE
+1024,30,28,fan_hand / fan_electric,Test,T_28.wav,1,professional…uh the japanese fan**********,RE,DE,,NA,,Contrast_Singleton,Low,TRUE
+1025,30,29,orange_skin / orange_slice,Test,T_29.wav,1,the whole orange,FL,PR,PR,1132,,Contrast_Singleton,Low,TRUE
+1026,30,30,spade_garden / spade_beach,Test,T_30.wav,1,the metal shovel,FL,PR,PR,1953,,Contrast_Singleton,Low,TRUE
+1027,30,31,key_gold / key_car,Test,T_31.wav,1,the house key,FL,PR,PR,1257,,Contrast_Singleton,Low,TRUE
+1028,30,33,bell_hand / bell_bike,Test,T_33.wav,1,the handheld bell,FL,PR,PR,1582,,Contrast_Singleton,Low,TRUE
+1029,30,34,cheese_block / cheese_blue,Test,T_34.wav,1,slice of edam,FL,PR,PR,1224,,Contrast_Singleton,Low,TRUE
+1030,30,37,clock_wall / clock_digital,Test,T_37.wav,0,the clock ..oh the anologue clock,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1031,30,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,the pen {WO?} uhh oh the pen with the lid on,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1032,30,40,apple_red / apple_green,Test,T_40.wav,0,the apple {WO?} the red apple,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1033,30,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,0,pipe {WO?} uhh smoking pipe,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1034,30,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat {WO?} the bat {think there's two?} uhhh don't think there is..bat with it's open wings,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1035,30,43,horse_animal / horse_rocking,Test,T_43.wav,0,horse {WO?} the uh live horse,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1036,30,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,uh uh the male..men yellow tshirt..male yeah,FP,PR,PR,3400,think justr stuttering not proper RE ***,Singleton_Contrast,High,FALSE
+1037,30,46,eye_pupil / I_letter,Test,T_46.wav,0,the eye {WO?} oh (laughs) the anatomical eye,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1038,30,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,0,potatoes {WO?} the uh unpeeled,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1039,31,2,bin_lid / bin_pedal,Test,T_02.wav,0,"bin uh grey bin with a lid, uh kitchen bin {okay} tall bin with black lid",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1040,31,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,cup of coffee…that is..doesn't have a saucer,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1041,31,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror {WO?} theee uhh elaborate wall mirror,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1042,31,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter..that is on fire,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1043,31,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg…uh that is whole..not cooked,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1044,31,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella {WO?} the open umbrella,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1045,31,10,candle_unused / candle_melted,Test,T_10.wav,0,candle {WO?} the new candle,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1046,31,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife {WO?} the kitchen knife,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1047,31,12,car_family / car_sports,Test,T_12.wav,0,grey car uh um the one that isn't a sports car,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1048,31,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1749,,Contrast_Singleton,Low,TRUE
+1049,31,15,saddle_horse / saddle_bike,Test,T_15.wav,0,saddle uh horse saddle,RE,AS,,NA,,Contrast_Singleton,Low,FALSE
+1050,31,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked lock,FL,PR,PR,1864,,Contrast_Singleton,Low,TRUE
+1051,31,17,headphones_large / headphones_small,Test,T_17.wav,1,over the head headphones ,FL,PR,PR,1241,may have missed start of onset,Contrast_Singleton,Low,TRUE
+1052,31,18,battery_AA / battery_car,Test,T_18.wav,1,AA battery,FL,PR,PR,1470,,Contrast_Singleton,Low,TRUE
+1053,31,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1172,,Contrast_Singleton,Low,TRUE
+1054,31,20,money_notes / money_coins,Test,T_20.wav,1,paper money,FL,PR,PR,1594,,Contrast_Singleton,Low,TRUE
+1055,31,21,boot_foot / boot_car,Test,T_21.wav,1,black boot,FL,PR,PR,1170,,Contrast_Singleton,Low,TRUE
+1056,31,22,camera_corder / camera_cctv,Test,T_22.wav,1,film camera,FL,PR,PR,1276,hard to find the onset of film,Contrast_Singleton,Low,TRUE
+1057,31,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,1990,,Contrast_Singleton,Low,TRUE
+1058,31,24,glove_wooly / glove_boxing,Test,T_24.wav,1,fashonable glove,FL,PR,PR,838,,Contrast_Singleton,Low,TRUE
+1059,31,25,teapot_white / teapot_cosy,Test,T_25.wav,1,tea eh teapot without the tea cosy,RE,DE,,NA,,Singleton_Contrast,High,FALSE
+1060,31,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw the uh handheld saw (cuts off),RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1061,31,28,fan_hand / fan_electric,Test,T_28.wav,0,the fan {WO?} uh the handheld fan,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1062,31,29,orange_skin / orange_slice,Test,T_29.wav,0,an orange {WO?} the whole orange,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1063,31,30,spade_garden / spade_beach,Test,T_30.wav,0,the spade {WO?} uh the metal spade,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1064,31,31,key_gold / key_car,Test,T_31.wav,0,(runs over from previous trial - eye glasses) um the key {WO?} for the door,RE,AO,,NA,runs over from previous trial,Singleton_Contrast,High,TRUE
+1065,31,32,door_handle / door_knob,Test,T_32.wav,0,a door handle {WO?} sorry uh metal door hand uh metal rectangular door handle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1066,31,33,bell_hand / bell_bike,Test,T_33.wav,0, a bell {WO?} um a(aaa).. not a bike bell,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1067,31,34,cheese_block / cheese_blue,Test,T_34.wav,0,block of cheese {WO?} the um  block of hol holey cheese..cheese with holes in it,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1068,31,37,clock_wall / clock_digital,Test,T_37.wav,1,the wall clock,FL,PR,PR,2201,,Contrast_Singleton,High,TRUE
+1069,31,38,hat_sun / hat_cowboy,Test,T_38.wav,1,female hat,FL,PR,PR,1098,hard to find the onset of female,Contrast_Singleton,High,TRUE
+1070,31,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,a biro with its lid on ,FL,PO,PO,1003,,Contrast_Singleton,High,TRUE
+1071,31,40,apple_red / apple_green,Test,T_40.wav,1,(background noise) red apple,FL,PR,PR,1427,,Contrast_Singleton,High,TRUE
+1072,31,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,tobacco pipe,FL,PR,PR,903,,Contrast_Singleton,High,TRUE
+1073,31,42,bat_animal / bat_baseball,Test,T_42.wav,1,the animal bat,FL,PR,PR,1330,,Contrast_Singleton,High,TRUE
+1074,31,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,the men's yellow tshirt,FL,PR,PR,1074,,Contrast_Singleton,High,TRUE
+1075,31,46,eye_pupil / I_letter,Test,T_46.wav,1,a human eye,FL,PR,PR,1565,,Contrast_Singleton,High,TRUE
+1076,31,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,the potatoes with the skins on,FL,PO,PO,1650,,Contrast_Singleton,High,TRUE
+1077,32,2,bin_lid / bin_pedal,Test,T_02.wav,0,black dust bin {WO?} umm theee squarish one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1078,32,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,uum coffee cup without a saucer,FP,PO,PO,4109,,Singleton_Contrast,High,FALSE
+1079,32,5,mirror_wall / mirror_hand,Test,T_05.wav,1,uum ornate framed mirror,FP,PR,PR,3345,,Singleton_Contrast,High,FALSE
+1080,32,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair {WO?} uum wooden chair ,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1081,32,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,silver lighter {WO?} uum with a flame,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1082,32,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg {WO?} uum whole unbroken egg,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1083,32,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,red umbrella {WO?} open red umbrella,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1084,32,10,candle_unused / candle_melted,Test,T_10.wav,0,candle {WO?} uh un unmelted candle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1085,32,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife {WO?} uum cooking knife,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1086,32,12,car_family / car_sports,Test,T_12.wav,0,silver car {WO?} uum the non sports car,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1087,32,14,gun_real / gun_toy,Test,T_14.wav,1,sss uuum silver gun,RE,DE,,NA,not sure what to do with this??? ****,Contrast_Singleton,High,TRUE
+1088,32,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horse saddle,FL,PR,PR,1081,,Contrast_Singleton,High,TRUE
+1089,32,16,pad_unlocked / pad_locked,Test,T_16.wav,1,open padlock,FL,PR,PR,1657,,Contrast_Singleton,High,TRUE
+1090,32,17,headphones_large / headphones_small,Test,T_17.wav,1,noise cancelling headphones,FL,PR,PR,1971,,Contrast_Singleton,High,TRUE
+1091,32,18,battery_AA / battery_car,Test,T_18.wav,1,cylindrical battery,FL,PR,PR,1554,,Contrast_Singleton,High,TRUE
+1092,32,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1341,,Contrast_Singleton,High,TRUE
+1093,32,20,money_notes / money_coins,Test,T_20.wav,1,pile of notes,FL,PR,PR,1509,,Contrast_Singleton,High,TRUE
+1094,32,21,boot_foot / boot_car,Test,T_21.wav,1,leather boot,FL,PR,PR,1365,,Contrast_Singleton,High,TRUE
+1095,32,22,camera_corder / camera_cctv,Test,T_22.wav,1,video camera,FL,PR,PR,1295,,Contrast_Singleton,High,TRUE
+1096,32,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,wooden guitar,FL,PR,PR,1277,,Contrast_Singleton,High,TRUE
+1097,32,24,glove_wooly / glove_boxing,Test,T_24.wav,1,red glove with fingers,FL,PR,PR,1621,,Contrast_Singleton,High,TRUE
+1098,32,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot…teapot without a cosy,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1099,32,27,saw_hand / saw_electric,Test,T_27.wav,1,ssss um hand saw,RE,DE,,NA,not sure what to do with this??? ****,Singleton_Contrast,Low,FALSE
+1100,32,28,fan_hand / fan_electric,Test,T_28.wav,0,fan {WO?} uuh paper fan,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1101,32,29,orange_skin / orange_slice,Test,T_29.wav,0,orange {WO?} whole orange,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1102,32,30,spade_garden / spade_beach,Test,T_30.wav,0,spade uum metal spade,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1103,32,31,key_gold / key_car,Test,T_31.wav,1,door key,FL,PR,PR,3208,,Singleton_Contrast,Low,FALSE
+1104,32,32,door_handle / door_knob,Test,T_32.wav,0,door handle {WO?} uum thee long door handle ,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1105,32,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese  uuum yellow cheese,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1106,32,37,clock_wall / clock_digital,Test,T_37.wav,1,round silver clock,FL,PR,PR,1538,,Contrast_Singleton,Low,TRUE
+1107,32,38,hat_sun / hat_cowboy,Test,T_38.wav,1,hat with a black ribbon,FL,PO,PO,1865,hard to find the onset of hat,Contrast_Singleton,Low,TRUE
+1108,32,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,pen with the lid on ,FL,PO,PO,1682,,Contrast_Singleton,Low,TRUE
+1109,32,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1216,,Contrast_Singleton,Low,TRUE
+1110,32,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,pipe for smoking,FL,PO,PO,2088,,Contrast_Singleton,Low,TRUE
+1111,32,42,bat_animal / bat_baseball,Test,T_42.wav,1,living bat,FL,PR,PR,2093,,Contrast_Singleton,Low,TRUE
+1112,32,43,horse_animal / horse_rocking,Test,T_43.wav,1,living horse,FL,PR,PR,1822,,Contrast_Singleton,Low,TRUE
+1113,32,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,yellow man's tshirt,FL,PR,PR,1360,,Contrast_Singleton,Low,TRUE
+1114,32,46,eye_pupil / I_letter,Test,T_46.wav,1,eyeball,FL,NO,NO,1817,hard to find exact onset,Contrast_Singleton,Low,TRUE
+1115,32,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,potatoes with skins,FL,PO,PO,1928,,Contrast_Singleton,Low,TRUE
+1116,33,2,bin_lid / bin_pedal,Test,T_02.wav,0,bin ehhhhh…. A bin which you have to lift the lid,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1117,33,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,coffee {WO?} oh eeeh mug of coffee on it's own,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1118,33,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror {WO?} ehhh wall mirror,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1119,33,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter…eh lit,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1120,33,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg {WO?} uhh non fried egg,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1121,33,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,umbrella…open,UP,PO,PO,836,close call *** no filler here which suggests it might not be correction,Singleton_Contrast,Low,FALSE
+1122,33,10,candle_unused / candle_melted,Test,T_10.wav,1,unmelted candle,FL,PR,PR,3528,,Singleton_Contrast,Low,FALSE
+1123,33,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife {WO?} ehh kitchen knife,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1124,33,12,car_family / car_sports,Test,T_12.wav,0,car {WO?} uhhh family car,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1125,33,14,gun_real / gun_toy,Test,T_14.wav,1,real gun,FL,PR,PR,1178,,Contrast_Singleton,Low,TRUE
+1126,33,15,saddle_horse / saddle_bike,Test,T_15.wav,1,horses saddle,FL,PR,PR,1010,,Contrast_Singleton,Low,TRUE
+1127,33,16,pad_unlocked / pad_locked,Test,T_16.wav,1,unlocked padlock,FL,PR,PR,1396,,Contrast_Singleton,Low,TRUE
+1128,33,17,headphones_large / headphones_small,Test,T_17.wav,1,over-ear headphones,FL,PR,PR,1740,,Contrast_Singleton,Low,TRUE
+1129,33,18,battery_AA / battery_car,Test,T_18.wav,1,the double AA battery,FL,PR,PR,1671,,Contrast_Singleton,Low,TRUE
+1130,33,19,wine_glass / wine_red,Test,T_19.wav,1,empty wine glass,FL,PR,PR,1344,,Contrast_Singleton,Low,TRUE
+1131,33,20,money_notes / money_coins,Test,T_20.wav,1,notes of money,FL,PR,PR,1631,,Contrast_Singleton,Low,TRUE
+1132,33,21,boot_foot / boot_car,Test,T_21.wav,1,leather boot,FL,PR,PR,1621,,Contrast_Singleton,Low,TRUE
+1133,33,22,camera_corder / camera_cctv,Test,T_22.wav,1,eh video camera,FP,PR,PR,2193,,Contrast_Singleton,Low,TRUE
+1134,33,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,acoustic guitar,FL,PR,PR,1542,,Contrast_Singleton,Low,TRUE
+1135,33,24,glove_wooly / glove_boxing,Test,T_24.wav,1,eh red hand glove,FP,PR,PR,2091,,Contrast_Singleton,Low,TRUE
+1136,33,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot {WO?} without a cosy,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1137,33,27,saw_hand / saw_electric,Test,T_27.wav,0,saw {WO?} oh the  eh hand saw manual saw,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1138,33,28,fan_hand / fan_electric,Test,T_28.wav,0,fan {WO?} ehh hand fan,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1139,33,29,orange_skin / orange_slice,Test,T_29.wav,0,orange {about to speak} ehh whole orange,RE,AS/AO,,NA,,Singleton_Contrast,High,TRUE
+1140,33,30,spade_garden / spade_beach,Test,T_30.wav,0,shovel {WO} eeem metal shovel,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1141,33,31,key_gold / key_car,Test,T_31.wav,0,key {WO?} the house key,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1142,33,32,door_handle / door_knob,Test,T_32.wav,0,door handle {WO?} ahhh elongated door handle,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1143,33,33,bell_hand / bell_bike,Test,T_33.wav,0,bell {WO?} eem shaker bell,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1144,33,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese eeehh yellow cheese,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1145,33,37,clock_wall / clock_digital,Test,T_37.wav,1,clock with hands,FL,PO,PO,1240,,Contrast_Singleton,High,TRUE
+1146,33,38,hat_sun / hat_cowboy,Test,T_38.wav,1,woman's hat,FL,PR,PR,1622,,Contrast_Singleton,High,TRUE
+1147,33,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,(noise from trial before) ehh pen with the lid on it,FP,PO,PO,NA,noise from previous trial,Contrast_Singleton,High,TRUE
+1148,33,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1048,,Contrast_Singleton,High,TRUE
+1149,33,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,smokers pipe,FL,PR,PR,1089,,Contrast_Singleton,High,TRUE
+1150,33,42,bat_animal / bat_baseball,Test,T_42.wav,1,bat the animal,FL,PO,PO,1291,,Contrast_Singleton,High,TRUE
+1151,33,43,horse_animal / horse_rocking,Test,T_43.wav,1,real horse,FL,PR,PR,1328,,Contrast_Singleton,High,TRUE
+1152,33,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,men's yellow tshirt,FL,PR,PR,1200,,Contrast_Singleton,High,TRUE
+1153,33,46,eye_pupil / I_letter,Test,T_46.wav,1,person's eye,FL,PR,PR,1054,,Contrast_Singleton,High,TRUE
+1154,33,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,unpeeled potatoes,FL,PR,PR,1409,,Contrast_Singleton,High,TRUE
+1155,34,2,bin_lid / bin_pedal,Test,T_02.wav,0,bin,FL,NO,NO,1875,,Contrast_Singleton,Low,FALSE
+1156,34,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,ehh cup,FP,NO,NO,3439,,Contrast_Singleton,Low,FALSE
+1157,34,5,mirror_wall / mirror_hand,Test,T_05.wav,1,a wall mirror,FL,PR,PR,1289,very difficult to find the onset of wall,Contrast_Singleton,Low,TRUE
+1158,34,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair,FL,NO,NO,1962,,Contrast_Singleton,Low,FALSE
+1159,34,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,lighter,FL,NO,NO,2371,,Contrast_Singleton,Low,FALSE
+1160,34,8,egg_shell / egg_yolk,Test,T_08.wav,0,an egg,FL,NO,NO,1582,,Contrast_Singleton,Low,FALSE
+1161,34,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella,FL,NO,NO,1724,,Contrast_Singleton,Low,FALSE
+1162,34,10,candle_unused / candle_melted,Test,T_10.wav,0,candle,FL,NO,NO,2013,,Contrast_Singleton,Low,FALSE
+1163,34,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,a knife,FL,NO,NO,2307,,Contrast_Singleton,Low,FALSE
+1164,34,12,car_family / car_sports,Test,T_12.wav,0,car,FL,NO,NO,2328,,Contrast_Singleton,Low,FALSE
+1165,34,14,gun_real / gun_toy,Test,T_14.wav,0,gun {WO?} umm real gun,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1166,34,15,saddle_horse / saddle_bike,Test,T_15.wav,1,aaaah horse saddle,FP,PR,PR,3397,,Singleton_Contrast,High,FALSE
+1167,34,16,pad_unlocked / pad_locked,Test,T_16.wav,1,open padlock,FL,PR,PR,1875,,Singleton_Contrast,High,FALSE
+1168,34,17,headphones_large / headphones_small,Test,T_17.wav,1,ahhh over the head headphones,FP,PR,PR,4742,,Singleton_Contrast,High,FALSE
+1169,34,18,battery_AA / battery_car,Test,T_18.wav,0,battery {WO?} oh a…like a double AA battery,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1170,34,19,wine_glass / wine_red,Test,T_19.wav,0,wine glass {WO?} oh empty wine glass,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1171,34,20,money_notes / money_coins,Test,T_20.wav,1,ah paper money,FP,PR,PR,3193,,Singleton_Contrast,High,FALSE
+1172,34,22,camera_corder / camera_cctv,Test,T_22.wav,0,camera {WO?} oh the … black cam corder,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1173,34,24,glove_wooly / glove_boxing,Test,T_24.wav,1,gla ahh …woman's ladies glove,RE,DE/AS,,NA,,Singleton_Contrast,High,FALSE
+1174,34,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot,FL,NO,NO,1984,,Contrast_Singleton,High,FALSE
+1175,34,27,saw_hand / saw_electric,Test,T_27.wav,1,hand saw,FL,PR,PR,2345,,Contrast_Singleton,High,TRUE
+1176,34,28,fan_hand / fan_electric,Test,T_28.wav,0,fan,FL,NO,NO,2402,,Contrast_Singleton,High,FALSE
+1177,34,29,orange_skin / orange_slice,Test,T_29.wav,0,orange,FL,NO,NO,2436,,Contrast_Singleton,High,FALSE
+1178,34,30,spade_garden / spade_beach,Test,T_30.wav,1,metal spade,FL,PR,PR,2120,,Contrast_Singleton,High,TRUE
+1179,34,31,key_gold / key_car,Test,T_31.wav,0,key,FL,NO,NO,2781,,Contrast_Singleton,High,FALSE
+1180,34,32,door_handle / door_knob,Test,T_32.wav,1,long door handle,FL,PR,PR,1665,,Contrast_Singleton,High,TRUE
+1181,34,33,bell_hand / bell_bike,Test,T_33.wav,0,bell,FL,NO,NO,2932,,Contrast_Singleton,High,FALSE
+1182,34,34,cheese_block / cheese_blue,Test,T_34.wav,0,cheese,FL,NO,NO,2184,,Contrast_Singleton,High,FALSE
+1183,34,37,clock_wall / clock_digital,Test,T_37.wav,0,a clock…uhh analogue clock,RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1184,34,38,hat_sun / hat_cowboy,Test,T_38.wav,1,a sun hat or like a woman's hat,FL,PR,OTHER,2691,onset of sun taken,Singleton_Contrast,Low,FALSE
+1185,34,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,a pen with the lid on,FL,PO,PO,2271,,Singleton_Contrast,Low,FALSE
+1186,34,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,2066,,Singleton_Contrast,Low,FALSE
+1187,34,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,a smoking pipe,FL,PR,PR,4781,,Singleton_Contrast,Low,FALSE
+1188,34,42,bat_animal / bat_baseball,Test,T_42.wav,1,a live bat,FL,PR,PR,3094,,Singleton_Contrast,Low,FALSE
+1189,34,43,horse_animal / horse_rocking,Test,T_43.wav,1,a live horse,FL,PR,PR,2037,check not FP??,Singleton_Contrast,Low,FALSE
+1190,34,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,a man's tshirt,FL,PR,PR,2297,,Singleton_Contrast,Low,FALSE
+1191,34,46,eye_pupil / I_letter,Test,T_46.wav,1,the human eye,FL,PR,PR,2582,,Singleton_Contrast,Low,FALSE
+1192,34,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,ahh unpeeled potatoes,FP,PR,PR,2618,,Singleton_Contrast,Low,FALSE
+1193,35,2,bin_lid / bin_pedal,Test,T_02.wav,1,the roll open bin,FL,PR,PR,1285,,Contrast_Singleton,High,TRUE
+1194,35,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,cup of coffee with no saucer,FL,PO,PO,2038,,Contrast_Singleton,High,TRUE
+1195,35,5,mirror_wall / mirror_hand,Test,T_05.wav,1,the wall mounted mirror,FL,PR,PR,1441,,Contrast_Singleton,High,TRUE
+1196,35,6,chair_wooden / chair_baby,Test,T_06.wav,1,emm the wooden chair,FP,PR,PR,2493,,Contrast_Singleton,High,TRUE
+1197,35,7,lighter_flame / lighter_noflame,Test,T_07.wav,1,same again with the flame (i.e. lighter with flame),FL,PR,OTHER,1422,onset from same,Contrast_Singleton,High,TRUE
+1198,35,8,egg_shell / egg_yolk,Test,T_08.wav,1,em egg in the shell,FP,PO,PO,1677,,Contrast_Singleton,High,TRUE
+1199,35,9,umbrella_open / umbrella_closed,Test,T_09.wav,1,the open umbrella,FL,PR,PR,1143,,Contrast_Singleton,High,TRUE
+1200,35,10,candle_unused / candle_melted,Test,T_10.wav,1,candle with the wick again,FL,PO,PO,1213,,Contrast_Singleton,High,TRUE
+1201,35,11,knife_kitchen / knife_swiss,Test,T_11.wav,1,eh single blade knife,FP,PR,PR,1140,,Contrast_Singleton,High,TRUE
+1202,35,12,car_family / car_sports,Test,T_12.wav,1,side on car,FL,PR,PR,1326,,Contrast_Singleton,High,TRUE
+1203,35,14,gun_real / gun_toy,Test,T_14.wav,1,the(ee) real pistol,LE,PR,PR,2870,,Singleton_Contrast,Low,FALSE
+1204,35,15,saddle_horse / saddle_bike,Test,T_15.wav,0,the saddle {WO?} oh the horse saddle,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1205,35,16,pad_unlocked / pad_locked,Test,T_16.wav,1,the open padlock,FL,PR,PR,2760,,Singleton_Contrast,Low,FALSE
+1206,35,17,headphones_large / headphones_small,Test,T_17.wav,1,the(ee) outer ear headphones,LE,PR,PR,4001,,Singleton_Contrast,Low,FALSE
+1207,35,18,battery_AA / battery_car,Test,T_18.wav,1,the(ee) AA battery,LE,PR,PR,4681,,Singleton_Contrast,Low,FALSE
+1208,35,19,wine_glass / wine_red,Test,T_19.wav,1,the empty wine glass,FL,PR,PR,2373,,Singleton_Contrast,Low,FALSE
+1209,35,20,money_notes / money_coins,Test,T_20.wav,1,the notes…the money notes,RE,AS,,NA,,Singleton_Contrast,Low,FALSE
+1210,35,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,eh the acoustic guitar,FP,PR,PR,2602,,Singleton_Contrast,Low,FALSE
+1211,35,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the red glove with the fingers in it stretched,FL,PR,PO,3099,onset of red listed,Singleton_Contrast,Low,FALSE
+1212,35,25,teapot_white / teapot_cosy,Test,T_25.wav,0,em the teapot,FP,NO,NO,2453,,Contrast_Singleton,Low,FALSE
+1213,35,27,saw_hand / saw_electric,Test,T_27.wav,1,the haaeehhandheld saw,FP/LE,PR,PR,2916,second clar mention of handheld noted,Contrast_Singleton,Low,TRUE
+1214,35,28,fan_hand / fan_electric,Test,T_28.wav,1,the handheld fan,FL,PR,PR,3526,,Contrast_Singleton,Low,TRUE
+1215,35,29,orange_skin / orange_slice,Test,T_29.wav,1,whole orange,FL,PR,PR,2155,,Contrast_Singleton,Low,TRUE
+1216,35,30,spade_garden / spade_beach,Test,T_30.wav,1,the metal sspade,FL/LE,PR,PR,2062,,Contrast_Singleton,Low,TRUE
+1217,35,31,key_gold / key_car,Test,T_31.wav,1,the metal key,FL,PR,PR,1799,,Contrast_Singleton,Low,TRUE
+1218,35,32,door_handle / door_knob,Test,T_32.wav,1,the open door handle..sorry the long door hande,RE,DE/AS,,NA,,Contrast_Singleton,Low,TRUE
+1219,35,33,bell_hand / bell_bike,Test,T_33.wav,1,hand bell again,FL,PR,PR,2340,difficult to find the onset of the h,Contrast_Singleton,Low,TRUE
+1220,35,34,cheese_block / cheese_blue,Test,T_34.wav,1,the non mouldy cheese,FL,PR,PR,2517,,Contrast_Singleton,Low,TRUE
+1221,35,37,clock_wall / clock_digital,Test,T_37.wav,1,theee circular clock,LE,PR,PR,2663,,Singleton_Contrast,High,FALSE
+1222,35,39,pen_ballpoint / pen_nolid,Test,T_39.wav,0,blue biro…{pause}…with the lid on,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1223,35,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,the…. pipe with the wooden bit,UP,PO,PO,3670,,Singleton_Contrast,High,FALSE
+1224,35,42,bat_animal / bat_baseball,Test,T_42.wav,0,bat again {WO?} just the same one the like real bat,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1225,35,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real horse,FL,PR,PR,2023,,Singleton_Contrast,High,FALSE
+1226,35,44,tshirt_round / tshirt_vneck,Test,T_44.wav,0,yellow tshirt…{pause} eh for man,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1227,35,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,the potatoes with the skins still on,FL,PO,PO,2082,,Singleton_Contrast,High,FALSE
+1228,36,2,bin_lid / bin_pedal,Test,T_02.wav,0,the bin…the square bin,RE,AS,,NA,,Singleton_Contrast,High,TRUE
+1229,36,4,coffee_cup / coffee_saucer,Test,T_04.wav,1,eeeeeh mug without the saucer,FP,PO,PO,3843,,Singleton_Contrast,High,FALSE
+1230,36,5,mirror_wall / mirror_hand,Test,T_05.wav,0,mirror {WO?} ehh the one with the leafs round the side,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1231,36,6,chair_wooden / chair_baby,Test,T_06.wav,0,chair {WO?} the wooden chair,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1232,36,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,eh lighter {WO?} eh the lighter with fire,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1233,36,8,egg_shell / egg_yolk,Test,T_08.wav,0,egg {WO?} eh the one with the shell,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1234,36,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,umbrella {WO?} eh the open one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1235,36,10,candle_unused / candle_melted,Test,T_10.wav,0,candle {WO?} the one that's not dripping wax,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1236,36,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,knife {WO?} ehhh the single blade one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1237,36,12,car_family / car_sports,Test,T_12.wav,0,the car {WO?} eh not a sports car {okay},RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1238,36,14,gun_real / gun_toy,Test,T_14.wav,1,metal gun,FL,PR,PR,896,,Contrast_Singleton,High,TRUE
+1239,36,15,saddle_horse / saddle_bike,Test,T_15.wav,1,the horse saddle,FL,PR,PR,1088,,Contrast_Singleton,High,TRUE
+1240,36,16,pad_unlocked / pad_locked,Test,T_16.wav,1,open padlock,FL,PR,PR,1080,,Contrast_Singleton,High,TRUE
+1241,36,17,headphones_large / headphones_small,Test,T_17.wav,1,headphones over your head,FL,PO,PO,1420,,Contrast_Singleton,High,TRUE
+1242,36,18,battery_AA / battery_car,Test,T_18.wav,1,small battery,FL,PR,PR,1792,,Contrast_Singleton,High,TRUE
+1243,36,19,wine_glass / wine_red,Test,T_19.wav,1,empty wineglass,FL,PR,PR,1918,,Contrast_Singleton,High,TRUE
+1244,36,20,money_notes / money_coins,Test,T_20.wav,1,theee notes of money,LE,PR,PR,2228,,Contrast_Singleton,High,TRUE
+1245,36,21,boot_foot / boot_car,Test,T_21.wav,1,shoe boot,FL,PR,PR,1143,,Contrast_Singleton,High,TRUE
+1246,36,22,camera_corder / camera_cctv,Test,T_22.wav,1,the film camera,FL,PR,PR,1512,,Contrast_Singleton,High,TRUE
+1247,36,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,the acoustic guitar,FL,PR,PR,1195,,Contrast_Singleton,High,TRUE
+1248,36,24,glove_wooly / glove_boxing,Test,T_24.wav,1,(noise from outside) not boxing glove glove,FL,PR,PR,1348,,Contrast_Singleton,High,TRUE
+1249,36,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot {WO?} theee one without the tea cosy,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1250,36,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw {WO?} the hand saw,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1251,36,28,fan_hand / fan_electric,Test,T_28.wav,0,the fan {WO?} em the..the not electric fan,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1252,36,29,orange_skin / orange_slice,Test,T_29.wav,1,the whole orange,FL,PR,PR,1809,,Singleton_Contrast,Low,FALSE
+1253,36,30,spade_garden / spade_beach,Test,T_30.wav,0,eh spade {WO?} ehhh metal spade,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1254,36,31,key_gold / key_car,Test,T_31.wav,0,the key..{listener about to ask} ehh house key,RE,AS/AO,,NA,,Singleton_Contrast,Low,TRUE
+1255,36,32,door_handle / door_knob,Test,T_32.wav,0,door handle {WO?} theeee one you push down,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1256,36,33,bell_hand / bell_bike,Test,T_33.wav,0,the bell {WO?} theee one that you shake,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1257,36,34,cheese_block / cheese_blue,Test,T_34.wav,0,the cheese {WO?} the one with holes,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1258,36,37,clock_wall / clock_digital,Test,T_37.wav,1,anologue clock,FL,PR,PR,1114,,Contrast_Singleton,Low,TRUE
+1259,36,38,hat_sun / hat_cowboy,Test,T_38.wav,1,the hat with the ribbon,FL,PO,PO,2074,hard to find exact onset,Contrast_Singleton,Low,TRUE
+1260,36,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the pen with the lid on,FL,PO,PO,1561,,Contrast_Singleton,Low,TRUE
+1261,36,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1436,,Contrast_Singleton,Low,TRUE
+1262,36,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,the smoking pipe,FL,PR,PR,1745,,Contrast_Singleton,Low,TRUE
+1263,36,42,bat_animal / bat_baseball,Test,T_42.wav,1,the alive bat,FL,PR,PR,1602,,Contrast_Singleton,Low,TRUE
+1264,36,43,horse_animal / horse_rocking,Test,T_43.wav,1,the alive horse,FL,PR,PR,1449,,Contrast_Singleton,Low,TRUE
+1265,36,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,ehh mens tshirt,FP,PR,PR,2533,,Contrast_Singleton,Low,TRUE
+1266,36,46,eye_pupil / I_letter,Test,T_46.wav,1,the human eye,FL,PR,PR,1857,hard to fins onset,Contrast_Singleton,Low,TRUE
+1267,36,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,theee potatoes with skins,LE/UP,PO,PO,3000,,Contrast_Singleton,Low,TRUE
+1268,37,2,bin_lid / bin_pedal,Test,T_02.wav,1,The ehm manual bin,FP,PR,PR,4103,,Singleton_Contrast,Low,FALSE
+1269,37,4,coffee_cup / coffee_saucer,Test,T_04.wav,0,"cup of coffee, the cup of coffee without the saucer",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1270,37,5,mirror_wall / mirror_hand,Test,T_05.wav,0,the mirror (WO?) ehm the wall mirror,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1271,37,6,chair_wooden / chair_baby,Test,T_06.wav,NA,names the wrong item to begin with,,,,NA,,Singleton_Contrast,Low,NA
+1272,37,7,lighter_flame / lighter_noflame,Test,T_07.wav,0,theeee lighter (WO?) the lit lighter,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1273,37,8,egg_shell / egg_yolk,Test,T_08.wav,0,"the egg, the ehm hard egg",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1274,37,9,umbrella_open / umbrella_closed,Test,T_09.wav,0,the umbrella (WO?) the up umbrella,RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1275,37,10,candle_unused / candle_melted,Test,T_10.wav,0,"the candle, (WO?) the one that hasn’t been melted",RE,AO,,NA,,Singleton_Contrast,Low,TRUE
+1276,37,11,knife_kitchen / knife_swiss,Test,T_11.wav,0,"the knife, the ehm singular knife",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1277,37,12,car_family / car_sports,Test,T_12.wav,0,"the car, the ehm the less sporty car",RE,AS,,NA,,Singleton_Contrast,Low,TRUE
+1278,37,14,gun_real / gun_toy,Test,T_14.wav,1,the real gun ,FL,PR,PR,1939,,Contrast_Singleton,Low,TRUE
+1279,37,15,saddle_horse / saddle_bike,Test,T_15.wav,1,the horse saddle,FL,PR,PR,1258,,Contrast_Singleton,Low,TRUE
+1280,37,16,pad_unlocked / pad_locked,Test,T_16.wav,1,thee unlocked lock,LE,PR,PR,1495,,Contrast_Singleton,Low,TRUE
+1281,37,17,headphones_large / headphones_small,Test,T_17.wav,1,thee over the head headphones,LE,PR,PR,1494,,Contrast_Singleton,Low,TRUE
+1282,37,18,battery_AA / battery_car,Test,T_18.wav,1,thee plus or minus battery,LE/UP,PR,PR,2987,,Contrast_Singleton,Low,TRUE
+1283,37,19,wine_glass / wine_red,Test,T_19.wav,1,thee empty wine glass,LE,PR,PR,1443,,Contrast_Singleton,Low,TRUE
+1284,37,20,money_notes / money_coins,Test,T_20.wav,1,the notes,FL,NO,NO ,1160,,Contrast_Singleton,Low,TRUE
+1285,37,21,boot_foot / boot_car,Test,T_21.wav,1,the shoe boot,FL,PR,PR,1467,,Contrast_Singleton,Low,TRUE
+1286,37,22,camera_corder / camera_cctv,Test,T_22.wav,1,the digital camera,FL,PR,PR,2949,,Contrast_Singleton,Low,TRUE
+1287,37,23,guitar_acoustic / guitar_electric,Test,T_23.wav,1,the acoustic guitar,FL,PR,PR,1139,very difficult to get onset of acoustic,Contrast_Singleton,Low,TRUE
+1288,37,24,glove_wooly / glove_boxing,Test,T_24.wav,1,the ladies glove,FL,PR,PR,1328,,Contrast_Singleton,Low,TRUE
+1289,37,25,teapot_white / teapot_cosy,Test,T_25.wav,0,teapot (WO?) teapot without the  teacosy,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1290,37,27,saw_hand / saw_electric,Test,T_27.wav,0,the saw (WO?) he non electric saw,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1291,37,28,fan_hand / fan_electric,Test,T_28.wav,0,"the fan (WO?) thee what are they called, the held fan the handheld fan",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1292,37,29,orange_skin / orange_slice,Test,T_29.wav,0,the orange (WO?) the full orange,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1293,37,30,spade_garden / spade_beach,Test,T_30.wav,0,spade (WO?) the metal one,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1294,37,31,key_gold / key_car,Test,T_31.wav,0,the key (WO?) the door key,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1295,37,32,door_handle / door_knob,Test,T_32.wav,0,doorhandle (WO?) the one that’s a handle and not a nob,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1296,37,33,bell_hand / bell_bike,Test,T_33.wav,0,"the bell (WO?) ehm the one that has the dangly bit inside it, the dangly bell",RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1297,37,34,cheese_block / cheese_blue,Test,T_34.wav,0,thee cheese (WO?) the one with the holes in it ,RE,AO,,NA,,Singleton_Contrast,High,TRUE
+1298,37,37,clock_wall / clock_digital,Test,T_37.wav,1,theee non digital clock,LE,PR,PR,2506,,Contrast_Singleton,High,TRUE
+1299,37,38,hat_sun / hat_cowboy,Test,T_38.wav,1,the sun hat,FL,PR,PR,1085,,Contrast_Singleton,High,TRUE
+1300,37,39,pen_ballpoint / pen_nolid,Test,T_39.wav,1,the pen with the lid on,FL,PO,PO,1442,,Contrast_Singleton,High,TRUE
+1301,37,40,apple_red / apple_green,Test,T_40.wav,1,red apple,FL,PR,PR,1024,,Contrast_Singleton,High,TRUE
+1302,37,41,pipe_smoke / pipe_kitchen,Test,T_41.wav,1,smoking pipe,FL,PR,PR,1049,,Contrast_Singleton,High,TRUE
+1303,37,42,bat_animal / bat_baseball,Test,T_42.wav,1,the real bat,FL,PR,PR,1348,,Contrast_Singleton,High,TRUE
+1304,37,43,horse_animal / horse_rocking,Test,T_43.wav,1,the real horse,FL,PR,PR,1653,,Contrast_Singleton,High,TRUE
+1305,37,44,tshirt_round / tshirt_vneck,Test,T_44.wav,1,the yellowy orange top with no writing on it,FL,PR,PO,952,,Contrast_Singleton,High,TRUE
+1306,37,46,eye_pupil / I_letter,Test,T_46.wav,1,the? real eye,FL,PR,PR,1235,,Contrast_Singleton,High,TRUE
+1307,37,47,potatoes_skin / potatoes_peeled,Test,T_47.wav,1,potatoes with their skin on,FL,PO,PO,1938,,Contrast_Singleton,High,TRUE

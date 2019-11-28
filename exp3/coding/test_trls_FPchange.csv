@@ -1,0 +1,1969 @@
+SessionID,Filename,Series,TargComp,Transcription,Modifier,SpeechFluency,Adjective,Onset,Comments,ShiftDir,PragCon,PercCon
+1,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,TRUE
+1,Z_02.wav,2,bin_lid / bin_pedal,a black bin which does not have a foot pedal,1,FL,PO,1419,,S->C,TRUE,TRUE
+1,Z_03.wav,3,croc / croc_lilo,an aligator�a real one,1,UP,PO,1407, ,S->C,TRUE,TRUE
+1,Z_04.wav,4,coffee_cup / coffee_saucer,a cup of black cofffee em without a saucer,1,FP,PO,1200, ,S->C,TRUE,TRUE
+1,Z_05.wav,5,mirror_wall / mirror_hand,a mirror.. a wall mirror,0,RE,AS, , ,S->C,TRUE,TRUE
+1,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1235, ,S->C,TRUE,TRUE
+1,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter (WO?) a metal lighter with a flame coming out,0,RE,AO, , ,S->C,FALSE,TRUE
+1,Z_08.wav,8,egg_shell / egg_yolk,em it�s a egg still in it�s shell,1,FP,PO,2288, ,S->C,FALSE,TRUE
+1,Z_09.wav,9,umbrella_open / umbrella_closed,a rred umbrella which has been put up,1,FL,PO,1539, ,S->C,FALSE,TRUE
+1,Z_10.wav,10,candle_unused / candle_melted,a candle (WO?) a candle which has not been lit yet,0,RE,AO, , ,S->C,FALSE,TRUE
+1,Z_11.wav,11,knife_kitchen / knife_swiss,a knnnife em a kitchen knife,0,RE,AS, , ,S->C,FALSE,TRUE
+1,Z_12.wav,12,car_family / car_sports,a silver car (WO?) em a small silver car so not the hatch not the sports car,0,RE,AO, , ,S->C,FALSE,TRUE
+1,Z_13.wav,13,carrots / carrots_chopped,carrots (WO?) whiich are raw,0,RE,AO, ,,S->C,TRUE,FALSE
+1,Z_14.wav,14,gun_real / gun_toy,a gun (WO?) em it's got a brown kind of side and it's not got a red end on it,0,RE,AO, , ,S->C,TRUE,FALSE
+1,Z_15.wav,15,saddle_horse / saddle_bike,a horse saddle,1,FL,PR,1148, ,S->C,TRUE,FALSE
+1,Z_16.wav,16,pad_unlocked / pad_locked,a padlock (WO?) em unlocked padlock,0,RE,AO, , ,S->C,TRUE,FALSE
+1,Z_17.wav,17,headphones_large / headphones_small,black headphones..over your head,1,FL,PO,1298,**UP?,S->C,TRUE,FALSE
+1,Z_18.wav,18,battery_AA / battery_car,a battery (WO?) em as in a small battery,0,RE,AO, , ,S->C,TRUE,FALSE
+1,Z_19.wav,19,wine_glass / wine_red,wine glass..empty wine glass,0,RE,AS, , ,S->C,FALSE,FALSE
+1,Z_20.wav,20,money_notes / money_coins,em pound notes,1,FP,PO,1600,,S->C,FALSE,FALSE
+1,Z_21.wav,21,boot_foot / boot_car,a black boot uhh that you'd put on your feet,1,FL,PR,1300,already a 1 no need for the extra info,S->C,FALSE,FALSE
+1,Z_22.wav,22,camera_corder / camera_cctv,a recording camera ,1,FL,PR,1306, ,S->C,FALSE,FALSE
+1,Z_23.wav,23,guitar_acoustic / guitar_electric,a acoustic guitar,1,FL,PR,1749, ,S->C,FALSE,FALSE
+1,Z_24.wav,24,glove_wooly / glove_boxing,a red glove as in a cotton glove,0,RE,AS, , ,S->C,FALSE,FALSE
+1,Z_25.wav,25,teapot_white / teapot_cosy,a white teapot,1,FL,PR,1387, ,C->S,TRUE,TRUE
+1,Z_26.wav,26,plug / plug_bath,a wall plug,1,FL,PR,1712, ,C->S,TRUE,TRUE
+1,Z_27.wav,27,saw_hand / saw_electric,a handheld saw,1,FL,PR,1137, ,C->S,TRUE,TRUE
+1,Z_28.wav,28,fan_hand / fan_electric,it's a handheld fan,1,FL,PR,1837, ,C->S,TRUE,TRUE
+1,Z_29.wav,29,orange_skin / orange_slice,a full orange ,1,FL,PR,988, ,C->S,TRUE,TRUE
+1,Z_30.wav,30,spade_garden / spade_beach,a large shovel,1,FL,PR,1265, ,C->S,TRUE,TRUE
+1,Z_31.wav,31,key_gold / key_car,a copper key,1,FL,PR,1278, ,C->S,FALSE,TRUE
+1,Z_32.wav,32,helmet / helmet_crash,em a black cycle helmet,0,FL,NO,1747,,C->S,FALSE,TRUE
+1,Z_33.wav,33,bell_hand / bell_bike,a handheld bell,1,FL,PR,1071, ,C->S,FALSE,TRUE
+1,Z_34.wav,34,cheese_block / cheese_blue,em a block of cheese,0,FP,NO,1455,,C->S,FALSE,TRUE
+1,Z_35.wav,35,nail / nail_finger,it's a metal nail,1,FL,PR,1689, ,C->S,FALSE,TRUE
+1,Z_36.wav,36,vase / vase_flowers,an empty vase,1,FL,PR,1148, ,C->S,FALSE,TRUE
+1,Z_37.wav,37,clock_wall / clock_digital,a clock on the wall,1,FL,PO,1187, ,C->S,TRUE,FALSE
+1,Z_38.wav,38,hat_sun / hat_cowboy,it�s a hat with a black ribbon,1,FL,PO,1221, ,C->S,TRUE,FALSE
+1,Z_39.wav,39,pen_ballpoint / pen_nolid,a pen with a lid on,1,FL,PO,1542, ,C->S,TRUE,FALSE
+1,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,967, ,C->S,TRUE,FALSE
+1,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe with a wooden section,1,FL,PO,1307, ,C->S,TRUE,FALSE
+1,Z_42.wav,42,bat_animal / bat_baseball,a animal bat,1,FL,PR,1625, ,C->S,TRUE,FALSE
+1,Z_43.wav,43,horse_animal / horse_rocking,a real horse,1,FL,PR,1472, ,C->S,FALSE,FALSE
+1,Z_44.wav,44,tshirt_round / tshirt_vneck,it's a mans yellow tshirt,1,FL,PR,1951, ,C->S,FALSE,FALSE
+1,Z_45.wav,45,pizza / pizza_slice,a full pizza,1,FL,PR,1534, ,C->S,FALSE,FALSE
+1,Z_46.wav,46,eye_pupil / I_letter,a human eye,1,FL,PR,1221, ,C->S,FALSE,FALSE
+1,Z_47.wav,47,potatoes_skin / potatoes_peeled,sp.. potatoe with skin on,1,FL,PO,1477, ,C->S,FALSE,FALSE
+1,Z_48.wav,48,compmouse / compmouse_wireless,a black mouse,1,FL,PR,1525,one mouse if fully black the other has silver and black,C->S,FALSE,FALSE
+2,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,FALSE
+2,Z_02.wav,2,bin_lid / bin_pedal,um a plastic bin,1,FP,PR,2872, ,S->C,FALSE,FALSE
+2,Z_03.wav,3,croc / croc_lilo,a crocodile oh haha a live crocodile,0,RE,AS, , ,S->C,FALSE,FALSE
+2,Z_04.wav,4,coffee_cup / coffee_saucer,um a coffee without a saucer ,1,FP,PO,2638, ,S->C,FALSE,FALSE
+2,Z_05.wav,5,mirror_wall / mirror_hand,um a wall mounted mirror,1,FP,PR,2810, ,S->C,FALSE,FALSE
+2,Z_06.wav,6,chair_wooden / chair_baby,a chair..um a wooden chair,0,RE,AS, ,,S->C,FALSE,FALSE
+2,Z_07.wav,7,lighter_flame / lighter_noflame,a lit lighter,1,FL,PR,1555, ,C->S,TRUE,TRUE
+2,Z_08.wav,8,egg_shell / egg_yolk,an egg,0,FL,NO,1920, ,C->S,TRUE,TRUE
+2,Z_09.wav,9,umbrella_open / umbrella_closed,an uh red umbrella,0,FP,NO,2644, ,C->S,TRUE,TRUE
+2,Z_10.wav,10,candle_unused / candle_melted,a new candle,1,FL,PR,1355, ,C->S,TRUE,TRUE
+2,Z_11.wav,11,knife_kitchen / knife_swiss,a knife,0,FL,NO,1471, ,C->S,TRUE,TRUE
+2,Z_12.wav,12,car_family / car_sports,a car,0,FL,NO,1851, ,C->S,TRUE,TRUE
+2,Z_13.wav,13,carrots / carrots_chopped,four carrots,1,FL,PR,1272, ,C->S,FALSE,TRUE
+2,Z_14.wav,14,gun_real / gun_toy,okay um a gun,0,FP,NO,2114, ,C->S,FALSE,TRUE
+2,Z_15.wav,15,saddle_horse / saddle_bike,uh a saddle,0,FP,NO,2843, ,C->S,FALSE,TRUE
+2,Z_16.wav,16,pad_unlocked / pad_locked,a padlock,0,FL,NO,1873, ,C->S,FALSE,TRUE
+2,Z_17.wav,17,headphones_large / headphones_small,headphones,0,FL,NO,2251, ,C->S,FALSE,TRUE
+2,Z_18.wav,18,battery_AA / battery_car,a small battery,1,FL,PR,1471, ,C->S,FALSE,TRUE
+2,Z_19.wav,19,wine_glass / wine_red,wine glass,0,FL,NO,1697, ,C->S,TRUE,FALSE
+2,Z_20.wav,20,money_notes / money_coins,some money (onset of money noted),0,FL,NO,2083, ,C->S,TRUE,FALSE
+2,Z_21.wav,21,boot_foot / boot_car,a boot,0,FL,NO,2556,hard to get onset,C->S,TRUE,FALSE
+2,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,2045, ,C->S,TRUE,FALSE
+2,Z_23.wav,23,guitar_acoustic / guitar_electric,a guitar,0,FL,NO,1908, ,C->S,TRUE,FALSE
+2,Z_24.wav,24,glove_wooly / glove_boxing,a glove ,0,FL,NO,2074, ,C->S,TRUE,FALSE
+2,Z_25.wav,25,teapot_white / teapot_cosy,a teapot,0,FL,NO,1704, ,C->S,FALSE,FALSE
+2,Z_26.wav,26,plug / plug_bath,um a plug,0,FP,NO,2752, ,C->S,FALSE,FALSE
+2,Z_27.wav,27,saw_hand / saw_electric,a saw,0,FL,NO,1549, ,C->S,FALSE,FALSE
+2,Z_28.wav,28,fan_hand / fan_electric,a fffan,0,LE,NO,1607, ,C->S,FALSE,FALSE
+2,Z_29.wav,29,orange_skin / orange_slice,an orange,0,FL,NO,1574, ,C->S,FALSE,FALSE
+2,Z_30.wav,30,spade_garden / spade_beach,the spade,0,FL,NO,1595, ,C->S,FALSE,FALSE
+2,Z_31.wav,31,key_gold / key_car,a key (WO?) um a door key,0,RE,AO, , ,S->C,TRUE,TRUE
+2,Z_32.wav,32,helmet / helmet_crash, (noise from prev trials) um a cycling helmet with no straps,1,FP,PO, ,no onset - runs over from prev trial,S->C,TRUE,TRUE
+2,Z_33.wav,33,bell_hand / bell_bike,um a hand bell,1,FP,PR,3168, ,S->C,TRUE,TRUE
+2,Z_34.wav,34,cheese_block / cheese_blue,a piece of cheese (WO?) um a piece of edam,0,RE,AO, ,,S->C,TRUE,TRUE
+2,Z_35.wav,35,nail / nail_finger,um a metal nail,1,FP,PR,3416, ,S->C,TRUE,TRUE
+2,Z_36.wav,36,vase / vase_flowers,"okay the glass vase (WO?) um with no flowers, the empty one",0,RE,AO, , ,S->C,TRUE,TRUE
+2,Z_37.wav,37,clock_wall / clock_digital,a clock.. Um a not a digital clock,0,RE,AS,, ,S->C,FALSE,TRUE
+2,Z_38.wav,38,hat_sun / hat_cowboy,um a sun hat with a black band,1,FP,PR,2577, ,S->C,FALSE,TRUE
+2,Z_39.wav,39,pen_ballpoint / pen_nolid,a biro without oh with the lid on,1,RE,PR,,,S->C,FALSE,TRUE
+2,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1606, ,S->C,FALSE,TRUE
+2,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe um smoking pipe,0,RE,AS, , ,S->C,FALSE,TRUE
+2,Z_42.wav,42,bat_animal / bat_baseball,a flying bat,1,FL,PR,1734, ,S->C,FALSE,TRUE
+2,Z_43.wav,43,horse_animal / horse_rocking,a live horse,1,FL,PR,2600, ,S->C,TRUE,FALSE
+2,Z_44.wav,44,tshirt_round / tshirt_vneck,a yellow round neck tshirt,1,FL,PR,2634, ,S->C,TRUE,FALSE
+2,Z_45.wav,45,pizza / pizza_slice,um a whole pizza,1,FL,PR,2537, ,S->C,TRUE,FALSE
+2,Z_46.wav,46,eye_pupil / I_letter,an eye (WO?) (laughs) a human eye,0,RE,AO, , ,S->C,TRUE,FALSE
+2,Z_47.wav,47,potatoes_skin / potatoes_peeled,pt um some potatoes with their skins on,1,FP,PO,2682, ,S->C,TRUE,FALSE
+2,Z_48.wav,48,compmouse / compmouse_wireless,a mouse (WO?) (laughs) aha a mouse with a cord (then it cuts off),0,RE,AO, , ,S->C,TRUE,FALSE
+3,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,FALSE
+3,Z_02.wav,2,bin_lid / bin_pedal,bin,0,FL,NO,2596, ,C->S,TRUE,FALSE
+3,Z_03.wav,3,croc / croc_lilo,aligator,0,FL,NO,1829, ,C->S,TRUE,FALSE
+3,Z_04.wav,4,coffee_cup / coffee_saucer,cup of coffee,0,FL,NO,2202, ,C->S,TRUE,FALSE
+3,Z_05.wav,5,mirror_wall / mirror_hand,a mirror,0,FL,NO,2531, ,C->S,TRUE,FALSE
+3,Z_06.wav,6,chair_wooden / chair_baby,aaaa chair,0,LE,NO,2087, ,C->S,TRUE,FALSE
+3,Z_07.wav,7,lighter_flame / lighter_noflame,lighter,0,FL,NO,2595, ,C->S,FALSE,FALSE
+3,Z_08.wav,8,egg_shell / egg_yolk,egg in a shell,1,FL,PO,1072, ,C->S,FALSE,FALSE
+3,Z_09.wav,9,umbrella_open / umbrella_closed,an umbrella,0,FL,NO,1854, ,C->S,FALSE,FALSE
+3,Z_10.wav,10,candle_unused / candle_melted,a candle,0,FL,NO,1775,hard to get onset,C->S,FALSE,FALSE
+3,Z_11.wav,11,knife_kitchen / knife_swiss,a knife,0,FL,NO,1723, ,C->S,FALSE,FALSE
+3,Z_12.wav,12,car_family / car_sports,car,0,FL,NO,2166, ,C->S,FALSE,FALSE
+3,Z_13.wav,13,carrots / carrots_chopped,eh carrots (WO?) eh ones with the leafs still on,0,RE,AO, , ,S->C,TRUE,TRUE
+3,Z_14.wav,14,gun_real / gun_toy,um a metal gun,1,FP,PR,2172, ,S->C,TRUE,TRUE
+3,Z_15.wav,15,saddle_horse / saddle_bike,aaa horse riding saddle,1,LE,PR,1939, ,S->C,TRUE,TRUE
+3,Z_16.wav,16,pad_unlocked / pad_locked,emm a lock that's unlocked ,1,FP,PO,2520, ,S->C,TRUE,TRUE
+3,Z_17.wav,17,headphones_large / headphones_small,emm headphones that you would put over your head,1,FP,PO,3240, ,S->C,TRUE,TRUE
+3,Z_18.wav,18,battery_AA / battery_car,emm a singular small battery,1,FP,PR,3310, ,S->C,TRUE,TRUE
+3,Z_19.wav,19,wine_glass / wine_red,an empty glass,1,FL,PR,2555, ,S->C,FALSE,TRUE
+3,Z_20.wav,20,money_notes / money_coins,"um money, notes",1,FP,PO,2411, ,S->C,FALSE,TRUE
+3,Z_21.wav,21,boot_foot / boot_car,em aaa footwear boot,1,FP,PR,3788, ,S->C,FALSE,TRUE
+3,Z_22.wav,22,camera_corder / camera_cctv,aaaa uhhh camera that..mm�a camera that�s not a  don't know how to describe..camear that's got a handle,1,LE/FP,PO,19371,onset of last camera taken***,S->C,FALSE,TRUE
+3,Z_23.wav,23,guitar_acoustic / guitar_electric,emmm like an acoustic guitar,1,FP,PR,5316,hard to find onset,S->C,FALSE,TRUE
+3,Z_24.wav,24,glove_wooly / glove_boxing,emm a glove that you can put 5 fingers into oh no wait a glove that you wouldn't use for recreational sport,1,RE,PR, , ,S->C,FALSE,TRUE
+3,Z_25.wav,25,teapot_white / teapot_cosy,emm a teapot with nothing on it,1,FP,PO,3233, ,S->C,TRUE,FALSE
+3,Z_26.wav,26,plug / plug_bath,em a plug that you would put into like a socket (Okay),1,FP,PO,3181, ,S->C,TRUE,FALSE
+3,Z_27.wav,27,saw_hand / saw_electric,umm ahh not an (laughs) electronic saw just one that you use with your hands by urself,1,FP,PR,6521,onset from not **,S->C,TRUE,FALSE
+3,Z_28.wav,28,fan_hand / fan_electric,em a hand held fan,1,FP,PR,3143, ,S->C,TRUE,FALSE
+3,Z_29.wav,29,orange_skin / orange_slice,an orange.. That is a full not peeled orange,0,RE,AS, , ,S->C,TRUE,FALSE
+3,Z_30.wav,30,spade_garden / spade_beach,em a real spade,1,LE/FP,PR,3111, ,S->C,TRUE,FALSE
+3,Z_31.wav,31,key_gold / key_car,key (WO?) house like a house key,0,RE,AO, , ,S->C,FALSE,FALSE
+3,Z_32.wav,32,helmet / helmet_crash,so it's a helmet without any straps,1,FL,PO,2159, ,S->C,FALSE,FALSE
+3,Z_33.wav,33,bell_hand / bell_bike,ehh there's a bell that you would like hold and ring (okay),1,FP,PO,3378, ,S->C,FALSE,FALSE
+3,Z_34.wav,34,cheese_block / cheese_blue,cheese that�s not blue cheese,1,FL,PO,5060, ,S->C,FALSE,FALSE
+3,Z_35.wav,35,nail / nail_finger,emm a nail that you would use as a tool,1,FP,PO,3170, ,S->C,FALSE,FALSE
+3,Z_36.wav,36,vase / vase_flowers,emm an empty vase,1,FP,PR,2358, ,S->C,FALSE,FALSE
+3,Z_37.wav,37,clock_wall / clock_digital,a clock,0,FL,NO,1434, ,C->S,TRUE,TRUE
+3,Z_38.wav,38,hat_sun / hat_cowboy,a hat,0,FL,NO,2247, ,C->S,TRUE,TRUE
+3,Z_39.wav,39,pen_ballpoint / pen_nolid,a pen ,0,FL,NO,1501, ,C->S,TRUE,TRUE
+3,Z_40.wav,40,apple_red / apple_green,em an apple,0,FP,NO,2117, ,C->S,TRUE,TRUE
+3,Z_41.wav,41,pipe_smoke / pipe_kitchen,uhhh a smoking pipe,1,FP,PR,2484, ,C->S,TRUE,TRUE
+3,Z_42.wav,42,bat_animal / bat_baseball,a bat,0,FL,NO,1623, ,C->S,TRUE,TRUE
+3,Z_43.wav,43,horse_animal / horse_rocking,a horse,0,FL,NO,1539, ,C->S,FALSE,TRUE
+3,Z_44.wav,44,tshirt_round / tshirt_vneck,a yellow tshirt,0,FL,NO,2074, ,C->S,FALSE,TRUE
+3,Z_45.wav,45,pizza / pizza_slice,a pizza,0,FL,NO,1866,hard to tell from sound quality,C->S,FALSE,TRUE
+3,Z_46.wav,46,eye_pupil / I_letter,an eye,0,FL,NO,2257, ,C->S,FALSE,TRUE
+3,Z_47.wav,47,potatoes_skin / potatoes_peeled,umm potatoes,0,LE/FP,NO,3319, ,C->S,FALSE,TRUE
+3,Z_48.wav,48,compmouse / compmouse_wireless,aaa mouse,0,LE,NO,2696, ,C->S,FALSE,TRUE
+4,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+4,Z_02.wav,2,bin_lid / bin_pedal, , , , , , ,C->S,TRUE,TRUE
+4,Z_03.wav,3,croc / croc_lilo, , , , , , ,C->S,TRUE,TRUE
+4,Z_04.wav,4,coffee_cup / coffee_saucer, , , , , , ,C->S,TRUE,TRUE
+4,Z_05.wav,5,mirror_wall / mirror_hand, , , , , , ,C->S,TRUE,TRUE
+4,Z_06.wav,6,chair_wooden / chair_baby, , , , , , ,C->S,TRUE,TRUE
+4,Z_07.wav,7,lighter_flame / lighter_noflame, , , , , , ,C->S,FALSE,TRUE
+4,Z_08.wav,8,egg_shell / egg_yolk, , , , , , ,C->S,FALSE,TRUE
+4,Z_09.wav,9,umbrella_open / umbrella_closed, , , , , , ,C->S,FALSE,TRUE
+4,Z_10.wav,10,candle_unused / candle_melted, , , , , , ,C->S,FALSE,TRUE
+4,Z_11.wav,11,knife_kitchen / knife_swiss, , , , , , ,C->S,FALSE,TRUE
+4,Z_12.wav,12,car_family / car_sports, , , , , , ,C->S,FALSE,TRUE
+4,Z_13.wav,13,carrots / carrots_chopped, , , , , , ,C->S,TRUE,FALSE
+4,Z_14.wav,14,gun_real / gun_toy, , , , , , ,C->S,TRUE,FALSE
+4,Z_15.wav,15,saddle_horse / saddle_bike, , , , , , ,C->S,TRUE,FALSE
+4,Z_16.wav,16,pad_unlocked / pad_locked, , , , , , ,C->S,TRUE,FALSE
+4,Z_17.wav,17,headphones_large / headphones_small, , , , , , ,C->S,TRUE,FALSE
+4,Z_18.wav,18,battery_AA / battery_car, , , , , , ,C->S,TRUE,FALSE
+4,Z_19.wav,19,wine_glass / wine_red, , , , , , ,C->S,FALSE,FALSE
+4,Z_20.wav,20,money_notes / money_coins, , , , , , ,C->S,FALSE,FALSE
+4,Z_21.wav,21,boot_foot / boot_car, , , , , , ,C->S,FALSE,FALSE
+4,Z_22.wav,22,camera_corder / camera_cctv, , , , , , ,C->S,FALSE,FALSE
+4,Z_23.wav,23,guitar_acoustic / guitar_electric, , , , , , ,C->S,FALSE,FALSE
+4,Z_24.wav,24,glove_wooly / glove_boxing, , , , , , ,C->S,FALSE,FALSE
+4,Z_25.wav,25,teapot_white / teapot_cosy, , , , , , ,S->C,TRUE,TRUE
+4,Z_26.wav,26,plug / plug_bath, , , , , , ,S->C,TRUE,TRUE
+4,Z_27.wav,27,saw_hand / saw_electric, , , , , , ,S->C,TRUE,TRUE
+4,Z_28.wav,28,fan_hand / fan_electric, , , , , , ,S->C,TRUE,TRUE
+4,Z_29.wav,29,orange_skin / orange_slice, , , , , , ,S->C,TRUE,TRUE
+4,Z_30.wav,30,spade_garden / spade_beach, , , , , , ,S->C,TRUE,TRUE
+4,Z_31.wav,31,key_gold / key_car, , , , , , ,S->C,FALSE,TRUE
+4,Z_32.wav,32,helmet / helmet_crash, , , , , , ,S->C,FALSE,TRUE
+4,Z_33.wav,33,bell_hand / bell_bike, , , , , , ,S->C,FALSE,TRUE
+4,Z_34.wav,34,cheese_block / cheese_blue, , , , , , ,S->C,FALSE,TRUE
+4,Z_35.wav,35,nail / nail_finger, , , , , , ,S->C,FALSE,TRUE
+4,Z_36.wav,36,vase / vase_flowers, , , , , , ,S->C,FALSE,TRUE
+4,Z_37.wav,37,clock_wall / clock_digital, , , , , , ,S->C,TRUE,FALSE
+4,Z_38.wav,38,hat_sun / hat_cowboy, , , , , , ,S->C,TRUE,FALSE
+4,Z_39.wav,39,pen_ballpoint / pen_nolid, , , , , , ,S->C,TRUE,FALSE
+4,Z_40.wav,40,apple_red / apple_green, , , , , , ,S->C,TRUE,FALSE
+4,Z_41.wav,41,pipe_smoke / pipe_kitchen, , , , , , ,S->C,TRUE,FALSE
+4,Z_42.wav,42,bat_animal / bat_baseball, , , , , , ,S->C,TRUE,FALSE
+4,Z_43.wav,43,horse_animal / horse_rocking, , , , , , ,S->C,FALSE,FALSE
+4,Z_44.wav,44,tshirt_round / tshirt_vneck, , , , , , ,S->C,FALSE,FALSE
+4,Z_45.wav,45,pizza / pizza_slice, , , , , , ,S->C,FALSE,FALSE
+4,Z_46.wav,46,eye_pupil / I_letter, , , , , , ,S->C,FALSE,FALSE
+4,Z_47.wav,47,potatoes_skin / potatoes_peeled, , , , , , ,S->C,FALSE,FALSE
+4,Z_48.wav,48,compmouse / compmouse_wireless, , , , , , ,S->C,FALSE,FALSE
+5,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,TRUE
+5,Z_02.wav,2,bin_lid / bin_pedal,eh the square bin,1,FP,PR,1362, ,C->S,FALSE,TRUE
+5,Z_03.wav,3,croc / croc_lilo,and the real crocodile ,1,FL,PR,1656, ,C->S,FALSE,TRUE
+5,Z_04.wav,4,coffee_cup / coffee_saucer,okay em so the cup of coffee,0,FP,NO,3086, ,C->S,FALSE,TRUE
+5,Z_05.wav,5,mirror_wall / mirror_hand,uhh the wall mirror,1,FP,PR,2131, ,C->S,FALSE,TRUE
+5,Z_06.wav,6,chair_wooden / chair_baby,okay uhh the wooden chair,1,FP,PR,1600, ,C->S,FALSE,TRUE
+5,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter with the flame,1,FL,PO,1277, ,C->S,TRUE,FALSE
+5,Z_08.wav,8,egg_shell / egg_yolk,eh the whole egg,1,FP,PR,1436, ,C->S,TRUE,FALSE
+5,Z_09.wav,9,umbrella_open / umbrella_closed,emm sooo the red open umbrella,1,LE/FP,PR,2224, ,C->S,TRUE,FALSE
+5,Z_10.wav,10,candle_unused / candle_melted,so the unlit candle,1,FL,PR,2062, ,C->S,TRUE,FALSE
+5,Z_11.wav,11,knife_kitchen / knife_swiss,ehh the chopping knife,1,FP,PR,1045, ,C->S,TRUE,FALSE
+5,Z_12.wav,12,car_family / car_sports,and the regular car,1,FL,PR,1499, ,C->S,TRUE,FALSE
+5,Z_13.wav,13,carrots / carrots_chopped,and the non chopped up carrots,1,FL,PR,1825, ,C->S,FALSE,FALSE
+5,Z_14.wav,14,gun_real / gun_toy,and em the gun,0,FP,NO,2642, ,C->S,FALSE,FALSE
+5,Z_15.wav,15,saddle_horse / saddle_bike,and the horse riding saddle,1,FL,PR,1145, ,C->S,FALSE,FALSE
+5,Z_16.wav,16,pad_unlocked / pad_locked,and the open lock,1,FL,PR,1368,hard  to make out the first word,C->S,FALSE,FALSE
+5,Z_17.wav,17,headphones_large / headphones_small,and the overhead headphones,1,FL,PR,1511, ,C->S,FALSE,FALSE
+5,Z_18.wav,18,battery_AA / battery_car,eh the AA battery,1,FP,PR,2097, ,C->S,FALSE,FALSE
+5,Z_19.wav,19,wine_glass / wine_red,and the�empty drinking glass,1,UP,PR,2096, ,S->C,TRUE,TRUE
+5,Z_20.wav,20,money_notes / money_coins,"eh the moooney, the notes",1,LE/FP,PO,1395,benefit of the doubt given,S->C,TRUE,TRUE
+5,Z_21.wav,21,boot_foot / boot_car,emm the leather boot,1,FP,PR,2110, ,S->C,TRUE,TRUE
+5,Z_22.wav,22,camera_corder / camera_cctv,and theee filming camera,1,LE,PR,2309, ,S->C,TRUE,TRUE
+5,Z_23.wav,23,guitar_acoustic / guitar_electric,theee em acoustic guitar (cuts off at the end),1,LE/FP,PR,2780, ,S->C,TRUE,TRUE
+5,Z_24.wav,24,glove_wooly / glove_boxing,okay so the red emm like normal glove,1,FP,PR,2108,onset of red listed,S->C,TRUE,TRUE
+5,Z_25.wav,25,teapot_white / teapot_cosy,and the white teapot without a cosy,1,FL,PR,1511, ,S->C,FALSE,TRUE
+5,Z_26.wav,26,plug / plug_bath,okay um so a plu uh the like electric plug,0,RE,AS,4827,didn�t say full word so not counted as repair,S->C,FALSE,TRUE
+5,Z_27.wav,27,saw_hand / saw_electric,the hand saw,1,FL,PR,1046, ,S->C,FALSE,TRUE
+5,Z_28.wav,28,fan_hand / fan_electric,eh the paper fan,1,FP,PR,1864, ,S->C,FALSE,TRUE
+5,Z_29.wav,29,orange_skin / orange_slice,"the orange fruit, the whole one",1,FL,PO,1041,benefit of the doubt given,S->C,FALSE,TRUE
+5,Z_30.wav,30,spade_garden / spade_beach,eh the�metal shovel,1,FP/UP,PR,2561,**,S->C,FALSE,TRUE
+5,Z_31.wav,31,key_gold / key_car,the key (WO?) eh the old fashiony one (the kind of goldy one?) yeak like the bronze one,0,RE,AO, , ,S->C,TRUE,FALSE
+5,Z_32.wav,32,helmet / helmet_crash,the bicycllleee helmet from before,1,LE,PO,1152, ,S->C,TRUE,FALSE
+5,Z_33.wav,33,bell_hand / bell_bike,the bell (WO?) oh the old fashion hand one (okay),0,RE,AO, , ,S->C,TRUE,FALSE
+5,Z_34.wav,34,cheese_block / cheese_blue,em block of cheese from before,1,FP,PO,1447, ,S->C,TRUE,FALSE
+5,Z_35.wav,35,nail / nail_finger,okay em the pin,0,FP,NO,2568, ,S->C,TRUE,FALSE
+5,Z_36.wav,36,vase / vase_flowers,and the glass vase from before,1,FL,PO,1293, ,S->C,TRUE,FALSE
+5,Z_37.wav,37,clock_wall / clock_digital,okay em  so the�.the clock with the hands,1,FP/UP,PO,4916, ,S->C,FALSE,FALSE
+5,Z_38.wav,38,hat_sun / hat_cowboy,okay em so the�ladies hat,1,FP,PR,2449, ,S->C,FALSE,FALSE
+5,Z_39.wav,39,pen_ballpoint / pen_nolid,emm so the pen with the lid on it ,1,FP,PO,2070, ,S->C,FALSE,FALSE
+5,Z_40.wav,40,apple_red / apple_green,eh the red apple,1,FP,PR,1518, ,S->C,FALSE,FALSE
+5,Z_41.wav,41,pipe_smoke / pipe_kitchen,and the smoking pipe,1,FL,PR,1361, ,S->C,FALSE,FALSE
+5,Z_42.wav,42,bat_animal / bat_baseball,and the animal bat,1,FL,PR,2126, ,S->C,FALSE,FALSE
+5,Z_43.wav,43,horse_animal / horse_rocking,(noise from prev trial) and the horse,0,FL,NO,2140, ,C->S,TRUE,TRUE
+5,Z_44.wav,44,tshirt_round / tshirt_vneck,ehhh mans tshirt,1,FP,PR,2054, ,C->S,TRUE,TRUE
+5,Z_45.wav,45,pizza / pizza_slice,eh the whole pizza,1,FP,PR,1471, ,C->S,TRUE,TRUE
+5,Z_46.wav,46,eye_pupil / I_letter,so the human eye,1,FL,PR,2134, ,C->S,TRUE,TRUE
+5,Z_47.wav,47,potatoes_skin / potatoes_peeled,ah the red tatoes with skins on,1,FP,PO,1728,hard to find onset,C->S,TRUE,TRUE
+5,Z_48.wav,48,compmouse / compmouse_wireless,and the mouse with the lead,1,FL,PO,1846, ,C->S,TRUE,TRUE
+6,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,TRUE
+6,Z_02.wav,2,bin_lid / bin_pedal,the bin that hasss that youuu�it has like a cindrical lid that you would push back to open and you probably wouldn�t use the pedal youd use your hand,1,LE/UP,PO,791,"onset of bin noted, hard to get onset",S->C,FALSE,TRUE
+6,Z_03.wav,3,croc / croc_lilo,okay it�s a crocodile that�s... alive,1,FL,PO,1451, ,S->C,FALSE,TRUE
+6,Z_04.wav,4,coffee_cup / coffee_saucer,okay it�s the coffee cup that has no saucer,1,FL,PO,1767, ,S->C,FALSE,TRUE
+6,Z_05.wav,5,mirror_wall / mirror_hand,the mirror (WO?) you put on the wall,0,RE,AO, ,,S->C,FALSE,TRUE
+6,Z_06.wav,6,chair_wooden / chair_baby,the chair..that's wooden,1,FL,PO,1710, ,S->C,FALSE,TRUE
+6,Z_07.wav,7,lighter_flame / lighter_noflame,it�s the lighter that�s got a flame coming out of it,1,FL,PO,1529, ,S->C,TRUE,FALSE
+6,Z_08.wav,8,egg_shell / egg_yolk,the egg (WO?) oh the egg with the shell on,0,RE,AO, , ,S->C,TRUE,FALSE
+6,Z_09.wav,9,umbrella_open / umbrella_closed,the umbrella.. that�s open,1,FL,PO,2256, ,S->C,TRUE,FALSE
+6,Z_10.wav,10,candle_unused / candle_melted,candle,0,FL,NO,940, ,S->C,TRUE,FALSE
+6,Z_11.wav,11,knife_kitchen / knife_swiss,theee knife for the kitchen,1,LE,PO,1855, ,S->C,TRUE,FALSE
+6,Z_12.wav,12,car_family / car_sports,it�s the car.. that is small,1,FL,PO,1550, ,S->C,TRUE,FALSE
+6,Z_13.wav,13,carrots / carrots_chopped,the carrots (WO?) ehh the carrots that are not cut up,0,RE,AO, , ,S->C,FALSE,FALSE
+6,Z_14.wav,14,gun_real / gun_toy,the gun (WO) thee real gun,0,RE,AO, ,,S->C,FALSE,FALSE
+6,Z_15.wav,15,saddle_horse / saddle_bike,okay it�s the one that�s the saddle (WO?) eh saddle like not a bicycle saddle (oh okay the horses one) yeah like a horses saddle,0,RE,AO, , ,S->C,FALSE,FALSE
+6,Z_16.wav,16,pad_unlocked / pad_locked,the lock that�s open,1,FL,PO,1601, ,S->C,FALSE,FALSE
+6,Z_17.wav,17,headphones_large / headphones_small,okay so it�s the headphones (WO?) the one that youuu would wear over your head,0,RE,AO, , ,S->C,FALSE,FALSE
+6,Z_18.wav,18,battery_AA / battery_car,battery (WO?) the one that�s small,0,RE,AO, , ,S->C,FALSE,FALSE
+6,Z_19.wav,19,wine_glass / wine_red, the (was maybe about to say empty here)..glass (cuts off at end but might have been about to say empty),0,UP,NO,1486, ,C->S,TRUE,TRUE
+6,Z_20.wav,20,money_notes / money_coins,it�s the money,0,FL,NO,1513, ,C->S,TRUE,TRUE
+6,Z_21.wav,21,boot_foot / boot_car,the..boot,0,LE,NO,1574, ,C->S,TRUE,TRUE
+6,Z_22.wav,22,camera_corder / camera_cctv,the handheld camera,1,FL,PR,1341, ,C->S,TRUE,TRUE
+6,Z_23.wav,23,guitar_acoustic / guitar_electric,the acoustic guitar,1,FL,PR,1026, ,C->S,TRUE,TRUE
+6,Z_24.wav,24,glove_wooly / glove_boxing,the glove,0,FL,NO,1715, ,C->S,TRUE,TRUE
+6,Z_25.wav,25,teapot_white / teapot_cosy,the teapot,0,UP,NO,1836, ,C->S,FALSE,TRUE
+6,Z_26.wav,26,plug / plug_bath,the pluuug,0,LE,NO,1475, ,C->S,FALSE,TRUE
+6,Z_27.wav,27,saw_hand / saw_electric,the saw ,0,FL,NO,1984, ,C->S,FALSE,TRUE
+6,Z_28.wav,28,fan_hand / fan_electric,the fan,0,FL,NO,1425, ,C->S,FALSE,TRUE
+6,Z_29.wav,29,orange_skin / orange_slice,the whole orange,1,FL,PR,1232, ,C->S,FALSE,TRUE
+6,Z_30.wav,30,spade_garden / spade_beach,the�spade,0,UP,NO,2029, ,C->S,FALSE,TRUE
+6,Z_31.wav,31,key_gold / key_car,okay so it�s the gold key,1,FL,PR,2025, ,C->S,TRUE,FALSE
+6,Z_32.wav,32,helmet / helmet_crash,the bicycle helmet ,0,FL,NO,1023,***,C->S,TRUE,FALSE
+6,Z_33.wav,33,bell_hand / bell_bike,the bell,0,FL,NO,1447, ,C->S,TRUE,FALSE
+6,Z_34.wav,34,cheese_block / cheese_blue,the cheese,0,FL,NO,1557, ,C->S,TRUE,FALSE
+6,Z_35.wav,35,nail / nail_finger,the nail,0,FL,NO,1451, ,C->S,TRUE,FALSE
+6,Z_36.wav,36,vase / vase_flowers,the empty vase,1,FL,PR,1292, ,C->S,TRUE,FALSE
+6,Z_37.wav,37,clock_wall / clock_digital,the circular clock,1,FL,PR,1219, ,C->S,FALSE,FALSE
+6,Z_38.wav,38,hat_sun / hat_cowboy,theee haaat..that a female would wear,1,LE,PO,1768, ,C->S,FALSE,FALSE
+6,Z_39.wav,39,pen_ballpoint / pen_nolid,ehhh a pen,0,FP,NO,2009, ,C->S,FALSE,FALSE
+6,Z_40.wav,40,apple_red / apple_green,the rrrr the apple,0,FP,NO,1489,**noted as a filled pause instead of repair,C->S,FALSE,FALSE
+6,Z_41.wav,41,pipe_smoke / pipe_kitchen,one that�s a pipe eeeh an old man would smoke,1,FP,PO,2000, ,C->S,FALSE,FALSE
+6,Z_42.wav,42,bat_animal / bat_baseball,okay it�s the bat that�s an animal,1,FL,PO,2360, ,C->S,FALSE,FALSE
+6,Z_43.wav,43,horse_animal / horse_rocking,the horse that�s alive,1,FL,PO,1586, ,S->C,TRUE,TRUE
+6,Z_44.wav,44,tshirt_round / tshirt_vneck,it�s the mans yellow tshirt,1,FL,PR,1844, ,S->C,TRUE,TRUE
+6,Z_45.wav,45,pizza / pizza_slice,the pizza that�s whole,1,FL,PO,1533, ,S->C,TRUE,TRUE
+6,Z_46.wav,46,eye_pupil / I_letter,the eye..that is a human eye,0,RE,AS, ,sounds like Matcher may hev been about to ask for clarification,S->C,TRUE,TRUE
+6,Z_47.wav,47,potatoes_skin / potatoes_peeled,potatoes..that are skin on,1,FL,PO,1006, ,S->C,TRUE,TRUE
+6,Z_48.wav,48,compmouse / compmouse_wireless,it�s the mouse�the one with the wire,0,RE,AS, , ***CHECK,S->C,TRUE,TRUE
+7,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,FALSE
+7,Z_02.wav,2,bin_lid / bin_pedal,the bin�(WO?) eh the one with the..lid..okay larger one,0,RE,AO, ,,S->C,TRUE,FALSE
+7,Z_03.wav,3,croc / croc_lilo,crocodile (WO?) eh the actual one not the blow up one ,0,RE,AO, , ,S->C,TRUE,FALSE
+7,Z_04.wav,4,coffee_cup / coffee_saucer,eh the..tea cup without the saucer,1,FP/UP,PO,3544, ,S->C,TRUE,FALSE
+7,Z_05.wav,5,mirror_wall / mirror_hand,eh the mirror the... larger mirror,0,RE,AS, , ,S->C,TRUE,FALSE
+7,Z_06.wav,6,chair_wooden / chair_baby,eh a chair (WO?) eh the wooden one,0,RE,AO, , ,S->C,TRUE,FALSE
+7,Z_07.wav,7,lighter_flame / lighter_noflame,eh a lighter that has a flame,1,FP,PO,2507, ,S->C,FALSE,FALSE
+7,Z_08.wav,8,egg_shell / egg_yolk,ehh uuh whole egg so not the fried egg,1,FP,PR,3791,,S->C,FALSE,FALSE
+7,Z_09.wav,9,umbrella_open / umbrella_closed,eh the red umbrella (WO?) the ree..eh the red umbrella the one that�s open,0,RE,AO, , ,S->C,FALSE,FALSE
+7,Z_10.wav,10,candle_unused / candle_melted,eh the white candle that�s no been lit yet,1,FP,PO,1789, * colour doesn't add any info so its PO,S->C,FALSE,FALSE
+7,Z_11.wav,11,knife_kitchen / knife_swiss,a knife (WO?) em not the kind of army knife just the normal kitchen knife,0,RE,AO, , ,S->C,FALSE,FALSE
+7,Z_12.wav,12,car_family / car_sports,eh its silver car its not the race car looking one,1,FP,PO,3136, ,S->C,FALSE,FALSE
+7,Z_13.wav,13,carrots / carrots_chopped,eh whole carrots ,1,FP,PR,1344, ,C->S,TRUE,TRUE
+7,Z_14.wav,14,gun_real / gun_toy,eh the real gun,1,FP,PR,1378, ,C->S,TRUE,TRUE
+7,Z_15.wav,15,saddle_horse / saddle_bike,ehh saddle,0,FP,NO,2174, ,C->S,TRUE,TRUE
+7,Z_16.wav,16,pad_unlocked / pad_locked,opennn padlock,1,LE,PR,1094, ,C->S,TRUE,TRUE
+7,Z_17.wav,17,headphones_large / headphones_small,eh headphones that we're wearing,1,FP,PO,1331, ,C->S,TRUE,TRUE
+7,Z_18.wav,18,battery_AA / battery_car,eh the battery with the plus and minus,1,FP,PO,1999, ,C->S,TRUE,TRUE
+7,Z_19.wav,19,wine_glass / wine_red,eh it�s the wine glass,0,FP,NO,1883,hard to get onset,C->S,FALSE,TRUE
+7,Z_20.wav,20,money_notes / money_coins,eh money,0,FP,NO,1979, ,C->S,FALSE,TRUE
+7,Z_21.wav,21,boot_foot / boot_car,ehhh a shoe,0,FP,NO,2543, ,C->S,FALSE,TRUE
+7,Z_22.wav,22,camera_corder / camera_cctv,emm a camera,0,FP,NO,2076, ,C->S,FALSE,TRUE
+7,Z_23.wav,23,guitar_acoustic / guitar_electric,acousitc guitar,1,FL,PR,1160, ,C->S,FALSE,TRUE
+7,Z_24.wav,24,glove_wooly / glove_boxing,emm a glove,0,FP,NO,2143,hard to get onset,C->S,FALSE,TRUE
+7,Z_25.wav,25,teapot_white / teapot_cosy,eh the teapot,0,FP,NO,1733, ,C->S,TRUE,FALSE
+7,Z_26.wav,26,plug / plug_bath,the plug,0,FL,NO,1791, ,C->S,TRUE,FALSE
+7,Z_27.wav,27,saw_hand / saw_electric,eh so it�s a saw,0,FP,NO,2508, ,C->S,TRUE,FALSE
+7,Z_28.wav,28,fan_hand / fan_electric,eh the handheld fan,1,FP,PR,1259, ,C->S,TRUE,FALSE
+7,Z_29.wav,29,orange_skin / orange_slice,ehh an orange,0,FP,NO,1567, ,C->S,TRUE,FALSE
+7,Z_30.wav,30,spade_garden / spade_beach,ehh metal spade,1,FP,PR,2025, ,C->S,TRUE,FALSE
+7,Z_31.wav,31,key_gold / key_car,eh the gold key,1,FP,PR,1262, ,C->S,FALSE,FALSE
+7,Z_32.wav,32,helmet / helmet_crash,okay it�s a helmet with hole sin it,1,FL,PO,3137,hard to get onset,C->S,FALSE,FALSE
+7,Z_33.wav,33,bell_hand / bell_bike,em a bell that you would ring with your hand,1,FP,PO,2686, ,C->S,FALSE,FALSE
+7,Z_34.wav,34,cheese_block / cheese_blue,eh yellow cheese,1,FP,PR,1385, ,C->S,FALSE,FALSE
+7,Z_35.wav,35,nail / nail_finger,emm a nail ,0,FP,NO,2111, ,C->S,FALSE,FALSE
+7,Z_36.wav,36,vase / vase_flowers,eh the empty vase,1,FP,PR,1518, ,C->S,FALSE,FALSE
+7,Z_37.wav,37,clock_wall / clock_digital,a clock (WO?) eh the..not the digital one,0,RE,AO, , ,S->C,TRUE,TRUE
+7,Z_38.wav,38,hat_sun / hat_cowboy,the hat�eh it�s the one with the black ribbon around it,0,RE,AS, ,** check,S->C,TRUE,TRUE
+7,Z_39.wav,39,pen_ballpoint / pen_nolid,eh the pen with the lid on,1,FP,PO,1902, ,S->C,TRUE,TRUE
+7,Z_40.wav,40,apple_red / apple_green,eh the red apple,1,FP,PR,2077, ,S->C,TRUE,TRUE
+7,Z_41.wav,41,pipe_smoke / pipe_kitchen,the... pipe that you'd smoke,1,UP,PO,2148, ,S->C,TRUE,TRUE
+7,Z_42.wav,42,bat_animal / bat_baseball,eh the bat (WO?) uhh oh the animal or the bird,0,RE,AO, , ,S->C,TRUE,TRUE
+7,Z_43.wav,43,horse_animal / horse_rocking,eh the horse..em the real horse,0,RE,AS, , ,S->C,FALSE,TRUE
+7,Z_44.wav,44,tshirt_round / tshirt_vneck,eh yellow tshirt (WO?) ahhh the one with the round neck,0,RE,AO, , ,S->C,FALSE,TRUE
+7,Z_45.wav,45,pizza / pizza_slice,a pizza..ehh a whole pizza,0,RE,AS, , ,S->C,FALSE,TRUE
+7,Z_46.wav,46,eye_pupil / I_letter,ehh an eye..em a human eye,0,RE,AS, , ,S->C,FALSE,TRUE
+7,Z_47.wav,47,potatoes_skin / potatoes_peeled,eh potatoes with the skin on,1,FP,PO,1428, ,S->C,FALSE,TRUE
+7,Z_48.wav,48,compmouse / compmouse_wireless,eh a mouse (WO?) ehh the one that has a cable,0,RE,AO, , ,S->C,FALSE,TRUE
+8,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,FALSE
+8,Z_02.wav,2,bin_lid / bin_pedal,its aaa bin,0,LE,NO,1745, ,C->S,FALSE,FALSE
+8,Z_03.wav,3,croc / croc_lilo,aaa aligator,0,LE,NO,2188, ,C->S,FALSE,FALSE
+8,Z_04.wav,4,coffee_cup / coffee_saucer,coffee without a saucer,1,FL,PO,1018, ,C->S,FALSE,FALSE
+8,Z_05.wav,5,mirror_wall / mirror_hand,uhh its an ornate mirror,1,FP,PR,1453, ,C->S,FALSE,FALSE
+8,Z_06.wav,6,chair_wooden / chair_baby,it�s a wooden chair,1,FL,PR,1218, ,C->S,FALSE,FALSE
+8,Z_07.wav,7,lighter_flame / lighter_noflame,lighter�eh that�s got a fame comig out of it,0,RE,AS, , ,S->C,TRUE,TRUE
+8,Z_08.wav,8,egg_shell / egg_yolk,ehhh the uncooked egg,1,FL,PR,2131, ,S->C,TRUE,TRUE
+8,Z_09.wav,9,umbrella_open / umbrella_closed,the open umbrella,1,FL,PR,1535, ,S->C,TRUE,TRUE
+8,Z_10.wav,10,candle_unused / candle_melted,candle that�s em not been melted,0,RE,AS, ,tough call,S->C,TRUE,TRUE
+8,Z_11.wav,11,knife_kitchen / knife_swiss,knife (WO?) the single knife,0,RE,AO, , ,S->C,TRUE,TRUE
+8,Z_12.wav,12,car_family / car_sports,car..eh like a small car,0,RE,AS, , ,S->C,TRUE,TRUE
+8,Z_13.wav,13,carrots / carrots_chopped,the carrots ,0,FL,NO,1305, ,S->C,FALSE,TRUE
+8,Z_14.wav,14,gun_real / gun_toy,gun (WO?) eeem the one that�s not a water gun,0,RE,AO, , ,S->C,FALSE,TRUE
+8,Z_15.wav,15,saddle_horse / saddle_bike,it looks like a saddle..em like a horse saddle,0,RE,AS,1729, ,S->C,FALSE,TRUE
+8,Z_16.wav,16,pad_unlocked / pad_locked,the open padlock,1,FL,PR,1731, ,S->C,FALSE,TRUE
+8,Z_17.wav,17,headphones_large / headphones_small,headphones (WO?) the..over the head headphones,0,RE,AO, , ,S->C,FALSE,TRUE
+8,Z_18.wav,18,battery_AA / battery_car,battery (WO?) eem the small battery,0,RE,AO, , ,S->C,FALSE,TRUE
+8,Z_19.wav,19,wine_glass / wine_red,the empty wine glass,1,FL,PR,1673, ,S->C,TRUE,FALSE
+8,Z_20.wav,20,money_notes / money_coins,the cash (WO?) emm paper money,0,RE,AO, , ,S->C,TRUE,FALSE
+8,Z_21.wav,21,boot_foot / boot_car,boottt..the shoe boot,0,RE,AS, , ,S->C,TRUE,FALSE
+8,Z_22.wav,22,camera_corder / camera_cctv,eh video camera (WO?) oh em the nad held video camera,1,FL,PR,1380,**think video camera is enough to identify,S->C,TRUE,FALSE
+8,Z_23.wav,23,guitar_acoustic / guitar_electric,thee acoustic guitar,1,LE,PR,2101, ,S->C,TRUE,FALSE
+8,Z_24.wav,24,glove_wooly / glove_boxing,the glove..thee with the fingers,0,RE,AS, , ,S->C,TRUE,FALSE
+8,Z_25.wav,25,teapot_white / teapot_cosy,teapot (WO?) eh the one without the cosy,0,RE,AO, , ,S->C,FALSE,FALSE
+8,Z_26.wav,26,plug / plug_bath,it�s a plug�oh em like a three pronged plug,0,RE,AS, , ,S->C,FALSE,FALSE
+8,Z_27.wav,27,saw_hand / saw_electric,a saw.. (WO?) em a manual saw,0,RE,AO, , ,S->C,FALSE,FALSE
+8,Z_28.wav,28,fan_hand / fan_electric,ehh fan (WO?) eh like a hand fan,0,RE,AO, ,,S->C,FALSE,FALSE
+8,Z_29.wav,29,orange_skin / orange_slice,orange (WO?) emm the whole orange,0,RE,AO, , ,S->C,FALSE,FALSE
+8,Z_30.wav,30,spade_garden / spade_beach,spade�ehhh metal spade ,0,RE,AS, , ,S->C,FALSE,FALSE
+8,Z_31.wav,31,key_gold / key_car,mnnn the key,0,FP,NO,1938, ,C->S,TRUE,TRUE
+8,Z_32.wav,32,helmet / helmet_crash,ssshh helmet,0,FP,NO,1678,**check onset,C->S,TRUE,TRUE
+8,Z_33.wav,33,bell_hand / bell_bike,bell,0,FL,NO,1363, ,C->S,TRUE,TRUE
+8,Z_34.wav,34,cheese_block / cheese_blue,the holey cheese,1,FL,PR,1069, ,C->S,TRUE,TRUE
+8,Z_35.wav,35,nail / nail_finger,the nail,0,FL,NO,1285, ,C->S,TRUE,TRUE
+8,Z_36.wav,36,vase / vase_flowers,the vase,0,FL,NO,1305, ,C->S,TRUE,TRUE
+8,Z_37.wav,37,clock_wall / clock_digital,the clock,0,FL,NO,1704, ,C->S,FALSE,TRUE
+8,Z_38.wav,38,hat_sun / hat_cowboy,the hat,0,FL,NO,1520, ,C->S,FALSE,TRUE
+8,Z_39.wav,39,pen_ballpoint / pen_nolid,it�s a pen with the lid on,1,FL,PO,1222, ,C->S,FALSE,TRUE
+8,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1244, ,C->S,FALSE,TRUE
+8,Z_41.wav,41,pipe_smoke / pipe_kitchen,wooden pipe,1,FL,PR,1112, ,C->S,FALSE,TRUE
+8,Z_42.wav,42,bat_animal / bat_baseball,the animal bat,1,FL,PR,1164, ,C->S,FALSE,TRUE
+8,Z_43.wav,43,horse_animal / horse_rocking,the horse,0,FL,NO,1543, ,C->S,TRUE,FALSE
+8,Z_44.wav,44,tshirt_round / tshirt_vneck,mmm tshirt,0,FP,NO,1672, ,C->S,TRUE,FALSE
+8,Z_45.wav,45,pizza / pizza_slice,the pizza,0,LE,NO,1867, ,C->S,TRUE,FALSE
+8,Z_46.wav,46,eye_pupil / I_letter,eyeball,0,FL,NO,1019, ,C->S,TRUE,FALSE
+8,Z_47.wav,47,potatoes_skin / potatoes_peeled,the unpeeled potatoes,1,FL,PR,1317, ,C->S,TRUE,FALSE
+8,Z_48.wav,48,compmouse / compmouse_wireless,ehh the mouse you have to plug in,1,FP,PO,1365, ,C->S,TRUE,FALSE
+9,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,FALSE
+9,Z_02.wav,2,bin_lid / bin_pedal,the square bin,1,FL,PR,1485, ,C->S,FALSE,FALSE
+9,Z_03.wav,3,croc / croc_lilo,the real aligator,1,FL,PR,1679, ,C->S,FALSE,FALSE
+9,Z_04.wav,4,coffee_cup / coffee_saucer,the coffee without the saucer,1,FL,PO,2185, ,C->S,FALSE,FALSE
+9,Z_05.wav,5,mirror_wall / mirror_hand,the ornate mirror,1,FL,PR,1233, ,C->S,FALSE,FALSE
+9,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,1451, ,C->S,FALSE,FALSE
+9,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter (WO?) the lllit lighter,0,RE,AO, , ,S->C,TRUE,TRUE
+9,Z_08.wav,8,egg_shell / egg_yolk,the egg (WO?) the one that's uncracked,0,RE,AO, , ,S->C,TRUE,TRUE
+9,Z_09.wav,9,umbrella_open / umbrella_closed,em the umbrella (WO?) the open umbrella,0,RE,AO, , ,S->C,TRUE,TRUE
+9,Z_10.wav,10,candle_unused / candle_melted,okay the em candle..the one that�s not been used,0,RE,AS, ,tough call,S->C,TRUE,TRUE
+9,Z_11.wav,11,knife_kitchen / knife_swiss,the knife (WO?) the..not the swiss army knife the other one,0,RE,AO, , ,S->C,TRUE,TRUE
+9,Z_12.wav,12,car_family / car_sports,the car (WO?) the..side on one,0,RE,AO, , ,S->C,TRUE,TRUE
+9,Z_13.wav,13,carrots / carrots_chopped,the carrots (WO?) the em raw..like unpeeled ones,0,RE,AO, , ,S->C,FALSE,TRUE
+9,Z_14.wav,14,gun_real / gun_toy,the gun�the real gun,0,RE,AS, , ,S->C,FALSE,TRUE
+9,Z_15.wav,15,saddle_horse / saddle_bike,the saddle (WO?) the black saddle..the horse one,0,RE,AO, , ,S->C,FALSE,TRUE
+9,Z_16.wav,16,pad_unlocked / pad_locked,the unpadlocked padlock,1,FL,PR,1779, ,S->C,FALSE,TRUE
+9,Z_17.wav,17,headphones_large / headphones_small,the headphones (WO?) the em..the sort of more old fashioned ones (cuts off),0,RE,AO, , ,S->C,FALSE,TRUE
+9,Z_18.wav,18,battery_AA / battery_car,the battery (WO?) the em like duracel battery,0,RE,AO, , ,S->C,FALSE,TRUE
+9,Z_19.wav,19,wine_glass / wine_red,the wine glass that�s empty,1,FL,PO,1311, ,S->C,TRUE,FALSE
+9,Z_20.wav,20,money_notes / money_coins,the money (WO?) the..em.. notes,0,RE,AO, , ,S->C,TRUE,FALSE
+9,Z_21.wav,21,boot_foot / boot_car,the black boots,1,FL,PR,3380, ,S->C,TRUE,FALSE
+9,Z_22.wav,22,camera_corder / camera_cctv,the camera (WO?) the em sort of larger one with lots of black,0,RE,AO, , ,S->C,TRUE,FALSE
+9,Z_23.wav,23,guitar_acoustic / guitar_electric,the guitar (WO?) the em met em wooden one,0,RE,AO, , ,S->C,TRUE,FALSE
+9,Z_24.wav,24,glove_wooly / glove_boxing,the glove (WO?) the red one (Matcher speaks) the the em not the boxing glove the other one,0,RE,AO, , ,S->C,TRUE,FALSE
+9,Z_25.wav,25,teapot_white / teapot_cosy,the teapot (WO?) the plain one,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_26.wav,26,plug / plug_bath,the plug (WO?) the em..the like the white plastic one with metal,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_27.wav,27,saw_hand / saw_electric,emm the saw (WO?) the metal one..the em the hand one,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_28.wav,28,fan_hand / fan_electric,the fan (WO?) the em handheld one,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_29.wav,29,orange_skin / orange_slice,the orange (WO?) the whole one ,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_30.wav,30,spade_garden / spade_beach,(runs over from last trial) a shovel (WO?) em the metal one,0,RE,AO, , ,S->C,FALSE,FALSE
+9,Z_31.wav,31,key_gold / key_car,the metal key,1,FL,PR,2112, ,C->S,TRUE,TRUE
+9,Z_32.wav,32,helmet / helmet_crash,the helmet with the gaps,1,FL,PO,1367, ,C->S,TRUE,TRUE
+9,Z_33.wav,33,bell_hand / bell_bike,the handheld bell,1,FL,PR,1403, ,C->S,TRUE,TRUE
+9,Z_34.wav,34,cheese_block / cheese_blue,the non mouldy cheese,1,FL,PR,1415, ,C->S,TRUE,TRUE
+9,Z_35.wav,35,nail / nail_finger,the metal nail,1,FL,PR,979, ,C->S,TRUE,TRUE
+9,Z_36.wav,36,vase / vase_flowers,the vase,0,FL,NO,1403, ,C->S,TRUE,TRUE
+9,Z_37.wav,37,clock_wall / clock_digital,the em round clock,1,FP,PR,2640, ,C->S,FALSE,TRUE
+9,Z_38.wav,38,hat_sun / hat_cowboy,the hat with the black on it,1,FL,PO,2176,possible UP?,C->S,FALSE,TRUE
+9,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen with the lid on,1,FL,PO,1291, ,C->S,FALSE,TRUE
+9,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1632, ,C->S,FALSE,TRUE
+9,Z_41.wav,41,pipe_smoke / pipe_kitchen,the brown pipe,1,FL,PR,1909, ,C->S,FALSE,TRUE
+9,Z_42.wav,42,bat_animal / bat_baseball,the animal the bat,1,LE,PR,1783,,C->S,FALSE,TRUE
+9,Z_43.wav,43,horse_animal / horse_rocking,the real horse,1,FL,PR,1388, ,C->S,TRUE,FALSE
+9,Z_44.wav,44,tshirt_round / tshirt_vneck,the orange tshirt,0,FL,NO,1387, **** ornage vs yellow?,C->S,TRUE,FALSE
+9,Z_45.wav,45,pizza / pizza_slice,ehh em whole pizza,1,FP,PR,3453, ,C->S,TRUE,FALSE
+9,Z_46.wav,46,eye_pupil / I_letter,the part of the face the eye,1,FL,PR,1125,weird description but ok,C->S,TRUE,FALSE
+9,Z_47.wav,47,potatoes_skin / potatoes_peeled,the unpeeled potatoes,1,FL,PR,1081, ,C->S,TRUE,FALSE
+9,Z_48.wav,48,compmouse / compmouse_wireless,the..eh mouse with the cable,1,FP/UP,PO,2584, ,C->S,TRUE,FALSE
+10,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,TRUE
+10,Z_02.wav,2,bin_lid / bin_pedal,uhh a plastic bin,1,FP,PR,2365, ,C->S,FALSE,TRUE
+10,Z_03.wav,3,croc / croc_lilo,uhh a real crocodile,1,FP,PR,1839, ,C->S,FALSE,TRUE
+10,Z_04.wav,4,coffee_cup / coffee_saucer,it�s a cup of coffee without a saucer,1,FL,PO,2024, ,C->S,FALSE,TRUE
+10,Z_05.wav,5,mirror_wall / mirror_hand,uhh a wall mirror,1,FP,PR,2713, ,C->S,FALSE,TRUE
+10,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1771, ,C->S,FALSE,TRUE
+10,Z_07.wav,7,lighter_flame / lighter_noflame,a lit lighter,1,FL,PR,2626, ,C->S,TRUE,FALSE
+10,Z_08.wav,8,egg_shell / egg_yolk,it�s a full egg,1,FL,PR,1540, ,C->S,TRUE,FALSE
+10,Z_09.wav,9,umbrella_open / umbrella_closed,an open umbrella,1,FL,PR,1544, ,C->S,TRUE,FALSE
+10,Z_10.wav,10,candle_unused / candle_melted,a candle with a wick,1,FL,PO,1601, ,C->S,TRUE,FALSE
+10,Z_11.wav,11,knife_kitchen / knife_swiss,kitchen knife,1,FL,PR,2793, ,C->S,TRUE,FALSE
+10,Z_12.wav,12,car_family / car_sports,a small car,1,FL,PR,2191, ,C->S,TRUE,FALSE
+10,Z_13.wav,13,carrots / carrots_chopped,unchopped carrots,1,FL,PR,2470, ,C->S,FALSE,FALSE
+10,Z_14.wav,14,gun_real / gun_toy,uhh a gun,0,FP,NO,2500, ,C->S,FALSE,FALSE
+10,Z_15.wav,15,saddle_horse / saddle_bike,uum it�s a saddle,0,FP,NO,2986, ,C->S,FALSE,FALSE
+10,Z_16.wav,16,pad_unlocked / pad_locked,its an unlocked padlock,1,FL,PR,2249, ,C->S,FALSE,FALSE
+10,Z_17.wav,17,headphones_large / headphones_small,some on ear headphones,1,FL,PR,1784,onset of 'on',C->S,FALSE,FALSE
+10,Z_18.wav,18,battery_AA / battery_car,a AA battery,1,FL,PR,1549, ,C->S,FALSE,FALSE
+10,Z_19.wav,19,wine_glass / wine_red,aaaa empty wine glass,1,LE,PR,2574, ,S->C,TRUE,TRUE
+10,Z_20.wav,20,money_notes / money_coins,some cash its uh like cash uh paper money,0,RE,AS, , ,S->C,TRUE,TRUE
+10,Z_21.wav,21,boot_foot / boot_car,uhh aaa uh boot for your foot,1,LE/FP,PO,4192, ,S->C,TRUE,TRUE
+10,Z_22.wav,22,camera_corder / camera_cctv,aaa uh film camera,1,LE/FP,PR,2617, ,S->C,TRUE,TRUE
+10,Z_23.wav,23,guitar_acoustic / guitar_electric,an acoustic guitar,1,FL,PR,1444, ,S->C,TRUE,TRUE
+10,Z_24.wav,24,glove_wooly / glove_boxing,uhhh aaa a red uh five fingered glove,1,LE/FP,PR,3017, ,S->C,TRUE,TRUE
+10,Z_25.wav,25,teapot_white / teapot_cosy,a uhh a tea just a blank teapot,0,RE,DE,4410,onset from just benefit of the doubt not RE just struggling to describe,S->C,FALSE,TRUE
+10,Z_26.wav,26,plug / plug_bath,umm a electrical plug,1,FP,PR,2570, ,S->C,FALSE,TRUE
+10,Z_27.wav,27,saw_hand / saw_electric,ss uh hand saw,1,FP,PR,3319, ,S->C,FALSE,TRUE
+10,Z_28.wav,28,fan_hand / fan_electric,aaa uh like a uh uh hand fan,1,LE/FP,PR,5825, ,S->C,FALSE,TRUE
+10,Z_29.wav,29,orange_skin / orange_slice,tangerine�.of like a full tangerine,0,RE,AS, , ,S->C,FALSE,TRUE
+10,Z_30.wav,30,spade_garden / spade_beach,aaaa garden spade,1,LE,PR,2391, ,S->C,FALSE,TRUE
+10,Z_31.wav,31,key_gold / key_car,key (WO?) the key..oh the uh house key,0,RE,AO, , ,S->C,TRUE,FALSE
+10,Z_32.wav,32,helmet / helmet_crash,umm aaa uh like a bicycle helmet,0,LE/FP,NO,4458, ,S->C,TRUE,FALSE
+10,Z_33.wav,33,bell_hand / bell_bike,uh bell (WO?) uhh like a school bell,0,RE,AO, , ,S->C,TRUE,FALSE
+10,Z_34.wav,34,cheese_block / cheese_blue,aaa�block of holey cheese,1,FP,PR,3088, ,S->C,TRUE,FALSE
+10,Z_35.wav,35,nail / nail_finger,aaa it�s a nail uh uh like a hammer nail,0,RE,AS, , ,S->C,TRUE,FALSE
+10,Z_36.wav,36,vase / vase_flowers,a vase�(WO?) with nothing in it,0,RE,AO,,,S->C,TRUE,FALSE
+10,Z_37.wav,37,clock_wall / clock_digital,it�s aaa anologue clock,1,LE,PR,2501, *LE or FL?,S->C,FALSE,FALSE
+10,Z_38.wav,38,hat_sun / hat_cowboy,aaaa like a ladies hat,1,LE,PR,3097, ,S->C,FALSE,FALSE
+10,Z_39.wav,39,pen_ballpoint / pen_nolid,uhh a uh pen with its lid on,1,FP,PO,3777, ,S->C,FALSE,FALSE
+10,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1169, ,S->C,FALSE,FALSE
+10,Z_41.wav,41,pipe_smoke / pipe_kitchen,aaa um like a traditional pipe,1,LE/FP,PR,3922, ,S->C,FALSE,FALSE
+10,Z_42.wav,42,bat_animal / bat_baseball,a bat (WO?) uh a bat oh a animal bat,0,RE,AO, , ,S->C,FALSE,FALSE
+10,Z_43.wav,43,horse_animal / horse_rocking,it�s a real horse,1,FL,PR,1683, ,C->S,TRUE,TRUE
+10,Z_44.wav,44,tshirt_round / tshirt_vneck,ahh a yellow tshirt,0,FP,NO,2381, ,C->S,TRUE,TRUE
+10,Z_45.wav,45,pizza / pizza_slice,a ffuuull pizza,1,LE,PR,1666, ,C->S,TRUE,TRUE
+10,Z_46.wav,46,eye_pupil / I_letter,uh it�s a human eye,1,FP,PR,2707, ,C->S,TRUE,TRUE
+10,Z_47.wav,47,potatoes_skin / potatoes_peeled,unpeeled potatoes,1,FL,PR,1624, ,C->S,TRUE,TRUE
+10,Z_48.wav,48,compmouse / compmouse_wireless,a wired mouse,1,FL,PR,2493, ,C->S,TRUE,TRUE
+11,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,FALSE
+11,Z_02.wav,2,bin_lid / bin_pedal,emmm it is a rectangular black rubbish bin,1,FP,PR,3029, ,S->C,TRUE,FALSE
+11,Z_03.wav,3,croc / croc_lilo,emm it is a real aligator or crocodile,1,FP,PR,2424, ,S->C,TRUE,FALSE
+11,Z_04.wav,4,coffee_cup / coffee_saucer,it is a cup of coffee that is not on a saucer,1,FL,PO,2569, ,S->C,TRUE,FALSE
+11,Z_05.wav,5,mirror_wall / mirror_hand,it�s a wall mounted mirror,1,FL,PR,2116, ,S->C,TRUE,FALSE
+11,Z_06.wav,6,chair_wooden / chair_baby,ummm it is a chair for adults not babies,1,FP,PO,4124, ,S->C,TRUE,FALSE
+11,Z_07.wav,7,lighter_flame / lighter_noflame,it is a umm lighter that has a flame,1,FP,PO,3580, ,S->C,FALSE,FALSE
+11,Z_08.wav,8,egg_shell / egg_yolk,uhh it is a soo its an egg that is solid its not been cooked or opened,1,FP,PO,4493, ,S->C,FALSE,FALSE
+11,Z_09.wav,9,umbrella_open / umbrella_closed,it�s aaaa open red umbrella,1,LE,PR,2640, ,S->C,FALSE,FALSE
+11,Z_10.wav,10,candle_unused / candle_melted,it is aaa unlit candle,1,LE,PR,2272, ,S->C,FALSE,FALSE
+11,Z_11.wav,11,knife_kitchen / knife_swiss,uh it is a single knife,1,FP,PR,2893, ,S->C,FALSE,FALSE
+11,Z_12.wav,12,car_family / car_sports,a�it is a car but not a sports car is is a four door car,1,LE/UP,PO,3002, ,S->C,FALSE,FALSE
+11,Z_13.wav,13,carrots / carrots_chopped,emm carrots ,0,FP,NO,2394, ,C->S,TRUE,TRUE
+11,Z_14.wav,14,gun_real / gun_toy,ehh gun,0,FP,NO,1618, ,C->S,TRUE,TRUE
+11,Z_15.wav,15,saddle_horse / saddle_bike,it is a..riding saddle for a horse,1,FL,PR,3761, benefit of doubt - slight pause,C->S,TRUE,TRUE
+11,Z_16.wav,16,pad_unlocked / pad_locked,unlocked lock,1,FL,PR,2263, ,C->S,TRUE,TRUE
+11,Z_17.wav,17,headphones_large / headphones_small,uhh headphones,0,FP,NO,3270, ,C->S,TRUE,TRUE
+11,Z_18.wav,18,battery_AA / battery_car,emm it is a battery,0,FP,NO,2746, ,C->S,TRUE,TRUE
+11,Z_19.wav,19,wine_glass / wine_red,empty wine glass,1,FL,PR,1268, ,C->S,FALSE,TRUE
+11,Z_20.wav,20,money_notes / money_coins,emm it is bank notes,1,FP,PR,2651,,C->S,FALSE,TRUE
+11,Z_21.wav,21,boot_foot / boot_car,umm a boot,0,FP,NO,2088,hard to get exact onset,C->S,FALSE,TRUE
+11,Z_22.wav,22,camera_corder / camera_cctv,ehhh it is a camera that you would use to record films possibly,1,FP,PO,3000, ,C->S,FALSE,TRUE
+11,Z_23.wav,23,guitar_acoustic / guitar_electric,uhh it is a guitar,0,FP,NO,2331, ,C->S,FALSE,TRUE
+11,Z_24.wav,24,glove_wooly / glove_boxing,it�s a ladies red glove,1,FL,PR,1629, ,C->S,FALSE,TRUE
+11,Z_25.wav,25,teapot_white / teapot_cosy,it is a white teapot,1,FL,PR,2456, ,C->S,TRUE,FALSE
+11,Z_26.wav,26,plug / plug_bath,ehhhlectrical plug,1,LE,PR,1274,hard to get onset,C->S,TRUE,FALSE
+11,Z_27.wav,27,saw_hand / saw_electric,it is aaaa hand saw,1,LE,PR,3071, ,C->S,TRUE,FALSE
+11,Z_28.wav,28,fan_hand / fan_electric,umm it is a handheld fan,1,FP,PR,2084, ,C->S,TRUE,FALSE
+11,Z_29.wav,29,orange_skin / orange_slice,an whole orange,1,FL,PR,1815, ,C->S,TRUE,FALSE
+11,Z_30.wav,30,spade_garden / spade_beach,ehh metal shovel,1,FP,PR,2577, ,C->S,TRUE,FALSE
+11,Z_31.wav,31,key_gold / key_car,it is a gold key,1,FL,PR,1870,onset might have ebeen a little earlir hard to tell,C->S,FALSE,FALSE
+11,Z_32.wav,32,helmet / helmet_crash,emm it is a bike helmet,0,FP,NO,2682, ,C->S,FALSE,FALSE
+11,Z_33.wav,33,bell_hand / bell_bike,it�s aaaa bell,0,LE,NO,2071, ,C->S,FALSE,FALSE
+11,Z_34.wav,34,cheese_block / cheese_blue,it is a�block of cheese,0,UP,NO,2044, ,C->S,FALSE,FALSE
+11,Z_35.wav,35,nail / nail_finger,uh a nail,0,FP,NO,1908, ,C->S,FALSE,FALSE
+11,Z_36.wav,36,vase / vase_flowers,uhh it is an empty vase,1,FP/UP,PR,2055, ,C->S,FALSE,FALSE
+11,Z_37.wav,37,clock_wall / clock_digital,a clll eh wall mounted clock,1,FP,PR,2746,didn�t commit so no repair,S->C,TRUE,TRUE
+11,Z_38.wav,38,hat_sun / hat_cowboy,umm it is a ladies sun hat,1,LE/FP,PR,3850, ,S->C,TRUE,TRUE
+11,Z_39.wav,39,pen_ballpoint / pen_nolid,it is aaa pen with a cap on,1,LE,PO,2877, ,S->C,TRUE,TRUE
+11,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,2144, ,S->C,TRUE,TRUE
+11,Z_41.wav,41,pipe_smoke / pipe_kitchen,a smoking pipe,1,FL,PR,1766, ,S->C,TRUE,TRUE
+11,Z_42.wav,42,bat_animal / bat_baseball,bat (WO?) oh why do I always do that..it's an animal bat,0,RE,AO, , ,S->C,TRUE,TRUE
+11,Z_43.wav,43,horse_animal / horse_rocking,aaaa um an actual horse as opposed to a toy horse,1,LE/FP,PR,2717,,S->C,FALSE,TRUE
+11,Z_44.wav,44,tshirt_round / tshirt_vneck,uumm it is a male yellow tshirt,1,FP,PR,2134, ,S->C,FALSE,TRUE
+11,Z_45.wav,45,pizza / pizza_slice,uum it is a full pepperoni pizza as opposed to a slice,1,FP,PR,2339,,S->C,FALSE,TRUE
+11,Z_46.wav,46,eye_pupil / I_letter,its an eye..but it�s a like a biological eye ball,1,UP,PO, ,*** benefit of doubt - very hard call�either PO or RE,S->C,FALSE,TRUE
+11,Z_47.wav,47,potatoes_skin / potatoes_peeled,uh unpeeled potatoes,1,FP,PR,3527, ,S->C,FALSE,TRUE
+11,Z_48.wav,48,compmouse / compmouse_wireless,eh computer mouse (WO?) oh with the long cable,0,RE,AO,2041, ,S->C,FALSE,TRUE
+12,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,FALSE
+12,Z_02.wav,2,bin_lid / bin_pedal,the square bin,1,FL,PR,2139, ,S->C,FALSE,FALSE
+12,Z_03.wav,3,croc / croc_lilo,crocodile,0,FL,NO,940, ,S->C,FALSE,FALSE
+12,Z_04.wav,4,coffee_cup / coffee_saucer,tea cup (WO?) uh the one with the handle facing to the right,0,RE,AO, , ,S->C,FALSE,FALSE
+12,Z_05.wav,5,mirror_wall / mirror_hand,the black mirror,1,FL,PR,2072, ,S->C,FALSE,FALSE
+12,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,2568, ,S->C,FALSE,FALSE
+12,Z_07.wav,7,lighter_flame / lighter_noflame,uh the lit lighter,1,FP,PR,1291, ,C->S,TRUE,TRUE
+12,Z_08.wav,8,egg_shell / egg_yolk,the egg,0,FL,NO,1458, ,C->S,TRUE,TRUE
+12,Z_09.wav,9,umbrella_open / umbrella_closed,the umbrella,0,FL,NO,1405, ,C->S,TRUE,TRUE
+12,Z_10.wav,10,candle_unused / candle_melted,the..unmelted candle,1,FL,PR,1709, ,C->S,TRUE,TRUE
+12,Z_11.wav,11,knife_kitchen / knife_swiss,thee knife,0,FL,NO,1511, ,C->S,TRUE,TRUE
+12,Z_12.wav,12,car_family / car_sports,the car,0,FL,NO,1427, ,C->S,TRUE,TRUE
+12,Z_13.wav,13,carrots / carrots_chopped,the full carrots,1,FL,PR,1230, ,C->S,FALSE,TRUE
+12,Z_14.wav,14,gun_real / gun_toy,the gun,0,FL,NO,1623, ,C->S,FALSE,TRUE
+12,Z_15.wav,15,saddle_horse / saddle_bike,the saddle,0,FL,NO,1906, ,C->S,FALSE,TRUE
+12,Z_16.wav,16,pad_unlocked / pad_locked,the lock,0,FL,NO,1465, ,C->S,FALSE,TRUE
+12,Z_17.wav,17,headphones_large / headphones_small,the headphones,0,FL,NO,1417, ,C->S,FALSE,TRUE
+12,Z_18.wav,18,battery_AA / battery_car, small battery,1,FL,PR,880, ,C->S,FALSE,TRUE
+12,Z_19.wav,19,wine_glass / wine_red,the glass,0,FL,NO,1630, ,C->S,TRUE,FALSE
+12,Z_20.wav,20,money_notes / money_coins,bank notes,1,FL,PR,1125,,C->S,TRUE,FALSE
+12,Z_21.wav,21,boot_foot / boot_car,black shoe,1,FL,PR,998,,C->S,TRUE,FALSE
+12,Z_22.wav,22,camera_corder / camera_cctv,the large camera,1,FL,PR,1620,hard to find onset,C->S,TRUE,FALSE
+12,Z_23.wav,23,guitar_acoustic / guitar_electric,acoustic guitar,1,FL,PR,1108, ,C->S,TRUE,FALSE
+12,Z_24.wav,24,glove_wooly / glove_boxing,the glove,0,FL,NO,1812, ,C->S,TRUE,FALSE
+12,Z_25.wav,25,teapot_white / teapot_cosy,the teapot,0,FL,NO,1502, ,C->S,FALSE,FALSE
+12,Z_26.wav,26,plug / plug_bath,electrical plug,1,FL,PR,1027, ,C->S,FALSE,FALSE
+12,Z_27.wav,27,saw_hand / saw_electric,the saw ,0,FL,NO,1331, ,C->S,FALSE,FALSE
+12,Z_28.wav,28,fan_hand / fan_electric,uh the paper fan,1,FP,PR,1560, ,C->S,FALSE,FALSE
+12,Z_29.wav,29,orange_skin / orange_slice,orange,0,FL,NO,1618, ,C->S,FALSE,FALSE
+12,Z_30.wav,30,spade_garden / spade_beach,metal shovel,1,FL,PR,1307, ,C->S,FALSE,FALSE
+12,Z_31.wav,31,key_gold / key_car,thee metal key,1,FL,PR,2596, ,S->C,TRUE,TRUE
+12,Z_32.wav,32,helmet / helmet_crash,uhh theeeee spikier bike helmet,1,LE/FP,PR,4477, ,S->C,TRUE,TRUE
+12,Z_33.wav,33,bell_hand / bell_bike,um the hand bell,1,FP,PR,3177, ,S->C,TRUE,TRUE
+12,Z_34.wav,34,cheese_block / cheese_blue,ehh thee�.not blue cheese,1,UP,PR,4370, ,S->C,TRUE,TRUE
+12,Z_35.wav,35,nail / nail_finger,the nail (WO?) um like metal nail,0,RE,AO, , ,S->C,TRUE,TRUE
+12,Z_36.wav,36,vase / vase_flowers,the glass vase..without flowers,0,RE,AS, ,close call,S->C,TRUE,TRUE
+12,Z_37.wav,37,clock_wall / clock_digital,clock (WO?) um the anologue one not digital,0,RE,AO, , ,S->C,FALSE,TRUE
+12,Z_38.wav,38,hat_sun / hat_cowboy,uhh thee�the hat that isnt a cowboy hat,1,LE/UP,PO,5978, ,S->C,FALSE,TRUE
+12,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen with the lid on,1,FL,PO,2269, ,S->C,FALSE,TRUE
+12,Z_40.wav,40,apple_red / apple_green,aaa..the red apple,0,RE,AS,1611,***benefit of the doubt,S->C,FALSE,TRUE
+12,Z_41.wav,41,pipe_smoke / pipe_kitchen,the pipe (WO?) the old fashioned smoking pipe,0,RE,AO, , ,S->C,FALSE,TRUE
+12,Z_42.wav,42,bat_animal / bat_baseball,thee animal bat,1,FL,PR,2304, ,S->C,FALSE,TRUE
+12,Z_43.wav,43,horse_animal / horse_rocking,a horse (WO?) uh the real one,0,RE,AO, , ,S->C,TRUE,FALSE
+12,Z_44.wav,44,tshirt_round / tshirt_vneck,thee mens yellow shirt,1,FL,PR,2507, ,S->C,TRUE,FALSE
+12,Z_45.wav,45,pizza / pizza_slice,pizza (WO?) pizza (think theres two) oh the whole pizza,0,RE,AO, , ,S->C,TRUE,FALSE
+12,Z_46.wav,46,eye_pupil / I_letter,the eye ball,0,FL,NO,2702, ,S->C,TRUE,FALSE
+12,Z_47.wav,47,potatoes_skin / potatoes_peeled,potatoes (WO?) the unpeeled ones,0,RE,AO, , ,S->C,TRUE,FALSE
+12,Z_48.wav,48,compmouse / compmouse_wireless,computer mouse (WO?) thee um..one with a cable,0,RE,AO, , ,S->C,TRUE,FALSE
+13,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+13,Z_02.wav,2,bin_lid / bin_pedal,uhh a bin,0,FP,NO,1923, ,C->S,TRUE,TRUE
+13,Z_03.wav,3,croc / croc_lilo,an...aligator,0,UP,NO,2615, ,C->S,TRUE,TRUE
+13,Z_04.wav,4,coffee_cup / coffee_saucer,coffee cup,0,FL,NO,2182, ,C->S,TRUE,TRUE
+13,Z_05.wav,5,mirror_wall / mirror_hand,a mirror,0,FL,NO,2400, ,C->S,TRUE,TRUE
+13,Z_06.wav,6,chair_wooden / chair_baby,the chair,0,FL,NO,1951, ,C->S,TRUE,TRUE
+13,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter,0,FL,NO,2214, ,C->S,FALSE,TRUE
+13,Z_08.wav,8,egg_shell / egg_yolk,an egg,0,FL,NO,1953, ,C->S,FALSE,TRUE
+13,Z_09.wav,9,umbrella_open / umbrella_closed,an umbrella,0,FL,NO,1602, ,C->S,FALSE,TRUE
+13,Z_10.wav,10,candle_unused / candle_melted,un unlit..or the candle,1,RE,DE, , ,C->S,FALSE,TRUE
+13,Z_11.wav,11,knife_kitchen / knife_swiss,kitchen knife,1,FL,PR,1652, ,C->S,FALSE,TRUE
+13,Z_12.wav,12,car_family / car_sports,eh the hatchback car,1,FP,PR,1550, ,C->S,FALSE,TRUE
+13,Z_13.wav,13,carrots / carrots_chopped,carrots,0,FL,NO,2380, ,C->S,TRUE,FALSE
+13,Z_14.wav,14,gun_real / gun_toy,the gun,0,FL,NO,3119, ,C->S,TRUE,FALSE
+13,Z_15.wav,15,saddle_horse / saddle_bike,em a car seat,1,FP,PR,2112, ,C->S,TRUE,FALSE
+13,Z_16.wav,16,pad_unlocked / pad_locked, , , , , ,can't make out what she says,C->S,TRUE,FALSE
+13,Z_17.wav,17,headphones_large / headphones_small,the earphones,0,FL,NO,2281, *************,C->S,TRUE,FALSE
+13,Z_18.wav,18,battery_AA / battery_car,duracell or the battery,1,RE,DE, , about to say duracell battery,C->S,TRUE,FALSE
+13,Z_19.wav,19,wine_glass / wine_red,a wwwine glasss,0,LE,NO,1853, ,C->S,FALSE,FALSE
+13,Z_20.wav,20,money_notes / money_coins,some pound notes,0,FL,NO,1587,,C->S,FALSE,FALSE
+13,Z_21.wav,21,boot_foot / boot_car,aa shoe,0,FL,NO,2126, ,C->S,FALSE,FALSE
+13,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,1611, ,C->S,FALSE,FALSE
+13,Z_23.wav,23,guitar_acoustic / guitar_electric,acoustic guitar,1,FL,PR,1567,not sure if missed a from acoustic or whether its just coustic guitar,C->S,FALSE,FALSE
+13,Z_24.wav,24,glove_wooly / glove_boxing,rubber glove,1,FL,PR,1358, ,C->S,FALSE,FALSE
+13,Z_25.wav,25,teapot_white / teapot_cosy,the teapot..oh the teapot without the cosy on,0,RE,AS, , ,S->C,TRUE,TRUE
+13,Z_26.wav,26,plug / plug_bath,aaaa plug (WO?) the wall plug,0,RE,AO, , ,S->C,TRUE,TRUE
+13,Z_27.wav,27,saw_hand / saw_electric,theee hand saw (WO) the hand one the not the electric one,1,LE,PR,3383,fine with first description,S->C,TRUE,TRUE
+13,Z_28.wav,28,fan_hand / fan_electric,the fan eh the hand fan,0,RE,AS, , ,S->C,TRUE,TRUE
+13,Z_29.wav,29,orange_skin / orange_slice,a whole orange,1,FL,PR,2232, ,S->C,TRUE,TRUE
+13,Z_30.wav,30,spade_garden / spade_beach,emm a real spade,1,FP,PR,2682, ,S->C,TRUE,TRUE
+13,Z_31.wav,31,key_gold / key_car,emm key..eh house key,0,RE,AS, , ,S->C,FALSE,TRUE
+13,Z_32.wav,32,helmet / helmet_crash,bicycle helmet (WO?) ehh thee less hipstery one,0,RE,AO, , ,S->C,FALSE,TRUE
+13,Z_33.wav,33,bell_hand / bell_bike,a bell (WO?) theee handheld..not the bike bell,0,RE,AO, , ,S->C,FALSE,TRUE
+13,Z_34.wav,34,cheese_block / cheese_blue,bit of cheese (WO?) theee em edam cheese,0,RE,AO, , ,S->C,FALSE,TRUE
+13,Z_35.wav,35,nail / nail_finger,so a nail,0,FL,NO,1816, ,S->C,FALSE,TRUE
+13,Z_36.wav,36,vase / vase_flowers,a vase without flowers in it,1,FL,PO,1933,benefit of doubt,S->C,FALSE,TRUE
+13,Z_37.wav,37,clock_wall / clock_digital,theeeee mmm clock with hands,1,LE/FP,PO,4828, ,S->C,TRUE,FALSE
+13,Z_38.wav,38,hat_sun / hat_cowboy,hat (WO?) uhh the womans hat,0,RE,AO, , ,S->C,TRUE,FALSE
+13,Z_39.wav,39,pen_ballpoint / pen_nolid,pen with the ss lid on,1,FL,PO,2254,think its fluent - just unsure how to describe,S->C,TRUE,FALSE
+13,Z_40.wav,40,apple_red / apple_green,uhh the apple (WO?) the red apple,0,RE,AO, , ,S->C,TRUE,FALSE
+13,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe..um a��tobacco pipe,0,RE,AS, , ,S->C,TRUE,FALSE
+13,Z_42.wav,42,bat_animal / bat_baseball,a bat (WO?) eh theee animal bat,0,RE,AO, , ,S->C,TRUE,FALSE
+13,Z_43.wav,43,horse_animal / horse_rocking,uuuum horse,0,FP,NO,1975, ,S->C,FALSE,FALSE
+13,Z_44.wav,44,tshirt_round / tshirt_vneck,tshirt,0,FL,NO,1403, ,S->C,FALSE,FALSE
+13,Z_45.wav,45,pizza / pizza_slice,pizza (WO?) the whole pizza,0,RE,AO, , ,S->C,FALSE,FALSE
+13,Z_46.wav,46,eye_pupil / I_letter,ehhhh thee human eye,1,FP,PR,3928, ,S->C,FALSE,FALSE
+13,Z_47.wav,47,potatoes_skin / potatoes_peeled,potatoes with their skins on,1,FL,PO,2231, ,S->C,FALSE,FALSE
+13,Z_48.wav,48,compmouse / compmouse_wireless,aaaa moussse with a lead on it,1,LE,PO,3173, ,S->C,FALSE,FALSE
+14,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,TRUE
+14,Z_02.wav,2,bin_lid / bin_pedal,black tall plastic bin..eh not foot pedal,0,RE,AS,1227,,S->C,TRUE,TRUE
+14,Z_03.wav,3,croc / croc_lilo,a�..real life aligator,1,UP,PR,3519, ,S->C,TRUE,TRUE
+14,Z_04.wav,4,coffee_cup / coffee_saucer,cup offfffff coffee without a saucer,1,LE,PO,1280, ,S->C,TRUE,TRUE
+14,Z_05.wav,5,mirror_wall / mirror_hand,em a re..a mirror with detail round the side,1,RE,PO,3388, ,S->C,TRUE,TRUE
+14,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1500, ,S->C,TRUE,TRUE
+14,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter with a flame,1,FL,PO,1191, ,S->C,FALSE,TRUE
+14,Z_08.wav,8,egg_shell / egg_yolk,an..ee egg in the shell,1,FL,PO,2171, ,S->C,FALSE,TRUE
+14,Z_09.wav,9,umbrella_open / umbrella_closed,an umbrella (WO?) the open one,0,RE,AO, , ,S->C,FALSE,TRUE
+14,Z_10.wav,10,candle_unused / candle_melted,candle that�s not been used,1,FL,PO,1952, ,S->C,FALSE,TRUE
+14,Z_11.wav,11,knife_kitchen / knife_swiss,a sharp knife�just one (cuts off),1,FL,PR,1419,sharp enough to act as a modifier,S->C,FALSE,TRUE
+14,Z_12.wav,12,car_family / car_sports,silver car..the (WO?) eh four door or five door (cuts off),0,RE,AO, ,,S->C,FALSE,TRUE
+14,Z_13.wav,13,carrots / carrots_chopped,ehh carrots (WO?) oh full carrots,0,RE,AO, , ,S->C,TRUE,FALSE
+14,Z_14.wav,14,gun_real / gun_toy,aaa real gun,1,LE,PR,2061, ,S->C,TRUE,FALSE
+14,Z_15.wav,15,saddle_horse / saddle_bike,gah..saddle for a horse or something maybe not sure,1,FP,PO,2465, ,S->C,TRUE,FALSE
+14,Z_16.wav,16,pad_unlocked / pad_locked,an open lock,1,FL,PR,1114, ,S->C,TRUE,FALSE
+14,Z_17.wav,17,headphones_large / headphones_small,ehh headphones..big ones,1,FP,PO,1859, ,S->C,TRUE,FALSE
+14,Z_18.wav,18,battery_AA / battery_car,a battery (WO?) with the plus sign,0,RE,AO, , ,S->C,TRUE,FALSE
+14,Z_19.wav,19,wine_glass / wine_red,the glass you drink from..an empty one,0,RE,AS, ,**** TOUGH CALL,S->C,FALSE,FALSE
+14,Z_20.wav,20,money_notes / money_coins,emmm money notes,1,FP,PO,2041, ,S->C,FALSE,FALSE
+14,Z_21.wav,21,boot_foot / boot_car,a boot�emm you wear on your foot,0,RE,AS, , ,S->C,FALSE,FALSE
+14,Z_22.wav,22,camera_corder / camera_cctv,an old camera with a ffflash on the side,1,FL,PR,1298,,S->C,FALSE,FALSE
+14,Z_23.wav,23,guitar_acoustic / guitar_electric,a wooden guitar,1,LE,PR,1898, ,S->C,FALSE,FALSE
+14,Z_24.wav,24,glove_wooly / glove_boxing,a red glove..a like a washing up glove..like not boxing glove,0,RE,AS, ,think it�s a repair more than struggling to describe,S->C,FALSE,FALSE
+14,Z_25.wav,25,teapot_white / teapot_cosy,a teapot,0,FL,NO,1548, ,C->S,TRUE,TRUE
+14,Z_26.wav,26,plug / plug_bath,a metal plug,1,FL,PR,1033, ,C->S,TRUE,TRUE
+14,Z_27.wav,27,saw_hand / saw_electric,a non electric saw,1,FL,PR,1578, ,C->S,TRUE,TRUE
+14,Z_28.wav,28,fan_hand / fan_electric,an open fan,1,FL,PR,1479, ,C->S,TRUE,TRUE
+14,Z_29.wav,29,orange_skin / orange_slice,an orange,0,FL,NO,2023, ,C->S,TRUE,TRUE
+14,Z_30.wav,30,spade_garden / spade_beach,a metal spade,1,FL,PR,1580, ,C->S,TRUE,TRUE
+14,Z_31.wav,31,key_gold / key_car,a metal key,1,FL,PR,1580, ,C->S,FALSE,TRUE
+14,Z_32.wav,32,helmet / helmet_crash,a helmet with holes in it,1,FL,PO,1545, ,C->S,FALSE,TRUE
+14,Z_33.wav,33,bell_hand / bell_bike,a..bell,0,UP,NO,2574, ,C->S,FALSE,TRUE
+14,Z_34.wav,34,cheese_block / cheese_blue,ehhh cheese,0,FP,NO,2166, ,C->S,FALSE,TRUE
+14,Z_35.wav,35,nail / nail_finger,a nail,0,FL,NO,1635, ,C->S,FALSE,TRUE
+14,Z_36.wav,36,vase / vase_flowers,the empty vase,1,FL,PR,1417, ,C->S,FALSE,TRUE
+14,Z_37.wav,37,clock_wall / clock_digital,a clock,0,LE,NO,1886, ,C->S,TRUE,FALSE
+14,Z_38.wav,38,hat_sun / hat_cowboy,a ladies hat,1,FL,PR,1220, ,C->S,TRUE,FALSE
+14,Z_39.wav,39,pen_ballpoint / pen_nolid,eh pen with the lid on,1,FP,PO,1377, ,C->S,TRUE,FALSE
+14,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1006, ,C->S,TRUE,FALSE
+14,Z_41.wav,41,pipe_smoke / pipe_kitchen,eh a rounded pipe ,1,FP,PR,1223, ,C->S,TRUE,FALSE
+14,Z_42.wav,42,bat_animal / bat_baseball,an animal a bat,1,FL,PR,2159, ,C->S,TRUE,FALSE
+14,Z_43.wav,43,horse_animal / horse_rocking,a real horse,1,FL,PR,1344,****can't find onset,C->S,FALSE,FALSE
+14,Z_44.wav,44,tshirt_round / tshirt_vneck,a mans yellow tshirt,1,FL,PR,1339, ,C->S,FALSE,FALSE
+14,Z_45.wav,45,pizza / pizza_slice,ehh whole pizza,1,FP,PR,1679, ,C->S,FALSE,FALSE
+14,Z_46.wav,46,eye_pupil / I_letter,an eye you see with,1,FL,PO,1302, ,C->S,FALSE,FALSE
+14,Z_47.wav,47,potatoes_skin / potatoes_peeled,red potatoes,1,FL,PR,1249, ,C->S,FALSE,FALSE
+14,Z_48.wav,48,compmouse / compmouse_wireless,a mouse with a cable,1,FL,PO,1671, ,C->S,FALSE,FALSE
+15,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,FALSE
+15,Z_02.wav,2,bin_lid / bin_pedal,bin,0,FL,NO,2328, ,C->S,TRUE,FALSE
+15,Z_03.wav,3,croc / croc_lilo,aligator,0,FL,NO,2323, ,C->S,TRUE,FALSE
+15,Z_04.wav,4,coffee_cup / coffee_saucer,cup ,0,FL,NO,1704, ,C->S,TRUE,FALSE
+15,Z_05.wav,5,mirror_wall / mirror_hand,mirror,0,FL,NO,3336, ,C->S,TRUE,FALSE
+15,Z_06.wav,6,chair_wooden / chair_baby,chair,0,FL,NO,2238, ,C->S,TRUE,FALSE
+15,Z_07.wav,7,lighter_flame / lighter_noflame,lit cigarette lighter,1,FL,PR,1811, ,C->S,FALSE,FALSE
+15,Z_08.wav,8,egg_shell / egg_yolk,egg,0,FL,NO,1971, ,C->S,FALSE,FALSE
+15,Z_09.wav,9,umbrella_open / umbrella_closed,umbrella,0,FL,NO,2636, ,C->S,FALSE,FALSE
+15,Z_10.wav,10,candle_unused / candle_melted,unused candle,1,FL,PR,1710, ,C->S,FALSE,FALSE
+15,Z_11.wav,11,knife_kitchen / knife_swiss,knife,0,FL,NO,2510, ,C->S,FALSE,FALSE
+15,Z_12.wav,12,car_family / car_sports,car,0,FL,NO,2923, ,C->S,FALSE,FALSE
+15,Z_13.wav,13,carrots / carrots_chopped,whole carrots,1,FL,PR,2765, ,S->C,TRUE,TRUE
+15,Z_14.wav,14,gun_real / gun_toy,gun that�s not got red on it,1,FL,PO,3205, ,S->C,TRUE,TRUE
+15,Z_15.wav,15,saddle_horse / saddle_bike,horse saddle,1,FL,PR,2061, ,S->C,TRUE,TRUE
+15,Z_16.wav,16,pad_unlocked / pad_locked,open padlock,1,FL,PR,2140, ,S->C,TRUE,TRUE
+15,Z_17.wav,17,headphones_large / headphones_small,heavy duty headphones,1,FL,PR,5301, ,S->C,TRUE,TRUE
+15,Z_18.wav,18,battery_AA / battery_car,small battery,1,FL,PR,4359, ,S->C,TRUE,TRUE
+15,Z_19.wav,19,wine_glass / wine_red,empty glass,1,FL,PR,2951, ,S->C,FALSE,TRUE
+15,Z_20.wav,20,money_notes / money_coins,pound notes,1,FL,PR,3434,,S->C,FALSE,TRUE
+15,Z_21.wav,21,boot_foot / boot_car,"boo..ttt, shoe footwear boot",0,RE,AS, , ,S->C,FALSE,TRUE
+15,Z_22.wav,22,camera_corder / camera_cctv,video camera,1,FL,PR,2054, ,S->C,FALSE,TRUE
+15,Z_23.wav,23,guitar_acoustic / guitar_electric,(noise from last trial) acoustic guitar,1,FL,PR,3076, ,S->C,FALSE,TRUE
+15,Z_24.wav,24,glove_wooly / glove_boxing,glove (WO?) oh�. oh rec glove with fingers,0,RE,AO, , ,S->C,FALSE,TRUE
+15,Z_25.wav,25,teapot_white / teapot_cosy,plain teapot,1,FL,PR,3540, ,S->C,TRUE,FALSE
+15,Z_26.wav,26,plug / plug_bath,electrical plug,1,FL,PR,1784, ,S->C,TRUE,FALSE
+15,Z_27.wav,27,saw_hand / saw_electric,hand saw,1,FL,PR,1922,hard to get exact onset,S->C,TRUE,FALSE
+15,Z_28.wav,28,fan_hand / fan_electric,hand fan,1,FL,PR,2680,***very hard to get onset,S->C,TRUE,FALSE
+15,Z_29.wav,29,orange_skin / orange_slice,whole orange,1,FL,PR,2508, ,S->C,TRUE,FALSE
+15,Z_30.wav,30,spade_garden / spade_beach,shovel (WO?) well the other one's a spade (laughs..sound cuts off as she speaks again),0,RE,AO, , ,S->C,TRUE,FALSE
+15,Z_31.wav,31,key_gold / key_car,door key,1,FL,PR,3731, ,S->C,FALSE,FALSE
+15,Z_32.wav,32,helmet / helmet_crash,oof sssmart cycle helmet,1,FP,PR,4605, ,S->C,FALSE,FALSE
+15,Z_33.wav,33,bell_hand / bell_bike,bell (WO?) oh gosh there are two..eh hand bell,0,RE,AO, , ,S->C,FALSE,FALSE
+15,Z_34.wav,34,cheese_block / cheese_blue,holey cheese,1,FL,PR,3623, ,S->C,FALSE,FALSE
+15,Z_35.wav,35,nail / nail_finger,nail ehh not a finger nail the other kind,0,RE,AS,, ,S->C,FALSE,FALSE
+15,Z_36.wav,36,vase / vase_flowers,empty vase,1,FL,PR,3476, ,S->C,FALSE,FALSE
+15,Z_37.wav,37,clock_wall / clock_digital,clock,0,FL,NO,2497, ,C->S,TRUE,TRUE
+15,Z_38.wav,38,hat_sun / hat_cowboy,sun hat,1,FL,PR,2629, ,C->S,TRUE,TRUE
+15,Z_39.wav,39,pen_ballpoint / pen_nolid,french stick, , , , ,said the wrong item,C->S,TRUE,TRUE
+15,Z_40.wav,40,apple_red / apple_green,apple,0,FL,NO,1691, ,C->S,TRUE,TRUE
+15,Z_41.wav,41,pipe_smoke / pipe_kitchen,pipe,0,FL,NO,3456, ,C->S,TRUE,TRUE
+15,Z_42.wav,42,bat_animal / bat_baseball,bat,0,FL,NO,2700, ,C->S,TRUE,TRUE
+15,Z_43.wav,43,horse_animal / horse_rocking,horse,0,FL,NO,3549, ,C->S,FALSE,TRUE
+15,Z_44.wav,44,tshirt_round / tshirt_vneck,tshirt,0,FL,NO,1758, ,C->S,FALSE,TRUE
+15,Z_45.wav,45,pizza / pizza_slice,pizza,0,FL,NO,2528, ,C->S,FALSE,TRUE
+15,Z_46.wav,46,eye_pupil / I_letter,optical eye,1,FL,PR,2291, ,C->S,FALSE,TRUE
+15,Z_47.wav,47,potatoes_skin / potatoes_peeled,dirty potatoes,1,FL,PR,2089, ,C->S,FALSE,TRUE
+15,Z_48.wav,48,compmouse / compmouse_wireless,mouse,0,FL,NO,1832, ,C->S,FALSE,TRUE
+16,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,TRUE
+16,Z_02.wav,2,bin_lid / bin_pedal,dust bin (WO?) uhh the rectangular one,0,RE,AO,, ,S->C,FALSE,TRUE
+16,Z_03.wav,3,croc / croc_lilo,crocodile (WO?) uhh oh not the toy crocodile the real crocodile,0,RE,AO, , ,S->C,FALSE,TRUE
+16,Z_04.wav,4,coffee_cup / coffee_saucer,the cup of coffee without the saucepan,1,FL,PO,1936, ,S->C,FALSE,TRUE
+16,Z_05.wav,5,mirror_wall / mirror_hand,mirror uh the wall mirror,0,RE,AS, , ,S->C,FALSE,TRUE
+16,Z_06.wav,6,chair_wooden / chair_baby,uh chair (WO?) uhh oh not the baby chair the normal wooden chair,0,RE,AO, , ,S->C,FALSE,TRUE
+16,Z_07.wav,7,lighter_flame / lighter_noflame,lighter (WO?) uhh the lit one,0,RE,AO, , ,S->C,TRUE,FALSE
+16,Z_08.wav,8,egg_shell / egg_yolk,uhh egg,0,FP,NO,1624, ,S->C,TRUE,FALSE
+16,Z_09.wav,9,umbrella_open / umbrella_closed,umbrella (WO?) oh the unfolded one the opened one,0,RE,AO, , ,S->C,TRUE,FALSE
+16,Z_10.wav,10,candle_unused / candle_melted,candle uuhh the one..new candle,0,RE,AS, , ,S->C,TRUE,FALSE
+16,Z_11.wav,11,knife_kitchen / knife_swiss,knifffe (WO?) uh the normal cutting knife not the pen knife,0,RE,AO, , ,S->C,TRUE,FALSE
+16,Z_12.wav,12,car_family / car_sports,car uh the one tinted with the tinted glasses,0,RE,AS, ,**,S->C,TRUE,FALSE
+16,Z_13.wav,13,carrots / carrots_chopped,carrots (WO?) carrots uh the ones that are not cut,0,RE,AO, , ,S->C,FALSE,FALSE
+16,Z_14.wav,14,gun_real / gun_toy,pistol (WO?) oh sorry uhh the one without the red cap,0,RE,AO, , ,S->C,FALSE,FALSE
+16,Z_15.wav,15,saddle_horse / saddle_bike,saddle (WO?) of the not the bike thing the other one,0,RE,AO, , ,S->C,FALSE,FALSE
+16,Z_16.wav,16,pad_unlocked / pad_locked,padlock (WO?) padlock (think there's two on screen) oh uh the open padlock,0,RE,AO, , ,S->C,FALSE,FALSE
+16,Z_17.wav,17,headphones_large / headphones_small,headphones (WO?) uh the headphones not the earphones,0,RE,AO, ,***,S->C,FALSE,FALSE
+16,Z_18.wav,18,battery_AA / battery_car,um battery uh the small uh with the plus points,1,FP,PO,1326,just uncertain how best to describe,S->C,FALSE,FALSE
+16,Z_19.wav,19,wine_glass / wine_red,wine glass ,0,FL,NO,1317, ,C->S,TRUE,TRUE
+16,Z_20.wav,20,money_notes / money_coins,"money, notes",1,FL,PO,1194, ,C->S,TRUE,TRUE
+16,Z_21.wav,21,boot_foot / boot_car,uhhh the shoe,1,FP,PR,1981, ,C->S,TRUE,TRUE
+16,Z_22.wav,22,camera_corder / camera_cctv,uhhh again the camera,1,FP,PR,1887, ,C->S,TRUE,TRUE
+16,Z_23.wav,23,guitar_acoustic / guitar_electric,brown guitar,1,FL,PR,1688, ,C->S,TRUE,TRUE
+16,Z_24.wav,24,glove_wooly / glove_boxing,gloves,0,FL,NO,1687, ,C->S,TRUE,TRUE
+16,Z_25.wav,25,teapot_white / teapot_cosy,uhh pot of teuh tea,0,FP,NO,1799,stammers but ok - onset from pot,C->S,FALSE,TRUE
+16,Z_26.wav,26,plug / plug_bath,mmm plug..the white plug with the three things,0,RE,AS, ,** trouble describing?,C->S,FALSE,TRUE
+16,Z_27.wav,27,saw_hand / saw_electric,mmmmmm saw,0,FP,NO,2006, ,C->S,FALSE,TRUE
+16,Z_28.wav,28,fan_hand / fan_electric,fan,0,FL,NO,1175, ,C->S,FALSE,TRUE
+16,Z_29.wav,29,orange_skin / orange_slice,(slight noise at start) then whole orange,1,FL,PR,1381, ,C->S,FALSE,TRUE
+16,Z_30.wav,30,spade_garden / spade_beach,shovel..metallic shovel,0,RE,AS, , ,C->S,FALSE,TRUE
+16,Z_31.wav,31,key_gold / key_car,uhh key..metallic key,0,RE,AS, , ,C->S,TRUE,FALSE
+16,Z_32.wav,32,helmet / helmet_crash,helmet,0,FL,NO,1142, ,C->S,TRUE,FALSE
+16,Z_33.wav,33,bell_hand / bell_bike,christmas bell,1,FL,PR,1330, ,C->S,TRUE,FALSE
+16,Z_34.wav,34,cheese_block / cheese_blue,a yellow cheese,1,FL,PR,1650, ,C->S,TRUE,FALSE
+16,Z_35.wav,35,nail / nail_finger,nail,0,FL,NO,1437, ,C->S,TRUE,FALSE
+16,Z_36.wav,36,vase / vase_flowers,jug,0,FL,NO,1600, CHECK****,C->S,TRUE,FALSE
+16,Z_37.wav,37,clock_wall / clock_digital,uhhh clock,0,FP,NO,1877, ,C->S,FALSE,FALSE
+16,Z_38.wav,38,hat_sun / hat_cowboy,uhhh hat,0,FP,NO,1568, ,C->S,FALSE,FALSE
+16,Z_39.wav,39,pen_ballpoint / pen_nolid,pen with the lid on..pen,1,RE,DE, , ,C->S,FALSE,FALSE
+16,Z_40.wav,40,apple_red / apple_green,mmm red apple,1,FP,PR,1097,hard to find exact onset,C->S,FALSE,FALSE
+16,Z_41.wav,41,pipe_smoke / pipe_kitchen,brown pipe,1,FL,PR,1232,,C->S,FALSE,FALSE
+16,Z_42.wav,42,bat_animal / bat_baseball,uhh�bat,0,FP,NO,2222, ,C->S,FALSE,FALSE
+16,Z_43.wav,43,horse_animal / horse_rocking,"hor uuh animal horse, real horse",0,RE,AS, ,repeated twice so repair,S->C,TRUE,TRUE
+16,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow tshirt oh one without the logo,0,RE,AS, , ,S->C,TRUE,TRUE
+16,Z_45.wav,45,pizza / pizza_slice,pizza (WO?) oh sorry the whole pizza,0,RE,AO, , ,S->C,TRUE,TRUE
+16,Z_46.wav,46,eye_pupil / I_letter,eye (WO?) uhhh human eye,0,RE,AO, , ,S->C,TRUE,TRUE
+16,Z_47.wav,47,potatoes_skin / potatoes_peeled,uhh potatoes (WO?) uhh the unpeeled ones,0,RE,AO, , ,S->C,TRUE,TRUE
+16,Z_48.wav,48,compmouse / compmouse_wireless,mouse uuuh (WO?) the one with the wire,0,RE,AO, ,,S->C,TRUE,TRUE
+17,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,TRUE
+17,Z_02.wav,2,bin_lid / bin_pedal,a black bin umm square,1,FP,PO,1418, ,S->C,FALSE,TRUE
+17,Z_03.wav,3,croc / croc_lilo,an aligator�a real one,0,RE,AS, , ,S->C,FALSE,TRUE
+17,Z_04.wav,4,coffee_cup / coffee_saucer,a cup of coffee (WO?) oh sorry there's two cups..sorry one without a plate,0,RE,AO, , ,S->C,FALSE,TRUE
+17,Z_05.wav,5,mirror_wall / mirror_hand,it�s a mirror for the wall,1,FL,PO,1519, ,S->C,FALSE,TRUE
+17,Z_06.wav,6,chair_wooden / chair_baby,"um a chair, wooden chair",0,RE,AS, , ,S->C,FALSE,TRUE
+17,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter with a flame,1,FL,PO,1495, ,S->C,TRUE,FALSE
+17,Z_08.wav,8,egg_shell / egg_yolk,a whole egg,1,FL,PR,1995, ,S->C,TRUE,FALSE
+17,Z_09.wav,9,umbrella_open / umbrella_closed,"a red umbrella, open",1,FL,PO,1723, ,S->C,TRUE,FALSE
+17,Z_10.wav,10,candle_unused / candle_melted,ahh a candle with the wick at the top..unused,1,FP,PO,2464,benefit of the doubt given as she had already described it adequately.,S->C,TRUE,FALSE
+17,Z_11.wav,11,knife_kitchen / knife_swiss,"a sharp knife, kitchen knife",0,RE,AS, , ,S->C,TRUE,FALSE
+17,Z_12.wav,12,car_family / car_sports,grey car (WO) sm small one not sporty one,0,RE,AO, ,,S->C,TRUE,FALSE
+17,Z_13.wav,13,carrots / carrots_chopped,ummm whole carrots,1,FP,PR,2646, ,S->C,FALSE,FALSE
+17,Z_14.wav,14,gun_real / gun_toy,gun umm a real gun,0,RE,AS, , ,S->C,FALSE,FALSE
+17,Z_15.wav,15,saddle_horse / saddle_bike,what looks like a horses saddle,1,FL,PR,2267, ,S->C,FALSE,FALSE
+17,Z_16.wav,16,pad_unlocked / pad_locked,a padlock theres..open,0,RE,AS, , ,S->C,FALSE,FALSE
+17,Z_17.wav,17,headphones_large / headphones_small,um a set of large headphones,1,FP,PR,3590,onset from large,S->C,FALSE,FALSE
+17,Z_18.wav,18,battery_AA / battery_car, a battery (WO?) um a single battery with the plus at the top,0,RE,AO, , ,S->C,FALSE,FALSE
+17,Z_19.wav,19,wine_glass / wine_red,an empty wine glass,1,FL,PR,1446, ,C->S,TRUE,TRUE
+17,Z_20.wav,20,money_notes / money_coins,um a pile of money..notes,0,RE,AS, ,*** tough call,C->S,TRUE,TRUE
+17,Z_21.wav,21,boot_foot / boot_car,a black leather boot,1,FL,PR,1614, ,C->S,TRUE,TRUE
+17,Z_22.wav,22,camera_corder / camera_cctv,a camera,0,FL,NO,1782, ,C->S,TRUE,TRUE
+17,Z_23.wav,23,guitar_acoustic / guitar_electric,an acoustic guitar,1,FL,PR,1362, ,C->S,TRUE,TRUE
+17,Z_24.wav,24,glove_wooly / glove_boxing,a red fitted glove,1,FL,PR,1314, ,C->S,TRUE,TRUE
+17,Z_25.wav,25,teapot_white / teapot_cosy,a white teapot,1,FL,PR,1894, ,C->S,FALSE,TRUE
+17,Z_26.wav,26,plug / plug_bath,an adapter a plug for an applicance,1,RE,AS, ,???,C->S,FALSE,TRUE
+17,Z_27.wav,27,saw_hand / saw_electric,it�s a saw,0,FL,NO,1930, ,C->S,FALSE,TRUE
+17,Z_28.wav,28,fan_hand / fan_electric,hand fan that you'd fan yourself with,1,FL,PR,1812,,C->S,FALSE,TRUE
+17,Z_29.wav,29,orange_skin / orange_slice,whole orange,1,FL,PR,1150, ,C->S,FALSE,TRUE
+17,Z_30.wav,30,spade_garden / spade_beach,a garden spade,1,FL,PR,1807, ,C->S,FALSE,TRUE
+17,Z_31.wav,31,key_gold / key_car,a yellow key,1,FL,PR,1380, ,C->S,TRUE,FALSE
+17,Z_32.wav,32,helmet / helmet_crash,bike helmet with holes in it ,1,FL,PO,1567, ,C->S,TRUE,FALSE
+17,Z_33.wav,33,bell_hand / bell_bike,a hand bell,1,FL,PR,1567, ,C->S,TRUE,FALSE
+17,Z_34.wav,34,cheese_block / cheese_blue,a block of cheese with holes in it yellow,1,FL,PO,1644,benefit of doubt given,C->S,TRUE,FALSE
+17,Z_35.wav,35,nail / nail_finger,um a sc a nail you would hammer into a wall,0,RE,AS,2558,doesn't finish saying screw so no repair,C->S,TRUE,FALSE
+17,Z_36.wav,36,vase / vase_flowers,an empty vase,1,FL,PR,1593, ,C->S,TRUE,FALSE
+17,Z_37.wav,37,clock_wall / clock_digital,a wall clock,1,FL,PR, ,noise from previous trial,C->S,FALSE,FALSE
+17,Z_38.wav,38,hat_sun / hat_cowboy,a hat with black ribbon,1,FL,PO,1572, ,C->S,FALSE,FALSE
+17,Z_39.wav,39,pen_ballpoint / pen_nolid,a pen with its lid on,1,FL,PO,1494, ,C->S,FALSE,FALSE
+17,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1512, ,C->S,FALSE,FALSE
+17,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe that you could smoke,1,FL,PO,1449, ,C->S,FALSE,FALSE
+17,Z_42.wav,42,bat_animal / bat_baseball,a bat..bird animal,0,RE,AS, , ,C->S,FALSE,FALSE
+17,Z_43.wav,43,horse_animal / horse_rocking,um a horse..an actual horse not the rocking horse,1,FP,PO,2230,think just struggled to know how to describe,S->C,TRUE,TRUE
+17,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow tshirt em mens,1,FP,PO,1119, ,S->C,TRUE,TRUE
+17,Z_45.wav,45,pizza / pizza_slice,a piizza..full whole pizza,0,RE,AS, , ,S->C,TRUE,TRUE
+17,Z_46.wav,46,eye_pupil / I_letter,a picture of an eye (WO?) a person's eye,0,RE,AO, , ,S->C,TRUE,TRUE
+17,Z_47.wav,47,potatoes_skin / potatoes_peeled,"collection of potatoes with skin on , dark",1,FL,PO,1480, ,S->C,TRUE,TRUE
+17,Z_48.wav,48,compmouse / compmouse_wireless,a computer mouse with the wire attached,1,FL,PO,1675, ,S->C,TRUE,TRUE
+18,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,FALSE
+18,Z_02.wav,2,bin_lid / bin_pedal,black bin eh with the lid that you move yourself rather than the pedla bin,1,FP,PO,1145, ,S->C,FALSE,FALSE
+18,Z_03.wav,3,croc / croc_lilo,crocodile eh real crocodile,0,RE,AS, , ,S->C,FALSE,FALSE
+18,Z_04.wav,4,coffee_cup / coffee_saucer,emm a coffee without a saucer,1,FP,PO,2124, ,S->C,FALSE,FALSE
+18,Z_05.wav,5,mirror_wall / mirror_hand,mirror (WO?) oh um a wall mounted mirror with leaves around the side,0,RE,AO, , ,S->C,FALSE,FALSE
+18,Z_06.wav,6,chair_wooden / chair_baby,wooden chair,1,FL,PR,1362, ,S->C,FALSE,FALSE
+18,Z_07.wav,7,lighter_flame / lighter_noflame,eh lit lighter,1,FP,PR,1597, ,C->S,TRUE,TRUE
+18,Z_08.wav,8,egg_shell / egg_yolk,egg with the shell,1,FL,PO,1358, ,C->S,TRUE,TRUE
+18,Z_09.wav,9,umbrella_open / umbrella_closed,open umbrella,1,FL,PR,1218, ,C->S,TRUE,TRUE
+18,Z_10.wav,10,candle_unused / candle_melted,new candle,1,FL,PR,1333, ,C->S,TRUE,TRUE
+18,Z_11.wav,11,knife_kitchen / knife_swiss,kitchen knife,1,FL,PR,2022, ,C->S,TRUE,TRUE
+18,Z_12.wav,12,car_family / car_sports,car,0,FL,NO,1524, ,C->S,TRUE,TRUE
+18,Z_13.wav,13,carrots / carrots_chopped,four carrots,1,FL,PR,1245, ,C->S,FALSE,TRUE
+18,Z_14.wav,14,gun_real / gun_toy,ehh it�s a real gun,1,FP,PR,2400, ,C->S,FALSE,TRUE
+18,Z_15.wav,15,saddle_horse / saddle_bike,it�s a horse saddle,1,FL,PR,1490, ,C->S,FALSE,TRUE
+18,Z_16.wav,16,pad_unlocked / pad_locked,open padlock,1,FL,PR,1468, ,C->S,FALSE,TRUE
+18,Z_17.wav,17,headphones_large / headphones_small,headphones ,0,FL,NO,2173, ,C->S,FALSE,TRUE
+18,Z_18.wav,18,battery_AA / battery_car,a torch battery,1,FL,PR,1585, ,C->S,FALSE,TRUE
+18,Z_19.wav,19,wine_glass / wine_red,a wine glass,0,FL,NO,1997, ,C->S,TRUE,FALSE
+18,Z_20.wav,20,money_notes / money_coins,paper money,1,FL,PR,1484, ,C->S,TRUE,FALSE
+18,Z_21.wav,21,boot_foot / boot_car,black boot,1,FL,PR,1447, ,C->S,TRUE,FALSE
+18,Z_22.wav,22,camera_corder / camera_cctv,video camera,1,FL,PR,980,hard to get exact onset,C->S,TRUE,FALSE
+18,Z_23.wav,23,guitar_acoustic / guitar_electric,acoustic guitar,1,FL,PR,1695, ,C->S,TRUE,FALSE
+18,Z_24.wav,24,glove_wooly / glove_boxing,winter glove,1,FL,PR,1054, ,C->S,TRUE,FALSE
+18,Z_25.wav,25,teapot_white / teapot_cosy,uhh white teapot,1,FP,PR,1779, ,C->S,FALSE,FALSE
+18,Z_26.wav,26,plug / plug_bath,a wall plug,1,FL,PR,1216, ,C->S,FALSE,FALSE
+18,Z_27.wav,27,saw_hand / saw_electric,hand saw,1,FL,PR,1349, ,C->S,FALSE,FALSE
+18,Z_28.wav,28,fan_hand / fan_electric,a hand fan,1,FL,PR,1858, ,C->S,FALSE,FALSE
+18,Z_29.wav,29,orange_skin / orange_slice,whole orange,1,FL,PR,1668, ,C->S,FALSE,FALSE
+18,Z_30.wav,30,spade_garden / spade_beach,ehh garden shovel,1,FP,PR,1969, ,C->S,FALSE,FALSE
+18,Z_31.wav,31,key_gold / key_car,key (WO?) ohh eh it�s a gold key,0,RE,AO, , ,S->C,TRUE,TRUE
+18,Z_32.wav,32,helmet / helmet_crash,bike helmet,0,FL,NO,1420, ,S->C,TRUE,TRUE
+18,Z_33.wav,33,bell_hand / bell_bike,bell emm a bell that you'd usee with your hand you'd like shake to make a noise,0,RE,AS, ,****check - just struggling to describe?,S->C,TRUE,TRUE
+18,Z_34.wav,34,cheese_block / cheese_blue,cheese (WO?) oh ehthe orange cheese not the blue cheese,0,RE,AO, , ,S->C,TRUE,TRUE
+18,Z_35.wav,35,nail / nail_finger,nail (WO?) eh it�s a nail and hammer nail,0,RE,AO, , ,S->C,TRUE,TRUE
+18,Z_36.wav,36,vase / vase_flowers,the vase uh without flowers,0,RE,AS, , ,S->C,TRUE,TRUE
+18,Z_37.wav,37,clock_wall / clock_digital,clock (WO?) em it�s a it�s a eh aa time telling clock ehh ehh non digital,0,RE,AO, , ,S->C,FALSE,TRUE
+18,Z_38.wav,38,hat_sun / hat_cowboy,summer hat..ladies hat,1,RE,PR, , ,S->C,FALSE,TRUE
+18,Z_39.wav,39,pen_ballpoint / pen_nolid,blue pen�uh with the lid on,0,RE,AS, , ,S->C,FALSE,TRUE
+18,Z_40.wav,40,apple_red / apple_green,"apple, a red apple",0,RE,AS, , ,S->C,FALSE,TRUE
+18,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe,0,FL,NO,1031, ,S->C,FALSE,TRUE
+18,Z_42.wav,42,bat_animal / bat_baseball,a bat ehh aa an alive bat,0,RE,AS, , ,S->C,FALSE,TRUE
+18,Z_43.wav,43,horse_animal / horse_rocking,horse..eh real horse,0,RE,AS, , ,S->C,TRUE,FALSE
+18,Z_44.wav,44,tshirt_round / tshirt_vneck,eeem mens yellow tshirt,1,FP,PR,1938, ,S->C,TRUE,FALSE
+18,Z_45.wav,45,pizza / pizza_slice,ehh whole pizza,1,FP,PR,1554, ,S->C,TRUE,FALSE
+18,Z_46.wav,46,eye_pupil / I_letter,eye (WO?) emm it is a girls eye,0,RE,AO, , ,S->C,TRUE,FALSE
+18,Z_47.wav,47,potatoes_skin / potatoes_peeled,pot ehh unpeeled potatoes,0,RE,AS,2721,***tough call bud didn�t finish word,S->C,TRUE,FALSE
+18,Z_48.wav,48,compmouse / compmouse_wireless,mouse for the keyboard oh emm with a cable,0,RE,AS, , ,S->C,TRUE,FALSE
+19,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,TRUE
+19,Z_02.wav,2,bin_lid / bin_pedal,eh black plastic bin,1,FP,PR,2328, ,C->S,FALSE,TRUE
+19,Z_03.wav,3,croc / croc_lilo,eh crocodile,0,FP,NO,2030, ,C->S,FALSE,TRUE
+19,Z_04.wav,4,coffee_cup / coffee_saucer,eh the cup of coffee,0,FP,NO,2028, ,C->S,FALSE,TRUE
+19,Z_05.wav,5,mirror_wall / mirror_hand,ehh large mirror,1,FP,PR,2614, ,C->S,FALSE,TRUE
+19,Z_06.wav,6,chair_wooden / chair_baby,wooden chair,1,FL,PR,1746, ,C->S,FALSE,TRUE
+19,Z_07.wav,7,lighter_flame / lighter_noflame,eh a lighter with the flame on,1,FP,PO,1453, ,C->S,TRUE,FALSE
+19,Z_08.wav,8,egg_shell / egg_yolk,eh the egg shell,1,FP,PO,1239, ,C->S,TRUE,FALSE
+19,Z_09.wav,9,umbrella_open / umbrella_closed,open umbrella,1,FL,PR,1796, ,C->S,TRUE,FALSE
+19,Z_10.wav,10,candle_unused / candle_melted,its an unused candle,1,FL,PR,2496, ,C->S,TRUE,FALSE
+19,Z_11.wav,11,knife_kitchen / knife_swiss,it�s a cutting knife,0,FL,NO,2323, ,C->S,TRUE,FALSE
+19,Z_12.wav,12,car_family / car_sports,not ehhh car,1,RE,DE, , ,C->S,TRUE,FALSE
+19,Z_13.wav,13,carrots / carrots_chopped,non grated carrots,1,FL,PR,1468, ,C->S,FALSE,FALSE
+19,Z_14.wav,14,gun_real / gun_toy,ehh the real gun,1,FP,PR,2793, ,C->S,FALSE,FALSE
+19,Z_15.wav,15,saddle_horse / saddle_bike,looks like a motor bike seat..moveable seat..pad (cuts off),1,FL,PR,3331,onset from motor - benefit of doubt think he was just struggling to describe,C->S,FALSE,FALSE
+19,Z_16.wav,16,pad_unlocked / pad_locked,sss ehh an open lock,1,FP,PR,2790, ,C->S,FALSE,FALSE
+19,Z_17.wav,17,headphones_large / headphones_small,padded headphones,1,FL,PR,2036, ,C->S,FALSE,FALSE
+19,Z_18.wav,18,battery_AA / battery_car,ehh its AA battery,1,FP,PR,2815, ,C->S,FALSE,FALSE
+19,Z_19.wav,19,wine_glass / wine_red,it�s the empty wine glass,1,FL,PR,2635, ,S->C,TRUE,TRUE
+19,Z_20.wav,20,money_notes / money_coins,picture of thee ehhh paper money,1,FP,PR,4422, ,S->C,TRUE,TRUE
+19,Z_21.wav,21,boot_foot / boot_car,it�s a black boot ehh (cuts off),1,FL,PR,1697,CUTOFF,S->C,TRUE,TRUE
+19,Z_22.wav,22,camera_corder / camera_cctv,it�s a camera (WO) the eeeh re recording camera with the em mike on it,0,RE,AO, , ,S->C,TRUE,TRUE
+19,Z_23.wav,23,guitar_acoustic / guitar_electric,thee acoustic guitar,1,FL,PR,2006, ,S->C,TRUE,TRUE
+19,Z_24.wav,24,glove_wooly / glove_boxing,theeee not the red boxing glove the red regular red glove,1,LE,PR,3661,,S->C,TRUE,TRUE
+19,Z_25.wav,25,teapot_white / teapot_cosy,that�s a teapot without the tea cosy on it,1,FL,PO,2696, ,S->C,FALSE,TRUE
+19,Z_26.wav,26,plug / plug_bath,the white plug..eh electrical plug,0,RE,AS, , ,S->C,FALSE,TRUE
+19,Z_27.wav,27,saw_hand / saw_electric,eh it�s the non �ehh no not the chain saw ehh (cuts off),1,FP,PR,6356,CUTOFF just has trouble describing it,S->C,FALSE,TRUE
+19,Z_28.wav,28,fan_hand / fan_electric,ehhh the sort of chinese fan eh (cuts off),1,FP,PR,3409,CUTOFF,S->C,FALSE,TRUE
+19,Z_29.wav,29,orange_skin / orange_slice,eh the orange fruit the whole orange,0,RE,AS, , ,S->C,FALSE,TRUE
+19,Z_30.wav,30,spade_garden / spade_beach,eh the spade (WO?) oh sorry eh the metal spade,0,RE,AO, , ,S->C,FALSE,TRUE
+19,Z_31.wav,31,key_gold / key_car,eh key (WO?) oh sorry golden key,0,RE,AO, , ,S->C,TRUE,FALSE
+19,Z_32.wav,32,helmet / helmet_crash,theee eeem more stream lined bicycle helmet,1,LE/FP,PR,3780, ,S->C,TRUE,FALSE
+19,Z_33.wav,33,bell_hand / bell_bike,theee hand bell,1,LE,PR,2129, ,S->C,TRUE,FALSE
+19,Z_34.wav,34,cheese_block / cheese_blue,it�s a block of cheese with emm not the blue cheese,1,FP,PO,2488, ,S->C,TRUE,FALSE
+19,Z_35.wav,35,nail / nail_finger,eh nail (WO?) ahh em metal nail,0,RE,AO, , ,S->C,TRUE,FALSE
+19,Z_36.wav,36,vase / vase_flowers,eh it�s a glass vase with no plants in it ,1,FP,PO,1890, ,S->C,TRUE,FALSE
+19,Z_37.wav,37,clock_wall / clock_digital,it�s a circular clock,1,FL,PR,3070, ,S->C,FALSE,FALSE
+19,Z_38.wav,38,hat_sun / hat_cowboy,ehhhm its hat with a black ribbon around,1,FP,PO,2682, ,S->C,FALSE,FALSE
+19,Z_39.wav,39,pen_ballpoint / pen_nolid,eh the blue biro pen with the lid.. on,1,FP,PO,3029, ,S->C,FALSE,FALSE
+19,Z_40.wav,40,apple_red / apple_green,it�s a red apple,1,FL,PR,1521, ,S->C,FALSE,FALSE
+19,Z_41.wav,41,pipe_smoke / pipe_kitchen,it�s a old..old smoking pipe,1,FL,PR,2547,onset from 2nd old,S->C,FALSE,FALSE
+19,Z_42.wav,42,bat_animal / bat_baseball,eh the bat�eh animal,0,RE,AS, , ,S->C,FALSE,FALSE
+19,Z_43.wav,43,horse_animal / horse_rocking,"its eh a horse, animal",1,FL,PO,2611, ,C->S,TRUE,TRUE
+19,Z_44.wav,44,tshirt_round / tshirt_vneck,it�s a yellow tshirt,0,FL,NO,2424, ,C->S,TRUE,TRUE
+19,Z_45.wav,45,pizza / pizza_slice,it�s a pepperoni pizza,0,FL,NO,2729, ,C->S,TRUE,TRUE
+19,Z_46.wav,46,eye_pupil / I_letter,human eye,1,FL,PR,1367, ,C->S,TRUE,TRUE
+19,Z_47.wav,47,potatoes_skin / potatoes_peeled,non peeled potatoes,1,FL,PR,2231, ,C->S,TRUE,TRUE
+19,Z_48.wav,48,compmouse / compmouse_wireless,it�s a computer mouse with a wire,1,FL,PO,1739, ,C->S,TRUE,TRUE
+20,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,TRUE
+20,Z_02.wav,2,bin_lid / bin_pedal,black bin�that�s ehh like.. a square shape,0,RE,AS, , ,S->C,TRUE,TRUE
+20,Z_03.wav,3,croc / croc_lilo,crocodile (WO?) the animal one,0,RE,AO, , ,S->C,TRUE,TRUE
+20,Z_04.wav,4,coffee_cup / coffee_saucer,emm the coffee cup without the plate underneath,1,FP,PO,2942, ,S->C,TRUE,TRUE
+20,Z_05.wav,5,mirror_wall / mirror_hand,ehh the black mirror,1,FP,PR,1789, ,S->C,TRUE,TRUE
+20,Z_06.wav,6,chair_wooden / chair_baby,wooden chair,1,FL,PR,1124, ,S->C,TRUE,TRUE
+20,Z_07.wav,7,lighter_flame / lighter_noflame,the open lighter (WO?) the one with the flame,0,RE,AO, , ,S->C,FALSE,TRUE
+20,Z_08.wav,8,egg_shell / egg_yolk,emm the unopened egg,1,FP,PR,2618, ,S->C,FALSE,TRUE
+20,Z_09.wav,9,umbrella_open / umbrella_closed,red umbrella..thats open,1,FL,PO,1070,benefit of doubt given,S->C,FALSE,TRUE
+20,Z_10.wav,10,candle_unused / candle_melted,it�s a white candle that�s em not got the wax coming down,1,FP,PO,1225, ,S->C,FALSE,TRUE
+20,Z_11.wav,11,knife_kitchen / knife_swiss,it�s the knife (WO) eh just a single knife on its own,0,RE,AO, , ,S->C,FALSE,TRUE
+20,Z_12.wav,12,car_family / car_sports,it�s the silver car that�s like ehh�it�s the non racing one,1,FP/UP,PO,1369, ,S->C,FALSE,TRUE
+20,Z_13.wav,13,carrots / carrots_chopped,"carrots (WO?) the orange carrots..(think theres two types) with the green, with the green on",0,RE,AO, , ,S->C,TRUE,FALSE
+20,Z_14.wav,14,gun_real / gun_toy,emm the foot the small black gun ..its all black, , , , ,think she starts to say wrong item,S->C,TRUE,FALSE
+20,Z_15.wav,15,saddle_horse / saddle_bike,black pads,1,FL,PR,981, *** NO or PO,S->C,TRUE,FALSE
+20,Z_16.wav,16,pad_unlocked / pad_locked,the gold lock oh that�s open,0,RE,AS, , ,S->C,TRUE,FALSE
+20,Z_17.wav,17,headphones_large / headphones_small,black headphones (WO?) em the ones that you put over your head,0,RE,AO, , ,S->C,TRUE,FALSE
+20,Z_18.wav,18,battery_AA / battery_car,the battery (WO?) the battery (WO? Theres two) the single battery on its own,0,RE,AO, , ,S->C,TRUE,FALSE
+20,Z_19.wav,19,wine_glass / wine_red,eeeem wine glass that�s empty,0,RE,AS, ,***CHECK - tough call,S->C,FALSE,FALSE
+20,Z_20.wav,20,money_notes / money_coins,money..em the notes,0,RE,AS, , ,S->C,FALSE,FALSE
+20,Z_21.wav,21,boot_foot / boot_car,black boot,1,FL,PR,1016, ,S->C,FALSE,FALSE
+20,Z_22.wav,22,camera_corder / camera_cctv,camera (WO?) like the the non CCTV one,0,RE,AO, , ,S->C,FALSE,FALSE
+20,Z_23.wav,23,guitar_acoustic / guitar_electric,the guitar (WO?) em the wooden guitar,0,RE,AO, , ,S->C,FALSE,FALSE
+20,Z_24.wav,24,glove_wooly / glove_boxing,red glove (WO?) em the the one that�s not a boxing one,0,RE,AO, , ,S->C,FALSE,FALSE
+20,Z_25.wav,25,teapot_white / teapot_cosy,white teapot,1,FL,PR,1233, ,C->S,TRUE,TRUE
+20,Z_26.wav,26,plug / plug_bath,the socket plug,1,FL,PR,2032, ,C->S,TRUE,TRUE
+20,Z_27.wav,27,saw_hand / saw_electric,it�s the saw with the brown on ,1,FL,PO,1864,very hard to find onset,C->S,TRUE,TRUE
+20,Z_28.wav,28,fan_hand / fan_electric,the fan that opened out,1,FL,PO,1504, ,C->S,TRUE,TRUE
+20,Z_29.wav,29,orange_skin / orange_slice,eh orange,0,FP,NO,1415, ,C->S,TRUE,TRUE
+20,Z_30.wav,30,spade_garden / spade_beach,silver spade,1,FL,PR,1158, ,C->S,TRUE,TRUE
+20,Z_31.wav,31,key_gold / key_car,the golden key,1,FL,PR,1392, ,C->S,FALSE,TRUE
+20,Z_32.wav,32,helmet / helmet_crash,it's a black helmet,0,FL,NO,1653, ,C->S,FALSE,TRUE
+20,Z_33.wav,33,bell_hand / bell_bike,em the golden bell with a black ribbon,1,FP,PO,1943, ,C->S,FALSE,TRUE
+20,Z_34.wav,34,cheese_block / cheese_blue,it�s a block of cheese,0,FL,NO,2215, ,C->S,FALSE,TRUE
+20,Z_35.wav,35,nail / nail_finger,emm screw,1,FP,PR,1658, ,C->S,FALSE,TRUE
+20,Z_36.wav,36,vase / vase_flowers,it�s a empty vase,1,FL,PR,1650, ,C->S,FALSE,TRUE
+20,Z_37.wav,37,clock_wall / clock_digital,the wall clock,1,FL,PR,1222, ,C->S,TRUE,FALSE
+20,Z_38.wav,38,hat_sun / hat_cowboy,emm it�s the hat with the rib the black ribbon all the way around,1,FP,PO,1891, ,C->S,TRUE,FALSE
+20,Z_39.wav,39,pen_ballpoint / pen_nolid,eh the pen with the lid on,1,FP,PO,1414, ,C->S,TRUE,FALSE
+20,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1088, ,C->S,TRUE,FALSE
+20,Z_41.wav,41,pipe_smoke / pipe_kitchen,it�s the pipe,0,FL,NO,1569, ,C->S,TRUE,FALSE
+20,Z_42.wav,42,bat_animal / bat_baseball,animal bat,1,FL,PR,1152, ,C->S,TRUE,FALSE
+20,Z_43.wav,43,horse_animal / horse_rocking,animal horse,1,FL,PR,1134, ,C->S,FALSE,FALSE
+20,Z_44.wav,44,tshirt_round / tshirt_vneck,dark yellow tshirt,1,FL,PR,1166, ,C->S,FALSE,FALSE
+20,Z_45.wav,45,pizza / pizza_slice,full pizza,1,FL,PR,1281,hard to find onset,C->S,FALSE,FALSE
+20,Z_46.wav,46,eye_pupil / I_letter,human eye,1,FL,PR,971, ,C->S,FALSE,FALSE
+20,Z_47.wav,47,potatoes_skin / potatoes_peeled,potatoe with the skins on,1,FL,PO,1605, ,C->S,FALSE,FALSE
+20,Z_48.wav,48,compmouse / compmouse_wireless,em the mouse with the wire coming out,1,FL,PO,1450, ,C->S,FALSE,FALSE
+21,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,FALSE
+21,Z_02.wav,2,bin_lid / bin_pedal,eh the bin youd open with your hand or bin,1,RE,DE, , ,C->S,FALSE,FALSE
+21,Z_03.wav,3,croc / croc_lilo,ehh a real crocodile,1,FP,PR,2192, ,C->S,FALSE,FALSE
+21,Z_04.wav,4,coffee_cup / coffee_saucer,ehh a cup of coffee,0,FP,NO,2587, ,C->S,FALSE,FALSE
+21,Z_05.wav,5,mirror_wall / mirror_hand,uh a wall mirror ,1,FP,PR,1283, ,C->S,FALSE,FALSE
+21,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1047, ,C->S,FALSE,FALSE
+21,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter (WO?) eh the one that�s lit,0,RE,AO, , ,S->C,TRUE,TRUE
+21,Z_08.wav,8,egg_shell / egg_yolk,egg oh the em like a is it a raw egg?,0,RE,AS, , ,S->C,TRUE,TRUE
+21,Z_09.wav,9,umbrella_open / umbrella_closed,thee�open umbrella,1,LE/UP,PR,2728, ,S->C,TRUE,TRUE
+21,Z_10.wav,10,candle_unused / candle_melted,the em�. eh unused candle,1,FP/UP,PR,4542, ,S->C,TRUE,TRUE
+21,Z_11.wav,11,knife_kitchen / knife_swiss,knife (WO?) oh emm�the big cooking knife,0,RE,AO, , ,S->C,TRUE,TRUE
+21,Z_12.wav,12,car_family / car_sports,car..oh yeah thee..em�the car that�s pointing side ways,0,RE,AS, , ,S->C,TRUE,TRUE
+21,Z_13.wav,13,carrots / carrots_chopped,carrots (WO?) oh eh wait the carrots oh yeah eh the whole ones,0,RE,AO, , ,S->C,FALSE,TRUE
+21,Z_14.wav,14,gun_real / gun_toy,ehh theee real gun,1,LE/FP,PR,4355, ,S->C,FALSE,TRUE
+21,Z_15.wav,15,saddle_horse / saddle_bike,saddle (WO?) eh... Like.. not the bike one,0,RE,AO, , ,S->C,FALSE,TRUE
+21,Z_16.wav,16,pad_unlocked / pad_locked,(runs over from previous trial) eh the open lock,1,FP,PR, , ,S->C,FALSE,TRUE
+21,Z_17.wav,17,headphones_large / headphones_small,eh the headphones,0,FP,NO,1046, ,S->C,FALSE,TRUE
+21,Z_18.wav,18,battery_AA / battery_car,the battery (WO?) em oh thee�its like the single battery,0,RE,AO, , ,S->C,FALSE,TRUE
+21,Z_19.wav,19,wine_glass / wine_red,theeee empty glass,1,LE,PR,2339, ,S->C,TRUE,FALSE
+21,Z_20.wav,20,money_notes / money_coins,money�oh the notes,0,RE,AS, , ,S->C,TRUE,FALSE
+21,Z_21.wav,21,boot_foot / boot_car,the eh boot (WO?) oh..the..oh the leather..the sh..ehh the shoe boot,0,RE,AO, , ,S->C,TRUE,FALSE
+21,Z_22.wav,22,camera_corder / camera_cctv,the emm�.a film camera,1,FP/UP,PR,4699, ,S->C,TRUE,FALSE
+21,Z_23.wav,23,guitar_acoustic / guitar_electric,the guitar the ehh..str is it like a string..no? �acoustic guitar,0,RE,AS, , ,S->C,TRUE,FALSE
+21,Z_24.wav,24,glove_wooly / glove_boxing,a glove �oh the ehhh theee winter glove,0,RE,AS, , ,S->C,TRUE,FALSE
+21,Z_25.wav,25,teapot_white / teapot_cosy,eh a teapot that�s em not covered,1,FP,PO,1620, ,S->C,FALSE,FALSE
+21,Z_26.wav,26,plug / plug_bath,a plug (WO?) oh thee mmmm electric plug,0,RE,AO, , ,S->C,FALSE,FALSE
+21,Z_27.wav,27,saw_hand / saw_electric,a saw... oh a�. hha hand saw,0,RE,AS, , ,S->C,FALSE,FALSE
+21,Z_28.wav,28,fan_hand / fan_electric,a fan uh eh�chinese fan,0,RE,AS, , ,S->C,FALSE,FALSE
+21,Z_29.wav,29,orange_skin / orange_slice,an orange..like a full orange,0,RE,AS, , ,S->C,FALSE,FALSE
+21,Z_30.wav,30,spade_garden / spade_beach,eh shovel eh thee yeah shovel (WO?) eh the silver shovel,0,RE,AO, , ,S->C,FALSE,FALSE
+21,Z_31.wav,31,key_gold / key_car,a house key,1,FL,PR,1322, ,C->S,TRUE,TRUE
+21,Z_32.wav,32,helmet / helmet_crash,ehh a helmet,0,FP,NO,2367, ,C->S,TRUE,TRUE
+21,Z_33.wav,33,bell_hand / bell_bike,ehh the bell that you hold ,1,FP,PO,2478, ,C->S,TRUE,TRUE
+21,Z_34.wav,34,cheese_block / cheese_blue,yellow cheese,1,FL,PR,1706, ,C->S,TRUE,TRUE
+21,Z_35.wav,35,nail / nail_finger,ehh the silver nail,1,FP,PR,2775, ,C->S,TRUE,TRUE
+21,Z_36.wav,36,vase / vase_flowers,theeee vase,0,LE,NO,2623, ,C->S,TRUE,TRUE
+21,Z_37.wav,37,clock_wall / clock_digital,eh thee clock,0,FP,NO,2104, ,C->S,FALSE,TRUE
+21,Z_38.wav,38,hat_sun / hat_cowboy,theee hat,0,LE,NO,1820, ,C->S,FALSE,TRUE
+21,Z_39.wav,39,pen_ballpoint / pen_nolid,eh the gh eh pen with the �the pen,1,RE,DE, ,****,C->S,FALSE,TRUE
+21,Z_40.wav,40,apple_red / apple_green,theee apple,0,LE,NO,1810, ,C->S,FALSE,TRUE
+21,Z_41.wav,41,pipe_smoke / pipe_kitchen,ehh smoking pipe,1,FP,PR,1864, ,C->S,FALSE,TRUE
+21,Z_42.wav,42,bat_animal / bat_baseball,and the flying bat,1,FL,PR,1344, ,C->S,FALSE,TRUE
+21,Z_43.wav,43,horse_animal / horse_rocking,uum the horse,0,FP,NO,2135, ,C->S,TRUE,FALSE
+21,Z_44.wav,44,tshirt_round / tshirt_vneck,ehh the mans tshirt,1,FP,PR,1614, ,C->S,TRUE,FALSE
+21,Z_45.wav,45,pizza / pizza_slice,ehh a wh�pizza,1,RE,DE,1778,didn�t commit to the full word,C->S,TRUE,FALSE
+21,Z_46.wav,46,eye_pupil / I_letter,theeee eye,0,LE,NO,2057, ,C->S,TRUE,FALSE
+21,Z_47.wav,47,potatoes_skin / potatoes_peeled,theee orange potatoes,1,LE,PR,1974, ,C->S,TRUE,FALSE
+21,Z_48.wav,48,compmouse / compmouse_wireless,theee eh mouse,0,LE/FP,NO,3240, ,C->S,TRUE,FALSE
+22,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+22,Z_02.wav,2,bin_lid / bin_pedal,trash can,0,FL,NO,1604, ,C->S,TRUE,TRUE
+22,Z_03.wav,3,croc / croc_lilo,aligator,0,FL,NO,1316, ,C->S,TRUE,TRUE
+22,Z_04.wav,4,coffee_cup / coffee_saucer,cup no (cuts off but obv its 'saucer'),1,FL,PO,1098, ,C->S,TRUE,TRUE
+22,Z_05.wav,5,mirror_wall / mirror_hand,wall mirror,1,FL,PR,1237, ,C->S,TRUE,TRUE
+22,Z_06.wav,6,chair_wooden / chair_baby,a chair,0,FL,NO,2177, ,C->S,TRUE,TRUE
+22,Z_07.wav,7,lighter_flame / lighter_noflame,lighter,0,FL,NO,2199, ,C->S,FALSE,TRUE
+22,Z_08.wav,8,egg_shell / egg_yolk,a egg,0,FL,NO,2401, ,C->S,FALSE,TRUE
+22,Z_09.wav,9,umbrella_open / umbrella_closed,ahh it�s the open umbrella,1,FP,PR,1886, ,C->S,FALSE,TRUE
+22,Z_10.wav,10,candle_unused / candle_melted,candle,0,FL,NO,2547, ,C->S,FALSE,TRUE
+22,Z_11.wav,11,knife_kitchen / knife_swiss,knife,0,FL,NO,2969, ,C->S,FALSE,TRUE
+22,Z_12.wav,12,car_family / car_sports,(makes a noise beforehand) afff ahh it�s the car,0,FP,NO,2902, ,C->S,FALSE,TRUE
+22,Z_13.wav,13,carrots / carrots_chopped,whole carrots,1,FL,PR,1090, ,C->S,TRUE,FALSE
+22,Z_14.wav,14,gun_real / gun_toy,theee gun,0,LE,NO,2150, ,C->S,TRUE,FALSE
+22,Z_15.wav,15,saddle_horse / saddle_bike,aaaa�.horse saddle,0,LE/UP,NO,3003, ,C->S,TRUE,FALSE
+22,Z_16.wav,16,pad_unlocked / pad_locked,lock,0,FL,NO,1593, ,C->S,TRUE,FALSE
+22,Z_17.wav,17,headphones_large / headphones_small,mmmm eh headphones,0,FP,NO,2634, ,C->S,TRUE,FALSE
+22,Z_18.wav,18,battery_AA / battery_car,aaaaaa battery,0,LE,NO,2234, ,C->S,TRUE,FALSE
+22,Z_19.wav,19,wine_glass / wine_red,wine glass,0,FL,NO,1837, ,C->S,FALSE,FALSE
+22,Z_20.wav,20,money_notes / money_coins,paper money,1,FL,PR,1559, ,C->S,FALSE,FALSE
+22,Z_21.wav,21,boot_foot / boot_car,shoe,1,FL,PR,2491, ,C->S,FALSE,FALSE
+22,Z_22.wav,22,camera_corder / camera_cctv,camera,0,FL,NO,3292, ,C->S,FALSE,FALSE
+22,Z_23.wav,23,guitar_acoustic / guitar_electric,guitar,0,FL,NO,1916, ,C->S,FALSE,FALSE
+22,Z_24.wav,24,glove_wooly / glove_boxing,glove,0,FL,NO,2085, ,C->S,FALSE,FALSE
+22,Z_25.wav,25,teapot_white / teapot_cosy,aaaan uncovered teapot,1,LE,PR,4133, ,S->C,TRUE,TRUE
+22,Z_26.wav,26,plug / plug_bath,emmm electic plug,1,FP,PR,1737, ,S->C,TRUE,TRUE
+22,Z_27.wav,27,saw_hand / saw_electric,hand saw,1,FL,PR,1213, ,S->C,TRUE,TRUE
+22,Z_28.wav,28,fan_hand / fan_electric,aaa hand fan,1,LE,PR,2781, ,S->C,TRUE,TRUE
+22,Z_29.wav,29,orange_skin / orange_slice,orange uhh whole orange,0,RE,AS, , ,S->C,TRUE,TRUE
+22,Z_30.wav,30,spade_garden / spade_beach,shovel�uuuh metal shovel,0,RE,AS, , ,S->C,TRUE,TRUE
+22,Z_31.wav,31,key_gold / key_car,ehh metal key,1,FP,PR,2390, ,S->C,FALSE,TRUE
+22,Z_32.wav,32,helmet / helmet_crash,nmmm bike helmet,0,FL,NO,1530, ,S->C,FALSE,TRUE
+22,Z_33.wav,33,bell_hand / bell_bike,hand bell,1,FL,PR,2696, ,S->C,FALSE,TRUE
+22,Z_34.wav,34,cheese_block / cheese_blue,cheese ehh its oh it�s the yellow cheese,0,RE,AS, , ,S->C,FALSE,TRUE
+22,Z_35.wav,35,nail / nail_finger,aaaa�metal nail,1,LE/UP,PR,4163, ,S->C,FALSE,TRUE
+22,Z_36.wav,36,vase / vase_flowers,oh empty flower vase,1,FL,PR,3979, ,S->C,FALSE,TRUE
+22,Z_37.wav,37,clock_wall / clock_digital,uhhhh�.anologue clock,1,FP/UP,PR,3812, ,S->C,TRUE,FALSE
+22,Z_38.wav,38,hat_sun / hat_cowboy,uhhh the hat with a  ribbon,1,FP,PO,2613, ,S->C,TRUE,FALSE
+22,Z_39.wav,39,pen_ballpoint / pen_nolid,aaaa capped pen,1,LE,PR,2177, ,S->C,TRUE,FALSE
+22,Z_40.wav,40,apple_red / apple_green,aaa uh red apple,1,FP,PR,1891,doesn�t commit to the full word,S->C,TRUE,FALSE
+22,Z_41.wav,41,pipe_smoke / pipe_kitchen,uuuh... pipe�like a smoking pipe,0,RE,AS, , ,S->C,TRUE,FALSE
+22,Z_42.wav,42,bat_animal / bat_baseball,aaaa�live bat,1,LE/UP,PR,3187, ,S->C,TRUE,FALSE
+22,Z_43.wav,43,horse_animal / horse_rocking,a live horse,1,FL,PR,2108,hard to find exact onset,S->C,FALSE,FALSE
+22,Z_44.wav,44,tshirt_round / tshirt_vneck,a mens tshirt,1,FL,PR,7648, ,S->C,FALSE,FALSE
+22,Z_45.wav,45,pizza / pizza_slice,aaaa whole pizza,1,LE,PR,1653,hard to find onset,S->C,FALSE,FALSE
+22,Z_46.wav,46,eye_pupil / I_letter,eye ball,1,FL,PR,1459, ,S->C,FALSE,FALSE
+22,Z_47.wav,47,potatoes_skin / potatoes_peeled,ehh�.unpeeled potatoes,1,FP/UP,PR,3747, ,S->C,FALSE,FALSE
+22,Z_48.wav,48,compmouse / compmouse_wireless,computer mouse (WO?) oh oh corded computer mouse,0,RE,AO, ,,S->C,FALSE,FALSE
+23,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,FALSE
+23,Z_02.wav,2,bin_lid / bin_pedal,theee bin,0,LE,NO,1791, ,C->S,TRUE,FALSE
+23,Z_03.wav,3,croc / croc_lilo,okay crocodile,0,FL,NO,1490, ,C->S,TRUE,FALSE
+23,Z_04.wav,4,coffee_cup / coffee_saucer,cup of coffee,0,FL,NO,1398, ,C->S,TRUE,FALSE
+23,Z_05.wav,5,mirror_wall / mirror_hand,the mirror,0,FL,NO,1536, ,C->S,TRUE,FALSE
+23,Z_06.wav,6,chair_wooden / chair_baby,the chair,0,FL,NO,1357, ,C->S,TRUE,FALSE
+23,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter,0,FL,NO,1162, ,C->S,FALSE,FALSE
+23,Z_08.wav,8,egg_shell / egg_yolk,uncooked egg,1,FL,PR,1285, ,C->S,FALSE,FALSE
+23,Z_09.wav,9,umbrella_open / umbrella_closed,open umbrella,1,FL,PR,1402, ,C->S,FALSE,FALSE
+23,Z_10.wav,10,candle_unused / candle_melted,candle,0,FL,NO,1336, ,C->S,FALSE,FALSE
+23,Z_11.wav,11,knife_kitchen / knife_swiss,knife,0,FL,NO,1241, ,C->S,FALSE,FALSE
+23,Z_12.wav,12,car_family / car_sports,a car,0,FL,NO,1943, ,C->S,FALSE,FALSE
+23,Z_13.wav,13,carrots / carrots_chopped,carrots..umm that�s not sliced,1,FP,PO,963,benefit of doubt given,S->C,TRUE,TRUE
+23,Z_14.wav,14,gun_real / gun_toy,ummmm the real looking hand held gun,1,FP,PR,2647, ,S->C,TRUE,TRUE
+23,Z_15.wav,15,saddle_horse / saddle_bike,rriding seat..for horse riding sorry,0,RE,AS, , ,S->C,TRUE,TRUE
+23,Z_16.wav,16,pad_unlocked / pad_locked,padlock�open,0,RE,AS, , ,S->C,TRUE,TRUE
+23,Z_17.wav,17,headphones_large / headphones_small,ehh headphones (WO?) oh um over the head headphones,0,RE,AO, , ,S->C,TRUE,TRUE
+23,Z_18.wav,18,battery_AA / battery_car,battery (WO?) oh the um duracel battery,0,RE,AO, , ,S->C,TRUE,TRUE
+23,Z_19.wav,19,wine_glass / wine_red,empty glass,1,FL,PR,1190, ,S->C,FALSE,TRUE
+23,Z_20.wav,20,money_notes / money_coins,money (WO?) umm oh the note money,0,RE,AO, , ,S->C,FALSE,TRUE
+23,Z_21.wav,21,boot_foot / boot_car,umm human um the boot for your foot, , , , ,begins to name the wrong item,S->C,FALSE,TRUE
+23,Z_22.wav,22,camera_corder / camera_cctv,hand held video camera,1,FL,PR,1947, ,S->C,FALSE,TRUE
+23,Z_23.wav,23,guitar_acoustic / guitar_electric,acoustic guitar,1,FL,PR,2213, ,S->C,FALSE,TRUE
+23,Z_24.wav,24,glove_wooly / glove_boxing,the red hand glove�.not boxing,0,RE,AS, , ,S->C,FALSE,TRUE
+23,Z_25.wav,25,teapot_white / teapot_cosy,ehhh the teapot no cover,1,FP,PO,2416, ,S->C,TRUE,FALSE
+23,Z_26.wav,26,plug / plug_bath,the three pin plug,1,FL,PR,1676, ,S->C,TRUE,FALSE
+23,Z_27.wav,27,saw_hand / saw_electric,ehhh hand held saw..the manual one sorry,0,RE,AS, ,***,S->C,TRUE,FALSE
+23,Z_28.wav,28,fan_hand / fan_electric,okay the um hand held fan,1,FP,PR,2310, ,S->C,TRUE,FALSE
+23,Z_29.wav,29,orange_skin / orange_slice,the fff..whole orange,1,RE,PR,1966,didn�t commit to the full word,S->C,TRUE,FALSE
+23,Z_30.wav,30,spade_garden / spade_beach,the real metal shovel,1,FL,PR,1503, ,S->C,TRUE,FALSE
+23,Z_31.wav,31,key_gold / key_car,key for the door,1,FL,PO,1638, ,S->C,FALSE,FALSE
+23,Z_32.wav,32,helmet / helmet_crash,cycling helmet (WO?) em the cyc the one for going on your bike like an open one (cuts off),0,RE,AO, , ,S->C,FALSE,FALSE
+23,Z_33.wav,33,bell_hand / bell_bike,bell for ringing ,1,FL,PO,1688, ,S->C,FALSE,FALSE
+23,Z_34.wav,34,cheese_block / cheese_blue,cheese ohh bl ooh regular cheese,0,RE,AS, , ,S->C,FALSE,FALSE
+23,Z_35.wav,35,nail / nail_finger,nail�from the door,0,RE,AS, ,,S->C,FALSE,FALSE
+23,Z_36.wav,36,vase / vase_flowers,the�empty vase,1,UP,PR,1969, ,S->C,FALSE,FALSE
+23,Z_37.wav,37,clock_wall / clock_digital,(noise at the start of trial) umm �clock,0,FP,NO, , ,C->S,TRUE,TRUE
+23,Z_38.wav,38,hat_sun / hat_cowboy,the womans hat,1,FL,PR,1374, ,C->S,TRUE,TRUE
+23,Z_39.wav,39,pen_ballpoint / pen_nolid,okay..pen,0,FL,NO,1872, ,C->S,TRUE,TRUE
+23,Z_40.wav,40,apple_red / apple_green,red apple,1,FL,PR,1151, ,C->S,TRUE,TRUE
+23,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe for smoking,1,FL,PO,1671, ,C->S,TRUE,TRUE
+23,Z_42.wav,42,bat_animal / bat_baseball,umm flying bat,1,FP,PR,1772, ,C->S,TRUE,TRUE
+23,Z_43.wav,43,horse_animal / horse_rocking,a horse,0,FL,NO,1154, ,C->S,FALSE,TRUE
+23,Z_44.wav,44,tshirt_round / tshirt_vneck,the yellow tshirt,0,FL,NO,1066, ,C->S,FALSE,TRUE
+23,Z_45.wav,45,pizza / pizza_slice,whole pizza,1,FL,PR,956, ,C->S,FALSE,TRUE
+23,Z_46.wav,46,eye_pupil / I_letter,a human eye,1,FL,PR,1417, ,C->S,FALSE,TRUE
+23,Z_47.wav,47,potatoes_skin / potatoes_peeled,ehh potatoes (about to say something right at end but cuts off),0,FP,NO,1517, ,C->S,FALSE,TRUE
+23,Z_48.wav,48,compmouse / compmouse_wireless,mouse with the cable,1,FL,PO,1186, ,C->S,FALSE,TRUE
+24,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,FALSE
+24,Z_02.wav,2,bin_lid / bin_pedal,a black bin that doesn�t have a pedal,1,FL,PO,1373, ,S->C,TRUE,FALSE
+24,Z_03.wav,3,croc / croc_lilo,a crocodile�eh a live crocodile,0,RE,AS, , ,S->C,TRUE,FALSE
+24,Z_04.wav,4,coffee_cup / coffee_saucer,ehh a cup of coffee without a saucer,1,FL,PO,1988, ,S->C,TRUE,FALSE
+24,Z_05.wav,5,mirror_wall / mirror_hand,ehh a mirror�ehh one that goes on the wall,0,RE,AS, , ,S->C,TRUE,FALSE
+24,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1494, ,S->C,TRUE,FALSE
+24,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter (WO?) ehh the one with the flame,0,RE,AO, , ,S->C,FALSE,FALSE
+24,Z_08.wav,8,egg_shell / egg_yolk,an egg..em still got the shell on,1,FP,PO,1287,**** benefit of doubt,S->C,FALSE,FALSE
+24,Z_09.wav,9,umbrella_open / umbrella_closed,a red umbrella (WO?) ohh the open one,0,RE,AO, , ,S->C,FALSE,FALSE
+24,Z_10.wav,10,candle_unused / candle_melted,a white candle..thats not burnt,0,RE,AS, ,****CHECK - very hard call!!!!,S->C,FALSE,FALSE
+24,Z_11.wav,11,knife_kitchen / knife_swiss,emm a knife (WO?) ehh the big one,0,RE,AO, , ,S->C,FALSE,FALSE
+24,Z_12.wav,12,car_family / car_sports,a silver car (WO?) ehh its on its side rather than facing,0,RE,AO, , ,S->C,FALSE,FALSE
+24,Z_13.wav,13,carrots / carrots_chopped,ehh carrots,0,FP,NO,1563, ,C->S,TRUE,TRUE
+24,Z_14.wav,14,gun_real / gun_toy,aaa real gun,1,LE,PR,1559, ,C->S,TRUE,TRUE
+24,Z_15.wav,15,saddle_horse / saddle_bike,a horse saddle,1,FL,PR,1395, ,C->S,TRUE,TRUE
+24,Z_16.wav,16,pad_unlocked / pad_locked,an open lock,1,FL,PR,1244, ,C->S,TRUE,TRUE
+24,Z_17.wav,17,headphones_large / headphones_small,ehh a pair of headphones,0,FP,NO,1596, ,C->S,TRUE,TRUE
+24,Z_18.wav,18,battery_AA / battery_car,AA battery,1,FL,PR,1034, ,C->S,TRUE,TRUE
+24,Z_19.wav,19,wine_glass / wine_red,an empty wine glass,1,FL,PR,1072,hard to find onset,C->S,FALSE,TRUE
+24,Z_20.wav,20,money_notes / money_coins,money,0,FL,NO,1106, ,C->S,FALSE,TRUE
+24,Z_21.wav,21,boot_foot / boot_car,ehh a black boot,1,FP,PR,1607, ,C->S,FALSE,TRUE
+24,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,1477, ,C->S,FALSE,TRUE
+24,Z_23.wav,23,guitar_acoustic / guitar_electric,an acoustic guitar,1,FL,PR,1064, ,C->S,FALSE,TRUE
+24,Z_24.wav,24,glove_wooly / glove_boxing,ehhh it�s a red glove,0,FP,NO,1625, ,C->S,FALSE,TRUE
+24,Z_25.wav,25,teapot_white / teapot_cosy,a white teapot ,1,FL,PR,1007, ,C->S,TRUE,FALSE
+24,Z_26.wav,26,plug / plug_bath,an electrical plug,1,FL,PR,1252, ,C->S,TRUE,FALSE
+24,Z_27.wav,27,saw_hand / saw_electric,aaaa mn saw,0,LE/FP,NO,2006, ,C->S,TRUE,FALSE
+24,Z_28.wav,28,fan_hand / fan_electric,aaaa paper fan,1,LE,PR,1918, ,C->S,TRUE,FALSE
+24,Z_29.wav,29,orange_skin / orange_slice,aaa orange,0,LE,NO,1317, ,C->S,TRUE,FALSE
+24,Z_30.wav,30,spade_garden / spade_beach,aaa�eh metal trowel,1,LE/FP,PR,2510, ,C->S,TRUE,FALSE
+24,Z_31.wav,31,key_gold / key_car,a gold key,1,FL,PR,1044, ,C->S,FALSE,FALSE
+24,Z_32.wav,32,helmet / helmet_crash,ehhh a black helmet,0,FP,NO,1736, ,C->S,FALSE,FALSE
+24,Z_33.wav,33,bell_hand / bell_bike,aaa bell,0,LE,NO,1675, ,C->S,FALSE,FALSE
+24,Z_34.wav,34,cheese_block / cheese_blue,eeem cheese with holes in it,1,FP,PO,1725, ,C->S,FALSE,FALSE
+24,Z_35.wav,35,nail / nail_finger,a metal nail,1,FL,PR,1178, ,C->S,FALSE,FALSE
+24,Z_36.wav,36,vase / vase_flowers,ehh an empty vase,1,FP,PR,1954, ,C->S,FALSE,FALSE
+24,Z_37.wav,37,clock_wall / clock_digital,a wall clock,1,FL,PR,1361, ,S->C,TRUE,TRUE
+24,Z_38.wav,38,hat_sun / hat_cowboy,aaaa hat.. (WO?) oh eh the ladies hat,0,RE,AO, , ,S->C,TRUE,TRUE
+24,Z_39.wav,39,pen_ballpoint / pen_nolid,a blue pen eh with the lid on,1,FP,PO,1294, ,S->C,TRUE,TRUE
+24,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1147, ,S->C,TRUE,TRUE
+24,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe that you smoke,1,FL,PO,1231, ,S->C,TRUE,TRUE
+24,Z_42.wav,42,bat_animal / bat_baseball,a bat (WO?) ehh the live bat,0,RE,AO, , ,S->C,TRUE,TRUE
+24,Z_43.wav,43,horse_animal / horse_rocking,emm a horse that�s alive,1,FP,PO,1803, ,S->C,FALSE,TRUE
+24,Z_44.wav,44,tshirt_round / tshirt_vneck,ehh a yellow mens tshirt,1,FP,PR,1610, ,S->C,FALSE,TRUE
+24,Z_45.wav,45,pizza / pizza_slice,aaa whole pizza,1,LE,PR,1532, ,S->C,FALSE,TRUE
+24,Z_46.wav,46,eye_pupil / I_letter,an eye ehhh like on your face,1,FP,PO,1305,benefit of doubt given,S->C,FALSE,TRUE
+24,Z_47.wav,47,potatoes_skin / potatoes_peeled,poatatoes�eh the ones that have got the skin on,0,RE,AS, , ,S->C,FALSE,TRUE
+24,Z_48.wav,48,compmouse / compmouse_wireless,ehhh a mouse with a wire,1,FP,PO,1327, ,S->C,FALSE,TRUE
+25,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,FALSE
+25,Z_02.wav,2,bin_lid / bin_pedal,the rectangular bin,1,FL,PR,1392, ,C->S,TRUE,FALSE
+25,Z_03.wav,3,croc / croc_lilo,theee aligator,0,LE,NO,1900, ,C->S,TRUE,FALSE
+25,Z_04.wav,4,coffee_cup / coffee_saucer,ehhh�tea cup,0,FP/UP,NO,4556, ,C->S,TRUE,FALSE
+25,Z_05.wav,5,mirror_wall / mirror_hand,eh the wall mirror,1,FP,PR,2177, ,C->S,TRUE,FALSE
+25,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,1752, ,C->S,TRUE,FALSE
+25,Z_07.wav,7,lighter_flame / lighter_noflame,ehhh an on on lighter,1,FP,PR,2043,onset from second 'on',C->S,FALSE,FALSE
+25,Z_08.wav,8,egg_shell / egg_yolk,thee egg,0,LE,NO,1708, ,C->S,FALSE,FALSE
+25,Z_09.wav,9,umbrella_open / umbrella_closed,a umbrella,0,FL,NO,1966, ,C->S,FALSE,FALSE
+25,Z_10.wav,10,candle_unused / candle_melted,emmmm the candle,0,FP,NO,2053, ,C->S,FALSE,FALSE
+25,Z_11.wav,11,knife_kitchen / knife_swiss,eh the knife,0,FP,NO,1768, ,C->S,FALSE,FALSE
+25,Z_12.wav,12,car_family / car_sports,ehh car,0,FP,NO,2415, ,C->S,FALSE,FALSE
+25,Z_13.wav,13,carrots / carrots_chopped,ehh the carrots (WO?) eh the full carrots,0,RE,AO, , ,S->C,TRUE,TRUE
+25,Z_14.wav,14,gun_real / gun_toy,the real gun,1,FL,PR,2241, ,S->C,TRUE,TRUE
+25,Z_15.wav,15,saddle_horse / saddle_bike,eh the saddle (WO?) kinda like a horse saddle,0,RE,AO, , ,S->C,TRUE,TRUE
+25,Z_16.wav,16,pad_unlocked / pad_locked,eh the lock (WO?) eh eh the unlocked lock,0,RE,AO, , ,S->C,TRUE,TRUE
+25,Z_17.wav,17,headphones_large / headphones_small,the headphones (WO?) eh the the larger headphones,0,RE,AO, , ,S->C,TRUE,TRUE
+25,Z_18.wav,18,battery_AA / battery_car,em battery (WO?) eh the double AA battery,0,RE,AO, , ,S->C,TRUE,TRUE
+25,Z_19.wav,19,wine_glass / wine_red,the wine glass which is empty,1,FL,PO,1430, ,S->C,FALSE,TRUE
+25,Z_20.wav,20,money_notes / money_coins,mmoney (WO?) eh the notes,0,RE,AO, , ,S->C,FALSE,TRUE
+25,Z_21.wav,21,boot_foot / boot_car,boot (WO?) oh the shoe,0,RE,AO, , ,S->C,FALSE,TRUE
+25,Z_22.wav,22,camera_corder / camera_cctv,ehh the�.hand camera,1,LE/UP,PR,4729, ,S->C,FALSE,TRUE
+25,Z_23.wav,23,guitar_acoustic / guitar_electric,ehh the guitar (WO?) eh the spanish guitar,0,RE,AO, , ,S->C,FALSE,TRUE
+25,Z_24.wav,24,glove_wooly / glove_boxing,ehh�.the normal glove,1,FP/UP,PR,5248, ,S->C,FALSE,TRUE
+25,Z_25.wav,25,teapot_white / teapot_cosy,ehh the kettle (WO?) emm oh the the one without anything on it just the plain kettle,0,RE,AO, , ,S->C,TRUE,FALSE
+25,Z_26.wav,26,plug / plug_bath,eh the plug (WO?) eh the �electric plug,0,RE,AO, ,**** sounds like he says bug CHECK,S->C,TRUE,FALSE
+25,Z_27.wav,27,saw_hand / saw_electric,the saw (WO?) eh the manual saw,0,RE,AO, , ,S->C,TRUE,FALSE
+25,Z_28.wav,28,fan_hand / fan_electric,ehh the hand fan,1,FP,PR,2661, ,S->C,TRUE,FALSE
+25,Z_29.wav,29,orange_skin / orange_slice,eh the full orange,1,FP,PR,3248, ,S->C,TRUE,FALSE
+25,Z_30.wav,30,spade_garden / spade_beach,the shovel (WO?) eh the metal shovel,0,RE,AO, , ,S->C,TRUE,FALSE
+25,Z_31.wav,31,key_gold / key_car,eh the door key,1,FP,PR,2962, ,S->C,FALSE,FALSE
+25,Z_32.wav,32,helmet / helmet_crash,eh a bike helmet eh a (WO?) eh the one with holes like eh a lot of holes in it,0,RE,AO, , ,S->C,FALSE,FALSE
+25,Z_33.wav,33,bell_hand / bell_bike,ehhh mm hand bell,1,FP,PR,4857, ,S->C,FALSE,FALSE
+25,Z_34.wav,34,cheese_block / cheese_blue,the cheese (WO?) eh�the normal cheese,0,RE,AO, , ,S->C,FALSE,FALSE
+25,Z_35.wav,35,nail / nail_finger,eh the nail (WO?) oh eh the metal nail,0,RE,AO, , ,S->C,FALSE,FALSE
+25,Z_36.wav,36,vase / vase_flowers,eh a vase (WO?) eh..oh an empty vase,0,RE,AO, , ,S->C,FALSE,FALSE
+25,Z_37.wav,37,clock_wall / clock_digital,theee clock,0,LE,NO,1982, ,C->S,TRUE,TRUE
+25,Z_38.wav,38,hat_sun / hat_cowboy,eh the sun hat,1,FP,PR,3838, ,C->S,TRUE,TRUE
+25,Z_39.wav,39,pen_ballpoint / pen_nolid,eh the pen,0,FP,NO,2158, ,C->S,TRUE,TRUE
+25,Z_40.wav,40,apple_red / apple_green,eh the red apple,1,FP,PR,1649, ,C->S,TRUE,TRUE
+25,Z_41.wav,41,pipe_smoke / pipe_kitchen,eh the pipe,0,FP,NO,2005, ,C->S,TRUE,TRUE
+25,Z_42.wav,42,bat_animal / bat_baseball,eh the animal bat,1,FP,PR,1780, ,C->S,TRUE,TRUE
+25,Z_43.wav,43,horse_animal / horse_rocking,the horse,0,FL,NO,1485,hard to find exact onset,C->S,FALSE,TRUE
+25,Z_44.wav,44,tshirt_round / tshirt_vneck,eh dark eh the shirt,1,RE,DE, , ,C->S,FALSE,TRUE
+25,Z_45.wav,45,pizza / pizza_slice,ehh the pizza,0,FP,NO,3947, ,C->S,FALSE,TRUE
+25,Z_46.wav,46,eye_pupil / I_letter,the pe..eh the eye (starts to say wrong item), , , , ,names wrong item,C->S,FALSE,TRUE
+25,Z_47.wav,47,potatoes_skin / potatoes_peeled,the pt�unpeeled potatoes,0,RE,AS,2680,didn�t fully commit,C->S,FALSE,TRUE
+25,Z_48.wav,48,compmouse / compmouse_wireless,mm eh the mouse,0,FP,NO,3361, ,C->S,FALSE,TRUE
+26,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,FALSE
+26,Z_02.wav,2,bin_lid / bin_pedal,swing top bin,1,FL,PR,1143, ,C->S,FALSE,FALSE
+26,Z_03.wav,3,croc / croc_lilo,the real crocodile,1,FL,PR,1613, ,C->S,FALSE,FALSE
+26,Z_04.wav,4,coffee_cup / coffee_saucer,a cup without a saucer,1,FL,PO,1743, ,C->S,FALSE,FALSE
+26,Z_05.wav,5,mirror_wall / mirror_hand,a wall mirror,1,FL,PR,1311, ,C->S,FALSE,FALSE
+26,Z_06.wav,6,chair_wooden / chair_baby,a chair for grown ups,1,FL,PO,1573, ,C->S,FALSE,FALSE
+26,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter (WO?) with a flame,0,RE,AO, , ,S->C,TRUE,TRUE
+26,Z_08.wav,8,egg_shell / egg_yolk,an egg (WO?) ehh the one in its shell,0,RE,AO, , ,S->C,TRUE,TRUE
+26,Z_09.wav,9,umbrella_open / umbrella_closed,an umbrella�an open umbrella,0,RE,AS, , ,S->C,TRUE,TRUE
+26,Z_10.wav,10,candle_unused / candle_melted,okay aaaa brand new candle,1,LE,PR,2974, ,S->C,TRUE,TRUE
+26,Z_11.wav,11,knife_kitchen / knife_swiss,a kitchen knife,1,FL,PR,1821, ,S->C,TRUE,TRUE
+26,Z_12.wav,12,car_family / car_sports,a car�the..small silver one that side on,0,RE,AS, , ,S->C,TRUE,TRUE
+26,Z_13.wav,13,carrots / carrots_chopped,carrots,0,FL,NO,1226, ,S->C,FALSE,TRUE
+26,Z_14.wav,14,gun_real / gun_toy,a gun (WO?) ehhh the real gun,0,RE,AO, , ,S->C,FALSE,TRUE
+26,Z_15.wav,15,saddle_horse / saddle_bike,a sssaddle em a horse saddle,0,RE,AS, , ,S->C,FALSE,TRUE
+26,Z_16.wav,16,pad_unlocked / pad_locked,a padlock�an open padlock,0,RE,AS, , ,S->C,FALSE,TRUE
+26,Z_17.wav,17,headphones_large / headphones_small,ehhh headphones for over your head,1,FP,PO,2254, ,S->C,FALSE,TRUE
+26,Z_18.wav,18,battery_AA / battery_car,eh a battery (WO?) eh the one that�s a AA battery,0,RE,AO, , ,S->C,FALSE,TRUE
+26,Z_19.wav,19,wine_glass / wine_red,thee empty wine glass,1,FL,PR,1778, ,S->C,TRUE,FALSE
+26,Z_20.wav,20,money_notes / money_coins,the english money..the notes,0,RE,AS, , ,S->C,TRUE,FALSE
+26,Z_21.wav,21,boot_foot / boot_car,the military boot,1,FL,PR,1710, ,S->C,TRUE,FALSE
+26,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,1395, ,S->C,TRUE,FALSE
+26,Z_23.wav,23,guitar_acoustic / guitar_electric,the guitar (WO?) ehhh the acoustic,0,RE,AO, , ,S->C,TRUE,FALSE
+26,Z_24.wav,24,glove_wooly / glove_boxing,a red glove (WO?) uh the hand glove not the boxing glove,0,RE,AO, , ,S->C,TRUE,FALSE
+26,Z_25.wav,25,teapot_white / teapot_cosy,(noise from prev trial) a teapot (WO?) the one without the cosy,0,RE,AO, , ,S->C,FALSE,FALSE
+26,Z_26.wav,26,plug / plug_bath,the electrical plug ,1,FL,PR,1216, ,S->C,FALSE,FALSE
+26,Z_27.wav,27,saw_hand / saw_electric,a saw (WO?) ehh a hand saw,0,RE,AO, , ,S->C,FALSE,FALSE
+26,Z_28.wav,28,fan_hand / fan_electric,the open fan,1,FL,PR,1783, ,S->C,FALSE,FALSE
+26,Z_29.wav,29,orange_skin / orange_slice,an orange�that�s full,0,RE,AS, , ,S->C,FALSE,FALSE
+26,Z_30.wav,30,spade_garden / spade_beach,a shovel (WO?) ehh a real one,0,RE,AO, , ,S->C,FALSE,FALSE
+26,Z_31.wav,31,key_gold / key_car,a house key,1,FL,PR,1347, ,C->S,TRUE,TRUE
+26,Z_32.wav,32,helmet / helmet_crash,the bicycle helmet,0,FL,NO,1527, ,C->S,TRUE,TRUE
+26,Z_33.wav,33,bell_hand / bell_bike,hand bell,1,FL,PR,1267, ,C->S,TRUE,TRUE
+26,Z_34.wav,34,cheese_block / cheese_blue,the cheese that�s not blue,1,FL,PO,1709, ,C->S,TRUE,TRUE
+26,Z_35.wav,35,nail / nail_finger,a nail that you would hammer,1,FL,PO,1807, ,C->S,TRUE,TRUE
+26,Z_36.wav,36,vase / vase_flowers,the empty vase,1,FL,PR,1626, ,C->S,TRUE,TRUE
+26,Z_37.wav,37,clock_wall / clock_digital,a clock with hands,1,FL,PO,1358, ,C->S,FALSE,TRUE
+26,Z_38.wav,38,hat_sun / hat_cowboy,a ladies straw hat,1,FL,PR,1694, ,C->S,FALSE,TRUE
+26,Z_39.wav,39,pen_ballpoint / pen_nolid,a biro with its cap on,1,FL,PO,1259, ,C->S,FALSE,TRUE
+26,Z_40.wav,40,apple_red / apple_green,red apple,1,FL,PR,1086, ,C->S,FALSE,TRUE
+26,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe for smoking,1,FL,PO,1223, ,C->S,FALSE,TRUE
+26,Z_42.wav,42,bat_animal / bat_baseball,a bat with wings,1,FL,PO,1867, ,C->S,FALSE,TRUE
+26,Z_43.wav,43,horse_animal / horse_rocking,the real horse,1,FL,PR,1595, ,C->S,TRUE,FALSE
+26,Z_44.wav,44,tshirt_round / tshirt_vneck,the yellow mans tshirt,1,FL,PR,1496, ,C->S,TRUE,FALSE
+26,Z_45.wav,45,pizza / pizza_slice,a full pizza,1,FL,PR,1150, ,C->S,TRUE,FALSE
+26,Z_46.wav,46,eye_pupil / I_letter,a black and white picture of an eye,0,FL,NO,1357, ,C->S,TRUE,FALSE
+26,Z_47.wav,47,potatoes_skin / potatoes_peeled,the potatoes with the skin on ,1,FL,PO,1645, ,C->S,TRUE,FALSE
+26,Z_48.wav,48,compmouse / compmouse_wireless,the mouse with a wire,1,FL,PO,1164, ,C->S,TRUE,FALSE
+27,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,TRUE
+27,Z_02.wav,2,bin_lid / bin_pedal,rectangular bin,1,FL,PR,1522, ,C->S,FALSE,TRUE
+27,Z_03.wav,3,croc / croc_lilo,real crocodile (noise at the end - about to say soemthing?),1,FL,PR,1184, ,C->S,FALSE,TRUE
+27,Z_04.wav,4,coffee_cup / coffee_saucer,cup of coffee without a saucer,1,FL,PO,2067, ,C->S,FALSE,TRUE
+27,Z_05.wav,5,mirror_wall / mirror_hand,big mirror,1,FL,PR,1718, ,C->S,FALSE,TRUE
+27,Z_06.wav,6,chair_wooden / chair_baby,wooden chair,1,FL,PR,1652, ,C->S,FALSE,TRUE
+27,Z_07.wav,7,lighter_flame / lighter_noflame,lit lighter,1,FL,PR,1359, ,C->S,TRUE,FALSE
+27,Z_08.wav,8,egg_shell / egg_yolk,uncooked egg,1,FL,PR,1424, ,C->S,TRUE,FALSE
+27,Z_09.wav,9,umbrella_open / umbrella_closed,open umbrella,1,FL,PR,1062, ,C->S,TRUE,FALSE
+27,Z_10.wav,10,candle_unused / candle_melted,unlit candle,1,FL,PR,1590, ,C->S,TRUE,FALSE
+27,Z_11.wav,11,knife_kitchen / knife_swiss,big knife,1,FL,PR,1743, ,C->S,TRUE,FALSE
+27,Z_12.wav,12,car_family / car_sports,curved silver car,1,FL,PR,1862, ,C->S,TRUE,FALSE
+27,Z_13.wav,13,carrots / carrots_chopped,ehhh full carrots,1,FP,PR,1361, ,C->S,FALSE,FALSE
+27,Z_14.wav,14,gun_real / gun_toy,(noise at the start from prev trial) real gun,1,FL,PR, , ,C->S,FALSE,FALSE
+27,Z_15.wav,15,saddle_horse / saddle_bike,black curved big thing,1,FL,PR,2202, ,C->S,FALSE,FALSE
+27,Z_16.wav,16,pad_unlocked / pad_locked,open lock,1,FL,PR,1343, ,C->S,FALSE,FALSE
+27,Z_17.wav,17,headphones_large / headphones_small,heaphones,0,FL,NO,1260, ,C->S,FALSE,FALSE
+27,Z_18.wav,18,battery_AA / battery_car,ehh a (something) battery,1,FP,PR,1927,hard to get onset as not sure what she says,C->S,FALSE,FALSE
+27,Z_19.wav,19,wine_glass / wine_red,empty glass..wine glass,1,RE,PR, , ,S->C,TRUE,TRUE
+27,Z_20.wav,20,money_notes / money_coins,money (WO?) eh notes sorry,0,RE,AO, , ,S->C,TRUE,TRUE
+27,Z_21.wav,21,boot_foot / boot_car,black boots,1,FL,PR,1399, ,S->C,TRUE,TRUE
+27,Z_22.wav,22,camera_corder / camera_cctv,ehh video camera,1,FP,PR,1947, ,S->C,TRUE,TRUE
+27,Z_23.wav,23,guitar_acoustic / guitar_electric,guitar�. eh the (WO?) acoustic guitar,0,RE,AO, ,,S->C,TRUE,TRUE
+27,Z_24.wav,24,glove_wooly / glove_boxing,glove emmm like a red normal glove,0,RE,AS, , ,S->C,TRUE,TRUE
+27,Z_25.wav,25,teapot_white / teapot_cosy,teapot oh teapot without the cover,0,RE,AS, , ,S->C,FALSE,TRUE
+27,Z_26.wav,26,plug / plug_bath,plug (WO?) eeem like a plug that goes into the wall,0,RE,AO, , ,S->C,FALSE,TRUE
+27,Z_27.wav,27,saw_hand / saw_electric,saw�non electrical saw,0,RE,AS, , ,S->C,FALSE,TRUE
+27,Z_28.wav,28,fan_hand / fan_electric,fan (WO?) eemm handheld fan,0,RE,AO, , ,S->C,FALSE,TRUE
+27,Z_29.wav,29,orange_skin / orange_slice,orange�a full orange,0,RE,AS, , ,S->C,FALSE,TRUE
+27,Z_30.wav,30,spade_garden / spade_beach,shovel�real..metal shovel,0,RE,AS, , ,S->C,FALSE,TRUE
+27,Z_31.wav,31,key_gold / key_car,key (WO?) ohh eeeh like metal key,0,RE,AO, , ,S->C,TRUE,FALSE
+27,Z_32.wav,32,helmet / helmet_crash,eeem textured helmet,1,FP,PR,1644, ,S->C,TRUE,FALSE
+27,Z_33.wav,33,bell_hand / bell_bike,bell�the handheld like bell,0,RE,AS, , ,S->C,TRUE,FALSE
+27,Z_34.wav,34,cheese_block / cheese_blue,block of cheese (WO?) emm the non blue cheese,0,RE,AO, , ,S->C,TRUE,FALSE
+27,Z_35.wav,35,nail / nail_finger,sq eh nail (WO?) emm like a metal nail,0,RE,AO, , ,S->C,TRUE,FALSE
+27,Z_36.wav,36,vase / vase_flowers,vase� (WO?) with nothing in it,0,RE,AO, ,,S->C,TRUE,FALSE
+27,Z_37.wav,37,clock_wall / clock_digital,clock (WO?) emm aaaa ohh analiteral clock yeah (trails off),0,RE,AO, , ,S->C,FALSE,FALSE
+27,Z_38.wav,38,hat_sun / hat_cowboy,straw hat� straw hat with..thats round,0,RE,AS, , ,S->C,FALSE,FALSE
+27,Z_39.wav,39,pen_ballpoint / pen_nolid,pen (WO?)emm pen with the lid on,0,RE,AO, , ,S->C,FALSE,FALSE
+27,Z_40.wav,40,apple_red / apple_green,red apple,1,FL,PR,1809, ,S->C,FALSE,FALSE
+27,Z_41.wav,41,pipe_smoke / pipe_kitchen,pipe�theeee wooden pipe,0,RE,AS, , ,S->C,FALSE,FALSE
+27,Z_42.wav,42,bat_animal / bat_baseball,a  bat (WO?) emm an animal bat,0,RE,AO, , ,S->C,FALSE,FALSE
+27,Z_43.wav,43,horse_animal / horse_rocking,real horse,1,FL,PR,1865, ,C->S,TRUE,TRUE
+27,Z_44.wav,44,tshirt_round / tshirt_vneck,dark yellow top,1,FL,PR,1444, ,C->S,TRUE,TRUE
+27,Z_45.wav,45,pizza / pizza_slice,cheese pizza,0,FL,NO,1635, ,C->S,TRUE,TRUE
+27,Z_46.wav,46,eye_pupil / I_letter,human eye,1,FL,PR,1434, ,C->S,TRUE,TRUE
+27,Z_47.wav,47,potatoes_skin / potatoes_peeled,red potatoes,1,FL,PR,1455, ,C->S,TRUE,TRUE
+27,Z_48.wav,48,compmouse / compmouse_wireless,ehhh uhhh�.corded... mouse,1,FP/UP,PR,4319, ,C->S,TRUE,TRUE
+28,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,TRUE
+28,Z_02.wav,2,bin_lid / bin_pedal,a bin (WO?) ehh its like a manual bin..not a pedal one,0,RE,AO, , ,S->C,FALSE,TRUE
+28,Z_03.wav,3,croc / croc_lilo,aligator (WO?) oh ehh a live aligator,0,RE,AO, , ,S->C,FALSE,TRUE
+28,Z_04.wav,4,coffee_cup / coffee_saucer,cup of coffee (WO?) eh the one without a saucer,0,RE,AO, , ,S->C,FALSE,TRUE
+28,Z_05.wav,5,mirror_wall / mirror_hand,miror (WO?) eh a wall mirror,0,RE,AO, , ,S->C,FALSE,TRUE
+28,Z_06.wav,6,chair_wooden / chair_baby,a chair (WO?) oh aa like aa wooden chair,0,RE,AO, , ,S->C,FALSE,TRUE
+28,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter,0,FL,NO,1043, ,S->C,TRUE,FALSE
+28,Z_08.wav,8,egg_shell / egg_yolk,an egg (WO?) uhh uncracked egg,0,RE,AO, , ,S->C,TRUE,FALSE
+28,Z_09.wav,9,umbrella_open / umbrella_closed,umbrella (WO?) eh red umbrella..an open umbrella,0,RE,AO, , ,S->C,TRUE,FALSE
+28,Z_10.wav,10,candle_unused / candle_melted,a candle (WO?) uhh unlit candle,0,RE,AO, , ,S->C,TRUE,FALSE
+28,Z_11.wav,11,knife_kitchen / knife_swiss,a kitchen knife,1,FL,PR,1001, ,S->C,TRUE,FALSE
+28,Z_12.wav,12,car_family / car_sports,ssssilver car�eh like a family car,0,RE,AS, , ,S->C,TRUE,FALSE
+28,Z_13.wav,13,carrots / carrots_chopped,(noise from prev trial) carrots (WO?) oh uh theee like fresh carrots,0,RE,AO, , ,S->C,FALSE,FALSE
+28,Z_14.wav,14,gun_real / gun_toy,ehhh grey pistol,1,FP,PR,2990, ,S->C,FALSE,FALSE
+28,Z_15.wav,15,saddle_horse / saddle_bike,uhhh a saddle (WO?) oh uh a horse saddle,0,RE,AO, , ,S->C,FALSE,FALSE
+28,Z_16.wav,16,pad_unlocked / pad_locked,a padlock (WO?) oh an open padlock,0,RE,AO, ,,S->C,FALSE,FALSE
+28,Z_17.wav,17,headphones_large / headphones_small,a pair of headphones ehh�without a cord,1,UP,PO,1510, ,S->C,FALSE,FALSE
+28,Z_18.wav,18,battery_AA / battery_car,a battery (WO?) oh like aaaa double AA kinda battery,0,RE,AO, ,,S->C,FALSE,FALSE
+28,Z_19.wav,19,wine_glass / wine_red,eh an empty wine glass,1,FP,PR,1368, ,C->S,TRUE,TRUE
+28,Z_20.wav,20,money_notes / money_coins,ehh paper money,1,FP,PR,1593, ,C->S,TRUE,TRUE
+28,Z_21.wav,21,boot_foot / boot_car,a black boot,1,FL,PR,1310, ,C->S,TRUE,TRUE
+28,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,1201, ,C->S,TRUE,TRUE
+28,Z_23.wav,23,guitar_acoustic / guitar_electric,(noise from prev trial) acoustic guitar,1,FL,PR, , ,C->S,TRUE,TRUE
+28,Z_24.wav,24,glove_wooly / glove_boxing,a red glove,0,FL,NO,1645, ,C->S,TRUE,TRUE
+28,Z_25.wav,25,teapot_white / teapot_cosy,a teapot,0,FL,NO,1730, ,C->S,FALSE,TRUE
+28,Z_26.wav,26,plug / plug_bath,a wall socket,1,FL,PR,1359, ,C->S,FALSE,TRUE
+28,Z_27.wav,27,saw_hand / saw_electric,a saw ,0,FL,NO,1907, ,C->S,FALSE,TRUE
+28,Z_28.wav,28,fan_hand / fan_electric,a hand fan,1,FL,PR,797, ,C->S,FALSE,TRUE
+28,Z_29.wav,29,orange_skin / orange_slice,a whole orange,1,FL,PR,1891, ,C->S,FALSE,TRUE
+28,Z_30.wav,30,spade_garden / spade_beach,a garden shovel,1,FL,PR,1296, ,C->S,FALSE,TRUE
+28,Z_31.wav,31,key_gold / key_car,brass key,1,FL,PR,1161, ,C->S,TRUE,FALSE
+28,Z_32.wav,32,helmet / helmet_crash,uhh big helmet with a peak,1,FP,PO,1846,,C->S,TRUE,FALSE
+28,Z_33.wav,33,bell_hand / bell_bike,hand bell,1,FL,PR,1096, ,C->S,TRUE,FALSE
+28,Z_34.wav,34,cheese_block / cheese_blue,block of swiss cheese,1,FL,PR,1505, ,C->S,TRUE,FALSE
+28,Z_35.wav,35,nail / nail_finger,(noise from prev trial) eh a hardware nail,1,FP,PR, , ,C->S,TRUE,FALSE
+28,Z_36.wav,36,vase / vase_flowers,an empty vase,1,FL,PR,858, ,C->S,TRUE,FALSE
+28,Z_37.wav,37,clock_wall / clock_digital,ehhh a wall clock,1,FP,PR,1227, ,C->S,FALSE,FALSE
+28,Z_38.wav,38,hat_sun / hat_cowboy,a summer hat,1,FL,PR,1269, ,C->S,FALSE,FALSE
+28,Z_39.wav,39,pen_ballpoint / pen_nolid,a pen,0,FL,NO,1941, ,C->S,FALSE,FALSE
+28,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,996, ,C->S,FALSE,FALSE
+28,Z_41.wav,41,pipe_smoke / pipe_kitchen,the smoking pipe,1,FL,PR,1283, ,C->S,FALSE,FALSE
+28,Z_42.wav,42,bat_animal / bat_baseball,uhh the animal bat,1,FP,PR,1343, ,C->S,FALSE,FALSE
+28,Z_43.wav,43,horse_animal / horse_rocking,a horse (WO?) eh the animal.. horse,0,RE,AO, , ,S->C,TRUE,TRUE
+28,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow ssss tshirt eh sort of mens yellow tshirt,0,RE,AS, , ,S->C,TRUE,TRUE
+28,Z_45.wav,45,pizza / pizza_slice,a pizza (WO?) ohe eh like the whole pizza,0,RE,AO, , ,S->C,TRUE,TRUE
+28,Z_46.wav,46,eye_pupil / I_letter,grey scaled eye,1,FL,PR,1208, ,S->C,TRUE,TRUE
+28,Z_47.wav,47,potatoes_skin / potatoes_peeled,potatoes (WO?) oh eh the like unpeeled potatoes,0,RE,AO, , ,S->C,TRUE,TRUE
+28,Z_48.wav,48,compmouse / compmouse_wireless,"a computer mouse (WO?) eh a computer mouse, a corded computer mouse",0,RE,AO, , ,S->C,TRUE,TRUE
+29,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,FALSE
+29,Z_02.wav,2,bin_lid / bin_pedal,the bin..(WO?) the dust bin not the pedal bin,0,RE,AO, , ,S->C,TRUE,FALSE
+29,Z_03.wav,3,croc / croc_lilo,it�s a crocodile..its a real crocodile,0,RE,AS, , ,S->C,TRUE,FALSE
+29,Z_04.wav,4,coffee_cup / coffee_saucer,this is a cup of coffee without a saucer,1,FL,PO,1849, ,S->C,TRUE,FALSE
+29,Z_05.wav,5,mirror_wall / mirror_hand,this is a �.fancy mirror that you put on a wall,1,UP,PR,2226,,S->C,TRUE,FALSE
+29,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,1175, ,S->C,TRUE,FALSE
+29,Z_07.wav,7,lighter_flame / lighter_noflame,a lighter that�s lit,1,FL,PO,1524, ,S->C,FALSE,FALSE
+29,Z_08.wav,8,egg_shell / egg_yolk,emm egg in a shell,1,FP,PO,2382, ,S->C,FALSE,FALSE
+29,Z_09.wav,9,umbrella_open / umbrella_closed,a red umbrella (WO?) a red umbrella (think theres 2) oh its open,0,RE,AO, , ,S->C,FALSE,FALSE
+29,Z_10.wav,10,candle_unused / candle_melted,it�s the candle..its that�s not been lit,0,RE,AS, , ,S->C,FALSE,FALSE
+29,Z_11.wav,11,knife_kitchen / knife_swiss,a knife�a justa  normal kitchen knife,0,RE,AS, , ,S->C,FALSE,FALSE
+29,Z_12.wav,12,car_family / car_sports,emmm this is a standard car that�s not the porche,1,FP,PR,3097,,S->C,FALSE,FALSE
+29,Z_13.wav,13,carrots / carrots_chopped,the whole carrots,1,FL,PR,1139, ,C->S,TRUE,TRUE
+29,Z_14.wav,14,gun_real / gun_toy,the hand gun,1,FL,PR,2224, ,C->S,TRUE,TRUE
+29,Z_15.wav,15,saddle_horse / saddle_bike,it�s a black saddle for a horse,1,FL,PO,2125, ,C->S,TRUE,TRUE
+29,Z_16.wav,16,pad_unlocked / pad_locked,an open padlock,1,FL,PR,1111, ,C->S,TRUE,TRUE
+29,Z_17.wav,17,headphones_large / headphones_small,headphones,0,FL,NO,2740, ,C->S,TRUE,TRUE
+29,Z_18.wav,18,battery_AA / battery_car,a battery,0,FL,NO,1361, ,C->S,TRUE,TRUE
+29,Z_19.wav,19,wine_glass / wine_red,an empty wine glass,1,FL,PR,1080, ,C->S,FALSE,TRUE
+29,Z_20.wav,20,money_notes / money_coins,ehh the paper money,1,FP,PR,1470, ,C->S,FALSE,TRUE
+29,Z_21.wav,21,boot_foot / boot_car,the black boot,1,FL,PR,1103, ,C->S,FALSE,TRUE
+29,Z_22.wav,22,camera_corder / camera_cctv,it�s a handheld black camera,1,FL,PR,1160, ,C->S,FALSE,TRUE
+29,Z_23.wav,23,guitar_acoustic / guitar_electric,its an acoustic guitar,1,FL,PR,1354, ,C->S,FALSE,TRUE
+29,Z_24.wav,24,glove_wooly / glove_boxing,a�red glove,0,UP,NO,1669, ,C->S,FALSE,TRUE
+29,Z_25.wav,25,teapot_white / teapot_cosy,a teapot ,0,FL,NO,1530, ,C->S,TRUE,FALSE
+29,Z_26.wav,26,plug / plug_bath,this is a plug you use for power,1,FL,PO,1290, ,C->S,TRUE,FALSE
+29,Z_27.wav,27,saw_hand / saw_electric,the manual saw,1,FL,PR,970, ,C->S,TRUE,FALSE
+29,Z_28.wav,28,fan_hand / fan_electric,this is a handheld fan,1,FL,PR,1537, ,C->S,TRUE,FALSE
+29,Z_29.wav,29,orange_skin / orange_slice,the whole orange,1,FL,PR,1255, ,C->S,TRUE,FALSE
+29,Z_30.wav,30,spade_garden / spade_beach,it�s a shovel you use for outside,1,FL,PO,1523, ,C->S,TRUE,FALSE
+29,Z_31.wav,31,key_gold / key_car,a..bronze key,1,FL,PR,1980, ,C->S,FALSE,FALSE
+29,Z_32.wav,32,helmet / helmet_crash,a helmet that you'd wear on a biclycle,0,FL,NO,1538, ,C->S,FALSE,FALSE
+29,Z_33.wav,33,bell_hand / bell_bike,this is a hand bell,1,FL,PR,1216, ,C->S,FALSE,FALSE
+29,Z_34.wav,34,cheese_block / cheese_blue,emm this is cheese,0,FP,NO,1909, ,C->S,FALSE,FALSE
+29,Z_35.wav,35,nail / nail_finger,this is a nail youd use in DIY,1,FL,PO,1267, ,C->S,FALSE,FALSE
+29,Z_36.wav,36,vase / vase_flowers,a vase with no flowers in it ,1,FL,PO,1560, ,C->S,FALSE,FALSE
+29,Z_37.wav,37,clock_wall / clock_digital,the clock..the emmm anologue clock..the clock face not the digital clock,0,RE,AS, , ,S->C,TRUE,TRUE
+29,Z_38.wav,38,hat_sun / hat_cowboy,a sun hat for a woman,1,FL,PR,832,,S->C,TRUE,TRUE
+29,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen with the lid on,1,FL,PO,1914, ,S->C,TRUE,TRUE
+29,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1444, ,S->C,TRUE,TRUE
+29,Z_41.wav,41,pipe_smoke / pipe_kitchen,a smoking pipe,1,FL,PR,1237, ,S->C,TRUE,TRUE
+29,Z_42.wav,42,bat_animal / bat_baseball,a live bat,1,FL,PR,1791, ,S->C,TRUE,TRUE
+29,Z_43.wav,43,horse_animal / horse_rocking,it�s a horse (WO?) a live..the live horse,0,RE,AO, , ,S->C,FALSE,TRUE
+29,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow thsirt oh it�s the mans yellow tshirt,0,RE,AS, , ,S->C,FALSE,TRUE
+29,Z_45.wav,45,pizza / pizza_slice,a pizza (WO?) oh a full pizza,0,RE,AO, , ,S->C,FALSE,TRUE
+29,Z_46.wav,46,eye_pupil / I_letter,this is a persons eye,1,FL,PR,1437, ,S->C,FALSE,TRUE
+29,Z_47.wav,47,potatoes_skin / potatoes_peeled,emm unpeeled potatoes,1,FP,PR,2346, ,S->C,FALSE,TRUE
+29,Z_48.wav,48,compmouse / compmouse_wireless,the mouse for your computer with the cable,1,FL,PO,1791, ,S->C,FALSE,TRUE
+30,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,FALSE
+30,Z_02.wav,2,bin_lid / bin_pedal,ehh bin oh sorry the not the pedal one the other one,0,RE,AS, , ,S->C,FALSE,FALSE
+30,Z_03.wav,3,croc / croc_lilo,ehhh the real crocodile,1,FP,PR,2562, ,S->C,FALSE,FALSE
+30,Z_04.wav,4,coffee_cup / coffee_saucer,cup of tea (WO?) oh theres two! So the one without a saucer,0,RE,AO, , ,S->C,FALSE,FALSE
+30,Z_05.wav,5,mirror_wall / mirror_hand,m..it�s a mirror eh the ornate looking one,1,FP,PO,1756, ,S->C,FALSE,FALSE
+30,Z_06.wav,6,chair_wooden / chair_baby,the chair (WO?) eh the adults one,0,RE,AO, , ,S->C,FALSE,FALSE
+30,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter with flame,1,FL,PO,1866, ,C->S,TRUE,TRUE
+30,Z_08.wav,8,egg_shell / egg_yolk,eeeh aaaa�egg,0,FP,NO,2601, ,C->S,TRUE,TRUE
+30,Z_09.wav,9,umbrella_open / umbrella_closed,ohhh umbrella,0,FP,NO,1743, ,C->S,TRUE,TRUE
+30,Z_10.wav,10,candle_unused / candle_melted,theee candle,0,LE,NO,3594, ,C->S,TRUE,TRUE
+30,Z_11.wav,11,knife_kitchen / knife_swiss,theee knife,0,LE,NO,1909, ,C->S,TRUE,TRUE
+30,Z_12.wav,12,car_family / car_sports,the car,0,FL,NO,2629, ,C->S,TRUE,TRUE
+30,Z_13.wav,13,carrots / carrots_chopped,theee carrots,0,LE,NO,2777, ,C->S,FALSE,TRUE
+30,Z_14.wav,14,gun_real / gun_toy,theeee gun,0,LE,NO,1907, ,C->S,FALSE,TRUE
+30,Z_15.wav,15,saddle_horse / saddle_bike,saddle,0,FL,NO,1513, ,C->S,FALSE,TRUE
+30,Z_16.wav,16,pad_unlocked / pad_locked,yep the opened padlock oh theres only one this time,1,RE,DE, , ,C->S,FALSE,TRUE
+30,Z_17.wav,17,headphones_large / headphones_small,hhheadphones,0,LE,NO,1501, ,C->S,FALSE,TRUE
+30,Z_18.wav,18,battery_AA / battery_car,ah the battery,0,FP,NO,1491, ,C->S,FALSE,TRUE
+30,Z_19.wav,19,wine_glass / wine_red,theee glass,0,LE,NO,2299, ,C->S,TRUE,FALSE
+30,Z_20.wav,20,money_notes / money_coins,ehhh notes,1,FP,PR,2492, ,C->S,TRUE,FALSE
+30,Z_21.wav,21,boot_foot / boot_car,the boot,0,FL,NO,1450, ,C->S,TRUE,FALSE
+30,Z_22.wav,22,camera_corder / camera_cctv,ehhh�the camera,0,FP/UP,NO,3669, ,C->S,TRUE,FALSE
+30,Z_23.wav,23,guitar_acoustic / guitar_electric,coustic guitar,1,FL,PR,1013, ,C->S,TRUE,FALSE
+30,Z_24.wav,24,glove_wooly / glove_boxing,the glove,0,FL,NO,1668, ,C->S,TRUE,FALSE
+30,Z_25.wav,25,teapot_white / teapot_cosy,eh theee teapot,0,LE/FP,NO,2603, ,C->S,FALSE,FALSE
+30,Z_26.wav,26,plug / plug_bath,theee plug,0,LE,NO,2170, ,C->S,FALSE,FALSE
+30,Z_27.wav,27,saw_hand / saw_electric,theee saw,0,LE,NO,2579, ,C->S,FALSE,FALSE
+30,Z_28.wav,28,fan_hand / fan_electric,handheld fan,1,FL,PR,1002, ,C->S,FALSE,FALSE
+30,Z_29.wav,29,orange_skin / orange_slice,whole orange,1,FL,PR,1514, ,C->S,FALSE,FALSE
+30,Z_30.wav,30,spade_garden / spade_beach,naap big shovel,1,FP,PR,1056, ,C->S,FALSE,FALSE
+30,Z_31.wav,31,key_gold / key_car,key (WO?) ehh the ss the older looking one,0,RE,AO, , ,S->C,TRUE,TRUE
+30,Z_32.wav,32,helmet / helmet_crash,(noise from prev trial) bicyle helmet..with the holes�ehhh (cuts off),0,RE,AS, , ,S->C,TRUE,TRUE
+30,Z_33.wav,33,bell_hand / bell_bike,theeeee handheld bell,1,LE,PR,2962, ,S->C,TRUE,TRUE
+30,Z_34.wav,34,cheese_block / cheese_blue,the cheeese the cheddar I wanna say..,0,RE,AS, , ,S->C,TRUE,TRUE
+30,Z_35.wav,35,nail / nail_finger,nail (WO?) em oh the hammer nail,0,RE,AO, , ,S->C,TRUE,TRUE
+30,Z_36.wav,36,vase / vase_flowers,theee empty vase,1,LE,PR,2764, ,S->C,TRUE,TRUE
+30,Z_37.wav,37,clock_wall / clock_digital,eh theeee clock..wall clock,0,RE,AS, , ,S->C,FALSE,TRUE
+30,Z_38.wav,38,hat_sun / hat_cowboy,"eeeehhh theee sun hat, ladies",1,LE/FP,PR,3584,,S->C,FALSE,TRUE
+30,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen with a lid on,1,FL,PO,1955, ,S->C,FALSE,TRUE
+30,Z_40.wav,40,apple_red / apple_green,apple..oh the red apple,0,RE,AS, , ,S->C,FALSE,TRUE
+30,Z_41.wav,41,pipe_smoke / pipe_kitchen,theeeee old fashioned pipe,1,LE,PR,2674, ,S->C,FALSE,TRUE
+30,Z_42.wav,42,bat_animal / bat_baseball,ehhh bat..eh the animal bat,0,RE,AS, , ,S->C,FALSE,TRUE
+30,Z_43.wav,43,horse_animal / horse_rocking,ehh horse (WO?) oh eh the real horse,0,RE,AO, , ,S->C,TRUE,FALSE
+30,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow tshirt oh the mens yellow tshirt,0,RE,AS, , ,S->C,TRUE,FALSE
+30,Z_45.wav,45,pizza / pizza_slice,pizza (WO?) ohh! Whole pizza,0,RE,AO, , ,S->C,TRUE,FALSE
+30,Z_46.wav,46,eye_pupil / I_letter,eye (WO?) ahh need to look at the whole frame thee the eye ball,0,RE,AO, , ,S->C,TRUE,FALSE
+30,Z_47.wav,47,potatoes_skin / potatoes_peeled,emmm thee non peeled potatoes,1, LE/FP,PR,2655, ,S->C,TRUE,FALSE
+30,Z_48.wav,48,compmouse / compmouse_wireless,mouse (WO?) oh oh the one with the wire,0,RE,AO, , ,S->C,TRUE,FALSE
+31,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+31,Z_02.wav,2,bin_lid / bin_pedal,non pedal bin,1,FL,PR,1167, ,C->S,TRUE,TRUE
+31,Z_03.wav,3,croc / croc_lilo,emm the real live crocodile,1,FP,PR,1779, ,C->S,TRUE,TRUE
+31,Z_04.wav,4,coffee_cup / coffee_saucer,thee�coffee,0,UP,NO,3376, ,C->S,TRUE,TRUE
+31,Z_05.wav,5,mirror_wall / mirror_hand,the fancy mirror,1,FL,PR,1197, ,C->S,TRUE,TRUE
+31,Z_06.wav,6,chair_wooden / chair_baby,oh em�the dining table chair,1,FP,PR,4245, ,C->S,TRUE,TRUE
+31,Z_07.wav,7,lighter_flame / lighter_noflame,the zippo with the flame,1,FL,PO,1380, ,C->S,FALSE,TRUE
+31,Z_08.wav,8,egg_shell / egg_yolk,the boiled egg,1,FL,PR,1650, ,C->S,FALSE,TRUE
+31,Z_09.wav,9,umbrella_open / umbrella_closed,the open umbrella,1,FL,PR,1326, ,C->S,FALSE,TRUE
+31,Z_10.wav,10,candle_unused / candle_melted,the candle that�s not been lit,1,FL,PO,1516, ,C->S,FALSE,TRUE
+31,Z_11.wav,11,knife_kitchen / knife_swiss,the�kitchen knife,1,UP,PR,2524, ,C->S,FALSE,TRUE
+31,Z_12.wav,12,car_family / car_sports,the five door car,1,FL,PR,1264, ,C->S,FALSE,TRUE
+31,Z_13.wav,13,carrots / carrots_chopped,the whole carrots,1,FL,PR,1213, ,C->S,TRUE,FALSE
+31,Z_14.wav,14,gun_real / gun_toy,ehhh the real gun,1,FP,PR,1226, ,C->S,TRUE,FALSE
+31,Z_15.wav,15,saddle_horse / saddle_bike,the fancy bike saddle..not quite sure (cuts off),1,FL,PR,1403,***very hard to find onset,C->S,TRUE,FALSE
+31,Z_16.wav,16,pad_unlocked / pad_locked,unlocked padlock,1,FL,PR,904, ,C->S,TRUE,FALSE
+31,Z_17.wav,17,headphones_large / headphones_small,full head headphones,1,FL,PR,1536, ,C->S,TRUE,FALSE
+31,Z_18.wav,18,battery_AA / battery_car,okay.. Em it�s the little battery,1,FP,PR,3260, ,C->S,TRUE,FALSE
+31,Z_19.wav,19,wine_glass / wine_red,the empty wine glass,1,FL,PR,1048, ,C->S,FALSE,FALSE
+31,Z_20.wav,20,money_notes / money_coins,wad of bank notes,1,FL,PR,1342,****correct category PR?,C->S,FALSE,FALSE
+31,Z_21.wav,21,boot_foot / boot_car,the shoe boot,1,FL,PR,1473, ,C->S,FALSE,FALSE
+31,Z_22.wav,22,camera_corder / camera_cctv,the video recorder with the microphone,1,FL,PO,1684,,C->S,FALSE,FALSE
+31,Z_23.wav,23,guitar_acoustic / guitar_electric,the acoustic guitar,1,FL,PR,1334, ,C->S,FALSE,FALSE
+31,Z_24.wav,24,glove_wooly / glove_boxing,left glove,1,FL,PR,1596, ,C->S,FALSE,FALSE
+31,Z_25.wav,25,teapot_white / teapot_cosy,the teapot without the cosy,1,FL,PO,2202, ,S->C,TRUE,TRUE
+31,Z_26.wav,26,plug / plug_bath,ooop emm it�s the plug the sorry the plug that goes into a socket,0,RE,AS, , ,S->C,TRUE,TRUE
+31,Z_27.wav,27,saw_hand / saw_electric,the saw..the manual saw,0,RE,AS, , ,S->C,TRUE,TRUE
+31,Z_28.wav,28,fan_hand / fan_electric,em it�s the open hand fan,1,FP,PR,3631, ,S->C,TRUE,TRUE
+31,Z_29.wav,29,orange_skin / orange_slice,the whole orange,1,FL,PR,1629, ,S->C,TRUE,TRUE
+31,Z_30.wav,30,spade_garden / spade_beach,the real shovel,1,FL,PR,1638, ,S->C,TRUE,TRUE
+31,Z_31.wav,31,key_gold / key_car,the single key (WO?) the single key (theres two on the screen)�the bronze key,0,RE,AO, , ,S->C,FALSE,TRUE
+31,Z_32.wav,32,helmet / helmet_crash,the cycling helmet,0,FL,NO,1356, ,S->C,FALSE,TRUE
+31,Z_33.wav,33,bell_hand / bell_bike,em the bell oop sorry the school bell,0,RE,AS, , ,S->C,FALSE,TRUE
+31,Z_34.wav,34,cheese_block / cheese_blue,the slice of�cheese with holes in it,1,UP,PO,1415, ,S->C,FALSE,TRUE
+31,Z_35.wav,35,nail / nail_finger,emmm the nail that you nail with a hammer,1,FP,PO,3376,onset of first nail noted,S->C,FALSE,TRUE
+31,Z_36.wav,36,vase / vase_flowers,thee glass vase (WO?) the glass vase without any flowers in it ,0,RE,AO, , ,S->C,FALSE,TRUE
+31,Z_37.wav,37,clock_wall / clock_digital,the em oh what do you call it the anologue clock,1,FP,PR,6777, ,S->C,TRUE,FALSE
+31,Z_38.wav,38,hat_sun / hat_cowboy,(noise from prev trial) the sun hat,1,FL,PR, , ,S->C,TRUE,FALSE
+31,Z_39.wav,39,pen_ballpoint / pen_nolid,okay em we have a biro pen with a lid on it,1,FP,PO,3191, ,S->C,TRUE,FALSE
+31,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1474, ,S->C,TRUE,FALSE
+31,Z_41.wav,41,pipe_smoke / pipe_kitchen,emmm the pipe that you smoke,1,FP,PO,2576, ,S->C,TRUE,FALSE
+31,Z_42.wav,42,bat_animal / bat_baseball,em okay it�s the real life bat,1,FP,PR,2902, ,S->C,TRUE,FALSE
+31,Z_43.wav,43,horse_animal / horse_rocking,"the live horse, animal (cuts off)",1,FL,PR,2103,CUTOFF,S->C,FALSE,FALSE
+31,Z_44.wav,44,tshirt_round / tshirt_vneck,emm the orange tshirt (WO?) the mans orange tshirt,0,RE,AO, , ,S->C,FALSE,FALSE
+31,Z_45.wav,45,pizza / pizza_slice,whole pizza,1,FL,PR,1585, ,S->C,FALSE,FALSE
+31,Z_46.wav,46,eye_pupil / I_letter,the close up of the womans eye,1,FL,PR,1350,onset from close,S->C,FALSE,FALSE
+31,Z_47.wav,47,potatoes_skin / potatoes_peeled,emm the pile of potatoes that arent peeled,1,FP,PO,2632, ,S->C,FALSE,FALSE
+31,Z_48.wav,48,compmouse / compmouse_wireless,em you okay (chat beforehand) computer mouse (WO?) oh computer mouse with a cable,0,RE,AO, , ,S->C,FALSE,FALSE
+32,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,TRUE
+32,Z_02.wav,2,bin_lid / bin_pedal,theee bin that is�more angular,1,LE/UP,PO,3143, ,S->C,TRUE,TRUE
+32,Z_03.wav,3,croc / croc_lilo,the crocodile�the real one,0,RE,AS, , ,S->C,TRUE,TRUE
+32,Z_04.wav,4,coffee_cup / coffee_saucer,theee..cup of coffee not on a saucer,1,LE/UP,PO,1969, ,S->C,TRUE,TRUE
+32,Z_05.wav,5,mirror_wall / mirror_hand,the mirror,0,FL,NO,1043, ,S->C,TRUE,TRUE
+32,Z_06.wav,6,chair_wooden / chair_baby,the chair,0,FL,NO,1215, ,S->C,TRUE,TRUE
+32,Z_07.wav,7,lighter_flame / lighter_noflame,ehh a lighter�with the flame,0,RE,AS, , ,S->C,FALSE,TRUE
+32,Z_08.wav,8,egg_shell / egg_yolk,egg (WO?) oh em the..in the shell,0,RE,AO, , ,S->C,FALSE,TRUE
+32,Z_09.wav,9,umbrella_open / umbrella_closed,the red umbrella uh the open one,0,RE,AS, , ,S->C,FALSE,TRUE
+32,Z_10.wav,10,candle_unused / candle_melted,ehhh�the candle which is not lit,1,FP/UP,PO,2331, ,S->C,FALSE,TRUE
+32,Z_11.wav,11,knife_kitchen / knife_swiss,theee�its just a knife�.not the swiss army knife,0,RE,AS, , ,S->C,FALSE,TRUE
+32,Z_12.wav,12,car_family / car_sports,ehh it�s a�.the less fancy car,1,FP/UP,PR,4124, ,S->C,FALSE,TRUE
+32,Z_13.wav,13,carrots / carrots_chopped,the carrots (WO?) eh the full carrots,0,RE,AO, , ,S->C,TRUE,FALSE
+32,Z_14.wav,14,gun_real / gun_toy,eh gun�eh I suppose it�s the real gun instead of a water pistol,0,RE,AS, , ,S->C,TRUE,FALSE
+32,Z_15.wav,15,saddle_horse / saddle_bike,(noise from prev trial) emm the saddle�.eh the horse saddle,0,RE,AS, , ,S->C,TRUE,FALSE
+32,Z_16.wav,16,pad_unlocked / pad_locked,eh the open padlock,1,FP,PR,1432, ,S->C,TRUE,FALSE
+32,Z_17.wav,17,headphones_large / headphones_small,the headphones..eh the overhead..big headphones,0,RE,AS, , ,S->C,TRUE,FALSE
+32,Z_18.wav,18,battery_AA / battery_car,(noise from prev trial) the battery..the AA battery,0,RE,AS, , ,S->C,TRUE,FALSE
+32,Z_19.wav,19,wine_glass / wine_red,ehh it�s the empty wine glass,1,FP,PR,1587, ,S->C,FALSE,FALSE
+32,Z_20.wav,20,money_notes / money_coins,ehh its�the notes money,1,FP/UP,PR,2909, ,S->C,FALSE,FALSE
+32,Z_21.wav,21,boot_foot / boot_car,the boot (WO?) ehh the big black boot,0,RE,AO, , ,S->C,FALSE,FALSE
+32,Z_22.wav,22,camera_corder / camera_cctv,(noise from prev trial) emm its like the hefty camera,1,FP,PR, , ,S->C,FALSE,FALSE
+32,Z_23.wav,23,guitar_acoustic / guitar_electric,ehh it�s the�acoustic guitar,1,FP/UP,PR,2665, ,S->C,FALSE,FALSE
+32,Z_24.wav,24,glove_wooly / glove_boxing,red glove (WO?) theee like ladies hand glove,0,RE,AO, , ,S->C,FALSE,FALSE
+32,Z_25.wav,25,teapot_white / teapot_cosy,the white teapot,1,FL,PR,1205, ,C->S,TRUE,TRUE
+32,Z_26.wav,26,plug / plug_bath,the electrical plug ,1,FL,PR,1155, ,C->S,TRUE,TRUE
+32,Z_27.wav,27,saw_hand / saw_electric,theee handheld saw,1,LE,PR,2574,hard to find onset,C->S,TRUE,TRUE
+32,Z_28.wav,28,fan_hand / fan_electric,the handheld fan,1,FL,PR,1217, ,C->S,TRUE,TRUE
+32,Z_29.wav,29,orange_skin / orange_slice,the full orange,1,FL,PR,1576, ,C->S,TRUE,TRUE
+32,Z_30.wav,30,spade_garden / spade_beach,the garden shovel,1,FL,PR,1135, ,C->S,TRUE,TRUE
+32,Z_31.wav,31,key_gold / key_car,emmm like the gold house key,1,FP,PR,1890, ,C->S,FALSE,TRUE
+32,Z_32.wav,32,helmet / helmet_crash,its like an aero dynamic helmet�oh theres not (cuts off),1,RE,DE, ,think she was about to delete description,C->S,FALSE,TRUE
+32,Z_33.wav,33,bell_hand / bell_bike,emmm its like a handheld bell,1,FP,PR,1793, ,C->S,FALSE,TRUE
+32,Z_34.wav,34,cheese_block / cheese_blue,the yellow cheese,1,FL,PR,1124, ,C->S,FALSE,TRUE
+32,Z_35.wav,35,nail / nail_finger,it�s a metal nail,1,FL,PR,1758, ,C->S,FALSE,TRUE
+32,Z_36.wav,36,vase / vase_flowers,the empty vase,1,FL,PR,1242, ,C->S,FALSE,TRUE
+32,Z_37.wav,37,clock_wall / clock_digital,ehhh it�s the wall clock,1,FP,PR,1973, ,C->S,TRUE,FALSE
+32,Z_38.wav,38,hat_sun / hat_cowboy,(coughs) theee straw hat,1,LE,PR,2538, ,C->S,TRUE,FALSE
+32,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen�.wi.. (think about to say with the lid on),1,RE,DE, , ,C->S,TRUE,FALSE
+32,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,992, ,C->S,TRUE,FALSE
+32,Z_41.wav,41,pipe_smoke / pipe_kitchen,the smoking pipe,1,FL,PR,1021, ,C->S,TRUE,FALSE
+32,Z_42.wav,42,bat_animal / bat_baseball,theee..bat animal,1,LE,PO,1826, ,C->S,TRUE,FALSE
+32,Z_43.wav,43,horse_animal / horse_rocking,ehh the real horse,1,FP,PR,1445, ,C->S,FALSE,FALSE
+32,Z_44.wav,44,tshirt_round / tshirt_vneck,its..the tshirt,0,FL,NO,1777, ,C->S,FALSE,FALSE
+32,Z_45.wav,45,pizza / pizza_slice,the whole pizza,1,FL,PR,1253, ,C->S,FALSE,FALSE
+32,Z_46.wav,46,eye_pupil / I_letter,the human eye,1,FL,PR,1317, ,C->S,FALSE,FALSE
+32,Z_47.wav,47,potatoes_skin / potatoes_peeled,thee..peeled..unpeeled potatatoes,1,RE,DE, , ,C->S,FALSE,FALSE
+32,Z_48.wav,48,compmouse / compmouse_wireless,the mouse with the cable,1,FL,PO,1130, ,C->S,FALSE,FALSE
+33,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,FALSE
+33,Z_02.wav,2,bin_lid / bin_pedal,ehhh a bin,0,FP,NO,1817, ,C->S,FALSE,FALSE
+33,Z_03.wav,3,croc / croc_lilo,the real crocodile,1,FL,PR,1476, ,C->S,FALSE,FALSE
+33,Z_04.wav,4,coffee_cup / coffee_saucer,a cup of coffee with no saucer,1,FL,PO,1644, ,C->S,FALSE,FALSE
+33,Z_05.wav,5,mirror_wall / mirror_hand,the mirror with the pattern around it,1,FL,PO,1545,hard to find onset,C->S,FALSE,FALSE
+33,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1434, ,C->S,FALSE,FALSE
+33,Z_07.wav,7,lighter_flame / lighter_noflame,the lighter (WO?) emm the one that�s got the flame,0,RE,AO, , ,S->C,TRUE,TRUE
+33,Z_08.wav,8,egg_shell / egg_yolk,uhhh an egg..thats still in its shell,1,FP,PO,2793, ,S->C,TRUE,TRUE
+33,Z_09.wav,9,umbrella_open / umbrella_closed,the red umbrella�the one that�s open,0,RE,AS, , ,S->C,TRUE,TRUE
+33,Z_10.wav,10,candle_unused / candle_melted,the candle (WO?) oh emmm the one that hasn�t been burning,0,RE,AO, , ,S->C,TRUE,TRUE
+33,Z_11.wav,11,knife_kitchen / knife_swiss,the knife (WO?) just the just the one that�s got one knife,0,RE,AO, , ,S->C,TRUE,TRUE
+33,Z_12.wav,12,car_family / car_sports,a white car (WO?) oh a small one,0,RE,AO, , ,S->C,TRUE,TRUE
+33,Z_13.wav,13,carrots / carrots_chopped,the carrots (WO?) eh the ones that havent been chopped up,0,RE,AO, , ,S->C,FALSE,TRUE
+33,Z_14.wav,14,gun_real / gun_toy,ehh the smallllish hand gun (about to say something else but it cuts off),1,LE/FP,PR,2170, ,S->C,FALSE,TRUE
+33,Z_15.wav,15,saddle_horse / saddle_bike,eh the saddle (WO?) eh oh its..eh I think it�s the one that would be for a horse,0,RE,AO, , ,S->C,FALSE,TRUE
+33,Z_16.wav,16,pad_unlocked / pad_locked,the padlock..that has..its been opened,0,RE,AS, ,***TOUGH CALL,S->C,FALSE,TRUE
+33,Z_17.wav,17,headphones_large / headphones_small,the headphones..the em the headhones not earphones just headphones,0,RE,AS, , ,S->C,FALSE,TRUE
+33,Z_18.wav,18,battery_AA / battery_car,the battery (WO?) emm just the one you would put in like a remote control or something like that,0,RE,AO, , ,S->C,FALSE,TRUE
+33,Z_19.wav,19,wine_glass / wine_red,(noise from prev trial) a wine glass (WO?) oh eh the one that doesn't have any wine in it,0,RE,AO, , ,S->C,TRUE,FALSE
+33,Z_20.wav,20,money_notes / money_coins,cash (WO?) eh oh em paper cash,0,RE,AO, , ,S->C,TRUE,FALSE
+33,Z_21.wav,21,boot_foot / boot_car,the boot (WO?) theee leather one,0,RE,AO, , ,S->C,TRUE,FALSE
+33,Z_22.wav,22,camera_corder / camera_cctv,camera (WO?) oh its ehh the bigger one,0,RE,AO, , ,S->C,TRUE,FALSE
+33,Z_23.wav,23,guitar_acoustic / guitar_electric,"the guitar, the acoustic guitar",0,RE,AS, , ,S->C,TRUE,FALSE
+33,Z_24.wav,24,glove_wooly / glove_boxing,the glove (WO?) oh the the red kitchen glove,0,RE,AO, , ,S->C,TRUE,FALSE
+33,Z_25.wav,25,teapot_white / teapot_cosy,teapot (WO?) ehh it�s the one without anything on it its just a white teapot,0,RE,AO, , ,S->C,FALSE,FALSE
+33,Z_26.wav,26,plug / plug_bath,plug (WO?) ehh just for like an electrical socket,0,RE,AO, , ,S->C,FALSE,FALSE
+33,Z_27.wav,27,saw_hand / saw_electric,"the saw (WO?) oh eh the metalic one, the handheld one",0,RE,AO, , ,S->C,FALSE,FALSE
+33,Z_28.wav,28,fan_hand / fan_electric,a fan (WO?) eh the handheld one,0,RE,AO, , ,S->C,FALSE,FALSE
+33,Z_29.wav,29,orange_skin / orange_slice,an orange (WO?) eh that�s not been peeled yet,0,RE,AO, ,,S->C,FALSE,FALSE
+33,Z_30.wav,30,spade_garden / spade_beach,eh the shovel (WO?) eh the big metal one,0,RE,AO, , ,S->C,FALSE,FALSE
+33,Z_31.wav,31,key_gold / key_car,a key for the house,1,FL,PO,1327, ,C->S,TRUE,TRUE
+33,Z_32.wav,32,helmet / helmet_crash,eh the bike helmet,0,FP,NO,2363, ,C->S,TRUE,TRUE
+33,Z_33.wav,33,bell_hand / bell_bike,the handheld bell,1,FL,PR,1592, ,C->S,TRUE,TRUE
+33,Z_34.wav,34,cheese_block / cheese_blue,the orange cheese,1,FL,PR,1525, ,C->S,TRUE,TRUE
+33,Z_35.wav,35,nail / nail_finger,the long pin,1,FL,PR,2195,,C->S,TRUE,TRUE
+33,Z_36.wav,36,vase / vase_flowers,an empty jug,1,FL,PR,1244, ,C->S,TRUE,TRUE
+33,Z_37.wav,37,clock_wall / clock_digital,the anologue clock,1,FL,PR,1715,hard to find onset,C->S,FALSE,TRUE
+33,Z_38.wav,38,hat_sun / hat_cowboy,(very slight run over from prev trial) the hat with the black ribbon,1,FL,PO,1128, ,C->S,FALSE,TRUE
+33,Z_39.wav,39,pen_ballpoint / pen_nolid,ehh pen with the lid on it,1,FP,PO,1574, ,C->S,FALSE,TRUE
+33,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1009, ,C->S,FALSE,TRUE
+33,Z_41.wav,41,pipe_smoke / pipe_kitchen,the smoking pipe,1,FL,PR,979, ,C->S,FALSE,TRUE
+33,Z_42.wav,42,bat_animal / bat_baseball,(noise from prev trial) eh the animal bat,1,FP,PR, , ,C->S,FALSE,TRUE
+33,Z_43.wav,43,horse_animal / horse_rocking,the real horse,1,FL,PR,1286, ,C->S,TRUE,FALSE
+33,Z_44.wav,44,tshirt_round / tshirt_vneck,eh the males yellow tshirt,1,FP,PR,2707, ,C->S,TRUE,FALSE
+33,Z_45.wav,45,pizza / pizza_slice,the full pizza,1,FL,PR,1541, ,C->S,TRUE,FALSE
+33,Z_46.wav,46,eye_pupil / I_letter,the human eye,1,FL,PR,1002, ,C->S,TRUE,FALSE
+33,Z_47.wav,47,potatoes_skin / potatoes_peeled,the sweet potatoes,1,FL,PR,1682, ,C->S,TRUE,FALSE
+33,Z_48.wav,48,compmouse / compmouse_wireless,the mouse with the cable,1,FL,PO,1561, ,C->S,TRUE,FALSE
+34,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,FALSE
+34,Z_02.wav,2,bin_lid / bin_pedal,(overlap from prev trial) a bin (WO?) theee one without the pedal,0,RE,AO, , ,S->C,FALSE,FALSE
+34,Z_03.wav,3,croc / croc_lilo,crocodile�.en which is real ,0,RE,AS, , ,S->C,FALSE,FALSE
+34,Z_04.wav,4,coffee_cup / coffee_saucer,cup of black coffee ehh without a saucer,1,FP,PO,1071, ,S->C,FALSE,FALSE
+34,Z_05.wav,5,mirror_wall / mirror_hand,mirror..omm a wall mirror,0,RE,AS, , ,S->C,FALSE,FALSE
+34,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1403, ,S->C,FALSE,FALSE
+34,Z_07.wav,7,lighter_flame / lighter_noflame,a lit lighter,1,FL,PR,1194, ,C->S,TRUE,TRUE
+34,Z_08.wav,8,egg_shell / egg_yolk,an uncracked egg,1,FL,PR,1956, ,C->S,TRUE,TRUE
+34,Z_09.wav,9,umbrella_open / umbrella_closed,an open umbrella,1,FL,PR,1336, ,C->S,TRUE,TRUE
+34,Z_10.wav,10,candle_unused / candle_melted,aaaa candle,0,LE,NO,1791, ,C->S,TRUE,TRUE
+34,Z_11.wav,11,knife_kitchen / knife_swiss,a kitchen knife,1,FL,PR,1231, ,C->S,TRUE,TRUE
+34,Z_12.wav,12,car_family / car_sports,aaaaaa car,0,LE,NO,1827, ,C->S,TRUE,TRUE
+34,Z_13.wav,13,carrots / carrots_chopped,carrots,0,FL,NO,1853, ,C->S,FALSE,TRUE
+34,Z_14.wav,14,gun_real / gun_toy,a real gun,1,FL,PR,992, ,C->S,FALSE,TRUE
+34,Z_15.wav,15,saddle_horse / saddle_bike,a horses saddle,1,FL,PR,1478, ,C->S,FALSE,TRUE
+34,Z_16.wav,16,pad_unlocked / pad_locked,a padlock,0,FL,NO,1903, ,C->S,FALSE,TRUE
+34,Z_17.wav,17,headphones_large / headphones_small,out of ear headphones,1,FL,PR,1506, ,C->S,FALSE,TRUE
+34,Z_18.wav,18,battery_AA / battery_car,aaa battery,0,LE,NO,1963, ,C->S,FALSE,TRUE
+34,Z_19.wav,19,wine_glass / wine_red,empty wine glass,1,FL,PR,1328, ,C->S,TRUE,FALSE
+34,Z_20.wav,20,money_notes / money_coins,eh.. Bank notes,1,FP/UP,PR,1614, ,C->S,TRUE,FALSE
+34,Z_21.wav,21,boot_foot / boot_car,a�leather boot,1,UP,PR,1938, ,C->S,TRUE,FALSE
+34,Z_22.wav,22,camera_corder / camera_cctv,a video camera,1,FL,PR,1697, ,C->S,TRUE,FALSE
+34,Z_23.wav,23,guitar_acoustic / guitar_electric,aaacoustic guitar,1,LE,PR,986, ,C->S,TRUE,FALSE
+34,Z_24.wav,24,glove_wooly / glove_boxing,ehhh a leather a rubber glove,1,RE,DE, , ,C->S,TRUE,FALSE
+34,Z_25.wav,25,teapot_white / teapot_cosy,a teapot without a teacosy,1,FL,PO,1287, ,C->S,FALSE,FALSE
+34,Z_26.wav,26,plug / plug_bath,an electric plug,1,FL,PR,1434, ,C->S,FALSE,FALSE
+34,Z_27.wav,27,saw_hand / saw_electric,a saw,0,FL,NO,1968, ,C->S,FALSE,FALSE
+34,Z_28.wav,28,fan_hand / fan_electric,a hand fan,1,FL,PR,1115, ,C->S,FALSE,FALSE
+34,Z_29.wav,29,orange_skin / orange_slice,a�orange,0,UP,NO,2624, ,C->S,FALSE,FALSE
+34,Z_30.wav,30,spade_garden / spade_beach,a metal spade,1,FL,PR,1581, ,C->S,FALSE,FALSE
+34,Z_31.wav,31,key_gold / key_car,key (WO?) house key,0,RE,AO, , ,S->C,TRUE,TRUE
+34,Z_32.wav,32,helmet / helmet_crash,"a bicycle helmet, eh sort of�.angular bicycle helmet",0,RE,AS, , ,S->C,TRUE,TRUE
+34,Z_33.wav,33,bell_hand / bell_bike,a bell a with emm..a hand bell,0,RE,AS, , ,S->C,TRUE,TRUE
+34,Z_34.wav,34,cheese_block / cheese_blue,emm�..cheese with holes in it,1,FP/UP,PO,4945, ,S->C,TRUE,TRUE
+34,Z_35.wav,35,nail / nail_finger,a nail (WO?) the metal nail,0,RE,AO, , ,S->C,TRUE,TRUE
+34,Z_36.wav,36,vase / vase_flowers,a glass vase (WO?) without flowers,0,RE,AO, , ,S->C,TRUE,TRUE
+34,Z_37.wav,37,clock_wall / clock_digital,a wall clock,1,FL,PR,1851, ,S->C,FALSE,TRUE
+34,Z_38.wav,38,hat_sun / hat_cowboy,a l ladies hat,1,FL,PR,2548, ,S->C,FALSE,TRUE
+34,Z_39.wav,39,pen_ballpoint / pen_nolid,a pen with the lid on,1,FL,PO,1654, ,S->C,FALSE,TRUE
+34,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,1443, ,S->C,FALSE,TRUE
+34,Z_41.wav,41,pipe_smoke / pipe_kitchen,a smoking pipe,1,FL,PR,1282, ,S->C,FALSE,TRUE
+34,Z_42.wav,42,bat_animal / bat_baseball,aaaa fruit bat,1,LE,PR,3107, ,S->C,FALSE,TRUE
+34,Z_43.wav,43,horse_animal / horse_rocking,a live horse,1,FL,PR,2229, ,S->C,TRUE,FALSE
+34,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow tshirt (WO?) (laughs) the male yellow tshirt,0,RE,AO, , ,S->C,TRUE,FALSE
+34,Z_45.wav,45,pizza / pizza_slice,ehh pizza..eh a whole pizza,0,RE,AS, , ,S->C,TRUE,FALSE
+34,Z_46.wav,46,eye_pupil / I_letter,human eye,1,FL,PR,1267, ,S->C,TRUE,FALSE
+34,Z_47.wav,47,potatoes_skin / potatoes_peeled,a pile of poatatoes (WO?) thee unpeeled ones,0,RE,AO, , ,S->C,TRUE,FALSE
+34,Z_48.wav,48,compmouse / compmouse_wireless,eh computer mousssse,1,LE/FP,PO,1281, ,S->C,TRUE,FALSE
+35,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,FALSE,TRUE
+35,Z_02.wav,2,bin_lid / bin_pedal,the black bin that you don't press down bin,1,FL,PO,1509, ,S->C,FALSE,TRUE
+35,Z_03.wav,3,croc / croc_lilo,the crocodile (WO?) eh the real one,0,RE,AO, , ,S->C,FALSE,TRUE
+35,Z_04.wav,4,coffee_cup / coffee_saucer,the coffee cup without the saucer,1,FL,PO,1043, ,S->C,FALSE,TRUE
+35,Z_05.wav,5,mirror_wall / mirror_hand,the mirror (WO?) ehh oh the wall mirror,0,RE,AO, , ,S->C,FALSE,TRUE
+35,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,1066, ,S->C,FALSE,TRUE
+35,Z_07.wav,7,lighter_flame / lighter_noflame,eh the lighter (WO?) oh the one with the flame,0,RE,AO, , ,S->C,TRUE,FALSE
+35,Z_08.wav,8,egg_shell / egg_yolk,egg (WO?) the egg..the boil..the egg with the shell on it,0,RE,AO, , ,S->C,TRUE,FALSE
+35,Z_09.wav,9,umbrella_open / umbrella_closed,the the um..the open umbrella,0,RE,AS,2090,benefit of doubt given as didn�t complete word,S->C,TRUE,FALSE
+35,Z_10.wav,10,candle_unused / candle_melted,the candle that�s not been used,1,FL,PO,1700, ,S->C,TRUE,FALSE
+35,Z_11.wav,11,knife_kitchen / knife_swiss,the knife�the one by itself ,0,RE,AS, , ,S->C,TRUE,FALSE
+35,Z_12.wav,12,car_family / car_sports,ehh silver car (WO?) ehh the smaller one not the sporty one,0,RE,AO, , ,S->C,TRUE,FALSE
+35,Z_13.wav,13,carrots / carrots_chopped,the carrots..the full carrots ,0,RE,AS, , ,S->C,FALSE,FALSE
+35,Z_14.wav,14,gun_real / gun_toy,the..real gun uh its not got the orange bit at the end,1,LE/FP,PR,2674,PR/PO onset from real - just struggling to describe the item,S->C,FALSE,FALSE
+35,Z_15.wav,15,saddle_horse / saddle_bike,the saddle (WO?) theee riding for the horse,0,RE,AO, , ,S->C,FALSE,FALSE
+35,Z_16.wav,16,pad_unlocked / pad_locked,the padlock that�s open,1,FL,PO,1685, ,S->C,FALSE,FALSE
+35,Z_17.wav,17,headphones_large / headphones_small,the headphones�the ones that go over over your head,0,RE,AS, , ,S->C,FALSE,FALSE
+35,Z_18.wav,18,battery_AA / battery_car,(laughs) the battery (WO?) ehh the battery you put in like a remote control of something,0,RE,AO, , ,S->C,FALSE,FALSE
+35,Z_19.wav,19,wine_glass / wine_red,emm the wine glass,0,FP,NO,1700, ,C->S,TRUE,TRUE
+35,Z_20.wav,20,money_notes / money_coins,the notes,1,FL,PR,2066, ,C->S,TRUE,TRUE
+35,Z_21.wav,21,boot_foot / boot_car,ehh black boots�..bla (cuts off),1,RE,AS,1535,about to add mor in,C->S,TRUE,TRUE
+35,Z_22.wav,22,camera_corder / camera_cctv,the ffff� the camera,1,RE,DE, ,says the twice so RE,C->S,TRUE,TRUE
+35,Z_23.wav,23,guitar_acoustic / guitar_electric,the coustic guitar,1,FL,PR,1334, ,C->S,TRUE,TRUE
+35,Z_24.wav,24,glove_wooly / glove_boxing,ehhh the red glove,0,FP,NO,2114, ,C->S,TRUE,TRUE
+35,Z_25.wav,25,teapot_white / teapot_cosy,the teapot,0,FL,NO,1620, ,C->S,FALSE,TRUE
+35,Z_26.wav,26,plug / plug_bath,the plug,0,FL,NO,1469, ,C->S,FALSE,TRUE
+35,Z_27.wav,27,saw_hand / saw_electric,the manual saw,1,FL,PR,1174, ,C->S,FALSE,TRUE
+35,Z_28.wav,28,fan_hand / fan_electric,the fan,0,FL,NO,1771, ,C->S,FALSE,TRUE
+35,Z_29.wav,29,orange_skin / orange_slice,theee orange,0,LE,NO,1650, ,C->S,FALSE,TRUE
+35,Z_30.wav,30,spade_garden / spade_beach,thee shovel,0,LE,NO,1482, ,C->S,FALSE,TRUE
+35,Z_31.wav,31,key_gold / key_car,thee�key,0,LE/UP,NO,2460, ,C->S,TRUE,FALSE
+35,Z_32.wav,32,helmet / helmet_crash,cycling helmet,0,FL,NO,1239,hard to find exact onset,C->S,TRUE,FALSE
+35,Z_33.wav,33,bell_hand / bell_bike,the bell that you hold,1,FL,PO,1360, ,C->S,TRUE,FALSE
+35,Z_34.wav,34,cheese_block / cheese_blue,the cheese,0,FL,NO,2038, ,C->S,TRUE,FALSE
+35,Z_35.wav,35,nail / nail_finger,the DIY nail,1,FL,PR,1215, ,C->S,TRUE,FALSE
+35,Z_36.wav,36,vase / vase_flowers,the vase,0,FL,NO,1947,hard to find onset,C->S,TRUE,FALSE
+35,Z_37.wav,37,clock_wall / clock_digital,the anologue clock,1,FL,PR,1376,very hard to find onset,C->S,FALSE,FALSE
+35,Z_38.wav,38,hat_sun / hat_cowboy,(laughs) the str..the straw hat,1,RE,DE, ,repeats the - CHECK this,C->S,FALSE,FALSE
+35,Z_39.wav,39,pen_ballpoint / pen_nolid,the blue pen with the lid on it yeah,1,FL,PO,1152, ,C->S,FALSE,FALSE
+35,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1059, ,C->S,FALSE,FALSE
+35,Z_41.wav,41,pipe_smoke / pipe_kitchen,the..pipe,0,FL,NO,1944, ,C->S,FALSE,FALSE
+35,Z_42.wav,42,bat_animal / bat_baseball,the bat,0,FL,NO,1261, ,C->S,FALSE,FALSE
+35,Z_43.wav,43,horse_animal / horse_rocking,the horse that�s not the rocking horse the real horse,0,RE,AS, ,***CHECK???,S->C,TRUE,TRUE
+35,Z_44.wav,44,tshirt_round / tshirt_vneck,theee..looks like a mmmens yellow tshirt,1,LE,PR,2957, ,S->C,TRUE,TRUE
+35,Z_45.wav,45,pizza / pizza_slice,the pizza eh the full pizza,0,RE,AS, , ,S->C,TRUE,TRUE
+35,Z_46.wav,46,eye_pupil / I_letter,eh the eye (WO?) oh! The eyeball,0,RE,AO, , ,S->C,TRUE,TRUE
+35,Z_47.wav,47,potatoes_skin / potatoes_peeled,the potatoes with the skin on them,1,FL,PO,2216, ,S->C,TRUE,TRUE
+35,Z_48.wav,48,compmouse / compmouse_wireless,the mouse (WO?) the one with the wire,0,RE,AO, ,AS/AO,S->C,TRUE,TRUE
+36,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,FALSE
+36,Z_02.wav,2,bin_lid / bin_pedal,the bin (WO?) a bin�oh ehh�a bin without a pedal,0,RE,AO, , ,S->C,TRUE,FALSE
+36,Z_03.wav,3,croc / croc_lilo,a cro..a real crocodile,0,RE,AS,2755,didn't finish word so no repair,S->C,TRUE,FALSE
+36,Z_04.wav,4,coffee_cup / coffee_saucer,black coffee (WO?) emmm coffee without a saucer,0,RE,AO,, ,S->C,TRUE,FALSE
+36,Z_05.wav,5,mirror_wall / mirror_hand,eh black mirror,1,FP,PR,1512, ,S->C,TRUE,FALSE
+36,Z_06.wav,6,chair_wooden / chair_baby,eh chair (WO?) ehhh a wooden chair,0,RE,AO, , ,S->C,TRUE,FALSE
+36,Z_07.wav,7,lighter_flame / lighter_noflame,ehhh an electric ehhh an ignited lighter,0,RE,AS, , ,S->C,FALSE,FALSE
+36,Z_08.wav,8,egg_shell / egg_yolk,an egg ehhh aaaa boiled egg a hard boiled egg,0,RE,AS, , ,S->C,FALSE,FALSE
+36,Z_09.wav,9,umbrella_open / umbrella_closed,(noise from prev trial) ehh an umbrella  (WO?) eh oh ehh an open umbrella,0,RE,AO, , ,S->C,FALSE,FALSE
+36,Z_10.wav,10,candle_unused / candle_melted,aaaaa an unused candle,1,LE,PR,3336, ,S->C,FALSE,FALSE
+36,Z_11.wav,11,knife_kitchen / knife_swiss,a knife (WO?) ehhh ehhh a kitchen knife,0,RE,AO, , ,S->C,FALSE,FALSE
+36,Z_12.wav,12,car_family / car_sports,a car (WO?) ehh eemm ehh cheaper car,0,RE,AO, , ,S->C,FALSE,FALSE
+36,Z_13.wav,13,carrots / carrots_chopped,ehh rr real carrots,1,FP,PR,2404, ,C->S,TRUE,TRUE
+36,Z_14.wav,14,gun_real / gun_toy,a real gun,1,FL,PR,1799, ,C->S,TRUE,TRUE
+36,Z_15.wav,15,saddle_horse / saddle_bike,ehhh the horses saddle,1,FP,PR,2225, ,C->S,TRUE,TRUE
+36,Z_16.wav,16,pad_unlocked / pad_locked,a lock,0,FL,NO,2666, ,C->S,TRUE,TRUE
+36,Z_17.wav,17,headphones_large / headphones_small,ehhh overhead headphones,1,FP,PR,1862, ,C->S,TRUE,TRUE
+36,Z_18.wav,18,battery_AA / battery_car,a battery,0,FL,NO,2191, ,C->S,TRUE,TRUE
+36,Z_19.wav,19,wine_glass / wine_red,ehhhh a glass,0,FP,NO,2150, ,C->S,FALSE,TRUE
+36,Z_20.wav,20,money_notes / money_coins,emmm�.money,0,FP/UP,NO,2701, ,C->S,FALSE,TRUE
+36,Z_21.wav,21,boot_foot / boot_car,a do a boot,1,RE,DE, ,check?? Saying doc martin first?,C->S,FALSE,TRUE
+36,Z_22.wav,22,camera_corder / camera_cctv,a film..eh camera,1,RE,DE, , ,C->S,FALSE,TRUE
+36,Z_23.wav,23,guitar_acoustic / guitar_electric,a guitar,0,FL,NO,1937, ,C->S,FALSE,TRUE
+36,Z_24.wav,24,glove_wooly / glove_boxing,a washing..a glove,1,RE,DE, , ,C->S,FALSE,TRUE
+36,Z_25.wav,25,teapot_white / teapot_cosy,a teapot without a teacosy,1,FL,PO,1165, ,C->S,TRUE,FALSE
+36,Z_26.wav,26,plug / plug_bath,ehhh electric plug,1,FP,PR,1234, ,C->S,TRUE,FALSE
+36,Z_27.wav,27,saw_hand / saw_electric,a saw,0,FL,NO,1610, ,C->S,TRUE,FALSE
+36,Z_28.wav,28,fan_hand / fan_electric,an oriental fan,1,FL,PR,1285, ,C->S,TRUE,FALSE
+36,Z_29.wav,29,orange_skin / orange_slice,ehhhhh an orange,0,FP,NO,1960, ,C->S,TRUE,FALSE
+36,Z_30.wav,30,spade_garden / spade_beach,a proper shovel,1,FL,PR,2030, ,C->S,TRUE,FALSE
+36,Z_31.wav,31,key_gold / key_car,aaaa a key,0,LE,NO,1685, ,C->S,FALSE,FALSE
+36,Z_32.wav,32,helmet / helmet_crash,aaaa helmet,0,LE,NO,1839, ,C->S,FALSE,FALSE
+36,Z_33.wav,33,bell_hand / bell_bike,a principles bell,1,FL,PR,1988, ,C->S,FALSE,FALSE
+36,Z_34.wav,34,cheese_block / cheese_blue,ehhh holey cheese,1,FP,PR,1688,hard to find exact onset,C->S,FALSE,FALSE
+36,Z_35.wav,35,nail / nail_finger,a carpenters nail,1,FL,PR,1157, ,C->S,FALSE,FALSE
+36,Z_36.wav,36,vase / vase_flowers,ehh an empty glass..an empty vase, , , , ,says wrong item,C->S,FALSE,FALSE
+36,Z_37.wav,37,clock_wall / clock_digital,a clock ehhh a wall clock,0,RE,AS, , ,S->C,TRUE,TRUE
+36,Z_38.wav,38,hat_sun / hat_cowboy,a womans hat,1,FL,PR,2464, ,S->C,TRUE,TRUE
+36,Z_39.wav,39,pen_ballpoint / pen_nolid,emmm�a pen with a  lid on,1,FP,PO,2124, ,S->C,TRUE,TRUE
+36,Z_40.wav,40,apple_red / apple_green,an apple (WO?) eh a red apple,0,RE,AO, , ,S->C,TRUE,TRUE
+36,Z_41.wav,41,pipe_smoke / pipe_kitchen,(noise from prev trial) yeah a tobacco pipe,1,FL,PR, , ,S->C,TRUE,TRUE
+36,Z_42.wav,42,bat_animal / bat_baseball,a bat eh ehhh a  the animal a bat,0,RE,AS, , ,S->C,TRUE,TRUE
+36,Z_43.wav,43,horse_animal / horse_rocking,aaaaa rr  race horse (says something but cuts off),1,LE,PR,4442, ,S->C,FALSE,TRUE
+36,Z_44.wav,44,tshirt_round / tshirt_vneck,a mens tshirt,1,FL,PR,2628, ,S->C,FALSE,TRUE
+36,Z_45.wav,45,pizza / pizza_slice,aaa pizza (WO?) aaaa full pizza,0,RE,AO, , ,S->C,FALSE,TRUE
+36,Z_46.wav,46,eye_pupil / I_letter,an eye (WO?) (WO?) eh oh eh a human eye,0,RE,AO, , ,S->C,FALSE,TRUE
+36,Z_47.wav,47,potatoes_skin / potatoes_peeled,(noise from prev trial) emm unpeeld (something) potatoes,1,FP,PR, , ,S->C,FALSE,TRUE
+36,Z_48.wav,48,compmouse / compmouse_wireless,a aa a wire a wired mouse,1,LE/FP,PR,5365,difficulty naming object - onset from second wired,S->C,FALSE,TRUE
+37,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,S->C,TRUE,TRUE
+37,Z_02.wav,2,bin_lid / bin_pedal,emmmm a plastic bin,1,FP,PR,2785, ,S->C,TRUE,TRUE
+37,Z_03.wav,3,croc / croc_lilo,ehhhh a crocodile a real one,1,FP,PO,1878, ,S->C,TRUE,TRUE
+37,Z_04.wav,4,coffee_cup / coffee_saucer,ehh a tea cup without a plate,1,FP,PO,1385, ,S->C,TRUE,TRUE
+37,Z_05.wav,5,mirror_wall / mirror_hand,emmm a mirror,0,FP,NO,1364, ,S->C,TRUE,TRUE
+37,Z_06.wav,6,chair_wooden / chair_baby,a chair (WO?) ehhh a normal one not for children,0,RE,AO, , ,S->C,TRUE,TRUE
+37,Z_07.wav,7,lighter_flame / lighter_noflame,emmm a lighter that�s eh got fire coming out,0,RE,AS, ,very tough call,S->C,FALSE,TRUE
+37,Z_08.wav,8,egg_shell / egg_yolk,emmm an egg still in its shell,1,FP,PO,2382, ,S->C,FALSE,TRUE
+37,Z_09.wav,9,umbrella_open / umbrella_closed,umbrella that�s open,1,FL,PO,900, ,S->C,FALSE,TRUE
+37,Z_10.wav,10,candle_unused / candle_melted,emmmm a candle that�s new,1,FP,PO,1765, ,S->C,FALSE,TRUE
+37,Z_11.wav,11,knife_kitchen / knife_swiss,em a knife (WO?) emmm the single one,0,RE,AO, , ,S->C,FALSE,TRUE
+37,Z_12.wav,12,car_family / car_sports,em a car�emm the ss..the one that isnt a sports car,0,RE,AS,1533,benefit of the doubt,S->C,FALSE,TRUE
+37,Z_13.wav,13,carrots / carrots_chopped,eh four carrots,1,FP,PR,1044, ,S->C,TRUE,FALSE
+37,Z_14.wav,14,gun_real / gun_toy,emmm�a gun that�s�em brown,1,LE/FP/UP,PO,3254, ,S->C,TRUE,FALSE
+37,Z_15.wav,15,saddle_horse / saddle_bike,a saddle�eh for a horse,0,RE,AS, , ,S->C,TRUE,FALSE
+37,Z_16.wav,16,pad_unlocked / pad_locked,em a lock (WO?) emm the one that isnt closed,0,RE,AO, , ,S->C,TRUE,FALSE
+37,Z_17.wav,17,headphones_large / headphones_small,eh headphones... em the bigger ones,1,FP,PO,1086, ,S->C,TRUE,FALSE
+37,Z_18.wav,18,battery_AA / battery_car,ehhh a battery (WO?) ehhh a small one (cuts off),0,RE,AO, , ,S->C,TRUE,FALSE
+37,Z_19.wav,19,wine_glass / wine_red,eh a wine glass that�s empty,1,FP,PO,1213, ,S->C,FALSE,FALSE
+37,Z_20.wav,20,money_notes / money_coins,ehh cash..eh notes,0,RE,AS, , ,S->C,FALSE,FALSE
+37,Z_21.wav,21,boot_foot / boot_car,emmm a boot (WO?) oh the one that you wear on your foot,0,RE,AO, , ,S->C,FALSE,FALSE
+37,Z_22.wav,22,camera_corder / camera_cctv,emmm a video recorder,1,FP,PR,1914, ,S->C,FALSE,FALSE
+37,Z_23.wav,23,guitar_acoustic / guitar_electric,ehh a guitar eeeem an acoustic,0,RE,AS, ,,S->C,FALSE,FALSE
+37,Z_24.wav,24,glove_wooly / glove_boxing,a glove (WO?) ehh a red oh a normal glove,0,RE,AO, , ,S->C,FALSE,FALSE
+37,Z_25.wav,25,teapot_white / teapot_cosy,ehhhhh a teapot,0,FP,NO,1661, ,C->S,TRUE,TRUE
+37,Z_26.wav,26,plug / plug_bath,ehhh a plug,0,FP,NO,1579, ,C->S,TRUE,TRUE
+37,Z_27.wav,27,saw_hand / saw_electric,ehh a saw,0,FP,NO,1688, ,C->S,TRUE,TRUE
+37,Z_28.wav,28,fan_hand / fan_electric,eh a mmm fan,0,FP,NO,1555,about to say manual but didn�t commit,C->S,TRUE,TRUE
+37,Z_29.wav,29,orange_skin / orange_slice,emmm an orange,0,FP,NO,2219, ,C->S,TRUE,TRUE
+37,Z_30.wav,30,spade_garden / spade_beach,emmm a metal shovel,1,FP,PR,1614, ,C->S,TRUE,TRUE
+37,Z_31.wav,31,key_gold / key_car,eh a key for a house,1,FP,PO,1213, ,C->S,FALSE,TRUE
+37,Z_32.wav,32,helmet / helmet_crash,ehhh a helmet,0,FP,NO,1406, ,C->S,FALSE,TRUE
+37,Z_33.wav,33,bell_hand / bell_bike,eh a bell that you use with your hand,1,FP,PO,1687, ,C->S,FALSE,TRUE
+37,Z_34.wav,34,cheese_block / cheese_blue,eh cheese,0,FP,NO,1334, ,C->S,FALSE,TRUE
+37,Z_35.wav,35,nail / nail_finger,emmm a metal nail,1,FP,PR,1520, ,C->S,FALSE,TRUE
+37,Z_36.wav,36,vase / vase_flowers,ehh a vase,0,FP,NO,2077, ,C->S,FALSE,TRUE
+37,Z_37.wav,37,clock_wall / clock_digital,aaaa clock,0,LE,NO,1424, ,C->S,TRUE,FALSE
+37,Z_38.wav,38,hat_sun / hat_cowboy,a ladies hat,1,FL,PR,1088, ,C->S,TRUE,FALSE
+37,Z_39.wav,39,pen_ballpoint / pen_nolid,eh a pen with its cap on,1,FP,PO,1284, ,C->S,TRUE,FALSE
+37,Z_40.wav,40,apple_red / apple_green,ehh a red apple,1,FP,PR,1368, ,C->S,TRUE,FALSE
+37,Z_41.wav,41,pipe_smoke / pipe_kitchen,eeeem a pipe,0,FP,NO,1831, ,C->S,TRUE,FALSE
+37,Z_42.wav,42,bat_animal / bat_baseball,a flying bat,1,FL,PR,1093,hard to find onset,C->S,TRUE,FALSE
+37,Z_43.wav,43,horse_animal / horse_rocking,(noise from prev trial) ehhh a horse,0,FP,NO, , ,C->S,FALSE,FALSE
+37,Z_44.wav,44,tshirt_round / tshirt_vneck,(noise from prev trial) eh a tshirt,0,FP,NO, , ,C->S,FALSE,FALSE
+37,Z_45.wav,45,pizza / pizza_slice,ehh a full pizza,1,FP,PR,1417, ,C->S,FALSE,FALSE
+37,Z_46.wav,46,eye_pupil / I_letter,eh a human eye,1,FP,PR,1549, ,C->S,FALSE,FALSE
+37,Z_47.wav,47,potatoes_skin / potatoes_peeled,ehh unpeeled potatoes,1,FP,PR,1337, ,C->S,FALSE,FALSE
+37,Z_48.wav,48,compmouse / compmouse_wireless,eh a mouse and usb,1,FP,PO,1610, ,C->S,FALSE,FALSE
+38,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+38,Z_02.wav,2,bin_lid / bin_pedal,ehhh the black bin,0,FP,NO,1879, ,C->S,TRUE,TRUE
+38,Z_03.wav,3,croc / croc_lilo,eeeem the crocodile,0,FP,NO,1619, ,C->S,TRUE,TRUE
+38,Z_04.wav,4,coffee_cup / coffee_saucer,ehhh the cup of coffee without a saucer,1,FP,PO,2504, ,C->S,TRUE,TRUE
+38,Z_05.wav,5,mirror_wall / mirror_hand,emmm the mirror,0,FP,NO,2418, ,C->S,TRUE,TRUE
+38,Z_06.wav,6,chair_wooden / chair_baby,wooden chair,1,FL,PR,1317, ,C->S,TRUE,TRUE
+38,Z_07.wav,7,lighter_flame / lighter_noflame,ehh it�s a lighter,0,FP,NO,1470, ,C->S,FALSE,TRUE
+38,Z_08.wav,8,egg_shell / egg_yolk,ehhh an egg,0,FP,NO,1833, ,C->S,FALSE,TRUE
+38,Z_09.wav,9,umbrella_open / umbrella_closed,ehhh umbrella,0,FP,NO,2125, ,C->S,FALSE,TRUE
+38,Z_10.wav,10,candle_unused / candle_melted,it�s a candle,0,FL,NO,1823, ,C->S,FALSE,TRUE
+38,Z_11.wav,11,knife_kitchen / knife_swiss,ehh kitchen knife,1,FP,PR,1215, ,C->S,FALSE,TRUE
+38,Z_12.wav,12,car_family / car_sports,it�s a silver car,0,FL,NO,1802, ,C->S,FALSE,TRUE
+38,Z_13.wav,13,carrots / carrots_chopped,ehhh carrots,0,FP,NO,1840, ,C->S,TRUE,FALSE
+38,Z_14.wav,14,gun_real / gun_toy,ehhh the gun,0,FP,NO,1657, ,C->S,TRUE,FALSE
+38,Z_15.wav,15,saddle_horse / saddle_bike,th the saddle,0,FP,NO,2231, ,C->S,TRUE,FALSE
+38,Z_16.wav,16,pad_unlocked / pad_locked,open lock,1,FL,PR,1150, ,C->S,TRUE,FALSE
+38,Z_17.wav,17,headphones_large / headphones_small,headphones,0,FL,NO,1286, ,C->S,TRUE,FALSE
+38,Z_18.wav,18,battery_AA / battery_car,AA battery,1,FL,PR,1190, ,C->S,TRUE,FALSE
+38,Z_19.wav,19,wine_glass / wine_red,empty wine glass,1,FL,PR,1007, ,C->S,FALSE,FALSE
+38,Z_20.wav,20,money_notes / money_coins,ehhh notes,1,FP,PR,1984, ,C->S,FALSE,FALSE
+38,Z_21.wav,21,boot_foot / boot_car,ehh black boot,1,FP,PR,1606, ,C->S,FALSE,FALSE
+38,Z_22.wav,22,camera_corder / camera_cctv,ehh camera,0,FP,NO,1742, ,C->S,FALSE,FALSE
+38,Z_23.wav,23,guitar_acoustic / guitar_electric,eh acoustic guitar,1,FP,PR,929, ,C->S,FALSE,FALSE
+38,Z_24.wav,24,glove_wooly / glove_boxing,eh mmm a glove,0,FP,NO,1847, ,C->S,FALSE,FALSE
+38,Z_25.wav,25,teapot_white / teapot_cosy,the ss teapot (WO?) em the one without the little thing on it..its like (cuts off),0,RE,AO, , ,S->C,TRUE,TRUE
+38,Z_26.wav,26,plug / plug_bath,the plug (WO?) ehh the electrical plug,0,RE,AO, , ,S->C,TRUE,TRUE
+38,Z_27.wav,27,saw_hand / saw_electric,emm the hand saw,1,FP,PR,2405, ,S->C,TRUE,TRUE
+38,Z_28.wav,28,fan_hand / fan_electric,eh fan (WO?) ehh it�s a hand fan,0,RE,AO, , ,S->C,TRUE,TRUE
+38,Z_29.wav,29,orange_skin / orange_slice,"the or, the orange, the whole orange",0,RE,AS, , ,S->C,TRUE,TRUE
+38,Z_30.wav,30,spade_garden / spade_beach,theee metal spade,1,LE,PR,2269, ,S->C,TRUE,TRUE
+38,Z_31.wav,31,key_gold / key_car,its aaaa�.not a car key like a house key,1,LE/UP,PR,2834,,S->C,FALSE,TRUE
+38,Z_32.wav,32,helmet / helmet_crash,eh black bicycle helmet�it�s the one with like the holes in it not the (cuts off),0,RE,AS, , ,S->C,FALSE,TRUE
+38,Z_33.wav,33,bell_hand / bell_bike,it�s the bell (WO?) emmm its like the hand bell,0,RE,AO, , ,S->C,FALSE,TRUE
+38,Z_34.wav,34,cheese_block / cheese_blue,a slice of cheese emmm not the blue cheese the normal one,0,RE,AS, ,check***,S->C,FALSE,TRUE
+38,Z_35.wav,35,nail / nail_finger,it�s a metal nail,1,FL,PR,2010, ,S->C,FALSE,TRUE
+38,Z_36.wav,36,vase / vase_flowers,it�s a a vase without flowers in it,1,FL,PO,2269, ,S->C,FALSE,TRUE
+38,Z_37.wav,37,clock_wall / clock_digital,emmm the anologue clock,1,FP,PR,2502, ,S->C,TRUE,FALSE
+38,Z_38.wav,38,hat_sun / hat_cowboy,the sun hat,1,FL,PR,1328, ,S->C,TRUE,FALSE
+38,Z_39.wav,39,pen_ballpoint / pen_nolid,the closed pen,1,FL,PR,2045, ,S->C,TRUE,FALSE
+38,Z_40.wav,40,apple_red / apple_green,rrred apple,1,LE,PR,1125, ,S->C,TRUE,FALSE
+38,Z_41.wav,41,pipe_smoke / pipe_kitchen,emmm the� smoking pipe,1,LE/FP,PR,3352,*** up?,S->C,TRUE,FALSE
+38,Z_42.wav,42,bat_animal / bat_baseball,emmm the animal bat,1,FP,PR,2348, ,S->C,TRUE,FALSE
+38,Z_43.wav,43,horse_animal / horse_rocking,ehhh real horse,1,FP,PR,1800, ,S->C,FALSE,FALSE
+38,Z_44.wav,44,tshirt_round / tshirt_vneck,yellow shirt (WO?) emm its like the guys one,0,RE,AO, , ,S->C,FALSE,FALSE
+38,Z_45.wav,45,pizza / pizza_slice,it�ssss a fffulll pizza,1,LE,PR,2126, ,S->C,FALSE,FALSE
+38,Z_46.wav,46,eye_pupil / I_letter,emm black and white eye (WO?) emmm the human eye,0,RE,AO, , ,S->C,FALSE,FALSE
+38,Z_47.wav,47,potatoes_skin / potatoes_peeled,unpeeled potatoes,1,FL,PR,1915, ,S->C,FALSE,FALSE
+38,Z_48.wav,48,compmouse / compmouse_wireless,ehh the mouse ehhh the wired mouse ,0,RE,AS, , ,S->C,FALSE,FALSE
+39,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,FALSE,TRUE
+39,Z_02.wav,2,bin_lid / bin_pedal,theee rectangular bin,1,LE,PR,2054, ,C->S,FALSE,TRUE
+39,Z_03.wav,3,croc / croc_lilo,real crocodile,1,FL,PR,1748, ,C->S,FALSE,TRUE
+39,Z_04.wav,4,coffee_cup / coffee_saucer,its em cup of coffee without the saucer,1,FP,PO,2384, ,C->S,FALSE,TRUE
+39,Z_05.wav,5,mirror_wall / mirror_hand,it�s a�.wall mirror,1,UP,PR,4001, ,C->S,FALSE,TRUE
+39,Z_06.wav,6,chair_wooden / chair_baby,a wooden chair,1,FL,PR,1504, ,C->S,FALSE,TRUE
+39,Z_07.wav,7,lighter_flame / lighter_noflame,emm  a lighter,0,FP,NO,3216, ,C->S,TRUE,FALSE
+39,Z_08.wav,8,egg_shell / egg_yolk,emm an egg,0,FP,NO,2245, ,C->S,TRUE,FALSE
+39,Z_09.wav,9,umbrella_open / umbrella_closed,an open umbrella,1,FL,PR,1531, ,C->S,TRUE,FALSE
+39,Z_10.wav,10,candle_unused / candle_melted,the lit..candle,1,UP,PR,1549, ,C->S,TRUE,FALSE
+39,Z_11.wav,11,knife_kitchen / knife_swiss,single bladed knife,1,FL,PR,1292, ,C->S,TRUE,FALSE
+39,Z_12.wav,12,car_family / car_sports,the four door car,1,FL,PR,1685, ,C->S,TRUE,FALSE
+39,Z_13.wav,13,carrots / carrots_chopped,ehhh�.carrots,0,FP/UP,NO,2703, ,C->S,FALSE,FALSE
+39,Z_14.wav,14,gun_real / gun_toy,a gun,0,FL,NO,1889, ,C->S,FALSE,FALSE
+39,Z_15.wav,15,saddle_horse / saddle_bike,a saddle,0,FL,NO,2636, ,C->S,FALSE,FALSE
+39,Z_16.wav,16,pad_unlocked / pad_locked,anu�a padlock,0,FP,NO,1842,not sure what he begins to say,C->S,FALSE,FALSE
+39,Z_17.wav,17,headphones_large / headphones_small,headphones,0,FL,NO,1700, ,C->S,FALSE,FALSE
+39,Z_18.wav,18,battery_AA / battery_car,a battery,0,FL,NO,2555, ,C->S,FALSE,FALSE
+39,Z_19.wav,19,wine_glass / wine_red,a wine glass (WO?) ehhh the empty wine glass,0,RE,AO, , ,S->C,TRUE,TRUE
+39,Z_20.wav,20,money_notes / money_coins,emmm�the..notes,1,FP,PR,3974, ,S->C,TRUE,TRUE
+39,Z_21.wav,21,boot_foot / boot_car,a boot (WO?) ehhh the military boot,0,RE,AO, , ,S->C,TRUE,TRUE
+39,Z_22.wav,22,camera_corder / camera_cctv,aaa cam corder,1,LE,PR,1958, ,S->C,TRUE,TRUE
+39,Z_23.wav,23,guitar_acoustic / guitar_electric,aaaa acoustic guitar,1,LE,PR,3001, ,S->C,TRUE,TRUE
+39,Z_24.wav,24,glove_wooly / glove_boxing,red glove (WO?) emmm thee regular glove,0,RE,AO, , ,S->C,TRUE,TRUE
+39,Z_25.wav,25,teapot_white / teapot_cosy,a tea cup without the cosy,1,FL,PO,2338, ,S->C,FALSE,TRUE
+39,Z_26.wav,26,plug / plug_bath,it�s a plug (WO?) ehh plug..eh wall plug,0,RE,AO, , ,S->C,FALSE,TRUE
+39,Z_27.wav,27,saw_hand / saw_electric,a saw (WO?) emm the manual saw,0,RE,AO, , ,S->C,FALSE,TRUE
+39,Z_28.wav,28,fan_hand / fan_electric,wall fan,1,FL,PR,1391, ,S->C,FALSE,TRUE
+39,Z_29.wav,29,orange_skin / orange_slice,an orange (WO?) the full orange,0,RE,AO, , ,S->C,FALSE,TRUE
+39,Z_30.wav,30,spade_garden / spade_beach,a spade (WO?) eh the metal one,0,RE,AO, , ,S->C,FALSE,TRUE
+39,Z_31.wav,31,key_gold / key_car,theee house hey,1,LE,PR,3513, ,S->C,TRUE,FALSE
+39,Z_32.wav,32,helmet / helmet_crash,helmet (WO?) emm the bike helmet,0,RE,AO, , ,S->C,TRUE,FALSE
+39,Z_33.wav,33,bell_hand / bell_bike,a hand bell,1,FL,PR,3100, ,S->C,TRUE,FALSE
+39,Z_34.wav,34,cheese_block / cheese_blue,emmm�.cheddar cheese,1,FP/UP,PR,5075, ,S->C,TRUE,FALSE
+39,Z_35.wav,35,nail / nail_finger,a nail (WO?) theee em DIY nail,0,RE,AO, , ,S->C,TRUE,FALSE
+39,Z_36.wav,36,vase / vase_flowers,the vase without the flowers,1,FL,PO,2121, ,S->C,TRUE,FALSE
+39,Z_37.wav,37,clock_wall / clock_digital,a clock,0,FL,NO,1479, ,S->C,FALSE,FALSE
+39,Z_38.wav,38,hat_sun / hat_cowboy,emmm�a�tweed hat (WO?) emm like a summer hat,0,RE,AO, , ,S->C,FALSE,FALSE
+39,Z_39.wav,39,pen_ballpoint / pen_nolid,ehh a pen with the lid on,1,FP,PO,2693, ,S->C,FALSE,FALSE
+39,Z_40.wav,40,apple_red / apple_green,a red apple,1,FL,PR,2334, ,S->C,FALSE,FALSE
+39,Z_41.wav,41,pipe_smoke / pipe_kitchen,aaaa smoking pipe,1,LE,PR,3031, ,S->C,FALSE,FALSE
+39,Z_42.wav,42,bat_animal / bat_baseball,animal bat,1,FL,PR,1894, ,S->C,FALSE,FALSE
+39,Z_43.wav,43,horse_animal / horse_rocking,a horse,0,FL,NO,1790, ,C->S,TRUE,TRUE
+39,Z_44.wav,44,tshirt_round / tshirt_vneck,the�t shirt,0,UP,NO,2610, ,C->S,TRUE,TRUE
+39,Z_45.wav,45,pizza / pizza_slice,full pizza,1,FL,PR,1276, ,C->S,TRUE,TRUE
+39,Z_46.wav,46,eye_pupil / I_letter,a human eye,1,FL,PR,1346, ,C->S,TRUE,TRUE
+39,Z_47.wav,47,potatoes_skin / potatoes_peeled,some red potatroes,1,FL,PR,1523,onset from red,C->S,TRUE,TRUE
+39,Z_48.wav,48,compmouse / compmouse_wireless,a mouse,0,FL,NO,1969, ,C->S,TRUE,TRUE
+40,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,FALSE
+40,Z_02.wav,2,bin_lid / bin_pedal,emmm bin,0,FP,NO,1673, ,C->S,TRUE,FALSE
+40,Z_03.wav,3,croc / croc_lilo,(laughs from prev trial) real crocodile oh its just a crocodile,1,RE,DE, , ,C->S,TRUE,FALSE
+40,Z_04.wav,4,coffee_cup / coffee_saucer,emmm cup,0,FP,NO,1802, ,C->S,TRUE,FALSE
+40,Z_05.wav,5,mirror_wall / mirror_hand,ummm a mirror,0,FP,NO,1588, ,C->S,TRUE,FALSE
+40,Z_06.wav,6,chair_wooden / chair_baby,ehhh a chair,0,FP,NO,1835, ,C->S,TRUE,FALSE
+40,Z_07.wav,7,lighter_flame / lighter_noflame,em lighter that�s on,1,FP,PO,1533, ,C->S,FALSE,FALSE
+40,Z_08.wav,8,egg_shell / egg_yolk,emm..egg!,0,FP,NO,1606, ,C->S,FALSE,FALSE
+40,Z_09.wav,9,umbrella_open / umbrella_closed,ehh an umbrella,0,FP,NO,1317, ,C->S,FALSE,FALSE
+40,Z_10.wav,10,candle_unused / candle_melted,ehh�the candle with a whick on top,1,FP/UP,PO,2888, ,C->S,FALSE,FALSE
+40,Z_11.wav,11,knife_kitchen / knife_swiss,kitchen knife,1,FL,PR,1125, ,C->S,FALSE,FALSE
+40,Z_12.wav,12,car_family / car_sports,ehhh car,0,FP,NO,1420, ,C->S,FALSE,FALSE
+40,Z_13.wav,13,carrots / carrots_chopped,carrots (WO?) oh ehh the ones which arent chopped (cuts off),0,RE,AO, , ,S->C,TRUE,TRUE
+40,Z_14.wav,14,gun_real / gun_toy,ehhh..i think that�s a real gun..unlike the toy one,1,FP,PR,3686, - hard to get onset,S->C,TRUE,TRUE
+40,Z_15.wav,15,saddle_horse / saddle_bike,saddle oh em the on that�s not a bike saddle,0,RE,AS, , ,S->C,TRUE,TRUE
+40,Z_16.wav,16,pad_unlocked / pad_locked,the open padlock,1,FL,PR,1442, ,S->C,TRUE,TRUE
+40,Z_17.wav,17,headphones_large / headphones_small,headphones emm yeah big headphones,0,RE,AS, , ,S->C,TRUE,TRUE
+40,Z_18.wav,18,battery_AA / battery_car,battery (WO?) oh em the small battery,0,RE,AO, , ,S->C,TRUE,TRUE
+40,Z_19.wav,19,wine_glass / wine_red,wine glass without wine,1,FL,PO,1365, ,S->C,FALSE,TRUE
+40,Z_20.wav,20,money_notes / money_coins,ehhhh..ehhh..ehhh cash notes,1,FP/UP,PO,4837, ,S->C,FALSE,TRUE
+40,Z_21.wav,21,boot_foot / boot_car,boot (WO?) emm the one..the shoe,0,RE,AO, , ,S->C,FALSE,TRUE
+40,Z_22.wav,22,camera_corder / camera_cctv,ehh oh large camera used for is that for films usually,1,FP,PO,3421,,S->C,FALSE,TRUE
+40,Z_23.wav,23,guitar_acoustic / guitar_electric,guitar (WO?) oh! Em the acoustic guitar,0,RE,AO, , ,S->C,FALSE,TRUE
+40,Z_24.wav,24,glove_wooly / glove_boxing,umm a red glove with the fingers (cuts off),1,FP,PO,3098, ,S->C,FALSE,TRUE
+40,Z_25.wav,25,teapot_white / teapot_cosy,teapot (WO?) without em the tea cosy,0,RE,AO, , ,S->C,TRUE,FALSE
+40,Z_26.wav,26,plug / plug_bath,plug (WO?) emm oh electrical plug,0,RE,AO, , ,S->C,TRUE,FALSE
+40,Z_27.wav,27,saw_hand / saw_electric,ssaw (WO?) ehh thee..non electrical saw,0,RE,AO, ,,S->C,TRUE,FALSE
+40,Z_28.wav,28,fan_hand / fan_electric,ffan..oh em paper fan,0,RE,AS, , ,S->C,TRUE,FALSE
+40,Z_29.wav,29,orange_skin / orange_slice,orange (WO?) oh em theee unpeeled orange,0,RE,AO, , ,S->C,TRUE,FALSE
+40,Z_30.wav,30,spade_garden / spade_beach,em�eh large garden spade,1,FP/UP,PR,2730, ,S->C,TRUE,FALSE
+40,Z_31.wav,31,key_gold / key_car,ehh�a golden key,1,FP/UP,PR,3880, ,S->C,FALSE,FALSE
+40,Z_32.wav,32,helmet / helmet_crash,uuuuh� a bicycle helmet,0,FP/UP,NO,2873, ,S->C,FALSE,FALSE
+40,Z_33.wav,33,bell_hand / bell_bike,bell (WO?) emm the hand bell,0,RE,AO, ,,S->C,FALSE,FALSE
+40,Z_34.wav,34,cheese_block / cheese_blue,ehhh�.the..(mumbles) like cheese with holes in it,1,FP/UP,PO,6828, ,S->C,FALSE,FALSE
+40,Z_35.wav,35,nail / nail_finger,emm nail (WO?) oh em metal nail,0,RE,AO, , ,S->C,FALSE,FALSE
+40,Z_36.wav,36,vase / vase_flowers,vase..(WO?) emmm the one without flowers,0,RE,AO, , ,S->C,FALSE,FALSE
+40,Z_37.wav,37,clock_wall / clock_digital,ehhh clock,0,FP,NO,1562, ,C->S,TRUE,TRUE
+40,Z_38.wav,38,hat_sun / hat_cowboy,ehhh sun hat,1,FP,PR,2156, ,C->S,TRUE,TRUE
+40,Z_39.wav,39,pen_ballpoint / pen_nolid,eh pen,0,FP,NO,2056, ,C->S,TRUE,TRUE
+40,Z_40.wav,40,apple_red / apple_green,red apple,1,FL,PR,998, ,C->S,TRUE,TRUE
+40,Z_41.wav,41,pipe_smoke / pipe_kitchen,a pipe,0,FL,NO,1952, ,C->S,TRUE,TRUE
+40,Z_42.wav,42,bat_animal / bat_baseball,ehhh bat,0,FP,NO,2027, ,C->S,TRUE,TRUE
+40,Z_43.wav,43,horse_animal / horse_rocking,ehhh horse,0,FP,NO,1812, ,C->S,FALSE,TRUE
+40,Z_44.wav,44,tshirt_round / tshirt_vneck,emm the orange tshirt,0,FP,NO,1388, ,C->S,FALSE,TRUE
+40,Z_45.wav,45,pizza / pizza_slice,ehh pizza,0,FP,NO,1661, ,C->S,FALSE,TRUE
+40,Z_46.wav,46,eye_pupil / I_letter,okay�em the human eye,1,FP,PR,2842, ,C->S,FALSE,TRUE
+40,Z_47.wav,47,potatoes_skin / potatoes_peeled,unpeeled potatoes,1,FL,PR,1148, ,C->S,FALSE,TRUE
+40,Z_48.wav,48,compmouse / compmouse_wireless,ehhh a mouse,0,FP,NO,1498, ,C->S,FALSE,TRUE
+41,Z_01.wav,1,bow / Bow_Arrow, , , , , , ,C->S,TRUE,TRUE
+41,Z_02.wav,2,bin_lid / bin_pedal,em the plastic bin,1,FP,PR,1885, ,C->S,TRUE,TRUE
+41,Z_03.wav,3,croc / croc_lilo,the crocodile,0,FL,NO,1921, ,C->S,TRUE,TRUE
+41,Z_04.wav,4,coffee_cup / coffee_saucer,theee cup of coffee,0,LE,NO,2243, ,C->S,TRUE,TRUE
+41,Z_05.wav,5,mirror_wall / mirror_hand,the oval mirror,1,FL,PR,1843, ,C->S,TRUE,TRUE
+41,Z_06.wav,6,chair_wooden / chair_baby,the wooden chair,1,FL,PR,1766, ,C->S,TRUE,TRUE
+41,Z_07.wav,7,lighter_flame / lighter_noflame,the lit lighter,1,FL,PR,1339, ,C->S,FALSE,TRUE
+41,Z_08.wav,8,egg_shell / egg_yolk,eh the egg,0,FP,NO,2777, ,C->S,FALSE,TRUE
+41,Z_09.wav,9,umbrella_open / umbrella_closed,the up umbrella,1,FL,PR,1890, ,C->S,FALSE,TRUE
+41,Z_10.wav,10,candle_unused / candle_melted,thee unburnt candle,1,FL,PR,1770,hard to get onset,C->S,FALSE,TRUE
+41,Z_11.wav,11,knife_kitchen / knife_swiss,the cooking knife,1,FL,PR,1552, ,C->S,FALSE,TRUE
+41,Z_12.wav,12,car_family / car_sports,ehh the toyota yaris car,1,FP,PR,2083, ,C->S,FALSE,TRUE
+41,Z_13.wav,13,carrots / carrots_chopped,the carrots,0,FL,NO,2365, ,C->S,TRUE,FALSE
+41,Z_14.wav,14,gun_real / gun_toy,em the pistol,0,FP,NO,2551,**sess 42,C->S,TRUE,FALSE
+41,Z_15.wav,15,saddle_horse / saddle_bike,thee horses saddle,1,FL,PR,3319,"**sess 42, hard to get onset",C->S,TRUE,FALSE
+41,Z_16.wav,16,pad_unlocked / pad_locked,the open padlock,1,FL,PR,1730, ,C->S,TRUE,FALSE
+41,Z_17.wav,17,headphones_large / headphones_small,(noise from prev trial) em the over the head headphones,1,FP,PR, , ,C->S,TRUE,FALSE
+41,Z_18.wav,18,battery_AA / battery_car,the battery,0,FL,NO,3348,hard to find exact onset,C->S,TRUE,FALSE
+41,Z_19.wav,19,wine_glass / wine_red,thee empty wine glass,1,FL,PR,2150, ,C->S,FALSE,FALSE
+41,Z_20.wav,20,money_notes / money_coins,eh the money notes,1,FP,PO,2732, ,C->S,FALSE,FALSE
+41,Z_21.wav,21,boot_foot / boot_car,thee black boot,1,LE,PR,1978, ,C->S,FALSE,FALSE
+41,Z_22.wav,22,camera_corder / camera_cctv,the..tv recording camera,1,FL,PR,2254, borderline LE?,C->S,FALSE,FALSE
+41,Z_23.wav,23,guitar_acoustic / guitar_electric,the acoustic guitar,1,FL,PR,1517,hard to find onset,C->S,FALSE,FALSE
+41,Z_24.wav,24,glove_wooly / glove_boxing,eh the red glove,0,FP,NO,2739, ,C->S,FALSE,FALSE
+41,Z_25.wav,25,teapot_white / teapot_cosy,eh the white teapot,1,FP,PR,2468, ,S->C,TRUE,TRUE
+41,Z_26.wav,26,plug / plug_bath,the plug�the electric plug,0,RE,AS, , ,S->C,TRUE,TRUE
+41,Z_27.wav,27,saw_hand / saw_electric,em thee�oh the ssaw (WO?) the the not electric saw,0,RE,AO, , ,S->C,TRUE,TRUE
+41,Z_28.wav,28,fan_hand / fan_electric,thee handheld fan,1,FL,PR,1205, ,S->C,TRUE,TRUE
+41,Z_29.wav,29,orange_skin / orange_slice,emm the full orange,1,FP,PR,2816, ,S->C,TRUE,TRUE
+41,Z_30.wav,30,spade_garden / spade_beach,eh the gardening spade,1,FP,PR,3136, ,S->C,TRUE,TRUE
+41,Z_31.wav,31,key_gold / key_car,the door key,1,FL,PR,1811, ,S->C,FALSE,TRUE
+41,Z_32.wav,32,helmet / helmet_crash,the cycling helmet (WO?) the one with holes cut out oh the professional looking one,0,RE,AO, , ,S->C,FALSE,TRUE
+41,Z_33.wav,33,bell_hand / bell_bike,the hand bell,1,FL,PR,2983, ,S->C,FALSE,TRUE
+41,Z_34.wav,34,cheese_block / cheese_blue,the block of cheese (WO?) emm..the cheddar coloured one,0,RE,AO, , ,S->C,FALSE,TRUE
+41,Z_35.wav,35,nail / nail_finger,the nail (WO?) ehh the one you use in DIY,0,RE,AO, , ,S->C,FALSE,TRUE
+41,Z_36.wav,36,vase / vase_flowers,thee empty vase,1,FL,PR,2337, ,S->C,FALSE,TRUE
+41,Z_37.wav,37,clock_wall / clock_digital,thee wall clock,1,FL,PR,2500, ,S->C,TRUE,FALSE
+41,Z_38.wav,38,hat_sun / hat_cowboy,eh the sun hat,1,FP,PR,2729, ,S->C,TRUE,FALSE
+41,Z_39.wav,39,pen_ballpoint / pen_nolid,the pen with the lid on,1,FL,PO,2715, ,S->C,TRUE,FALSE
+41,Z_40.wav,40,apple_red / apple_green,the red apple,1,FL,PR,1452,**sess 42,S->C,TRUE,FALSE
+41,Z_41.wav,41,pipe_smoke / pipe_kitchen,the eh smoking pipe,1,FP,PR,2845, ,S->C,TRUE,FALSE
+41,Z_42.wav,42,bat_animal / bat_baseball,"theee bat, the flying bat",0,RE,AS, ,**sess 42,S->C,TRUE,FALSE
+41,Z_43.wav,43,horse_animal / horse_rocking,theee brown horse (WO?) the..real one,0,RE,AO, , ,S->C,FALSE,FALSE
+41,Z_44.wav,44,tshirt_round / tshirt_vneck,the yellow..the mens yellow tshirt,0,RE,AS, , ,S->C,FALSE,FALSE
+41,Z_45.wav,45,pizza / pizza_slice,the full pizza,1,FL,PR,1861, ,S->C,FALSE,FALSE
+41,Z_46.wav,46,eye_pupil / I_letter,eh the human eye,1,FP,PR,4792, ,S->C,FALSE,FALSE
+41,Z_47.wav,47,potatoes_skin / potatoes_peeled,the potatoes (WO?) oh the unpeeled potatoes,0,RE,AO, , ,S->C,FALSE,FALSE
+41,Z_48.wav,48,compmouse / compmouse_wireless,a computer mouse �eh..with a cable,0,RE,AS, , ,S->C,FALSE,FALSE

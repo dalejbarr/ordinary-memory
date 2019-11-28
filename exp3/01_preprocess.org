@@ -1,0 +1,265 @@
+#+TITLE: Experiment 3: Preprocessing
+#+PROPERTY: header-args:R :session *R* :results silent :tangle scripts/01_preprocess.R
+
+* Create condition table for test items
+
+#+BEGIN_SRC R
+  message("    Creating table of experimental conditions...")
+
+  suppressWarnings(
+    suppressPackageStartupMessages({
+      library("tidyverse")
+    }))
+
+  ## also need DBI, RSQLite packages for extracting data from sqlite db
+  ## although we won't load these packages in
+  suppressMessages(
+    if (!requireNamespace("DBI")) {
+      stop("needs 'DBI' package")
+    })
+
+  suppressMessages(
+    if (!requireNamespace("RSQLite")) {
+      stop("needs 'RSQLite' package")
+    })
+
+  con <- DBI::dbConnect(RSQLite::SQLite(), "data_raw/EESP4_Speaker.db")
+
+  trials <- tbl(con, "Trial") %>%
+    inner_join(tbl(con, "Item"), "ItemCellID") %>%
+    collect() %>%
+    mutate(tlen = End - Begin) %>%
+    filter(TemplateID == 2L, SessionID >= 1000L) %>%
+    select(SessionID, Ord = TrialOrder, ItemCellID, tlen)
+
+  ## use the AOI table to see if we are going
+  ##  singleton -> contrast  OR
+  ##  contrast  -> singleton
+  aoi <- tbl(con, "AOI") %>%
+    filter(Link == "itemcell", Name != "Highlight",
+           Name != "Filler", Name != "Target") %>%
+    select(ItemCellID = ID, Name) %>% collect()
+
+  sess <- tbl(con, "Session") %>% collect() %>%
+    filter(SessionID < 998L) %>%
+    select(SessionID, ListID)
+
+  lord <- tbl(con, "ListOrder") %>%
+    filter(ListID <= 40L) %>%
+    inner_join(tbl(con, "Item"), "ItemCellID") %>%
+    inner_join(tbl(con, "Phase"), "PhaseID") %>%
+    collect() %>%
+    group_by(ListID) %>%
+    arrange(BlockID, OrderConstraint.y, OrderConstraint.x) %>%
+    mutate(Ord = row_number()) %>% ungroup() %>%
+    select(ListID, BlockID, ItemCellID, Cell, PhaseID, Item, TemplateID, Ord,
+           OrderConstraint = OrderConstraint.x)
+
+  test_itms <- lord %>%
+    filter(grepl("[0-9]{2}-tst$", Item)) %>%
+    mutate(ItemID = substr(Item, 1, 2)) %>%
+    inner_join(aoi, "ItemCellID") %>%
+    ## if the test item is a competitor, then S->C;
+    ## if it was a foil, then C->S
+    mutate(ShiftDir = ifelse(Name == "Foil", "C->S", "S->C"))  %>%
+    select(ListID, ItemCellID, ItemID, Cell, PhaseID, ShiftDir) 
+
+  ## determine whether each block is Perceptually consistent
+  ## and/or Pragmatically consistent
+  phase_cond <- lord %>%
+    filter(TemplateID == 2L) %>%  
+    inner_join(sess, "ListID") %>%
+    mutate(Phase = ifelse(OrderConstraint == 1L, "train", "test")) %>%
+    select(SessionID, PhaseID, Item, Phase) %>%
+    spread(Phase, Item) %>%
+    mutate(PragCon = substr(train, 1, 6) == substr(test, 1, 6),
+           PercCon = substr(train, 1, 6) == substr(test, 8, 13)) %>%
+    select(-(test:train))
+
+  conds <- phase_cond %>%
+    inner_join(sess, "SessionID") %>%
+    inner_join(test_itms, c("ListID", "PhaseID")) %>%
+    mutate(shift_dir = recode(ShiftDir,
+                              "S->C" = "Singleton-Contrast",
+                              "C->S" = "Contrast-Singleton")) %>%
+    select(SessionID, Series = ItemID, shift_dir, PragCon, PercCon) %>%
+	    mutate(Series = as.integer(Series))
+
+#+END_SRC
+
+#+RESULTS:
+
+* Create condition table for unconventional items
+
+#+BEGIN_SRC R
+  trials <- tbl(con, "Trial") %>%
+    inner_join(tbl(con, "Item"), "ItemCellID") %>%
+    collect() %>%
+    mutate(tlen = End - Begin) %>%
+    filter(TemplateID == 2L, SessionID >= 1000L) %>%
+    select(SessionID, Ord = TrialOrder, ItemCellID, tlen)
+
+  aoi <- tbl(con, "AOI") %>%
+    filter(Link == "itemcell", Name != "Highlight",
+           Name != "Filler", Name != "Target") %>%
+    select(ItemCellID = ID, Name) %>% collect()
+
+  sess <- tbl(con, "Session") %>% collect() %>%
+    filter(SessionID < 998L) %>%
+    select(SessionID, ListID)
+
+  lord <- tbl(con, "ListOrder") %>%
+    filter(ListID <= 40L) %>%
+    inner_join(tbl(con, "Item"), "ItemCellID") %>%
+    inner_join(tbl(con, "Phase"), "PhaseID") %>%
+    collect() %>%
+    group_by(ListID) %>%
+    arrange(BlockID, OrderConstraint.y, OrderConstraint.x) %>%
+    mutate(Ord = row_number()) %>% ungroup() %>%
+    select(ListID, BlockID, ItemCellID, Cell, PhaseID, Item, TemplateID, Ord,
+           OrderConstraint = OrderConstraint.x)
+
+  res <- tbl(con, "Resource") %>%
+    filter(Code == "SFILE") %>%
+    select(ItemCellID, Wavfile = Data) %>% collect()
+
+  test_itms <- lord %>%
+    filter(grepl("^F_uncv_[0-9]{2}$", Item)) %>%
+    mutate(ItemID = substr(Item, 8, 9)) %>%
+    inner_join(res, "ItemCellID") %>%
+    select(ListID, ItemCellID, Item, Wavfile, ItemID, Cell, PhaseID) 
+
+  phase_cond <- lord %>%
+    filter(TemplateID == 2L) %>%  
+    inner_join(sess, "ListID") %>%
+    mutate(Phase = ifelse(OrderConstraint == 1L, "train", "test")) %>%
+    select(SessionID, PhaseID, Item, Phase) %>%
+    spread(Phase, Item) %>%
+    mutate(PragCon = substr(train, 1, 6) == substr(test, 1, 6),
+           PercCon = substr(train, 1, 6) == substr(test, 8, 13)) %>%
+    select(-(test:train))
+
+  unco_conds <- phase_cond %>%
+    inner_join(sess, "SessionID") %>%
+    inner_join(test_itms, c("ListID", "PhaseID")) %>%
+    mutate(Series = as.integer(ItemID)) %>%
+    select(SessionID, Series, Wavfile, PhaseID, PragCon, PercCon)
+
+  DBI::dbDisconnect(con)
+#+END_SRC
+
+#+RESULTS:
+: TRUE
+
+* Preprocessing of main trials
+
+#+BEGIN_SRC R 
+  message("    Preprocessing test trials...")
+
+  trn2 <- read_csv("coding/train_trls.csv", col_types = "iciciccccllc") %>%
+    select(-ShiftDir, PercCon, PragCon) %>%
+    inner_join(conds %>% select(SessionID, Series, shift_dir),
+               c("SessionID", "Series")) %>%
+    mutate(misspec = ((shift_dir == "Singleton-Contrast") &
+                      (Modifier == 1L)) |
+             ((shift_dir == "Contrast-Singleton") &
+              (Modifier == 0L))) %>%
+    select(SessionID, Series, Modifier, misspec, Transcription)
+
+  tst2 <- read_csv("coding/test_trls_FPchange.csv",
+                   col_types = "iciccicciccll") %>%
+    select(-ShiftDir, -PercCon, -PragCon) %>%
+    inner_join(conds, c("SessionID", "Series")) %>%
+    mutate(misspec = ((shift_dir == "Singleton-Contrast") &
+                      (Adjective %in% c("NO", "AS", "AO", "DE", "AS/AO"))) |
+             ((shift_dir == "Contrast-Singleton") &
+              (Adjective != "NO"))) %>%
+    select(SessionID, Series,
+           shift_dir,
+           Modifier, misspec, Adjective, Fluency=SpeechFluency,
+           Transcription)
+
+  ## are there any that we need to delete?
+  bad_items <- trn2 %>%
+    inner_join(conds, c("SessionID", "Series")) %>%
+    group_by(Series, shift_dir) %>%
+    summarize(m = mean(misspec, na.rm = TRUE)) %>%
+    ungroup() %>%
+    filter(m >= .5) 
+
+  bad_subjs <- trn2 %>%
+    inner_join(conds, c("SessionID", "Series")) %>%
+    anti_join(bad_items, c("Series", "shift_dir")) %>%
+    group_by(SessionID, shift_dir) %>%
+    summarize(m = mean(misspec, na.rm = TRUE)) %>%
+    ungroup() %>%
+    filter(m > .5)
+
+  bad_trials <- trn2 %>%
+    mutate(invalid = misspec | is.na(misspec),
+           reason = case_when(is.na(misspec) ~ "couldn't code",
+                              TRUE ~ "inappropriate description at training"))  %>%
+    filter(invalid) %>%
+    anti_join(bad_items, "Series") %>%
+    anti_join(bad_subjs, "SessionID") %>%
+    select(SessionID, Series, reason)
+
+  main_data <- tst2 %>%
+    anti_join(bad_items, "Series") %>%
+    anti_join(bad_subjs, "SessionID") %>%
+    anti_join(bad_trials, c("SessionID", "Series")) %>%
+    inner_join(conds, c("SessionID", "Series", "shift_dir"))
+
+  n_subj_tot <- tst2 %>% distinct(SessionID) %>% nrow()
+  n_subj_bad <- nrow(bad_subjs) # * 48
+  n_itm_bad <- nrow(bad_items) # * 40 
+  n_poss_trials <- (n_subj_tot - n_subj_bad) * 48
+
+  # number of remaining trials
+  n_trials_tot <- nrow(tst2 %>%
+                       anti_join(bad_subjs, "SessionID") %>%
+                       anti_join(bad_items, "Series"))
+  n_trials_bad_code <-
+    nrow(bad_trials %>% filter(reason == "couldn't code"))
+  n_trials_invalid <- nrow(bad_trials) - n_trials_bad_code
+#+END_SRC
+
+#+RESULTS:
+: 128
+
+* Preprocess coding of unconventional referents
+
+#+BEGIN_SRC R
+  #####################################################
+  ## unconventional referents
+  #####################################################
+  uncv <- read_csv("coding/unco_trials_KJ2.csv", col_types = "iccc")
+
+  count_words <- function(x) {
+    x2 <- strsplit(x, " ")
+    if (length(x2) > 1L) stop("error: strsplit() returned > 1 list element")
+    x2[[1]][x2[[1]] != ""] %>% length()
+  }
+
+  unco_data <- uncv %>%
+    anti_join(bad_subjs, "SessionID") %>%
+    mutate(Series = sub("(F|Y)_uncv_([0-9]{2}).*", "\\2", Filename) %>%
+             as.integer(),
+           Phase = ifelse(substr(Filename, 1, 1) == "F", "trn", "tst"),
+           Words = map_int(Transcription, count_words)) %>%
+    inner_join(unco_conds, c("SessionID", "Series")) %>%
+    select(SessionID, Series, Phase, PragCon, PercCon, Words, Transcription)
+#+END_SRC
+
+#+RESULTS:
+
+* Save everything
+
+#+BEGIN_SRC R
+  message("    Saving data_images/01_preprocess.rda")
+  save(list = c("bad_items", "bad_subjs", "bad_trials",
+		"n_subj_tot", "n_subj_bad", "n_itm_bad",
+		"n_trials_tot", "n_trials_bad_code", "n_trials_invalid",
+		"main_data", "unco_data"),
+       file = "data_images/01_preprocess.rda")
+#+END_SRC
