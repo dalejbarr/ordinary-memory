@@ -38,9 +38,7 @@ To test this prediction, we used the following basic paradigm. Across three expe
 
 In the third experiment, speakers spoke to two separate addressees over a video link, which allowed us to manipulate which partner appeared on the screen independently from which partner they were actually speaking to. On certain test trials, speakers viewed a video feed of a partner to whom they had been speaking during training, although they were aware that they were in fact speaking to an addressee who remained off-screen. By independently manipulating who the speaker saw from who they were actually speaking to, we directly tested the idea that partners can serve as a memory cue during message generation. We also independently measured whether speakers kept track of common ground. Although speakers' descriptions were influenced by the identity of the addressee, there was little evidence that the partner they looked at influenced the content of their speech.
 
-# TODO provide link to meta-project
-
-The methods and analysis protocols for all three experiments were pre-registered at the Open Science Framework (OSF).  The OSF archive includes the data from all three experiments as well as a container with the software infrastructure needed to reproduce all of the analyses from the raw data.
+The methods and analysis protocols for all three experiments were pre-registered at the Open Science Framework (OSF).  The master repository for this project is available at https://osf.io/89g5b, which includes links to pre-registration documents for each experiment, as well as data, code, and a software container providing all necessary infrastructure to reproduce our findings.
 
 * Experiment 1
 
@@ -64,7 +62,7 @@ Our main pre-registered prediction was that speakers would be more likely to mis
 
 ** Method
 
-Pre-registration for this experiment is available at http://osf.io/4akir.
+A link to the pre-registration for this experiment can be found in the OSF repository.
 
 *** Participants
 
@@ -96,7 +94,7 @@ The training trials for each sequence were created by distorting the prototype. 
 
 In each speaker display, the target was highlighted with a yellow surrounding square. There was no such indication on the listener's displays. We wanted to make it more difficult for speakers to identify the competitor letter using peripheral vision. To this end, we added a slight Gaussian blur to the speakers’ images using the =convert= command within the ImageMagick suite of command-line tools (version 8:6.7.7.1, http://www.imagemagick.org), with the sigma parameter set to 8 and radius set to 0 (0x8).
 
-The listener's displays were created by simply randomizing the positions of the letters in the speaker’s grids.  Thus, while the locations of the target and competitor/foil of each sequence were fixed for the speaker, they varied from trial to trial for the listener. For information about the sequencing of trials within a block, please see the digital repository.
+The listener's displays were created by simply randomizing the positions of the letters in the speaker’s grids.  Thus, while the locations of the target and competitor/foil of each sequence were fixed for the speaker, they varied from trial to trial for the listener. For information about the sequencing of trials within a block, please see the supplementary information provided in our OSF repository.
 
 Of the 48 test trials presented in each experimental session, 24 were in the /Low Distortion/ condition (with 12 in the /Singleton-Contrast/ condition, and 12 in the /Contrast-Singleton/ condition) and 24 were in the /High Distortion/ condition (12 in the /Singleton-Contrast/ condition, 12 in the /Contrast-Singleton/ condition).
 
@@ -108,13 +106,13 @@ The experimental stimuli were presented on a 19" LCD Dell desktop computer monit
 
 At the start of any given trial, an empty grid appeared on the speaker’s screen, with the yellow square marking the location where the target would appear. After one second, the preview screen was replaced with the full display. Audio recording of the speaker’s response began simultaneously with the presentation of the full display. The trial ended when the listener selected the object designated by the speaker. The speaker could not see the listener’s screen or mouse pointer, and received no feedback regarding whether or not the listener had selected the intended referent. If the speaker failed to provide sufficient information to identify the target, the listener asked the speaker for clarification (e.g., ``Which `W' do you mean?''). Any such clarification exchanges appeared in the audio recording for the trial and were noted during later transcription.  
 
-*** Predictions and Data Analysis
+*** Data Analysis
 
 Our analysis focused on three categories of measurements: (1) speech content; in particular, use of a size modifier (e.g., large/small); (2) speech onset latency, defined as the time taken to produce the first content word as measured from the onset of the display; and (3) eye movements.
 
 For each of the 48 sequences for each speaker, we transcribed and coded the audio recordings for two trials: (1) the last trial of the training sequence; and (2) the test trial. The last training trial was needed in order to provide baseline data for the speech onset latency in the test trial, and to identify test trials to be excluded (see Results and pre-registration document).
 
-We coded whether or not a size modifier was used by the speaker, as shown in Table\nbsp{}[[tab:speechcodes]]. Note that occasionally a speaker would find a single subordinate-level term to distinguish the target from the competitor (e.g., "notes" instead of "paper money" to distinguish a stack of notes from a pile of coins). In these instances, we coded the speech as category /PR/. Also, cases where speakers provided disambiguating information after as well as before the head noun ("the woolen gloves that are red"), were coded as /PR/, as long as the information before the head noun seemed sufficient to disambiguate the target from the competitor. Thus, the choice of /PR/ versus /PO/ captures whether any adaptations took place up to (and including) the head noun, or somewhere after (/PO/).
+We coded whether or not a size modifier was used by the speaker, as shown in Table\nbsp{}[[tab:speechcodes]]. Cases where speakers provided disambiguating information after as well as before the head noun ("the woolen gloves that are red"), were coded as /PR/, as long as the information before the head noun seemed sufficient to disambiguate the target from the competitor. Thus, the choice of /PR/ versus /PO/ captures whether any adaptations took place up to (and including) the head noun, or somewhere after (/PO/).
 
 #+NAME: tab:speechcodes
 #+CAPTION: Coding of speech utterance types.
@@ -144,7 +142,7 @@ Onset times of utterances were identified and entered into a data table in milli
    recorded. However, such repaired utterances were not used in the
    analysis of speech onset.
 
-For all appropriately-specified descriptions, we counted up all non-target fixations (with a minimum fixation duration of 100ms) that took place prior to speech onset and tested the effect of /Distortion/ on fixation counts. We predicted a higher rate of pre-onset fixations in the /Low Distortion/ condition, based on the rationale that speakers would experience a weaker memory signal for the entrained condition and would thus engage in more checking of context during speech planning.
+For all appropriately-specified descriptions, we counted up all non-target fixations (with a minimum fixation duration of 100ms) that took place prior to speech onset and tested the effect of /Distortion/ on fixation counts. We predicted a higher rate of pre-onset fixations in the /Low Distortion/ condition, based on the rationale that speakers would experience a weaker memory signal for the entrained description and would thus engage in more checking of context during speech planning.
 
 ** Results and Discussion
    :PROPERTIES:
@@ -193,7 +191,7 @@ src_R{marg_shift %>% filter(shiftdir == "Contrast-Singleton") %>% pull(mis_rate)
 of the time overall.
 Speakers were far more likely to misspecify references when they had entrained on bare nouns and the test context required a modifier. About
 src_R{marg_shift %>% filter(shiftdir == "Singleton-Contrast") %>% pull(mis_rate) %>% as.perc()}
-of the time they failed to include a modifer in the first instance (pre-nominally or post-nominally). Typically, if a modifier was included, it was included as a self-repair ("the W... uh small W").
+of the time speakers failed to include a modifer in the first instance (pre-nominally or post-nominally). Typically, if a modifier was included, it was included as a self-repair ("the W... uh small W").
 
 For the inferential analysis of misspecification rate, we performed logistic regression using =glmer()=.  The logistic regression model converged with maximal random effects, but reported singularity in the variance-covariance matrix. Given doubt as to the interpretation of singular models \citep{bates-pmm}, we fit a second model in which we reduced the random effects structure until the singularity was removed. This second model included a random intercept and random slopes for /Shift Direction/ and the interaction term, but not for /Distortion/. We report results from the second model.
 
@@ -211,7 +209,7 @@ src_R{bstr(mod_mis2, "S")}.
 
 *** Speech onset latency
 
-Our second main prediction concerned the differential speech onset latency for appropriately specified descriptions. Our prediction was that speakers would be less likely to shift from the entrained description to a more contextual appropriate description in the /Low Distortion/ condition than in the /High Distortion/ condition, due to a stronger retrieval of the entrained response.  For this analysis, in addition to the src_R{n_inv + n_oth} trials excluded for reasons detailed above, a further src_R{n_mis} trials were excluded where speakers misspecified the target, and src_R{nums(n_na)} more where the speech onset could not be determined.
+Our second main prediction concerned the differential speech onset latency for appropriately specified descriptions. Our prediction was that speakers would be less likely to shift from the entrained description to a more contextually appropriate description in the /Low Distortion/ condition than in the /High Distortion/ condition, due to a stronger retrieval of the entrained response.  For this analysis, in addition to the src_R{n_inv + n_oth} trials excluded for reasons detailed above, a further src_R{n_mis} trials were excluded where speakers misspecified the target, and src_R{nums(n_na)} more where the speech onset could not be determined.
 
 #+NAME: fig:exp1-sol
 #+HEADER: :results output graphics file
@@ -276,9 +274,9 @@ Although the high misspecification rate in Experiment\nbsp{}1 unequivocally demo
 #+NAME: fig:exp2-overview
 [[file:figs/Exp2_overview.png]]
 
-It is possible that memory effects in Experiment\nbsp{}1 were obscured by the high similarity among memory representations across stimulus items. All of the target items were letters of the alphabet, and the only type of modification ever required was a size modification (e.g., "the small X"). This would have created high overlap among memory representations that could have led to interference during retrieval. We sought to minimize interference using variety of everyday objects as targets and competitors in Experiment\nbsp{}2 (Figure\nbsp{}[[fig:exp2-overview]]), similar to the type of stimuli used in \cite{GannBarr2014}. For each pair, the target was always a very typical member of the category (moreso than the competitor), such that when described in a context by itself there would be a strong tendency to use a basic level term (e.g., the candle, the apple, the car) \citep{roschetal76}. Competitors were chosen so as to elicit target modifiers that would be very unlikely to occur in the absence of the target. For the candle example, the the competitor was a highly similar half-melted candle, such that a typical description of the target would be "the unmelted candle."  We chose foil objects that were visually similar to the competitor but from a different category of object. For a full list of target-competitor-foil triplets, see the supplementary materials in the data repository.
+It is possible that memory effects in Experiment\nbsp{}1 were obscured by the high similarity among memory representations across stimulus items. All of the target items were letters of the alphabet, and the only type of modification ever required was a size modification (e.g., "the small W"). This would have created high overlap among memory representations that could have led to interference during retrieval. We sought to minimize interference using variety of everyday objects as targets and competitors in Experiment\nbsp{}2 (Figure\nbsp{}[[fig:exp2-overview]]), similar to the type of stimuli used in \cite{GannBarr2014}. For each pair, the target was always a very typical member of the category (moreso than the competitor), such that when described in a context by itself there would be a strong tendency to use a basic level term (e.g., the candle, the apple, the car) \citep{roschetal76}. Competitors were chosen so as to elicit target modifiers that would be very unlikely to occur in the absence of the target. For the candle example, the the competitor was a highly similar half-melted candle, such that a typical description of the target would be "the unmelted candle."  We chose foil objects that were visually similar to the competitor but from a different category of object. For a full list of target-competitor-foil triplets, see the supplementary materials in the data repository.
 
-The above manipulation also addresses an additional weakness of Experiment\nbsp{}1, which was the high rate of data loss due to speakers who opted for a strategy of always including a size modifier, whether or not it was needed. In this experiment, speakers would need to focus on different dimensions for each category of object, which should discourage this strategy and reduce our data loss.
+The above manipulation also addresses an additional weakness of Experiment\nbsp{}1, which was the high rate of data loss due to speakers who opted for a strategy of always including a size modifier, whether or not it was needed. In this experiment, speakers would need to focus on different dimensions for each category of object, which was intended to discourage this strategy and reduce data loss.
 
 A second way we sought to strengthen memory effects was by removing pre-cuing of the target location. In the previous experiment, before the target or any other images appeared, speakers were directed toward the target's location. Since the location itself might operate as a memory cue, retrieval processes may have already begun prior to display onset, making their effects less detectable when they were measured at a later point.  To remedy this, in the current experiment, the highlight indicating the target location occurred simultaneously with display onset.
 
@@ -286,7 +284,7 @@ Finally, instead of creating low and high distortions of a single spatial arrang
 
 ** Method
 
-The method of Experiment\nbsp{}2 was similar to Experiment\nbsp{}1, and so we only describe the differences. Pre-registration for this study can be found at https://osf.io/brxvc.
+The method of Experiment\nbsp{}2 was similar to Experiment\nbsp{}1, and so we only describe the differences. A link to the pre-registration for this experiment can be found in the OSF repository.
 
 *** Participants
 
@@ -302,21 +300,21 @@ Each display consisted of a five-by-four grid containing various types of everyd
 
 For each sequence, the number of training trials was randomly selected, with a range from 6 to 9. Given these parameters, each experimental session could have contained between 336 (7 x 48) and 480 (10 x 48) trials. For each stimulus set, 7 to 10 additional images unrelated to the target were randomly chosen from a database of stimulus images. Images were re-used across trials within a sequence, but not across different stimulus sets. The displays were checked manually by two lab assistants to ensure that the unrelated items were sufficiently dissimilar to the target so as not to influence descriptions of the target.
 
-Target and competitor items were normed beforehand by 68 Native English speaking volunteers using the web-based survey platform SurveyMonkey. A number of items were updated or replaced based on our norming feedback. Four entirely new stimuli pairs were added to our original list (please see Appendix TODO for a complete list of the Target and Competitor objects used).
+Target and competitor items were normed beforehand by 68 Native English speaking volunteers using the web-based survey platform SurveyMonkey. A number of items were updated or replaced based on our norming feedback. Four entirely new stimuli pairs were added to our original list (for a complete list of the Target and Competitor objects used please see the supplementary information provided in the OSF repository).
 
 *** Apparatus
 
-The apparatus was identical to Experiment\nbsp{}1, with the exception that the sampling rate for all participants was set to 250Hz.
+The apparatus was identical to Experiment\nbsp{}1, with the exception that the eyetracking sampling rate for all participants was set to 250\nbsp{}Hz.
 
 *** Procedure
 
 The procedure was identical to the previous experiment, with the exception that on each trial, the cue for the target location appeared simultaneously with the rest of the display.  Additionally, although speakers and listeners had different arrangements of each set of images within the grid, the listener's arrangement was held constant within each sequence to facilitate easier identification of the target. Our rationale was that with predictable target locations, listeners would be faster to identify targets during training, which might lead the speaker to entrain more strongly on the referential precedent.
 
-*** Predictions and Data Analysis
+*** Data Analysis
 
 The measurements and predictions were identical to Experiment\nbsp{}1, with the difference that all mixed-effects models also included by-item random intercepts and slopes, since items (sets of target/competitor/foil/unrelated images) repeated across participants and were likely to induce different patterns of modification.
 
-Another difference was that we also established exclusion criteria for items (stimulus sets). We considered the last training trial for each participant on each item on which the critical object was a foil, and removed items where speakers used a modifier that would have distinguished the target from the (absent) competitor. Any items where the rate of modifier use was greater than 50% was removed.
+Unlike Experiment\nbsp{}1, we only coded speech onset times for appropriately-specified descriptions. Another difference was that we also established exclusion criteria for items (stimulus sets). We considered the last training trial for each participant on each item on which the critical object was a foil, and removed items where speakers used a modifier that would have distinguished the target from the (absent) competitor. Any items where the rate of modifier use was greater than 50% was removed.
 
 ** Results and Discussion
 
@@ -390,9 +388,9 @@ For the misspecification rate analysis, we performed logistic regression using =
 
 There was some evidence for the main prediction: misspecifications were observed on 
 src_R{marg_dist %>% filter(congruency == "congruent") %>% pull(mis_rate) %>% as.perc()}
-of trials in the /Low Distortion/ condition, compared to 
+of trials in the /Congruent/ condition, compared to 
 src_R{marg_dist %>% filter(congruency == "incongruent") %>% pull(mis_rate) %>% as.perc()}
-in the /High Distortion/ condition, a significant main effect of /Congruency/, (pre-registered one-tailed test), 
+in the /Incongruent/ condition, a significant main effect of /Congruency/, (pre-registered one-tailed test), 
 src_R{bstr(mod_mis2, "C", 1L)}.
 There was little evidence for an interaction between /Shift Direction/ and /Congruency/, 
 src_R{bstr(mod_mis2, "S:C")}.
@@ -411,7 +409,7 @@ src_R{bstr(mod_mis2, "S")}.
     ungroup()
 #+END_SRC
 
-As in the previous experiment, the prediction was that speakers would have more difficult shifting to an appropriately specified test description when memory associations were stronger (i.e., in the /Congruent/ condition). 
+As in the previous experiment, the prediction was that speakers would have more difficulty shifting to an appropriately specified test description when memory associations were stronger (i.e., in the /Congruent/ condition). 
 The means in the /Congruent/ and /Incongruent/ conditions were inconsistent with this prediction,
 src_R{m_sol %>% filter(congruency == "congruent") %>% M_SD(m, sd, 0, "ms", "\\nbsp{}")}
 and 
@@ -478,7 +476,7 @@ Finally, we included an additional set of unconventional targets (Figure\nbsp{}[
 
 ** Method
 
-Pre-registration of this study's methods and analysis can be found at https://osf.io/5yz3n/.
+A link to the pre-registration for this experiment can be found in the OSF repository.
 
 *** Participants
 
@@ -504,8 +502,6 @@ Video from the room with the two partners was recorded using a Logitech Pro 9000
 
 We re-used the stimuli from Experiment\nbsp{}2, except we replaced nine of the target/competitor/foil triplets with new sets, including the seven sets that were excluded from Experiment\nbsp{}2 due to high rates of misspecification during training.  See the online repository for a list of the 48 target and competitor pairs.  A third of the targets were randomly assigned to four training repetitions, a third to five training repetitions, and a third to six, forming a total of 240 training trials across all blocks for each session, and 48 test trials.
 
-# TODO list of the target and competitor pairs, experiment 3
-
 Each of the twelve blocks included two additional sets of stimuli. One of these sets consisted of filler items that we included so that a change from training to test (with a possible change of visible partner and/or addressee) did not always require a change in the description of the targets (i.e., there was no substitution of the foil/competitor from training to test). There were twelve of these sets, one for each block, half of which were constructed so that reference to the target required a modifier, and the other half so that it required no modification.  The targets were repeated three times during training and once at test, forming a total of 48 trials for each session.
 
 The other set of stimuli included in each block consisted of the unconventional targets (as described above). In each block, one unconventional target was repeated three times during training, and once at test, forming 48 additional trials for each session.
@@ -514,27 +510,27 @@ In sum, there were 384 trials in total for each experimental session: 240 traini
 
 *** Procedure
 
-Upon arrival each participant was given an instruction sheet detailing the task and their role during the experiment (TODO: add to online materials). The two partners were set up in an adjoining room to the speaker and faced a single computer monitor. 
+Upon arrival each participant was given an instruction sheet detailing the task and their role during the experiment (see OSF repository for details). The two partners were set up in an adjoining room to the speaker and faced a single computer monitor. 
 
 The partners were seated in rolling chairs, which allowed them to easily slide in front of or away from the camera, as required. The floor of the lab room was marked with tape to indicate where chairs needed to be positioned to be on or off camera. To minimize confusion for the speaker, each partner wore a colored tag that corresponded to the color of a sticker placed at each end of the crossfading slider. 
 
-Before the experiment began participants took part in a practice session that consisted of twelve training trials and four test trials.  This enabled the participant to familiarise themselves with their role as speaker, as well as to experience the task from the perspective of the partner. In this manner, the participant was made aware that the partners saw the images in an entirely different spatial arrangement and that only one partner at a time would be able to hear the descriptions.
+Before the experiment began participants took part in a practice session that consisted of twelve training trials and four test trials.  This enabled the participant to familiarise themselves with their role as speaker, as well as to experience the task from the perspective of the partner. In this manner, the participant was made aware that the partners saw the images in an entirely different spatial arrangement (Figure\nbsp{}[[fig:exp3-display]]) and that only one partner at a time would be able to hear the descriptions. After practice ended, the main part of the experiment began.
 
 On each trial, audio recording began simultaneously with the presentation of the display. The target object in each display was highlighted for the speaker by a green square. The trial ended when the addressee selected an object on the number pad. The speaker received no feedback regarding which picture the addressee selected. If the speaker failed to provide sufficient information to identify the target, the addressee would ask for clarification. Any such clarification exchanges appeared in the audio recording for the trial and were noted during later transcription.
 
-Before each block of training trials, an on-screen notice informed the speaker which partner would appear on-screen and which partner would be the addressee. In the notice, the partners were identified by color rather than name (the yellow and the orange partner), on the assumption that having the partners' names embedded into the procedure would make it too conspicuous that the partners were experimenters. Partners wore different color name tags that matched the color of two stickers placed on either end of the crossfader on the audio mixer. 
+Before each block of training trials, an on-screen notice informed the speaker which partner would appear on-screen and which partner would be the addressee. In the notice, the partners were identified by both color (the yellow and the orange partner) and first name. Partners wore different color name tags that matched the color of two stickers placed on either end of the crossfader on the audio mixer. 
 
 The on-screen notice before each training phase also indicated that the off-screen partner was to put on the blindfold. Based on the notice, the speaker slid the crossfader to the appropriate color to select the next addressee.  Each of the two partners served as the training phase addressee for six of the twelve blocks.  The partner who was not selected as addressee during training was always off-screen wearing a blindfold, and could only hear white noise through their headphones.
 
-Just prior to the test phase another on-screen notice appeared indicating that the blindfold was to be removed, and designated the identity of the on-screen partner as well as the addressee. Again, the speaker was responsible for sliding the crossfader to the appropriate color. So that the delay between training and test would not be confounded with condition, the notice appeared for a minimum of eighteen seconds before advancing to the next phase, which provided more than sufficient time for the partners to move into position and for the speaker to select the specified addressee.
+Just prior to the test phase another on-screen notice appeared indicating that the blindfold was to be removed, and designated the identity of the on-screen partner as well as the addressee. Again, the participant was responsible for sliding the crossfader to the appropriate color. So that the delay between training and test would not be confounded with condition, the notice appeared for a minimum of eighteen seconds before advancing to the next phase, which provided more than sufficient time for the partners to move into position and for the speaker to select the specified addressee.
 
 *** Data Analysis
 
-We transcribed and coded each speaker's spoken responses for 98 trials: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As in the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training.
+We transcribed and coded each speaker's spoken responses for 98 trials: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As in the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training. Occasionally a speaker would use a single subordinate-level term to distinguish the target from the competitor (e.g., "notes" instead of "paper money" to distinguish a stack of notes from a pile of coins). In these instances, we coded the speech as category /PR/.
 
 We also transcribed each speaker's description of the twelve unconventional targets at test, and counted the number of words used in the description.
 
-The misspecification variable was analyzed using linear mixed-effects regression, estimated with the =glmer()= function from =lme4=, with a logit link function and binomial variance. For the random effects structure, we included by-subject and by-item intercepts and also sought to included by-subject and by-item random slopes for all main effects and interactions.
+The misspecification variable was analyzed using linear mixed-effects regression, estimated with the =glmer()= function from =lme4=, with a logit link function and binomial variance. For the random effects structure, we included by-subject and by-item intercepts and also sought to include by-subject and by-item random slopes for all main effects and interactions.
 
 Word count for unconventional targets was analyzed using linear mixed-effects regression, estimated with =glmer()= with a log link function and Poisson variance. The maximal model structure we sought to fit included by-subject and by-item random slopes for /Visible Partner/, /Addressee/, and their interaction.
 
@@ -657,9 +653,7 @@ of trials where the visible partner was the training partner, compared to
 src_R{marg_vp %>% filter(`Visible Partner` == "different") %>% pull(mis_rate) %>% as.perc()}
 where the visible partner was the other partner.
 This difference was not significant (pre-registered one-tailed test), 
-src_R{bstr(mod_mis2, "VP", 1L)}, and was in fact showing a numerical trend in the opposite direction from what was predicted.
-
-No other effects were significant (Table\nbsp{}\ref{tbl:exp3-lmem}).
+src_R{bstr(mod_mis2, "VP", 1L)}, and was in fact showing a numerical trend in the opposite direction from what was predicted. No other effects were significant (Table\nbsp{}\ref{tbl:exp3-lmem}).
 
 #+BEGIN_SRC R :exports results :results verbatim export latex
   mod_fx2 <- mod_fx %>%
@@ -721,9 +715,10 @@ compared to descriptions given to the same partner,
 src_R{marg_wc_addr %>% filter(Addressee == "same") %>% M_SD(wc, sd, 1)},
 src_R{bstr(mod_wc2, "A")}.
 
-There was little evidence for any effect of /Visible Partner/ on word count; /Different/  
+There was little evidence for any effect of /Visible Partner/ on word count; 
+for descriptions in the /Different Partner/ condition,
 src_R{marg_wc_vp %>% filter(`Visible Partner` == "different") %>% M_SD(wc, sd, 1)},
-compared to descriptions given to the same partner,
+versus descriptions in the /Same Partner/ condition,
 src_R{marg_wc_vp %>% filter(`Visible Partner` == "same") %>% M_SD(wc, sd, 1)},
 src_R{bstr(mod_wc2, "VP")}.
 
