@@ -15,7 +15,7 @@ docker run --rm \
   --volume /Users/poindexter/ordinary-memory:/home/ruser/work \
   --workdir /home/ruser/work \
   dalejbarr/talklab:1.0.0 \
-  make cleanall && make all
+  /bin/bash -c "make cleanall && make all"
 ```
 
 To be able to write files from inside the container, you might need to set permissions on the files in your copy of the repository to be writable by members of the unix group gid 1024.
@@ -27,7 +27,7 @@ docker run --rm \
   --volume /Users/poindexter/ordinary-memory:/home/ruser/work \
   --workdir /home/ruser/work \
   dalejbarr/talklab:1.0.0 \
-  make clean && make manuscript
+  /bin/bash -c "make clean && make manuscript"
 ```
 
 The raw data files are stored within the `data_raw` folder in each experiment's subdirectory, e.g., `exp1/data_raw`. The analysis scripts have been tangled from the org-mode files into separate files in the `scripts` folder, e.g., `exp1/scripts/01_preprocess.R`, `exp1/scripts/02_analyze_speech.R`, `exp1/scripts/03_analyze_eyedata.R`.  The results from each script are stored in the `data_images` subfolder. 
