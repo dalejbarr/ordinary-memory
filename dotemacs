@@ -1,0 +1,96 @@
+(defun latex-mode-reftex-setup ()
+  (load-library "reftex")
+  (and (buffer-file-name)
+       (file-exists-p (buffer-file-name))
+       (reftex-parse-all))
+  (define-key global-map (kbd "C-c )") 'reftex-citation)
+  )
+(add-hook 'latex-mode-hook 'latex-mode-reftex-setup)
+
+;; source: xemacs 20.3
+(defun count-words-region (start end)
+  (interactive "r")
+  (save-excursion
+    (let ((n 0))
+      (goto-char start)
+      (while (< (point) end)
+	(if (forward-word 1)
+	    (setq n (1+ n))))
+      (message "Region has %d words" n)
+      n)))
+
+(global-set-key (kbd "C-x c") 'compile)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ess
+;(add-to-list 'load-path "~/ess/lisp")
+(load "ess-site")
+(setq ess-default-style 'DEFAULT)
+(setq ess-eval-visibly-p nil) ;otherwise C-c C-r (eval region) takes forever
+(ess-toggle-underscore nil)
+(setq comint-scroll-to-bottom-on-output t)
+(setq ess-ask-for-ess-directory nil)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; org mode
+(setq org-confirm-babel-evaluate nil)
+(setq org-export-allow-bind-keywords t)
+(setq org-export-with-smart-quotes t)
+
+(require 'ox-latex)
+(require 'ox-md)
+(setq org-latex-minted-options
+			'(("bgcolor" "bg") ("frame" "lines")))
+
+
+(defun org-mode-reftex-setup ()
+(load-library "reftex")
+(and (buffer-file-name)
+(file-exists-p (buffer-file-name))
+(reftex-parse-all))
+(define-key org-mode-map (kbd "C-c )") 'reftex-citation))
+(add-hook 'org-mode-hook 'org-mode-reftex-setup)
+
+(add-to-list 'org-latex-classes
+	     '("apa6"
+	       "\\documentclass[{{{{CLASS_OPTIONS}}}}]{apa6}
+               \\usepackage{graphicx}
+               \\usepackage{hyperref}"
+	       ("\\section{%s}" . "\\section*{%s}")
+	       ("\\subsection{%s}" . "\\subsection*{%s}")
+	       ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((R . t)
+   (latex . t)
+   (shell . t)  
+))
+
+(setq org-export-coding-system 'utf-8)
+
+(setq org-babel-default-inline-header-args
+      (org-babel-merge-params org-babel-default-inline-header-args
+'((:results . "raw"))))
+
+(add-to-list 'org-latex-packages-alist '("" "minted"))
+(setq org-latex-listings 'minted)
+(setq org-latex-custom-lang-environments
+      '(
+	(emacs-lisp "common-lispcode")
+	))
+(setq org-latex-minted-options
+      '(("frame" "lines")
+	("fontsize" "\\scriptsize")
+	("linenos" "")
+	("tabsize" "2")
+	))
+(add-to-list 'org-latex-minted-langs '(R "r"))
+
+(setq org-latex-pdf-process
+      '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+	"bibtex %b"
+	"pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+	"pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+

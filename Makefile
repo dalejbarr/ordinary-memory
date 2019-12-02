@@ -29,7 +29,7 @@ OShea_Martin_Barr.pdf : OShea_Martin_Barr.org setup.org abstract.txt refs_R.bib 
 	@mkdir -p exp2/img
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
-	@emacs --batch -l ~/.emacs -l org \
+	@emacs --batch -l dotemacs -l org \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null
