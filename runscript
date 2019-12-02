@@ -1,0 +1,6 @@
+#!/bin/bash
+
+STARTTIME=$(date +%s)
+singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
+ENDTIME=$(date +%s)
+echo "It took $[$ENDTIME - $STARTTIME] seconds to run the analysis and create the manuscript"

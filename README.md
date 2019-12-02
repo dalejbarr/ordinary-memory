@@ -28,6 +28,12 @@ cd ordinary-memory
 singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
 ```
 
+Alternatively, you can just use the bash script `runscript` in the repository, which provides information about elapsed time.
+
+```
+./runscript
+```
+
 This command takes a long time to complete. Note that the first time you access the singularity container image, it will be downloaded from Sylabs Cloud (3.47 GB) to a local image cache.
 
 In case you only want to reproduce the manuscript, leaving all analysis results intact, run `make manuscript` in the container.

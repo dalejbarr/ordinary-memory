@@ -7,7 +7,7 @@ FIGS = figs/Exp1.png figs/Exp1_HvL.png figs/Exp2_overview.png \
 
 all : global_fns.R refs_R.bib manuscript
 
-from_raw : OShea_Martin_Barr.pdf cleanall
+from_raw : cleanall manuscript_nocleanimg
 
 refs_R.bib : makebib.R refs.bib
 	@Rscript makebib.R
@@ -50,21 +50,28 @@ $(EXP2_IMAGES) :
 $(EXP3_IMAGES) : 
 	@make -C exp3 all
 
+.PHONY: clean
 clean : cleanlatex cleanimg
 	@rm -f OShea_Martin_Barr.pdf
 	@rm -f global_fns.R
 
-cleanall : clean 
+.PHONY: cleanall
+cleanall : clean
+	@echo "--- Deleting intermediate data images files from exp1, exp2, exp3"
 	@make -C exp1 clean
 	@make -C exp2 clean
 	@make -C exp3 clean
 
+.PHONY: cleanlatex
 cleanlatex :
+	@echo "--- Deleting intermediate files from manuscript compilation..."
 	@rm -f *.bbl OShea_Martin_Barr.tex *~
 	@rm -rf _minted-OShea_Martin_Barr
 	@rm -f OShea_Martin_Barr.pyg
 
+.PHONY: cleanimg
 cleanimg :
+	@echo "--- Deleting plots generated during manuscript compilation..."
 	@rm -rf exp1/img
 	@rm -rf exp2/img
 	@rm -rf exp3/img

@@ -72,6 +72,8 @@ exp2_probplot <- bins_means %>%
        y = "Gaze probability",
        linetype = "Congruency")
 
+
+
 message("    Writing data_images/03_analyze_eyedata.rda...")
 save(list = c("bins_means", "binned", "nmc", "exp2_probplot"),
      file = "data_images/03_analyze_eyedata.rda")

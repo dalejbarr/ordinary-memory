@@ -370,3 +370,7 @@ preonset_fix <- pog2 %>%
   nest() %>%
   mutate(nfix = map_int(data, n_distinct_regions_fixated)) %>%
   select(-data)
+
+rm(con, newpog, pog, dat, badones)
+message("    Saving data_images/01_preprocess.rda...")
+save(list = ls(), file = "data_images/01_preprocess.rda")

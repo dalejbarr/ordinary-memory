@@ -422,7 +422,7 @@
 
 ** Finalize
 
-#+BEGIN_SRC 
+#+BEGIN_SRC R
   rm(con, newpog, pog, dat, badones)
   message("    Saving data_images/01_preprocess.rda...")
   save(list = ls(), file = "data_images/01_preprocess.rda")
