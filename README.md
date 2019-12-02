@@ -22,19 +22,21 @@ git clone https://github.com/dalejbarr/ordinary-memory
 cd ordinary-memory
 ```
 
-3. To reproduce the full results from the raw data, execute the command `make from_raw` in the software container.
+3. To reproduce the full results from the raw data, execute the bash script `runscript` in the software container.
 
-```
-singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
-```
-
-Alternatively, you can just use the bash script `runscript` in the repository, which provides information about elapsed time.
+*NOTE: reproducing from raw data will take about 40 minutes processing time on a typical workstation.*
 
 ```
 ./runscript
 ```
 
-This command takes a long time to complete. Note that the first time you access the singularity container image, it will be downloaded from Sylabs Cloud (3.47 GB) to a local image cache.
+Alternatively, you can run the following singularity command.
+
+```
+singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
+```
+
+Note that the first time you access the singularity container image, it will be downloaded from Sylabs Cloud (3.47 GB) to a local image cache.
 
 In case you only want to reproduce the manuscript, leaving all analysis results intact, run `make manuscript` in the container.
 
