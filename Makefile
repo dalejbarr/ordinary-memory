@@ -7,6 +7,8 @@ FIGS = figs/Exp1.png figs/Exp1_HvL.png figs/Exp2_overview.png \
 
 all : global_fns.R refs_R.bib manuscript
 
+from_raw : OShea_Martin_Barr.pdf cleanall
+
 refs_R.bib : makebib.R refs.bib
 	@Rscript makebib.R
 

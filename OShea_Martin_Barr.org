@@ -1,4 +1,4 @@
-#+TITLE: Ordinary memory processes in the design of referential descriptions
+#+TITLE: Ordinary memory processes in the design of referring expressions
 #+SETUPFILE: setup.org
 
 # Abstract is dynamically generated to include stats; see abstract.org
