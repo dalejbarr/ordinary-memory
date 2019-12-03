@@ -16,17 +16,17 @@ message("    Preparing eye data...")
 region_lookup <- tibble(
   Name = c("X", "D", "T", "C", "F"),
   Region = factor(c("blank", "unrelated", "target",
-                    "critical", "critical"),
-                  levels = c("target", "critical", "unrelated", "blank")))
+		    "critical", "critical"),
+		  levels = c("target", "critical", "unrelated", "blank")))
 
 tresp <- main_data %>%
   filter(!Invalid) %>%
   select(SessionID,
-         RespID,
-         dist = `Distortion Level`,
-         shift_dir = `Direction of Shift`,
-         misspec = Misspecification,
-         Onset)
+	 RespID,
+	 dist = `Distortion Level`,
+	 shift_dir = `Direction of Shift`,
+	 misspec = Misspecification,
+	 Onset)
 
 ## point of gaze (POG) data
 pog <- pog2 %>%
@@ -84,7 +84,7 @@ library("lme4")
 pre2 <- preonset_fix %>%
   inner_join(main_data, "RespID") %>%
   mutate(D = `Distortion Level` == "Low",
-         D = D - mean(D)) %>%
+	 D = D - mean(D)) %>%
   filter(!Misspecification)
 
 numfix_marg <- pre2 %>%
@@ -92,12 +92,12 @@ numfix_marg <- pre2 %>%
   summarize(m = mean(nfix), sd = sd(nfix))
 
 mod_pre1 <- glmer(nfix ~ D + (D | SessionID), pre2,
-                  family = poisson)
+		  family = poisson)
 
 ## it's singular, so:
 
 mod_pre2 <- glmer(nfix ~ D + (1 | SessionID), pre2,
-                  family = poisson)
+		  family = poisson)
 
 message("    Writing data_images/03_analyze_eyedata.rda...")
 save(list = c("bins_means", "binned", "nmc", "exp1_probplot", 

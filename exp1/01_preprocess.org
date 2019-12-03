@@ -417,7 +417,8 @@
     group_by(RespID) %>%
     nest() %>%
     mutate(nfix = map_int(data, n_distinct_regions_fixated)) %>%
-    select(-data)
+    select(-data) %>%
+    ungroup()
 #+END_SRC
 
 ** Finalize
