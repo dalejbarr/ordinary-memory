@@ -112,7 +112,7 @@ Our analysis focused on three categories of measurements: (1) speech content; in
 
 For each of the 48 sequences for each speaker, we transcribed and coded the audio recordings for two trials: (1) the last trial of the training sequence; and (2) the test trial. The last training trial was needed in order to provide baseline data for the speech onset latency in the test trial, and to identify test trials to be excluded (see Results and pre-registration document).
 
-We coded whether or not a size modifier was used by the speaker, as shown in Table\nbsp{}[[tab:speechcodes]]. Cases where speakers provided disambiguating information after as well as before the head noun ("the woolen gloves that are red"), were coded as /PR/, as long as the information before the head noun seemed sufficient to disambiguate the target from the competitor. Thus, the choice of /PR/ versus /PO/ captures whether any adaptations took place up to (and including) the head noun, or somewhere after (/PO/).
+We coded whether or not a size modifier was used by the speaker, as shown in Table\nbsp{}[[tab:speechcodes]].  Misspecifications were determined from these codes as follows. In the /Singleton-Contrast/ condition, which required a modifier, the codes /NO/, /AS/, and /AO/ were counted as misspecifications. In the /Contrast-Singleton/ condition, where a modifier was not required, all codes other than /NO/ were counted as misspecifications.
 
 #+NAME: tab:speechcodes
 #+CAPTION: Coding of speech utterance types.
@@ -126,8 +126,6 @@ We coded whether or not a size modifier was used by the speaker, as shown in Tab
 | AS       | Addition by self-repair      | "W... big W"                |
 | AO       | Addition due to other-repair | "W" ("which one"?) "big W"  |
 |----------+------------------------------+-----------------------------|
-
-Misspecifications were determined from these codes as follows. In the /Singleton-Contrast/ condition, which required a modifier, the codes /NO/, /AS/, and /AO/ were counted as misspecifications. In the /Contrast-Singleton/ condition, where a modifier was not required, all codes other than /NO/ were counted as misspecifications.
 
 Onset times of utterances were identified and entered into a data table in milliseconds.  The following criteria were applied when identifying utterance onsets:
 
@@ -313,6 +311,8 @@ The procedure was identical to the previous experiment, with the exception that 
 *** Data Analysis
 
 The measurements and predictions were identical to Experiment\nbsp{}1, with the difference that all mixed-effects models also included by-item random intercepts and slopes, since items (sets of target/competitor/foil/unrelated images) repeated across participants and were likely to induce different patterns of modification.
+
+Occasionally a speaker would use a single subordinate-level term to distinguish the target from the competitor (e.g., "notes" instead of "paper money" to distinguish a stack of notes from a pile of coins). In these instances, we coded the speech as category /PR/. Cases where speakers provided disambiguating information after as well as before the head noun ("the woolen gloves that are red"), were coded as /PR/, as long as the information before the head noun seemed sufficient to disambiguate the target from the competitor. Thus, the choice of /PR/ versus /PO/ captures whether any adaptations took place up to (and including) the head noun, or somewhere after (/PO/).
 
 Unlike Experiment\nbsp{}1, we only coded speech onset times for appropriately-specified descriptions. Another difference was that we also established exclusion criteria for items (stimulus sets). We considered the last training trial for each participant on each item on which the critical object was a foil, and removed items where speakers used a modifier that would have distinguished the target from the (absent) competitor. Any items where the rate of modifier use was greater than 50% was removed.
 
@@ -526,9 +526,7 @@ Just prior to the test phase another on-screen notice appeared indicating that t
 
 *** Data Analysis
 
-We transcribed and coded each speaker's spoken responses for 98 trials: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As in the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training. Occasionally a speaker would use a single subordinate-level term to distinguish the target from the competitor (e.g., "notes" instead of "paper money" to distinguish a stack of notes from a pile of coins). In these instances, we coded the speech as category /PR/.
-
-We also transcribed each speaker's description of the twelve unconventional targets at test, and counted the number of words used in the description.
+We transcribed and coded each speaker's spoken responses as described in Experiment\nbsp{}2. Each speaker had 98 trials for coding/transcription: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As with the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training. We also transcribed each speaker's description of the twelve unconventional targets at test, and counted the number of words used in the description.
 
 The misspecification variable was analyzed using linear mixed-effects regression, estimated with the =glmer()= function from =lme4=, with a logit link function and binomial variance. For the random effects structure, we included by-subject and by-item intercepts and also sought to include by-subject and by-item random slopes for all main effects and interactions.
 
