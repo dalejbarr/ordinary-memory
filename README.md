@@ -36,7 +36,7 @@ Alternatively, you can run the following singularity command.
 singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
 ```
 
-Note that the first time you access the singularity container image, it will be downloaded from Sylabs Cloud (3.47 GB) to a local image cache.
+Note that the first time you access the singularity container image, it will be downloaded from Sylabs Cloud (3.47 GB) to a local image cache.  Alternatively, you can [download the singularity image file `ordinary-memory.sif` directly from the OSF repository](https://osf.io/862gp/).
 
 In case you only want to reproduce the manuscript, leaving all analysis results intact, run `make manuscript` in the container.
 
