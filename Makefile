@@ -18,6 +18,9 @@ manuscript : OShea_Martin_Barr.pdf cleanlatex cleanimg
 # Make OShea_Martin_Barr.pdf, and then remove everything but the figures
 manuscript_nocleanimg : OShea_Martin_Barr.pdf cleanlatex
 
+# Make OShea_Martin_Barr.pdf, and then remove everything but the figures
+manuscript_noclean : OShea_Martin_Barr.pdf
+
 %.R : %.org
 	@echo "--- Tangling source blocks from $<..."
 	@emacs --batch -l org $< -f org-babel-tangle 2>/dev/null
