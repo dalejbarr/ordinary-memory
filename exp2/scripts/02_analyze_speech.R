@@ -1,3 +1,5 @@
+options(warn = -1)
+
 ## load in the exp 1 data and compute things we need for tables and text
 suppressWarnings(suppressPackageStartupMessages({
   library("tidyverse")

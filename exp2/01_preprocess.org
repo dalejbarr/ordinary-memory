@@ -292,7 +292,7 @@
     mutate(onset_frame = as.integer((Onset / 1000) * 250L)) %>%
     select(RespID, Onset, onset_frame)
 
-  preonset_fix <- pog2 %>%
+  preonset_fix <- pog %>%
     inner_join(onset_fr, "RespID") %>%
     filter(FrameID < onset_frame) %>%
     select(-Onset, -onset_frame) %>%

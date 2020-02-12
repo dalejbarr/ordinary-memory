@@ -1,3 +1,5 @@
+options(warn = -1)
+
 suppressWarnings(
   suppressPackageStartupMessages({
     library("tidyverse")
@@ -276,7 +278,7 @@ onset_fr <- main_data %>%
   mutate(onset_frame = as.integer((Onset / 1000) * 250L)) %>%
   select(RespID, Onset, onset_frame)
 
-preonset_fix <- pog2 %>%
+preonset_fix <- pog %>%
   inner_join(onset_fr, "RespID") %>%
   filter(FrameID < onset_frame) %>%
   select(-Onset, -onset_frame) %>%
@@ -284,7 +286,6 @@ preonset_fix <- pog2 %>%
   nest() %>%
   mutate(nfix = map_int(data, n_distinct_regions_fixated)) %>%
   select(-data)
-
 
 message("    Saving data_images/01_preprocess.rda")
 save(list = c("bad_sessions", "bad_items", "bad_trials", "dfull",
