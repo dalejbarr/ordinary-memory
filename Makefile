@@ -10,23 +10,26 @@ all : global_fns.R refs_R.bib manuscript
 from_raw : cleanall manuscript_nocleanimg
 
 refs_R.bib : makebib.R refs.bib
-	@Rscript makebib.R
+	@echo "--- Adding R references to refs_R.bib."
+	@Rscript makebib.R 2>/dev/null
 
 # Make OShea_Martin_Barr.pdf, and then remove all intermediate files
-manuscript : OShea_Martin_Barr.pdf cleanlatex cleanimg
+manuscript : OShea_Martin_Barr_preprint.pdf cleanlatex cleanimg
 
 # Make OShea_Martin_Barr.pdf, and then remove everything but the figures
-manuscript_nocleanimg : OShea_Martin_Barr.pdf cleanlatex
+manuscript_nocleanimg : OShea_Martin_Barr_preprint.pdf cleanlatex
 
 # Make OShea_Martin_Barr.pdf, and then remove everything but the figures
-manuscript_noclean : OShea_Martin_Barr.pdf
+manuscript_noclean : OShea_Martin_Barr_preprint.pdf
+
+manuscript_els : OShea_Martin_Barr_els.pdf cleanlatex cleanimg
 
 %.R : %.org
 	@echo "--- Tangling source blocks from $<..."
 	@emacs --batch -l org $< -f org-babel-tangle 2>/dev/null
 	@echo "--- Done.\n"
 
-OShea_Martin_Barr.pdf : OShea_Martin_Barr.org setup.org abstract.txt refs_R.bib \
+OShea_Martin_Barr_preprint.pdf : setup_apa6  refs_R.bib abstract.txt OShea_Martin_Barr.org \
 	         $(FIGS) $(EXP1_IMAGES) $(EXP2_IMAGES) $(EXP3_IMAGES)
 	@mkdir -p exp1/img
 	@mkdir -p exp2/img
@@ -36,7 +39,32 @@ OShea_Martin_Barr.pdf : OShea_Martin_Barr.org setup.org abstract.txt refs_R.bib 
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null
+	@rm setup.org
+	@mv OShea_Martin_Barr.pdf OShea_Martin_Barr_preprint.pdf
 	@echo "--- Done.\n"
+
+# Use elsarticle latex class
+OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.org \
+	        $(FIGS) $(EXP1_IMAGES) $(EXP2_IMAGES) $(EXP3_IMAGES)
+	@mkdir -p exp1/img
+	@mkdir -p exp2/img
+	@mkdir -p exp3/img
+	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
+	@emacs --batch -l dotemacs -l org \
+		--eval '(org-babel-lob-ingest "global_fns.org")' \
+		OShea_Martin_Barr.org \
+	       -f org-latex-export-to-pdf 2>/dev/null
+	@rm setup.org
+	@mv OShea_Martin_Barr.pdf OShea_Martin_Barr_els.pdf
+	@echo "--- Done.\n"
+
+setup_apa6 : 
+	@echo "--- Configuring setup.org to use apa6 class."
+	@Rscript mk_setup.R apa6 > setup.org
+
+setup_els : 
+	@echo "--- Configuring setup.org to use elsarticle class."
+	@Rscript mk_setup.R elsarticle > setup.org
 
 exp1 : $(EXP1_IMAGES)
 
@@ -69,8 +97,11 @@ cleanall : clean
 cleanlatex :
 	@echo "--- Deleting intermediate files from manuscript compilation..."
 	@rm -f *.bbl OShea_Martin_Barr.tex *~
+	@rm -f *.log *.fff *.aux *.out *.ttt *.spl *.blg *.pyg
 	@rm -rf _minted-OShea_Martin_Barr
 	@rm -f OShea_Martin_Barr.pyg
+	@rm -f setup.org
+	@rm -f refs_R.bib
 
 .PHONY: cleanimg
 cleanimg :
