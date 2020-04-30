@@ -28,10 +28,10 @@ cd ordinary-memory
 
 ```
 ## access container image from cloud.sylabs.io
-singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make from_raw
+singularity exec library://dalejbarr/talklab/ordinary-memory make from_raw
 
 ## OR, if you're using a local image file
-singularity exec ordinary-memory_0.1.0.sif make from_raw
+singularity exec ordinary-memory.sif make from_raw
 ```
 
 *NOTE: reproducing from raw data will take about 40 minutes processing time on a typical workstation.*
@@ -45,7 +45,7 @@ Alternatively, you can run the following bash script at the linux command line (
 In case you only want to reproduce the manuscript, leaving all analysis results intact, run `make manuscript` in the container.
 
 ```
-singularity exec library://dalejbarr/talklab/ordinary-memory:0.1.0 make manuscript
+singularity exec library://dalejbarr/talklab/ordinary-memory make manuscript
 ```
 
 ## Verifying the analyses without the container or Makefiles
