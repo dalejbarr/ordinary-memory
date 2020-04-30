@@ -4,7 +4,7 @@ This repository contains data and code to reproduce all analyses and to generate
 
 O'Shea, K. J., Martin, C. R., & Barr, D. J. (2019, December 11). *Ordinary memory processes in the design of referring expressions.* https://doi.org/10.31234/osf.io/g9n82
 
-The software infrastructure required to reproduce the analyses is stored in a [singularity container](https://sylabs.io/singularity/) available at [library://dalejbarr/talklab/ordinary-memory:0.1.0](https://cloud.sylabs.io/library/_container/5de5149734cc93d1ac4a265d). Alternatively, you can [download the singularity image file `ordinary-memory.sif` directly from the OSF repository](https://osf.io/862gp/).
+The software infrastructure required to reproduce the analyses is stored in a [singularity container](https://sylabs.io/singularity/) available at [library://dalejbarr/talklab/ordinary-memory:0.1.0](https://cloud.sylabs.io/library/_container/5de5149734cc93d1ac4a265d). Alternatively, you can [download the singularity image file `ordinary-memory.sif` directly from the OSF repository](https://osf.io/89g5b/).
 
 The manuscript and analysis scripts were written using emacs 24.5.1 with org-mode 9.0.3, with data analysis performed in R version 3.3.3.
 
