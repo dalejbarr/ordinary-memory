@@ -1,0 +1,144 @@
+#+TITLE:    Speech analysis sensitivity
+#+AUTHOR:   Dale Barr and Kieran O'Shea
+#+PROPERTY: header-args:R :tangle scripts/04_sensitivity.R
+
+- warning for people reading the R file
+
+#+BEGIN_SRC R
+  #####################################################################
+  ## NOTE: this script was automatically generated from the master file
+  ##       04_sensitivity.org.
+  ##
+  ##       Use GNU make + Makefile to generate.
+  ##       It was not intended to be edited by hand.
+  #####################################################################
+
+#+END_SRC
+
+* Load data and calculate means, etc. that we need to report
+  
+#+NAME: exp1_load
+#+BEGIN_SRC R 
+  options(warn = -1)
+
+  # load in the exp 1 data and compute things we need for tables and text
+  suppressWarnings(suppressPackageStartupMessages({
+    library("parallel")
+    library("lme4")
+    library("tidyverse")
+  }))
+
+  simulate_newdata <- function(mod, d, deff = lme4::fixef(mod)["D"]) {
+    ## get random effects
+    rx_int <- sqrt(as.numeric(lme4::VarCorr(mod)[["SessionID"]]))
+    rx_slp <- sqrt(as.numeric(lme4::VarCorr(mod)[["SessionID.1"]]))
+
+    ## build table of subjects with random effects
+    t1 <- d %>%
+      count(SessionID) %>%
+      rename(N = n) %>%
+      mutate(rint = rnorm(length(SessionID), sd = rx_int),
+	     rslp = rnorm(length(SessionID), sd = rx_slp))
+
+    ## build table of trials
+    t2  <- tibble(tnum = 1:48,
+		  S = rep(c(-.5, .5), each = 24L),
+		  D = rep(rep(c(-.5, .5), each = 12L), 2L))
+
+    fx <- lme4::fixef(mod)
+    ## combine the tables and match the size of the original
+    crossing(t1, t2) %>%
+      mutate(eta = fx["(Intercept)"] + rint +
+	       fx["S"] * S +
+	       (deff + rslp) * D +
+	       fx["S:D"] * S * D) %>%
+      nest(-SessionID, -N, -rint, -rslp, .key = "orig") %>%
+      ## sample so result has same number of rows
+      mutate(dd = map2(orig, N, sample_n)) %>%
+      select(-orig) %>%
+      unnest(dd) %>%
+      mutate(Misspecification =
+	       map_int(eta, ~ sample(c(1L, 0L), 1L,
+				     prob = c(1 / (1 + exp(-.x)),
+					      1 - (1 / (1 + exp(-.x))))))) %>%
+      select(SessionID, tnum, S, D, Misspecification)
+  }
+
+  calc_propeff <- function(d) {
+    ## calculate marginal effect of D (proportional scale)
+    d %>%
+      group_by(D) %>%
+      summarize(m = mean(Misspecification), .groups = "drop") %>%
+      pull(m)
+  }
+
+  calc_p <- function(d) {
+    ## fit the model and get the (one-tailed) p value
+    suppressMessages({m <- lme4::glmer(Misspecification ~ S * D + (D || SessionID),
+				       d,
+				       family = binomial(link = logit),
+				       control = lme4::glmerControl(optimizer = "bobyqa"))})
+    tstat <- lme4::fixef(m)["D"] / sqrt(lme4::vcov.merMod(m)["D", "D"])
+    as.numeric(pnorm(tstat, lower.tail = FALSE))
+  }
+
+  old_obj <- load("data_images/02_analyze_speech.rda")
+
+  cov_mx <- VarCorr(mod_mis)[["SessionID"]]
+  fix_fx <- fixef(mod_mis)
+
+  mdat <- dat %>%
+    filter(!Invalid, !is.na(Misspecification)) %>%
+    mutate(S = `Direction of Shift` == "Singleton-Contrast",
+	   S = S - mean(S),
+	   D = `Distortion Level` == "Low",
+	   D = D - mean(D))
+
+  mod_est_d1 <- glmer(
+    Misspecification ~ S * D + (D || SessionID),
+    mdat,
+    family = binomial(link = logit),
+    control = glmerControl(optimizer = "bobyqa"))
+
+  mod_est_d2 <- glmer(
+    Misspecification ~ S * D + (1 | SessionID),
+    mdat,
+    family = binomial(link = logit),
+    control = glmerControl(optimizer = "bobyqa"))
+
+  ## is there evidence for significant by-subject variance in the effect
+  ## of distortion?
+  d_rslp_est <- sqrt(as.numeric(VarCorr(mod_est_d1)[["SessionID.1"]][1, 1]))
+  d_rslp_chi <- abs(2 * logLik(mod_est_d2) - 2 * logLik(mod_est_d1)) %>%
+    as.numeric()
+  ## pchisq(d_rslp_chi, 1L, lower.tail = FALSE)
+
+  cl <- makeCluster(if (detectCores() > 3L) {
+		      detectCores() - 2L
+		    } else {
+		      detectCores()})
+  invisible(clusterCall(cl, function(x) {library("tidyverse")}))
+  clusterExport(cl, c("simulate_newdata", "calc_propeff", "calc_p",
+		      "mod_est_d1", "mdat"))
+
+  ## test raw logit effect size .1, .2, .3, .4, .5, .6
+  ## with 1000 runs for each
+  eff_sizes <- rep(seq(.1, .6, .1), each = 1000)
+
+  ## run and store as a table
+  message("    Running sensitivity analysis (takes a long time)...")
+  sensitivity <- parSapply(cl, eff_sizes, function(deff) {
+    d <- simulate_newdata(mod_est_d1, mdat, deff)
+    meff <- calc_propeff(d)
+    pt <- calc_p(d)
+    c(deff = deff, highdist = meff[1], lowdist = meff[2], p = pt)}) %>%
+    t() %>%
+    as_tibble()
+
+  stopCluster(cl)
+
+  message("    Writing data_images/04_sensitivity.rda...")
+  save(list = c("d_rslp_est", "d_rslp_chi", "sensitivity"),
+       file = "data_images/04_sensitivity.rda")
+#+END_SRC
+

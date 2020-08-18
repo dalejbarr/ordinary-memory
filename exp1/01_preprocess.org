@@ -2,7 +2,9 @@
 #+AUTHOR:    Dale Barr and Kieran O'Shea
 #+PROPERTY:  header-args:R :tangle scripts/01_preprocess.R
 
-#+BEGIN_SRC 
+- warning for people reading the R script
+
+#+BEGIN_SRC R
   #####################################################################
   ## NOTE: this script was automatically generated from the master file
   ##       01_preprocess.org.

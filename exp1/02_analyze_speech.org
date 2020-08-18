@@ -2,7 +2,7 @@
 #+AUTHOR:   Dale Barr and Kieran O'Shea
 #+PROPERTY: header-args:R :tangle scripts/02_analyze_speech.R
 
-#+BEGIN_SRC 
+#+BEGIN_SRC R
   #####################################################################
   ## NOTE: this script was automatically generated from the master file
   ##       02_analyze_speech.org.

@@ -1,6 +1,19 @@
 #+TITLE:     Eye data analysis
 #+PROPERTY: header-args:R :tangle scripts/03_analyze_eyedata.R :session *R*
 
+- warning for people reading the R file
+
+#+BEGIN_SRC R
+  #####################################################################
+  ## NOTE: this script was automatically generated from the master file
+  ##       03_analyze_eyedata.org.
+  ##
+  ##       Use GNU make + Makefile to generate.
+  ##       It was not intended to be edited by hand.
+  #####################################################################
+
+#+END_SRC
+
 * Analysis of eye data
 
 ** load the eye data

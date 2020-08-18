@@ -5,11 +5,13 @@ CODING = $(shell find coding -type f)
 
 E1_ANALYSIS_SCRIPTS =   scripts/01_preprocess.R \
 			scripts/02_analyze_speech.R  \
-			scripts/03_analyze_eyedata.R
+			scripts/03_analyze_eyedata.R \
+			scripts/04_sensitivity.R
 
 E1_PRODUCTS =           data_images/01_preprocess.rda \
 			data_images/02_analyze_speech.rda \
-                        data_images/03_analyze_eyedata.rda
+                        data_images/03_analyze_eyedata.rda \
+			data_images/04_sensitivity.rda
 
 all :  data
 
@@ -49,4 +51,9 @@ data_images/02_analyze_speech.rda : ../global_fns.R scripts/02_analyze_speech.R 
 data_images/03_analyze_eyedata.rda : ../global_fns.R scripts/03_analyze_eyedata.R data_images/01_preprocess.rda  $(DATA_RAW) $(CODING)
 	@echo "--- Running scripts/03_analyze_eyedata.R ..."
 	@$(RCMD) < scripts/03_analyze_eyedata.R
+	@echo "--- Done.\n"
+
+data_images/04_sensitivity.rda : ../global_fns.R scripts/04_sensitivity.R data_images/01_preprocess.rda  $(DATA_RAW) $(CODING)
+	@echo "--- Running scripts/04_sensitivity.R ..."
+	@$(RCMD) < scripts/04_sensitivity.R
 	@echo "--- Done.\n"

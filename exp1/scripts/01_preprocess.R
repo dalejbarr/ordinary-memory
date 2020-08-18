@@ -1,3 +1,11 @@
+#####################################################################
+## NOTE: this script was automatically generated from the master file
+##       01_preprocess.org.
+##
+##       Use GNU make + Makefile to generate.
+##       It was not intended to be edited by hand.
+#####################################################################
+
 options(warn = -1)
 
 #####################################################################
