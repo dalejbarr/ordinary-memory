@@ -1,3 +1,11 @@
+#####################################################################
+## NOTE: this R script was automatically generated from the master file
+##       02_analyze_speech.org.
+##
+##       Use GNU make + Makefile to generate.
+##       It was not intended to be edited by hand.
+#####################################################################
+
 options(warn = -1)
 
 ## load in the exp 1 data and compute things we need for tables and text

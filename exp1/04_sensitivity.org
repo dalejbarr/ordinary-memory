@@ -1,4 +1,4 @@
-#+TITLE:    Speech analysis sensitivity
+#+TITLE:    Speech analysis sensitivity (exp 2)
 #+AUTHOR:   Dale Barr and Kieran O'Shea
 #+PROPERTY: header-args:R :tangle scripts/04_sensitivity.R
 

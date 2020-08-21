@@ -161,6 +161,7 @@ For all appropriately-specified descriptions, we counted up all non-target fixat
   library("tidyverse")
   load("exp1/data_images/02_analyze_speech.rda")
   load("exp1/data_images/03_analyze_eyedata.rda")
+  load("exp1/data_images/04_sensitivity.rda")
   if (!dir.exists("exp1/img")) dir.create("exp1/img")
 #+END_SRC
 
@@ -212,6 +213,37 @@ There was also little evidence for an interaction between /Shift Direction/ and 
 src_R{bstr(mod_mis2, "S:D")}.
 The effect of /Shift Direction/, in contrast, was significant,
 src_R{bstr(mod_mis2, "S")}.
+
+#+NAME: fig:exp1-sens
+#+HEADER: :results output graphics file
+#+BEGIN_SRC R :file exp1/img/exp1-sens.pdf :width 6 :height 3
+  sens <- sensitivity %>%
+    group_by(deff) %>%
+    summarize(low = mean(highdist),
+              high = mean(lowdist),
+              nsig = sum(p < .05),
+              psig = nsig / n())
+
+  ggplot(sens, aes(deff, psig)) +
+    geom_point() +
+    geom_line() +
+    scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    scale_y_continuous(breaks = seq(0, 1, .2)) +
+    coord_cartesian(ylim = c(0, 1)) +
+    labs(x = "effect size (log odds)",
+	 y = "proportion significant")
+#+END_SRC
+
+#+CAPTION: Sensitivity plot for Experiment 1; assumed effect size on the horizontal axis, roportion of simulated datasets showing a significant effect on the vertical axis.
+#+LABEL: fig:exp1-sens
+#+RESULTS: fig:exp1-sens
+[[file:exp1/img/exp1-sens.pdf]]
+
+The above results suggest little evidence for an systematic effect of /Distortion/; however, it is possible that participants were sensitive to the manipulation, despite not showing an overall consistent effect in the predicted duration. In other words, perhaps there are individual differences across participants in how memory affects referential description, but no consistent overall effect. To test this hypothesis, we ran a null-hypothesis significance test on the random slope parameter for /Distortion/. The estimated random slope of src_R{sprintf("%0.2f", d_rslp_est)} was not significantly different from zero, 
+src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi)},
+src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi, 1, lower.tail = FALSE))}.
+
+How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a (post-hoc) sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. 
 
 *** Speech onset latency
 
@@ -404,6 +436,8 @@ There was little evidence for an interaction between /Shift Direction/ and /Cong
 src_R{bstr(mod_mis2, "S:C")}.
 The effect of /Shift Direction/, in contrast, was significant,
 src_R{bstr(mod_mis2, "S")}.
+
+TODO: sensitivity analysis
 
 *** Speech onset latency
 
