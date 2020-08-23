@@ -4,10 +4,12 @@ DATA_RAW = $(shell find data_raw -type f)
 CODING = $(shell find coding -type f)
 
 E3_ANALYSIS_SCRIPTS =   scripts/01_preprocess.R \
-			scripts/02_analyze_speech.R  
+			scripts/02_analyze_speech.R \
+			scripts/03_sensitivity.R
 
 E3_PRODUCTS =           data_images/01_preprocess.rda \
-			data_images/02_analyze_speech.rda 
+			data_images/02_analyze_speech.rda \
+			data_images/03_sensitivity.rda
 
 all :  data
 
@@ -42,4 +44,9 @@ data_images/01_preprocess.rda : scripts/01_preprocess.R $(DATA_RAW) $(CODING)
 data_images/02_analyze_speech.rda : ../global_fns.R scripts/02_analyze_speech.R data_images/01_preprocess.rda $(DATA_RAW) $(CODING)
 	@echo "--- Running scripts/02_analyze_speech.R ..."
 	@$(RCMD) < scripts/02_analyze_speech.R
+	@echo "--- Done.\n"
+
+data_images/03_sensitivity.rda : ../global_fns.R scripts/03_sensitivity.R data_images/02_analyze_speech.rda $(DATA_RAW) $(CODING)
+	@echo "--- Running scripts/03_sensitivity.R ..."
+	@$(RCMD) < scripts/03_sensitivity.R
 	@echo "--- Done.\n"
