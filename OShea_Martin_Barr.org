@@ -220,21 +220,28 @@ src_R{bstr(mod_mis2, "S")}.
   sens <- sensitivity %>%
     group_by(deff) %>%
     summarize(low = mean(highdist),
-              high = mean(lowdist),
-              nsig = sum(p < .05),
-              psig = nsig / n())
+	      high = mean(lowdist),
+	      nsig = sum(p < .05),
+	      notsig = n() - nsig,
+	      psig = nsig / n())
 
-  ggplot(sens, aes(deff, psig)) +
-    geom_point() +
-    geom_line() +
+  .m1 <- fit_logit(sens)
+
+  .rge_80 <- LH_interpolate(p2eta(.8, .m1), sens)
+  .rge_90 <- LH_interpolate(p2eta(.9, .m1), sens)
+  .rge_95 <- LH_interpolate(p2eta(.95, .m1), sens)
+
+  ggplot(aes(deff), data = sens) +
     scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    stat_function(fun = lpred, args = list(m = .m1)) +
+    geom_point(aes(deff, psig), data = sens) +
     scale_y_continuous(breaks = seq(0, 1, .2)) +
     coord_cartesian(ylim = c(0, 1)) +
     labs(x = "effect size (log odds)",
 	 y = "proportion significant")
 #+END_SRC
 
-#+CAPTION: Sensitivity plot for Experiment 1; assumed effect size on the horizontal axis, roportion of simulated datasets showing a significant effect on the vertical axis.
+#+CAPTION: Sensitivity plot for Experiment 1. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
 #+LABEL: fig:exp1-sens
 #+RESULTS: fig:exp1-sens
 [[file:exp1/img/exp1-sens.pdf]]
@@ -243,7 +250,23 @@ The above results suggest little evidence for an systematic effect of /Distortio
 src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi)},
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi, 1, lower.tail = FALSE))}.
 
-How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a (post-hoc) sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. 
+How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. A sensitivity analysis gives insight into the power of the analysis over a range of effect sizes. For this analysis (which was not pre-registered), we varied the fixed effect of distortion over six steps on the log odds scale (.1 to .6, in steps of .1). For each of these parameter values, we simulated 1,000 datasets, deriving all other necessary parameters from the model estimates. Each dataset was analyzed using a linear-mixed effects model with a by-subject random intercept and a by-subject random slope for the main effect of /Distortion/. We estimated power at each effect size by calculating the proportion of significant tests (Figure\nbsp{}[[fig:exp1-sens]]).
+
+The simulations suggest that the analysis had: (1) 80% power to reject an effect of 
+src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
+src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
+src_R{as.perc(.rge_80["high"])}in the low distortion condition);
+(2) 90% power to reject an effect of 
+src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{as.perc(.rge_90["low"])} versus
+src_R{as.perc(.rge_90["high"])});
+and (3) 95% power to reject an effect of 
+src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_95["diff"])} (e.g., 
+src_R{as.perc(.rge_95["low"])} versus
+src_R{as.perc(.rge_95["high"])}).
 
 *** Speech onset latency
 
@@ -364,6 +387,7 @@ Unlike Experiment\nbsp{}1, we only coded speech onset times for appropriately-sp
   library("tidyverse")
   load("exp2/data_images/02_analyze_speech.rda")
   load("exp2/data_images/03_analyze_eyedata.rda")
+  load("exp2/data_images/04_sensitivity.rda")
   if (!dir.exists("exp2/img")) dir.create("exp2/img")  
 #+END_SRC
 
@@ -437,7 +461,63 @@ src_R{bstr(mod_mis2, "S:C")}.
 The effect of /Shift Direction/, in contrast, was significant,
 src_R{bstr(mod_mis2, "S")}.
 
-TODO: sensitivity analysis
+#+NAME: fig:exp2-sens
+#+HEADER: :results output graphics file
+#+BEGIN_SRC R :file exp2/img/exp2-sens.pdf :width 6 :height 3
+  sens <- sensitivity %>%
+    group_by(deff) %>%
+    summarize(low = mean(highdist),
+	      high = mean(lowdist),
+	      nsig = sum(p < .05),
+	      notsig = n() - nsig,
+	      psig = nsig / n())
+
+  .m1 <- fit_logit(sens)
+
+  .rge_80 <- LH_interpolate(p2eta(.8, .m1), sens)
+  .rge_90 <- LH_interpolate(p2eta(.9, .m1), sens)
+  .rge_95 <- LH_interpolate(p2eta(.95, .m1), sens)
+
+  ggplot(aes(deff), data = sens) +
+    scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    stat_function(fun = lpred, args = list(m = .m1)) +
+    geom_point(aes(deff, psig), data = sens) +
+    scale_y_continuous(breaks = seq(0, 1, .2)) +
+    coord_cartesian(ylim = c(0, 1)) +
+    labs(x = "effect size (log odds)",
+	 y = "proportion significant")
+#+END_SRC
+
+#+CAPTION: Sensitivity plot for Experiment 2. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+LABEL: fig:exp2-sens
+#+RESULTS: fig:exp2-sens
+[[file:exp2/img/exp2-sens.pdf]]
+
+Although we did find a significant effect of /Congruency/, as in Experiment\nbsp{}1, we examined whether there were significant individual differences across participants in the magnitude of the effect by testing the significance of the corresponding random slope (this analysis was not pre-registered). However, we failed to detect any differences across subjects or items. The estimated by-subject random slope of src_R{sprintf("%0.2f", d_rslp_est_s)} was not significantly different from zero, 
+src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_s)}, 
+src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}.
+The test of the by-item random slope 
+(estimate = src_R{sprintf("%0.2f", d_rslp_est_i)})
+was also not significant,
+src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_i)},
+src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_i, 1, lower.tail = FALSE))}.
+
+We also peformed a sensitivity test for the analysis of the main effect of /Congruency/, following the same procedure described for Experiment\nbsp{}1,  with the difference that the effect size range we examined was from .1 to .7. (This was also not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp2-sens]]. 
+The simulations suggest our analysis had: (1) 80% power to reject an effect of 
+src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
+src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
+src_R{as.perc(.rge_80["high"])}in the low distortion condition);
+(2) 90% power to reject an effect of 
+src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{as.perc(.rge_90["low"])} versus
+src_R{as.perc(.rge_90["high"])});
+and (3) 95% power to reject an effect of 
+src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_95["diff"])} (e.g., 
+src_R{as.perc(.rge_95["low"])} versus
+src_R{as.perc(.rge_95["high"])}).
 
 *** Speech onset latency
 
@@ -585,6 +665,7 @@ Word count for unconventional targets was analyzed using linear mixed-effects re
   library("tidyverse")
   load("exp3/data_images/01_preprocess.rda")
   load("exp3/data_images/02_analyze_speech.rda")
+  load("exp3/data_images/03_sensitivity.rda")
   if (!dir.exists("exp3/img")) dir.create("exp3/img")  
 #+END_SRC
 
@@ -733,6 +814,61 @@ Intercept & 0.54 & 0.18 & 3.01 & 0.003 \\
 \end{tabular}
 \end{table}
 #+END_EXPORT
+
+There was little evidence for the prediction that misspecification would be higher when the partner visible at test was the training partner. One question is whether participants were sensitive at all to the visible partner manipulation; perhaps speakers were sensitive, but used the information in different ways---some subjects showing greater misspecification when the visible partner matched, others showing greater misspecification when it mismatched---with these individual differences yielding no overall systematic effect. To test this, we first performed an significance test of the by-subject random slope for Visible Partner (this test was not part of pre-registration plan). The estimated by-subject random slope of 
+src_R{sprintf("%0.2f", d_rslp_est_s)} 
+was not significantly different from zero, 
+src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_s)},
+src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. (We did not test the significance of the by-item random slope because the model estimated this parameter at zero.)
+
+#+NAME: fig:exp3-sens
+#+HEADER: :results output graphics file
+#+BEGIN_SRC R :file exp3/img/exp3-sens.pdf :width 6 :height 3
+  sens <- sensitivity %>%
+    group_by(deff) %>%
+    summarize(low = mean(highdist),
+	      high = mean(lowdist),
+	      nsig = sum(p < .05),
+	      notsig = n() - nsig,
+	      psig = nsig / n())
+
+  .m1 <- fit_logit(sens)
+
+  .rge_80 <- LH_interpolate(p2eta(.8, .m1), sens)
+  .rge_90 <- LH_interpolate(p2eta(.9, .m1), sens)
+  .rge_95 <- LH_interpolate(p2eta(.95, .m1), sens)
+
+  ggplot(aes(deff), data = sens) +
+    scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    stat_function(fun = lpred, args = list(m = .m1)) +
+    geom_point(aes(deff, psig), data = sens) +
+    scale_y_continuous(breaks = seq(0, 1, .2)) +
+    coord_cartesian(ylim = c(0, 1)) +
+    labs(x = "effect size (log odds)",
+	 y = "proportion significant")
+#+END_SRC
+
+#+CAPTION: Sensitivity plot for Experiment 3. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+LABEL: fig:exp3-sens
+#+RESULTS: fig:exp3-sens
+[[file:exp3/img/exp3-sens.pdf]]
+
+We also peformed a sensitivity test for the analysis of the main effect of /Visible Partner/, following the same procedure described for Experiment\nbsp{}1, with the difference that the effect size range we examined was from .1 to .5. This was also not a pre-registered analysis. Results are shown in Figure\nbsp{}[[fig:exp3-sens]]. 
+The simulations suggest our analysis had: (1) 80% power to reject an effect of 
+src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
+src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
+src_R{as.perc(.rge_80["high"])}in the low distortion condition);
+(2) 90% power to reject an effect of 
+src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{as.perc(.rge_90["low"])} versus
+src_R{as.perc(.rge_90["high"])});
+and (3) 95% power to reject an effect of 
+src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{as.perc(.rge_95["diff"])} (e.g., 
+src_R{as.perc(.rge_95["low"])} versus
+src_R{as.perc(.rge_95["high"])}).
 
 *** Word count for unconventional targets
 

@@ -6,7 +6,7 @@
 #+NAME: report-funs
 #+BEGIN_SRC R :exports none :results silent
 
-#########################################################
+  #########################################################
   ## SOME USEFUL OBJECTS AND FUNCTIONS FOR REPORTING RESULTS
 
   library("rlang") # needed for !!
@@ -19,7 +19,7 @@
   ## APA style for reporting numbers <= 10
   nums <- function(x) {
     v <- c("one", "two", "three", "four", "five", "six", "seven",
-           "eight", "nine", "ten")
+	   "eight", "nine", "ten")
     res <- which(x == seq_along(v))
     if (length(res)) v[res] else x
   }
@@ -28,7 +28,7 @@
     if (x < 10) nums(x) else x
   }
 
-  # Wald z to p value
+					  # Wald z to p value
   z2p <- function(z, tails = 2L) {
     if (tails == 1) {
       p <- 1 - pnorm(z)
@@ -48,7 +48,7 @@
     prm <- lme4::fixef(m)[x]
     se <- sqrt(Matrix::diag(vcov(m)))[ix]
     str1 <- sprintf("\\(\\beta = %0.2f\\), \\(SE = %0.2f\\), Wald \\(z = %0.2f\\)",
-                    prm, se, prm / se)
+		    prm, se, prm / se)
     paste0(str1, ", ", z2p(prm / se, tails))
   }
 
@@ -59,8 +59,51 @@
     m <- pull(d, !!.mv)
     sd <- pull(d, !!.sd)
     sprintf(sprintf("\\(M = %s\\)%s%s \\((SD = %s)\\)",
-                    fstr, usep, units, fstr),
-            m, sd)
+		    fstr, usep, units, fstr),
+	    m, sd)
+  }
+
+  fit_logit <- function(x) {
+    x %>%
+      glm(cbind(nsig, notsig) ~ deff, data = .,
+	  family = binomial(link = "logit"))
+  }
+
+  lpred  <- function(x, m) {
+    as.numeric(predict.glm(m, newdata = tibble(deff = x), type = "response"))
+  }
+
+  p2eta <- function(p, m) {
+    ## given target p and model, figure out value of x
+    eta <- -log(1/p - 1)
+
+    ## now solve for x
+    ((eta - coef(m)[1]) / coef(m)[2])[[1]]
+  }
+
+  LH_interpolate <- function(eff, dat) {
+    ## given a (log odds) effect size, linearly interpolate response ranges
+    if (length(which(dat[["deff"]] >= eff)) == 0L) {
+      v <- c(low = dat[[nrow(dat), "low"]],
+	     high = dat[[nrow(dat), "high"]])
+    } else {
+      above <- which(dat[["deff"]] >= eff) %>% min()
+      if (length(which(dat[["deff"]] >= eff)) == 0L) {
+	v <- c(low = dat[[1, "low"]],
+	       high = dat[[1, "high"]])
+      } else {
+	below <- which(dat[["deff"]] <= eff) %>% max()
+	tdist <- abs(dat[[above, "deff"]] - dat[[below, "deff"]])
+	dist <- eff - dat[[below, "deff"]]
+	ydist_lo <- abs(dat[[below, "low"]] - dat[[above, "low"]])
+	ydist_hi <- abs(dat[[above, "high"]] - dat[[below, "high"]])
+	v <- c(low = dat[[below, "low"]] + (dist / tdist) * ydist_lo,
+	       high = dat[[below, "high"]] + (dist / tdist) * ydist_hi)
+      }
+    }
+    v <- round(v, 2)
+    v["diff"] <- v["high"] - v["low"]
+    return(v)
   }
 #+END_SRC
 

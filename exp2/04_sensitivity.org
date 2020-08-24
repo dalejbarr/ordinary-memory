@@ -135,7 +135,7 @@
 
   ## test raw logit effect size .1, .2, .3, .4, .5, .6
   ## with 1000 runs for each
-  eff_sizes <- rep(seq(.1, .6, .1), each = 1000)
+  eff_sizes <- rep(seq(.1, .7, length.out = 6), each = 1000)
 
   ## run and store as a table
   message("    Running sensitivity analysis (takes a long time)...")
