@@ -1,3 +1,4 @@
+
 #####################################################################
 ## NOTE: this script was automatically generated from the master file
 ##       03_sensitivity.org.
@@ -27,7 +28,7 @@ simulate_newdata <- function(mod, d, deff = lme4::fixef(mod)["VP"]) {
   t1 <- d %>%
     distinct(SessionID) %>%
     mutate(rint = rnorm(length(SessionID), sd = rx_int_s),
-	   rslp = rnorm(length(SessionID), sd = rx_slp_s))
+           rslp = rnorm(length(SessionID), sd = rx_slp_s))
 
   ## build table of items with random effects
   t2 <- d %>%
@@ -39,17 +40,17 @@ simulate_newdata <- function(mod, d, deff = lme4::fixef(mod)["VP"]) {
     inner_join(t1, "SessionID") %>%
     inner_join(t2, "Series", suffix = c(".s", ".i")) %>%
     mutate(eta = fx["(Intercept)"] + rint.s + rint.i +
-	     fx["SD"] * SD +
-	     (deff + rslp) * VP +
-	     fx["A"] * A +
-	     fx["SD:VP"] * SD * VP +
-	     fx["SD:A"] * SD * A +
-	     fx["VP:A"] * VP * A +
-	     fx["SD:VP:A"] * SD * VP * A,
-	   misspec = map_int(
-	     eta, ~ sample(c(1L, 0L), 1L,
-			   prob = c(1 / (1 + exp(-.x)),
-				    1 - (1 / (1 + exp(-.x))))))) %>%
+             fx["SD"] * SD +
+             (deff + rslp) * VP +
+             fx["A"] * A +
+             fx["SD:VP"] * SD * VP +
+             fx["SD:A"] * SD * A +
+             fx["VP:A"] * VP * A +
+             fx["SD:VP:A"] * SD * VP * A,
+           misspec = map_int(
+             eta, ~ sample(c(1L, 0L), 1L,
+                           prob = c(1 / (1 + exp(-.x)),
+                                    1 - (1 / (1 + exp(-.x))))))) %>%
     select(SessionID, Series, SD, VP, A, eta, misspec)
 }
 
@@ -64,10 +65,10 @@ calc_propeff <- function(d) {
 calc_p <- function(d) {
   ## fit the model and get the (one-tailed) p value
   suppressMessages({m <- lme4::glmer(misspec ~ SD * VP * A +
-				       (1 | Series) +
-				       (VP || SessionID),
-				     d, family = binomial(link = "logit"),
-				     control = lme4::glmerControl(optimizer = "bobyqa"))})
+                                       (1 | Series) +
+                                       (VP || SessionID),
+                                     d, family = binomial(link = "logit"),
+                                     control = lme4::glmerControl(optimizer = "bobyqa"))})
 
   tstat <- lme4::fixef(m)["VP"] / sqrt(lme4::vcov.merMod(m)["VP", "VP"])
   as.numeric(pnorm(tstat, lower.tail = FALSE))
@@ -78,35 +79,35 @@ calc_p <- function(d) {
 
 cdat <- main_data %>%
     mutate(Addressee = if_else(PragCon, "same", "different"),
-	   `Visible Partner` = if_else(PercCon, "same", "different")) %>%
+           `Visible Partner` = if_else(PercCon, "same", "different")) %>%
     rename(`Shift Direction` = shift_dir) %>%
   select(-PragCon, -PercCon) %>%
   mutate(VP = (`Visible Partner` == "same") -
-	   mean(`Visible Partner` == "same"),
-	 A = (Addressee == "same") -
-	   mean(Addressee == "same"),
-	 SD = (`Shift Direction` == "Singleton-Contrast") -
-	   mean(`Shift Direction` == "Singleton-Contrast"))
+           mean(`Visible Partner` == "same"),
+         A = (Addressee == "same") -
+           mean(Addressee == "same"),
+         SD = (`Shift Direction` == "Singleton-Contrast") -
+           mean(`Shift Direction` == "Singleton-Contrast"))
 
 mod_vp <- glmer(misspec ~ SD * VP * A +
-		  (VP || Series) +
-		  (VP || SessionID),
-		cdat, family = binomial(link = "logit"),
-		control = glmerControl(optimizer = "bobyqa"))
+                  (VP || Series) +
+                  (VP || SessionID),
+                cdat, family = binomial(link = "logit"),
+                control = glmerControl(optimizer = "bobyqa"))
 
 
 ## first test whether random slope of visible partner was significant
 mod_vp2 <- glmer(misspec ~ SD * VP * A +
-		   (VP || Series) +
-		   (1 | SessionID),
-		cdat, family = binomial(link = "logit"),
-		control = glmerControl(optimizer = "bobyqa"))
+                   (VP || Series) +
+                   (1 | SessionID),
+                cdat, family = binomial(link = "logit"),
+                control = glmerControl(optimizer = "bobyqa"))
 
 mod_vp3 <- glmer(misspec ~ SD * VP * A +
-		   (1 | Series) +
-		   (VP || SessionID),
-		cdat, family = binomial(link = "logit"),
-		control = glmerControl(optimizer = "bobyqa"))
+                   (1 | Series) +
+                   (VP || SessionID),
+                cdat, family = binomial(link = "logit"),
+                control = glmerControl(optimizer = "bobyqa"))
 
 ## is there evidence for significant by-subject variance in the effect
 ## of congruency?
@@ -122,12 +123,12 @@ d_rslp_chi_i <- abs(2 * logLik(mod_vp3) - 2 * logLik(mod_vp)) %>%
   as.numeric()
 
 cl <- makeCluster(if (detectCores() > 3L) {
-		    detectCores() - 2L
-		  } else {
-		    detectCores()})
+                    detectCores() - 2L
+                  } else {
+                    detectCores()})
 invisible(clusterCall(cl, function(x) {library("tidyverse")}))
 clusterExport(cl, c("simulate_newdata", "calc_propeff", "calc_p",
-		    "mod_vp3", "cdat"))
+                    "mod_vp3", "cdat"))
 
 ## test raw logit effect size .1, .2, .3, .4, .5, .6
 ## with 1000 runs for each
@@ -147,6 +148,6 @@ stopCluster(cl)
 
 message("    Writing data_images/03_sensitivity.rda...")
 save(list = c("d_rslp_est_s", "d_rslp_chi_s",
-	      "d_rslp_est_i", "d_rslp_chi_i",
-	      "sensitivity"),
+              "d_rslp_est_i", "d_rslp_chi_i",
+              "sensitivity"),
      file = "data_images/03_sensitivity.rda")
