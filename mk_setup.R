@@ -25,7 +25,7 @@ if (commandArgs(TRUE)[1] == "elsarticle") {
 } else {
   cat("#+OPTIONS: toc:nil num:nil ^:nil ':t ",
       "#+LATEX_CLASS: apa6",
-      "#+LATEX_CLASS_OPTIONS: [natbib,man,a4paper]",
+      "#+LATEX_CLASS_OPTIONS: [natbib,doc,a4paper]",
       "#+LATEX_HEADER: \\abstract{\\input{abstract.txt}}",
       "#+LATEX_HEADER: \\threeauthors{Kieran J. O'Shea}{Caitlyn R. Martin}{Dale J. Barr}",
       "#+LATEX_HEADER: \\threeaffiliations{University of Glasgow}{University of Glasgow}{University of Glasgow}",

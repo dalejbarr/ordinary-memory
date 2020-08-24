@@ -7,7 +7,7 @@ cit[1] <- "@Manual{R,"
 cit2 <- capture.output(print(citation("lme4"), style = "bibtex"))
 cit2[1] <- "@article{lme4,"
 
-cat(cit, cit2, file = ofile, sep = "\n")
+cat(cit, cit2, file = tfile, sep = "\n", append = FALSE)
 invisible(file.append(tfile, "refs.bib"))
 
 lines <- readLines(tfile)

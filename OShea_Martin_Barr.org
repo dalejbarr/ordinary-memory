@@ -247,24 +247,22 @@ src_R{bstr(mod_mis2, "S")}.
 [[file:exp1/img/exp1-sens.pdf]]
 
 The above results suggest little evidence for an systematic effect of /Distortion/; however, it is possible that participants were sensitive to the manipulation, despite not showing an overall consistent effect in the predicted duration. In other words, perhaps there are individual differences across participants in how memory affects referential description, but no consistent overall effect. To test this hypothesis, we ran a null-hypothesis significance test on the random slope parameter for /Distortion/. The estimated random slope of src_R{sprintf("%0.2f", d_rslp_est)} was not significantly different from zero, 
-src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi)},
+src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi)},
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi, 1, lower.tail = FALSE))}.
 
 How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. A sensitivity analysis gives insight into the power of the analysis over a range of effect sizes. For this analysis (which was not pre-registered), we varied the fixed effect of distortion over six steps on the log odds scale (.1 to .6, in steps of .1). For each of these parameter values, we simulated 1,000 datasets, deriving all other necessary parameters from the model estimates. Each dataset was analyzed using a linear-mixed effects model with a by-subject random intercept and a by-subject random slope for the main effect of /Distortion/. We estimated power at each effect size by calculating the proportion of significant tests (Figure\nbsp{}[[fig:exp1-sens]]).
 
 The simulations suggest that the analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to a effect on misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
 src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
 src_R{as.perc(.rge_80["high"])}in the low distortion condition);
 (2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
-src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference of about src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
 and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
-src_R{as.perc(.rge_95["diff"])} (e.g., 
+src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference of about src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).
 
@@ -494,28 +492,28 @@ src_R{bstr(mod_mis2, "S")}.
 [[file:exp2/img/exp2-sens.pdf]]
 
 Although we did find a significant effect of /Congruency/, as in Experiment\nbsp{}1, we examined whether there were significant individual differences across participants in the magnitude of the effect by testing the significance of the corresponding random slope (this analysis was not pre-registered). However, we failed to detect any differences across subjects or items. The estimated by-subject random slope of src_R{sprintf("%0.2f", d_rslp_est_s)} was not significantly different from zero, 
-src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_s)}, 
+src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_s)}, 
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}.
 The test of the by-item random slope 
 (estimate = src_R{sprintf("%0.2f", d_rslp_est_i)})
 was also not significant,
-src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_i)},
+src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_i)},
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_i, 1, lower.tail = FALSE))}.
 
-We also peformed a sensitivity test for the analysis of the main effect of /Congruency/, following the same procedure described for Experiment\nbsp{}1,  with the difference that the effect size range we examined was from .1 to .7. (This was also not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp2-sens]]. 
+We also performed a sensitivity analysis for the test of the main effect of /Congruency/, following the same procedure described for Experiment\nbsp{}1,  with the difference that the effect size range we examined was from .1 to .7. (This was also not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp2-sens]]. 
 The simulations suggest our analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to an effect on misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
 src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
-src_R{as.perc(.rge_80["high"])}in the low distortion condition);
+src_R{as.perc(.rge_80["high"])} in the low distortion condition);
 (2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
-src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference of 
+about src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
 and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
-src_R{as.perc(.rge_95["diff"])} (e.g., 
+src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference of 
+about src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).
 
@@ -818,8 +816,8 @@ Intercept & 0.54 & 0.18 & 3.01 & 0.003 \\
 There was little evidence for the prediction that misspecification would be higher when the partner visible at test was the training partner. One question is whether participants were sensitive at all to the visible partner manipulation; perhaps speakers were sensitive, but used the information in different ways---some subjects showing greater misspecification when the visible partner matched, others showing greater misspecification when it mismatched---with these individual differences yielding no overall systematic effect. To test this, we first performed an significance test of the by-subject random slope for Visible Partner (this test was not part of pre-registration plan). The estimated by-subject random slope of 
 src_R{sprintf("%0.2f", d_rslp_est_s)} 
 was not significantly different from zero, 
-src_R{sprintf("\\(\\Chi^2(1) = %0.2f\\)", d_rslp_chi_s)},
-src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. (We did not test the significance of the by-item random slope because the model estimated this parameter at zero.)
+src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_s)},
+src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. (We did not test the significance of the by-item random slope because the model estimated this parameter to be zero.)
 
 #+NAME: fig:exp3-sens
 #+HEADER: :results output graphics file
@@ -848,24 +846,24 @@ src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. 
 	 y = "proportion significant")
 #+END_SRC
 
-#+CAPTION: Sensitivity plot for Experiment 3. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+CAPTION: Sensitivity analysis for Experiment 3. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
 #+LABEL: fig:exp3-sens
 #+RESULTS: fig:exp3-sens
 [[file:exp3/img/exp3-sens.pdf]]
 
-We also peformed a sensitivity test for the analysis of the main effect of /Visible Partner/, following the same procedure described for Experiment\nbsp{}1, with the difference that the effect size range we examined was from .1 to .5. This was also not a pre-registered analysis. Results are shown in Figure\nbsp{}[[fig:exp3-sens]]. 
+We also peformed a sensitivity analysis for the test of the main effect of /Visible Partner/, following the same procedure described for Experiment\nbsp{}1, with the difference that the effect size range we examined was from .1 to .5. (This also was not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp3-sens]]. 
 The simulations suggest our analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} or smaller on the log odds scale, corresponding to a difference in misspecification rate of about
+src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to a difference in misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
 src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
 src_R{as.perc(.rge_80["high"])}in the low distortion condition);
 (2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference in response rate of 
 src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
 and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller on the log odds scale, or a difference in response rate of 
+src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference in response rate of 
 src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).
