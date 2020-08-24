@@ -1,3 +1,4 @@
+
 #####################################################################
 ## NOTE: this script was automatically generated from the master file
 ##       04_sensitivity.org.
@@ -28,26 +29,26 @@ simulate_newdata <- function(mod, d, deff = lme4::fixef(mod)["C"]) {
   t1 <- d %>%
     distinct(SessionID) %>%
     mutate(rint = rnorm(length(SessionID), sd = rx_int_s),
-	   rslp = rnorm(length(SessionID), sd = rx_slp_s))
+           rslp = rnorm(length(SessionID), sd = rx_slp_s))
 
   ## build table of items with random effects
   t2 <- d %>%
     distinct(ItemID) %>%
     mutate(rint = rnorm(length(ItemID), sd = rx_int_i),
-	   rslp = rnorm(length(ItemID), sd = rx_slp_i))
+           rslp = rnorm(length(ItemID), sd = rx_slp_i))
 
   d %>%
     select(-Misspec) %>%
     inner_join(t1, "SessionID") %>%
     inner_join(t2, "ItemID", suffix = c(".s", ".i")) %>%
     mutate(eta = fx["(Intercept)"] + rint.s + rint.i +
-	     fx["S"] * S +
-	     (deff + rslp.s + rslp.i) * C +
-	     fx["S:C"] * S * C,
-	   Misspec = map_int(
-	     eta, ~ sample(c(1L, 0L), 1L,
-			   prob = c(1 / (1 + exp(-.x)),
-				    1 - (1 / (1 + exp(-.x))))))) %>%
+             fx["S"] * S +
+             (deff + rslp.s + rslp.i) * C +
+             fx["S:C"] * S * C,
+           Misspec = map_int(
+             eta, ~ sample(c(1L, 0L), 1L,
+                           prob = c(1 / (1 + exp(-.x)),
+                                    1 - (1 / (1 + exp(-.x))))))) %>%
     select(SessionID, ItemID, S, C, Misspec)
 }
 
@@ -62,10 +63,10 @@ calc_propeff <- function(d) {
 calc_p <- function(d) {
   ## fit the model and get the (one-tailed) p value
   suppressMessages({m <- lme4::glmer(
-		      Misspec ~ S * C + (C || SessionID) + (C || ItemID),
-		      d,
-		      family = binomial(link = logit),
-		      control = lme4::glmerControl(optimizer = "bobyqa"))})
+                      Misspec ~ S * C + (C || SessionID) + (C || ItemID),
+                      d,
+                      family = binomial(link = logit),
+                      control = lme4::glmerControl(optimizer = "bobyqa"))})
 
   tstat <- lme4::fixef(m)["C"] / sqrt(lme4::vcov.merMod(m)["C", "C"])
   as.numeric(pnorm(tstat, lower.tail = FALSE))
@@ -75,9 +76,9 @@ old_obj <- load("data_images/02_analyze_speech.rda")
 
 mdat <- dat_mis %>%
   mutate(C = (congruency == "congruent") -
-	   mean(congruency == "congruent"),
-	 S = (shift_dir == "Singleton-Contrast") -
-	   mean(shift_dir == "Singleton-Contrast")) %>%
+           mean(congruency == "congruent"),
+         S = (shift_dir == "Singleton-Contrast") -
+           mean(shift_dir == "Singleton-Contrast")) %>%
   select(SessionID, ItemID, S, C, Misspec)
 
 mod_est_d1 <- glmer(
@@ -113,16 +114,16 @@ d_rslp_chi_i <- abs(2 * logLik(mod_est_d2_i) - 2 * logLik(mod_est_d1)) %>%
 ## pchisq(d_rslp_chi_i, 1L, lower.tail = FALSE)
 
 cl <- makeCluster(if (detectCores() > 3L) {
-		    detectCores() - 2L
-		  } else {
-		    detectCores()})
+                    detectCores() - 2L
+                  } else {
+                    detectCores()})
 invisible(clusterCall(cl, function(x) {library("tidyverse")}))
 clusterExport(cl, c("simulate_newdata", "calc_propeff", "calc_p",
-		    "mod_est_d1", "mdat"))
+                    "mod_est_d1", "mdat"))
 
 ## test raw logit effect size .1, .2, .3, .4, .5, .6
 ## with 1000 runs for each
-eff_sizes <- rep(seq(.1, .6, .1), each = 1000)
+eff_sizes <- rep(seq(.1, .7, length.out = 6), each = 1000)
 
 ## run and store as a table
 message("    Running sensitivity analysis (takes a long time)...")
@@ -138,6 +139,6 @@ stopCluster(cl)
 
 message("    Writing data_images/04_sensitivity.rda...")
 save(list = c("d_rslp_est_s", "d_rslp_chi_s",
-	      "d_rslp_est_i", "d_rslp_chi_i",
-	      "sensitivity"),
+              "d_rslp_est_i", "d_rslp_chi_i",
+              "sensitivity"),
      file = "data_images/04_sensitivity.rda")
