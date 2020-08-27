@@ -26,7 +26,7 @@ manuscript_els : OShea_Martin_Barr_els.pdf cleanlatex cleanimg
 
 %.R : %.org
 	@echo "--- Tangling source blocks from $<..."
-	@emacs --batch -l org $< -f org-babel-tangle 2>/dev/null
+	@emacs -q --batch -l org $< -f org-babel-tangle 2>/dev/null
 	@echo "--- Done.\n"
 
 OShea_Martin_Barr_preprint.pdf : setup_apa6  refs_R.bib abstract.txt OShea_Martin_Barr.org \
@@ -35,7 +35,7 @@ OShea_Martin_Barr_preprint.pdf : setup_apa6  refs_R.bib abstract.txt OShea_Marti
 	@mkdir -p exp2/img
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
-	@emacs --batch -l dotemacs -l org \
+	@emacs -q --batch -l dotemacs -l org \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null
@@ -50,7 +50,7 @@ OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.
 	@mkdir -p exp2/img
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
-	@emacs --batch -l dotemacs -l org \
+	@emacs -q --batch -l dotemacs -l org \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null

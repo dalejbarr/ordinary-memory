@@ -16,33 +16,39 @@
 
 # word count: 11790
 
-When planning spoken referential expressions, speakers face many potential choices about what to say and how to say it. What psychological factors govern these choices? It is generally assumed that when planning messages, speakers are beholden to the cooperative principle that underlies conversational interaction \citep{grice75}. Accordingly, speakers should formulate references that convey no more and no less information than their addressee would need to identify the referent of the expression against the background of their common ground: the set of assumptions, beliefs, and knowledge that is shared, and known to be shared with their interlocutors \citep{clarkmarshall81}. . Constructing expressions on the basis of this common ground---a process known as /audience design/ \citep{clarkmurphy82}---can help promote successful communication. #Crucially, for this process to work effectively, speakers have to accurately establish the extend of their common ground with an individual by anticipating what information the addressee already knows (Fussell & Krauss, 1992)# #When engaging in audience design speakers will therefore take into account the listener's perspective in order to sucessfully produce an utterance that the addressee is able to understand (Knutsen & LeBigot, 2012)#. However, within the cognitive demands of real-time conversation, common ground can be too uncertain or computationally demanding to estimate and track.  It would be expected, then, that speakers take advantage of certain heuristics to make reference generation more efficient.
+When planning spoken referential expressions, speakers face many potential choices about what to say and how to say it. What psychological factors govern these choices? It is generally assumed that when planning messages, speakers are beholden to the cooperative principle that underlies conversational interaction \citep{grice75}. Accordingly, speakers should formulate references that convey no more and no less information than their addressee would need to identify the referent of the expression against the background of their common ground: the set of assumptions, beliefs, and knowledge that is shared, and known to be shared with their interlocutors \citep{clarkmarshall81}. Because of the complex nature of reasoning about common ground---i.e., about what you know that I know that you know, etc.---it is assumed that interlocutors assess common ground using a set of simpler /co-presence heuristics/. For instance, interlocutors who can mutually see a vase on a table can assume the vase to be part of their common ground, based on its /physical co-presence/. It is also assumed that interlocutors keep track of things that have been said during a conversation---for instance, what objects have been mentioned and how they were described---and that these things form part of their common ground by virtue of their /linguistic co-presence/. Finally, they can assume certain information to be part of their common ground based on their mutual belonging to a common community (e.g., sports club, internet group, family, etc.) through the heuristic of /community membership/ \citep{clarkmarshall81}.
 
-One such heuristic is to plan utterances relying only on information salient to the self---i.e., without first checking whether it forms part of the common ground---and to allocate cognitive resources to monitoring and adjusting the contextual appropriateness of the expression under construction \citep{hortonkeysar96}.  For instance, a speaker might generate a plan to refer to a candle as /the small candle/ to distinguish it from a larger one she knows about, or because she is relying on a referential precedent (or `conceptual pact') established earlier in the discourse \citep{brennanclark96}.  She may rely on the knowledge of the larger circle or the existing precedent simply because they are available during the message generation process \citep{DellBrown1991}, not necessarily because they are part of common ground with the addressee.  Using common ground may require considerable time and cognitive resources \citep{hortonkeysar96,rossnagel00}, which can be in short supply in real-time conversation. This /perspective adjustment/ strategy of egocentric planning while using common ground during self-monitoring \citep{hortonkeysar96} compromises accuracy for efficiency, but may be effective under the assumption that interaction brings interlocutors' perspectives into alignment \citep{pickeringgarrod04}. Moreover, relying on egocentrically available information may not be a huge risk since communicative situations allow for the collaborative detection and resolution of miscommunication \citep{fussellkrauss92}.  
+Constructing expressions on the basis of this common ground---a process known as /audience design/ \citep{clarkmurphy82}---can help promote successful communication. However, within the cognitive demands of real-time conversation, common ground can be too uncertain or computationally demanding to estimate and track.  It would be expected, then, that speakers use certain shortcuts to make reference generation more efficient.
 
-Supporting this view, egocentrically-available information reliably impacts production on a variety of levels, including for example reference generation \citep{wardlowlanegroismanferreira06}, syntax \citep{ferreiradell00}, and the use of pronouns \citep{FukumuraVanGompel2012}. But what exactly is this `egocentric' information, how does it become accessible in the first place? In theoretical discussions, egocentric information is often defined negatively---as whatever cannot reasonably be considered as part of common ground. Unpacking what representations and processes are responsible for making information available in a timely fashion should be an important goal for any theory of language production.
+One such shortcut is to plan utterances relying only on information salient to the self---i.e., without first checking whether it forms part of the common ground---and to allocate cognitive resources to monitoring and adjusting the contextual appropriateness of the expression under construction \citep{hortonkeysar96}.  For instance, a speaker might generate a plan to refer to a candle as /the small candle/ to distinguish it from a larger one she knows about, or because that is the way that she referred to this object previously in the discourse, making this description salient. She may rely on the knowledge of the larger circle or the existing precedent simply because they are available during the message generation process \citep{DellBrown1991}, not necessarily because they are part of common ground with the addressee.  Using common ground may require considerable time and cognitive resources \citep{hortonkeysar96,rossnagel00}, which can be in short supply in real-time conversation. This /perspective adjustment/ strategy of egocentric planning while using common ground during self-monitoring \citep{hortonkeysar96} compromises accuracy for efficiency, but may be effective under the assumption that interaction brings interlocutors' perspectives into alignment \citep{pickeringgarrod04}. Moreover, relying on egocentrically available information may not be a huge risk since communicative situations allow for the collaborative detection and resolution of miscommunication \citep{fussellkrauss92}.  
 
-One appealing possibility is that availability is determined by ordinary processes of memory encoding and retrieval.  This /ordinary memory view/ \citep{hortongerrig05} assumes that everyday memory processes can serve as a proxy for common ground, activating potentially relevant information naturally and effortlessly through cue-driven, parallel search processes often characterized in terms of ``resonance'' \citep[e.g.,][]{hintzman86}.  
+Supporting this view, egocentrically-available information reliably impacts production on a variety of levels, including for example reference generation \citep{wardlowlanegroismanferreira06}, syntax \citep{ferreiradell00}, and the use of pronouns \citep{FukumuraVanGompel2012}. But what exactly is this `egocentric' information, how does it become accessible in the first place?  Unpacking what representations and processes are responsible for making information available in a timely fashion should be an important goal for any theory of language production.
+
+There are likely to be many different kinds of factors that influence the availability of information during reference generation. One appealing possibility is that availability is partially determined by ordinary processes of memory encoding and retrieval.  This /ordinary memory view/ \citep{hortongerrig05} assumes that everyday memory processes can serve as a proxy for common ground, activating potentially relevant information naturally and effortlessly through cue-driven, parallel search processes often characterized in terms of ``resonance'' \citep[e.g.,][]{hintzman86}. 
 
 Consider a speaker who wishes to refer to referent \(R\) (e.g., a candle) in context \(C\) (e.g., the speaker's living room, while speaking to a friend) and finds it necessary to use expression \(E\) (e.g., "the small candle") which includes the modifier `small' because of features of the context (e.g., the presence of a larger candle).  Models of expertise and skill development \citep{logan88,loganetherton94} suggest that constructing an expression for \(R\) will at first be done `algorithmically'---that is, through deliberative mechanisms involved in everyday problem solving. The cognitive operations and representations involved in this initial assembly become stored in memory as an episodic trace: a /processing episode/ \citep{logan88}. With repetition, the process of generating an expression will become increasingly automatized---specifically, the production process will increasingly rely on the wholesale retrieval of expression \(E\) from memory on the basis of \(R\) and \(C\), which act as retrieval cues. To the extent speakers attend to features of the communicative context during this process (e.g., the environment and audience), these features will become part of the stored processing episode that link the problem situation (i.e., referring to \(R\) in context \(C\)) to the output solution (the expression \(E\)), with each repetition strengthening these links.
 
-Such a view of message generation takes advantage of the key memory principle of /encoding specificity/: stored information becomes available in proportion to the the overlap between encoding and retrieval environments \citep{tulvingthomson73}.  The retrieval process may activate various candidate expressions that the speaker has used for the same or similar targets in the past (e.g., ``the candle'', ``the red candle'', ``the small candle'').  Following this principle, the extent to which various candidates are activated will depend on the similarity between the current communicative situation and past situations in which these expressions have been used, providing a kind of automatic route for speakers to produce contextually appropriate references. 
+Such a view of message generation takes advantage of the key memory principle of /encoding specificity/: stored information becomes available in proportion to the overlap between encoding and retrieval environments \citep{tulvingthomson73}.  The retrieval process may activate various candidate expressions that the speaker has used for the same or similar targets in the past (e.g., ``the candle'', ``the red candle'', ``the small candle'').  Following this principle, the extent to which various candidates are activated will depend on the similarity between the current communicative situation and past situations in which these expressions have been used, providing a kind of automatic route for speakers to produce contextually appropriate references. 
 
 Insomuch as similar situations require similar referential expressions, ordinary memory processes may offer a shortcut to successful communication, enacting a process referred to as /attribute substitution/ in the judgment and decision-making literature \citep{KahnemanFrederick2002}.  Attribute substitution is likely to occur whenever a /target attribute/ that is needed for a judgment is effortful to compute and there is a /heuristic attribute/ available that is correlated with the target attribute, allowing the decision maker to use the latter as a proxy for the former.  In the case of reference generation, prior theorizing suggests that the strength of a memory signal associated with a particular referring expression could be a heuristic attribute that can be substituted for the target attribute of common ground.  When the speaker attends to a referent with a referential goal, various candidate expressions would become available through memory resonance processes, and the speaker could assess their relative appropriateness in the context through their relative activation strengths \citep{GannBarr2014}.  Similarly, \citet{horton_gerrig_2016} propose that during early stages of utterance generation, retrieval strength could provide a primitive form of /commonality assessment/, with strength of activation providing a surrogate for more explicit computation of common ground.
 
 To the extent that memory associations correlate with common ground, ordinary memory processes could make communicatively relevant information available at minimal cognitive cost.  A key prediction of the memory-based view is that conversational partners themselves can act as memory cues, such that the perceptual experiences arising through interactions with a given partner (e.g., the quality of their voice, their appearance, or interaction style) become associated with information that has been shared during those interactions, such that each encounter with the interaction partner re-instantiates shared information.
 
-Although the ordinary memory view has been influential, there is currently little understanding of how, and how much, ordinary memory processes impact information selection during reference generation. Much of the existing support for the view is indirect: for instance, \cite{hortongerrig05} demonstrated that factors affecting memory encoding also impact reference generation, implicating memory as an underlying mechanism. In a picture naming study, speakers were faster to name pictures when speaking to the same partner than when speaking to a different partner \citep{horton07}. This suggests that speakers not only associated previously-produced descriptions with pictures, but also with the prevailing context, including information about the identity of the addressee. However, a later replication attempt called this finding into question \citep{brown-schmidt_horton_2014}. But even assuming the original effect is real, showing enhancement of a performance aspect of production (speech onset time) would fall short of supporting the most important claim of the ordinary memory account for production: that ordinary memory processes can stand in for common ground in the determination of the informational content of an expression.
+Although the ordinary memory view has been influential, there is currently little understanding of how, and how much, ordinary memory processes impact information selection during reference generation. Much of the existing support for the view is indirect: for instance, \cite{hortongerrig05} demonstrated that factors affecting memory encoding also impact reference generation, implicating memory as an underlying mechanism. In a picture naming study, speakers were faster to name pictures when speaking to the same partner than when speaking to a different partner \citep{horton07}. This suggests that speakers not only associated previously-produced descriptions with pictures, but also with the prevailing context, including information about the identity of the addressee. However, a later replication attempt called this finding into question \citep{brown-schmidt_horton_2014}. 
+
+TODO describe the Ahn & Brown-Schmidt
+
+But even assuming the original effect is real, showing enhancement of a performance aspect of production (speech onset time) would fall short of supporting the most important claim of the ordinary memory account for production: that ordinary memory processes can stand in for common ground in the determination of the informational content of an expression.
 
 Ordinary memory can be an effective proxy for common ground for message generation only if two conditions are met: (1) people retain detailed information from previous referring episodes, and (2) these detailed memory representations are accessible to, and taken into account during, the information selection process. The first assumption is well-supported by a large priming literature indicating that people do retain detailed information from past episodes that can influence future behavior, even after long delays \citep{tulving_schachter_1990}.  However, it is possible that these types of priming processes operate somewhat independently of message planning, influencing aspects of performance (such as speech onset latency) but wielding little or no impact on the selection of information.  Thus, it is critical to assess not only the presence of these largely implicit factors, but also to measure their impact on the informational content of speakers' references. These are the main goals of the present set of studies.
 
 ** Overview of Experiments 1--3
 
-Following work by \cite{brennanclark96} and \cite{GannBarr2014}, the logic of the current investigation was to entrain speakers on a referential expression \(E\) for referent \(R\) in training context \(C\), and then to measure aspects of production in a test context \(C'\) that required a different expression, \(E'\). For example, in the training context a speaker might refer to a particular \(R\) using expression \(E\), ``the small candle'', to distinguish it from another larger candle in the referential array. Later this same candle would appear in a test context \(C'\) where the larger candle was absent.  When speakers in \(C'\) call the referent ``the small candle'' (\(E\)) instead of simply ``the candle'' (\(E'\)) they do so because they are relying on memory instead of the information available in the display. Because we are interested in memory effects, the misspecification rate in \(C'\) provides the critical data for our study.
+Following work by \cite{brennanclark96} and \cite{GannBarr2014}, the logic of the current investigation was to entrain speakers on a referential expression \(E\) for referent \(R\) in training context \(C\), and then to measure aspects of production in a test context \(C'\) that required a different expression, \(E'\). For example, in the training context a speaker might refer to a particular \(R\) using expression \(E\), ``the small candle'', to distinguish it from another larger candle in the referential array. To establish and strengthen memory associations, during a training phase, they would entrain on describing \(R\) using \(E\) multiple times in context \(C\) (or a context similar to it). To avoid direct repetition across trials, these entrainment trials were interleaved with entrainment trials for other referents. Later this same candle would appear in a test context \(C'\) where the larger candle was absent.  When speakers in \(C'\) call the referent ``the small candle'' (\(E\)) instead of simply ``the candle'' (\(E'\)) they do so because they are relying on memory instead of the information available in the display. Because we are interested in memory effects, the misspecification rate in \(C'\) provides the critical data for our study.
 
 To obtain direct evidence for the ordinary memory view, our study goes beyond previous studies by varying not only the informational requirements from \(C\) to \(C'\), but also perceptual characteristics that could affect memory retrieval independently of common ground. To the extent ordinary memory processes influence information selection, speakers should be increasingly likely to retrieve \(E\) in the test context \(C'\) as a direct function of the perceptual similarity between \(C'\) and the training context \(C\), leading in turn to a higher misspecification rate. This key prediction of the ordinary memory view falls out of the encoding specificity principle \citep{tulvingthomson73}: similarity between encoding and retrieval contexts facilitates retrieval. 
 
-To test this prediction, we used the following basic paradigm. Across three experiments, speakers and addressees sat at separate computer screens and engaged in referential communication about shared images.  This made it possible to change features of the speaker's display between training and test independently of the addressee's display. In the first two experiments, we varied the similarity in the the physical arrangement of images between training and test.  In the context of these experiments, the position of a referent on the display was communicatively irrelevant, since speakers believed that listeners viewed a different arrangement of the same objects. In both of these experiments, in addition to recording speakers' descriptions, we also measured their implicit memories for the training displays by tracking eye movements at test. While the implicit measures suggest retention of training display information, there was little evidence for any impact of these implicit memories on speakers' tendency to re-use the descriptions acquired during training.
+To test this prediction, we used the following basic paradigm. Across three experiments, speakers and addressees sat at separate computer screens and engaged in referential communication about shared images.  This made it possible to change features of the speaker's display between training and test independently of the addressee's display. In the first two experiments, we varied the similarity in the physical arrangement of images between training and test.  In the context of these experiments, the position of a referent on the display was communicatively irrelevant, since speakers believed that listeners viewed a different arrangement of the same objects. In both of these experiments, in addition to recording speakers' descriptions, we also measured their implicit memories for the training displays by tracking eye movements at test. While the implicit measures suggest retention of training display information, there was little evidence for any impact of these implicit memories on speakers' tendency to re-use the descriptions acquired during training.
 
 In the third experiment, speakers spoke to two separate addressees over a video link, which allowed us to manipulate which partner appeared on the screen independently from which partner they were actually speaking to. On certain test trials, speakers viewed a video feed of a partner to whom they had been speaking during training, although they were aware that they were in fact speaking to an addressee who remained off-screen. By independently manipulating who the speaker saw from who they were actually speaking to, we directly tested the idea that partners can serve as a memory cue during message generation. We also independently measured whether speakers kept track of common ground. Although speakers' descriptions were influenced by the identity of the addressee, there was little evidence that the partner they looked at influenced the content of their speech.
 
@@ -56,9 +62,9 @@ file:figs/Exp1.png
 
 In Experiment 1, speakers referred to capital letters of the alphabet in displays containing multiple distractor letters varying in size and color (Figure\nbsp{}[[fig:exp1-displays]]). Following previous experiments \citep{brennanclark96,GannBarr2014}, we induced referential overspecification using /training/ and /test/ trials with different informational requirements. For example, during training, a speaker might refer to the letter `W' as ``the large W'' to distinguish it from a smaller-sized `W' in the same array. In the corresponding test trial, the smaller /competitor/ W would be replaced by a /foil/ letter---a letter with a different identity but that was visually similar to W (e.g., Y) and that also had the same color and size as the competitor (as shown in Figure\nbsp{}[[fig:exp1-displays]]). For all targets in the experiment, size was the only dimension distinguishing the target from the competitor.
 
-We refer to this condition, where the target (e.g., `W') appeared in training as part of a contrast including a smaller `W' and as a singleton on the test trial, as the  /Contrast-Singleton/ condition. To the extent speakers rely on their memory of the training trials, they should overspecify the target at test. Also---and, departing from previous experiments---we included a /Singleton-Contrast/ condition intended to induce speakers to /underspecify/ referents. In this condition, the target letter appeared as a singleton during training (i.e., with the foil) leading speakers to entrain on the base noun (``the W''), while at test the same target would appear as part of a size contrast with a letter of the same category. If speakers continued using the base description at test, they would provide too little information for the listener to identify the referent.  Together, these two conditions formed the levels of a single within-participant factor, /Shift Direction/.
+We refer to this condition, where the target (e.g., `W') appeared in training as part of a contrast including a smaller `W' and as a singleton on the test trial, as the  /Contrast-Singleton/ condition. To the extent speakers rely on their memory of the training trials, they should overspecify the target at test. Also---and, departing from previous experiments---we included a /Singleton-Contrast/ condition intended to induce speakers to /underspecify/ referents. Including this condition made the task less repetitive and predictable. In this condition, the target letter appeared as a singleton during training (i.e., with the foil) leading speakers to entrain on the base noun (``the W''), while at test the same target would appear as part of a size contrast with a letter of the same category. If speakers continued using the base description at test, they would provide too little information for the listener to identify the referent.  Together, these two conditions formed the levels of a single within-participant factor, /Shift Direction/.  Previous research has claimed that speakers are more likely to overspecify than underspecify referents, and even that providing redundant information may sometimes be helpful for listeners \cite{nadigsedivy02}; however, other evidence suggests that unnecessary pre-nominal modifiers may impair listener's comprehension \cite{EngelhardtDemiralFerreira2011}. Although testing these claims was not a main goal of our study, it provides a useful opportunity to clarify some of the issues behind over- versus under-specification.
 
-#+CAPTION: Example prototype with six distortion patterns in each of the two conditions, Experiment 1.
+#+CAPTION: Example prototype with six distortion patterns in each of the two Distortion conditions, Experiment 1. In the High Distortion condition, there was relatively more variability in the letter position (and color) across training patterns; for instance, note that the letter D moves around more and changes color more often.
 #+NAME: fig:exp1-distortions
 [[file:figs/Exp1_HvL.png]]
 
@@ -76,7 +82,7 @@ A link to the pre-registration for this experiment can be found in the OSF repos
 
 We collected data from a a total of 47 participants, with data from 11 excluded for reasons specified below, leaving 36 participants included in the analysis. The participants were 24 women and 12 men. The sample size of 36 was determined in advance, through a power analysis based on a small pilot study (80% power for the effect observed in the pilot). All participants were recruited from the University of Glasgow campus and were either paid £6 or received course credit.
 
-From our pilot study, we were concerned that some speakers would opt for a strategy of overdescription---that is, always using a size modifier even when there was not a competitor letter in the display. The problem with this behaviour is that on test trials in the /Singleton-Contrast/ condition, speakers could simply continue using the modified description, which would then spuriously appear to be appropriately specified. We pre-registered our intent to exclude any participants who inappropriately used size modifiers on more than half of the the final training trials for each sequence in the /Singleton-Contrast/ level. This resulted in the exclusion of ten participants. One additional participant was replaced due to a problem that we did not anticipate in our pre-registration protocol. This speaker used excessively long descriptions on each trial, seeming to have misconstrued the task as one of providing fine-grained description rather than providing sufficient information for the experimenter to locate the target.
+From our pilot study, we were concerned that some speakers would opt for a strategy of overdescription---that is, always using a size modifier even when there was not a competitor letter in the display. The problem with this behaviour is that on test trials in the /Singleton-Contrast/ condition, speakers could simply continue using the modified description, which would then spuriously appear to be appropriately specified. We pre-registered our intent to exclude any participants who inappropriately used size modifiers on more than half of the final training trials for each sequence in the /Singleton-Contrast/ level. This resulted in the exclusion of ten participants. One additional participant was replaced due to a problem that we did not anticipate in our pre-registration protocol. This speaker used excessively long descriptions on each trial, seeming to have misconstrued the task as one of providing fine-grained description rather than providing sufficient information for the experimenter to locate the target.
 
 Subjects gave written informed consent before beginning the experiment and were fully debriefed after the experiment had finished. Our procedures fully complied with the ethical code of conduct of the British Psychological Association.
 
@@ -120,7 +126,7 @@ Our analysis focused on three categories of measurements: (1) speech content; in
 
 For each of the 48 sequences for each speaker, we transcribed and coded the audio recordings for two trials: (1) the last trial of the training sequence; and (2) the test trial. The last training trial was needed in order to provide baseline data for the speech onset latency in the test trial, and to identify test trials to be excluded (see Results and pre-registration document).
 
-We coded whether or not a size modifier was used by the speaker, as shown in Table\nbsp{}[[tab:speechcodes]].  Misspecifications were determined from these codes as follows. In the /Singleton-Contrast/ condition, which required a modifier, the codes /NO/, /AS/, and /AO/ were counted as misspecifications. In the /Contrast-Singleton/ condition, where a modifier was not required, all codes other than /NO/ were counted as misspecifications.
+For misspecification rate, we coded whether or not a size modifier was used by the speaker in the test trial (Table\nbsp{}[[tab:speechcodes]]).  Misspecifications were determined from these codes as follows. In the /Singleton-Contrast/ condition, which required a modifier, the codes /NO/, /AS/, and /AO/ were counted as misspecifications. In the /Contrast-Singleton/ condition, where a modifier was not required, all codes other than /NO/ were counted as misspecifications.
 
 #+NAME: tab:speechcodes
 #+CAPTION: Coding of speech utterance types.
@@ -186,7 +192,7 @@ The 36 participants included in the analysis completed a total of src_R{n_obs + 
 #+BEGIN_SRC R :exports results :results verbatim export latex
   xtable::xtable(coding_tbl,
 		 align = "lllrrrrrr",
-		 caption = "Distribution of utterance types across condition, Experiment 1.",
+		 caption = "Distribution of utterance types across condition, Experiment 1. The last three columns of the table were always counted as misspecifications; for the Contrast-Singleton condition, 'pre-' or 'post-modification' were additionally counted as misspecification; for the Singleton-Contrast condition, only the 'no modifier' category was counted in addition.",
 		 label = "tbl:exp1-utt-dist") %>%
     print(include.rownames = FALSE,
           caption.placement = "top")
@@ -212,7 +218,7 @@ src_R{bstr(mod_mis2, "D", 1L)}.
 There was also little evidence for an interaction between /Shift Direction/ and /Distortion/, 
 src_R{bstr(mod_mis2, "S:D")}.
 The effect of /Shift Direction/, in contrast, was significant,
-src_R{bstr(mod_mis2, "S")}.
+src_R{bstr(mod_mis2, "S")}, with a higher rate of misspecification in the Singleton-Contrast condition (TODO XX% vs YY%). This implies that speakers were more likely to underspecify targets (e.g., calling the smaller of two Ws `the W') than to overspecify them (e.g., calling the lone W `the small W').
 
 #+NAME: fig:exp1-sens
 #+HEADER: :results output graphics file
@@ -241,28 +247,28 @@ src_R{bstr(mod_mis2, "S")}.
 	 y = "proportion significant")
 #+END_SRC
 
-#+CAPTION: Sensitivity plot for Experiment 1. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+CAPTION: Sensitivity analysis for Experiment 1. The points are the proportion of significant tests at each of the six effect sizes examined; the line is a fit from a logistic regression model to allow smooth interpolation.
 #+LABEL: fig:exp1-sens
 #+RESULTS: fig:exp1-sens
 [[file:exp1/img/exp1-sens.pdf]]
 
-The above results suggest little evidence for an systematic effect of /Distortion/; however, it is possible that participants were sensitive to the manipulation, despite not showing an overall consistent effect in the predicted duration. In other words, perhaps there are individual differences across participants in how memory affects referential description, but no consistent overall effect. To test this hypothesis, we ran a null-hypothesis significance test on the random slope parameter for /Distortion/. The estimated random slope of src_R{sprintf("%0.2f", d_rslp_est)} was not significantly different from zero, 
+The above results suggest little evidence for a systematic effect of /Distortion/; however, it is possible that participants were sensitive to the manipulation, despite not showing an overall consistent effect in the predicted duration. In other words, perhaps there are individual differences across participants in how memory affects referential description, but no consistent overall effect. To test this hypothesis, we ran a null-hypothesis significance test on the random slope parameter for /Distortion/. The estimated random slope of src_R{sprintf("%0.2f", d_rslp_est)} logits was not significantly different from zero, 
 src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi)},
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi, 1, lower.tail = FALSE))}.
 
-How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. A sensitivity analysis gives insight into the power of the analysis over a range of effect sizes. For this analysis (which was not pre-registered), we varied the fixed effect of distortion over six steps on the log odds scale (.1 to .6, in steps of .1). For each of these parameter values, we simulated 1,000 datasets, deriving all other necessary parameters from the model estimates. Each dataset was analyzed using a linear-mixed effects model with a by-subject random intercept and a by-subject random slope for the main effect of /Distortion/. We estimated power at each effect size by calculating the proportion of significant tests (Figure\nbsp{}[[fig:exp1-sens]]).
+How sensitive was our experiment to rejecting a null effect of the critical /Distortion/ variable? To address this question, we ran a sensitivity analysis based on the parameter estimates obtained from the linear mixed-effects analysis. A sensitivity analysis gives insight into the power of a null-hypothesis test over a range of effect sizes. For this analysis (which was not pre-registered), we varied the fixed effect of distortion over six steps on the logit scale (.1 to .6, in steps of .1). For each of these parameter values, we simulated 1,000 datasets, deriving all other necessary parameters from the model estimates. Each dataset was analyzed using a linear-mixed effects model with a by-subject random intercept and a by-subject random slope for the main effect of /Distortion/. We estimated power at each effect size by calculating the proportion of significant tests (Figure\nbsp{}[[fig:exp1-sens]]).
 
-The simulations suggest that the analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to a effect on misspecification rate of about
+The sensitivity analysis suggests that the test of the main effect of /Distortion/ had: (1) 80% power to detect a significant effect of at least 
+src_R{round(p2eta(.8, .m1), 2)} logits, corresponding to a effect on misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
-src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
-src_R{as.perc(.rge_80["high"])}in the low distortion condition);
-(2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference of about src_R{as.perc(.rge_90["diff"])} (e.g., 
+src_R{as.perc(.rge_80["low"])} in the high distortion condition versus 
+src_R{as.perc(.rge_80["high"])} in the low distortion condition);
+(2) 90% power to detect an effect of at least
+src_R{round(p2eta(.9, .m1), 2)} logits, or a difference of about src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
-and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference of about src_R{as.perc(.rge_95["diff"])} (e.g., 
+and (3) 95% power to detect an effect of at least
+src_R{round(p2eta(.95, .m1), 2)} logits, or a difference of about src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).
 
@@ -327,13 +333,15 @@ src_R{bstr(mod_pre2, "D", 2L)}.
    :header-args:R: :session *R:exp2* :exports results :results value
    :END:
 
-Although the high misspecification rate in Experiment\nbsp{}1 unequivocally demonstrates the involvement of memory processes, the non-verbal eye gaze measurements suggest that the main manipulation may have been too weak. Experiment\nbsp{}2 included several improvements to increase training-test similarity and strengthen the memory associations with the target descriptions.
+Speakers reliably misspecified referents in Experiment\nbsp{}1, which unequivocally demonstrates the involvement of memory processes---it would be unlikely for a speaker to call an average-sized lone W `the small W'---in the absence of the encoding experience from the training trials where it appeared with a larger one. However, the non-verbal eye gaze measurements suggest that the main manipulation may have been too weak. Experiment\nbsp{}2 included several improvements to increase training-test similarity and strengthen the memory associations with the target descriptions.
 
 #+CAPTION: Example training and test displays, Experiment 2. The target was indicated to the speaker by a green square surrounding the image.
 #+NAME: fig:exp2-overview
 [[file:figs/Exp2_overview.png]]
 
-It is possible that memory effects in Experiment\nbsp{}1 were obscured by the high similarity among memory representations across stimulus items. All of the target items were letters of the alphabet, and the only type of modification ever required was a size modification (e.g., "the small W"). This would have created high overlap among memory representations that could have led to interference during retrieval. We sought to minimize interference using variety of everyday objects as targets and competitors in Experiment\nbsp{}2 (Figure\nbsp{}[[fig:exp2-overview]]), similar to the type of stimuli used in \cite{GannBarr2014}. For each pair, the target was always a very typical member of the category (moreso than the competitor), such that when described in a context by itself there would be a strong tendency to use a basic level term (e.g., the candle, the apple, the car) \citep{roschetal76}. Competitors were chosen so as to elicit target modifiers that would be very unlikely to occur in the absence of the target. For the candle example, the competitor was a highly similar half-melted candle, such that a typical description of the target would be "the unmelted candle."  We chose foil objects that were visually similar to the competitor but from a different category of object. For a full list of target-competitor-foil triplets, see the supplementary materials in the data repository.
+It is possible that memory effects in Experiment\nbsp{}1 were obscured by the high similarity among memory representations across stimulus items. All of the target items were letters of the alphabet, and the only type of modification ever required was a size modification (e.g., "the small W"). This would have created high overlap among memory representations that could have led to interference during retrieval.  Another potential problem with Experiment\nbsp{}1 is that entraining on gradable adjectives such as "small" or "large" may have been ineffective for memory encoding since the meanings of these words are so context dependent. 
+
+We addressed these limitations using a variety of everyday objects as targets and competitors in Experiment\nbsp{}2 (Figure\nbsp{}[[fig:exp2-overview]]), similar to the type of stimuli used in \cite{GannBarr2014}. For each pair, the target was always a very typical member of the category (moreso than the competitor), such that when described in a context by itself there would be a strong tendency to use a basic level term (e.g., the candle, the apple, the car) \citep{roschetal76}. Competitors were chosen so as to elicit target modifiers that would be very unlikely to occur in the absence of the target. For the candle example, the competitor was a highly similar half-melted candle, such that a typical description of the target would be "the unmelted candle."  We chose foil objects that were visually similar to the competitor but from a different category of object. For a full list of target-competitor-foil triplets, see the supplementary materials in the data repository.
 
 The above manipulation also addresses an additional weakness of Experiment\nbsp{}1, which was the high rate of data loss due to speakers who opted for a strategy of always including a size modifier, whether or not it was needed. In this experiment, speakers would need to focus on different dimensions for each category of object, which was intended to discourage this strategy and reduce data loss.
 
@@ -477,7 +485,7 @@ src_R{bstr(mod_mis2, "S")}.
   .rge_95 <- LH_interpolate(p2eta(.95, .m1), sens)
 
   ggplot(aes(deff), data = sens) +
-    scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    scale_x_continuous(breaks = seq(.1, .7, length.out = 6)) +
     stat_function(fun = lpred, args = list(m = .m1)) +
     geom_point(aes(deff, psig), data = sens) +
     scale_y_continuous(breaks = seq(0, 1, .2)) +
@@ -486,12 +494,12 @@ src_R{bstr(mod_mis2, "S")}.
 	 y = "proportion significant")
 #+END_SRC
 
-#+CAPTION: Sensitivity plot for Experiment 2. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+CAPTION: Sensitivity analysis for Experiment 2. The points are the proportion of significant tests at each of the six effect sizes examined; the line is a fit from a logistic regression model to allow smooth interpolation.
 #+LABEL: fig:exp2-sens
 #+RESULTS: fig:exp2-sens
 [[file:exp2/img/exp2-sens.pdf]]
 
-Although we did find a significant effect of /Congruency/, as in Experiment\nbsp{}1, we examined whether there were significant individual differences across participants in the magnitude of the effect by testing the significance of the corresponding random slope (this analysis was not pre-registered). However, we failed to detect any differences across subjects or items. The estimated by-subject random slope of src_R{sprintf("%0.2f", d_rslp_est_s)} was not significantly different from zero, 
+Following up on this significant effect of /Congruency/, we also examined whether there were significant individual differences across participants in the magnitude of the effect by testing the significance of the corresponding random slope (this analysis was not pre-registered). However, we failed to detect any differences across subjects or items. The estimated by-subject random slope of src_R{sprintf("%0.2f", d_rslp_est_s)} was not significantly different from zero, 
 src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_s)}, 
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}.
 The test of the by-item random slope 
@@ -500,19 +508,19 @@ was also not significant,
 src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_i)},
 src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_i, 1, lower.tail = FALSE))}.
 
-We also performed a sensitivity analysis for the test of the main effect of /Congruency/, following the same procedure described for Experiment\nbsp{}1,  with the difference that the effect size range we examined was from .1 to .7. (This was also not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp2-sens]]. 
-The simulations suggest our analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to an effect on misspecification rate of about
+We also performed a sensitivity analysis for the test of the main effect of /Congruency/, following the same procedure described for Experiment\nbsp{}1,  with the difference that the effect size range was from .1 to .7 logits. (This analysis was also not pre-registered.) Results are shown in Figure\nbsp{}[[fig:exp2-sens]]. 
+The sensitivity analysis suggests our test of the main effect of /Congruency/ had: (1) 80% power to detect an effect of at least 
+src_R{round(p2eta(.8, .m1), 2)} logits, corresponding to an effect on misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
-src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
-src_R{as.perc(.rge_80["high"])} in the low distortion condition);
-(2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference of 
+src_R{as.perc(.rge_80["low"])} in the incongruent condition versus
+src_R{as.perc(.rge_80["high"])} in the congruent condition);
+(2) 90% power to detect an effect of at least 
+src_R{round(p2eta(.9, .m1), 2)} logits, or a difference of 
 about src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
-and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference of 
+and (3) 95% power to detect an effect of at least 
+src_R{round(p2eta(.95, .m1), 2)} logits, or a difference of 
 about src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).
@@ -559,7 +567,7 @@ In contrast to Experiment\nbsp{}1, a plot of the probability of eye gaze on the 
 Unlike the previous experiment, the main prediction did receive some statistical support: speakers relied on remembered descriptions significantly more often when the arrangement of the test display was more similar to the arrangement at training.  However, the effect of similarity was small, corresponding to about a 
 src_R{((marg_dist %>% pull(mis_rate) %>% pluck(1)) -
       (marg_dist %>% pull(mis_rate) %>% pluck(2))) %>% as.perc()}
-difference that only barely reached significance. In contrast, the differences in eye movements were quite strong: for instance, the rate of fixating on the target 500\nbsp{}ms after onset was about 50% in the /Incongruent/ condition versus 30% in the /Congruent/ condition. So although perceptual aspects of the conversational situation are clearly stored and affect processing, these aspects may only have very weak effects on speech content.
+difference. In contrast, the differences in eye movements were quite strong: for instance, the rate of fixating on the target 500\nbsp{}ms after onset was about 50% in the /Incongruent/ condition versus 30% in the /Congruent/ condition. So although perceptual aspects of the conversational situation are clearly stored and affect processing, these aspects may only have very weak effects on speech content.
 
 One notable difference from Experiment\nbsp{}1 was the very high overall misspecificaton rate, which was about 
 src_R{main_data %>% summarize(m = mean(Misspec, na.rm = TRUE)) %>% as.perc()}, compared to about 
@@ -630,9 +638,15 @@ In sum, there were 384 trials in total for each experimental session: 240 traini
 
 *** Procedure
 
-Upon arrival each participant was given an instruction sheet detailing the task and their role during the experiment (see OSF repository for details). The two partners were set up in an adjoining room to the speaker and faced a single computer monitor. 
+Upon arrival each participant was given an instruction sheet detailing the task and their role during the experiment. The instructions stated:
 
-The partners were seated in rolling chairs, which allowed them to easily slide in front of or away from the camera, as required. The floor of the lab room was marked with tape to indicate where chairs needed to be positioned to be on or off camera. To minimize confusion for the speaker, each partner wore a colored tag that corresponded to the color of a sticker placed at each end of the crossfading slider. 
+#+begin_quote
+You will play the role of the “Director” and will verbally name the TARGET item to one of two Matchers who will sit in a separate room from you. The figures below show the two people who will be listening to your descriptions. They will interact with you through a live webcam video. Only one Matcher will be able to hear your description at a time. The Matcher who appears on the screen may not be the person listening to your description. 
+#+end_quote
+
+\noindent The instruction sheet also contained images that provided an example of a single trial (see OSF repository for more details). 
+
+The two partners were set up in an adjoining room to the speaker and faced a single computer monitor. The partners were seated in rolling chairs, which allowed them to easily slide in front of or away from the camera, as required. The floor of the lab room was marked with tape to indicate where chairs needed to be positioned to be on or off camera. To minimize confusion for the speaker, each partner wore a colored tag that corresponded to the color of a sticker placed at each end of the crossfading slider. 
 
 Before the experiment began participants took part in a practice session that consisted of twelve training trials and four test trials.  This enabled the participant to familiarise themselves with their role as speaker, as well as to experience the task from the perspective of the partner. In this manner, the participant was made aware that the partners saw the images in an entirely different spatial arrangement (Figure\nbsp{}[[fig:exp3-display]]) and that only one partner at a time would be able to hear the descriptions. After practice ended, the main part of the experiment began.
 
@@ -646,7 +660,7 @@ Just prior to the test phase another on-screen notice appeared indicating that t
 
 *** Data Analysis
 
-We transcribed and coded each speaker's spoken responses as described in Experiment\nbsp{}2. Each speaker had 98 trials for coding/transcription: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As with the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training. We also transcribed each speaker's description of the twelve unconventional targets at test, and counted the number of words used in the description.
+We transcribed and coded each speaker's spoken responses as described in Experiment\nbsp{}2. Each speaker had 96 trials for coding/transcription: the 48 test trials, and the final training trial for each stimulus item prior to the test trial. As with the previous experiments, the training trials were coded to verify that speakers were not already misspecifying the referent during training. We also transcribed each speaker's description of the twelve unconventional targets at test, and counted the number of words used in the description.
 
 The misspecification variable was analyzed using linear mixed-effects regression, estimated with the =glmer()= function from =lme4=, with a logit link function and binomial variance. For the random effects structure, we included by-subject and by-item intercepts and also sought to include by-subject and by-item random slopes for all main effects and interactions.
 
@@ -813,7 +827,7 @@ Intercept & 0.54 & 0.18 & 3.01 & 0.003 \\
 \end{table}
 #+END_EXPORT
 
-There was little evidence for the prediction that misspecification would be higher when the partner visible at test was the training partner. One question is whether participants were sensitive at all to the visible partner manipulation; perhaps speakers were sensitive, but used the information in different ways---some subjects showing greater misspecification when the visible partner matched, others showing greater misspecification when it mismatched---with these individual differences yielding no overall systematic effect. To test this, we first performed an significance test of the by-subject random slope for Visible Partner (this test was not part of pre-registration plan). The estimated by-subject random slope of 
+There was little evidence for the prediction that misspecification would be higher when the training partner was the partner who was visible at test. One question is whether participants were sensitive at all to the visible partner manipulation; perhaps speakers were sensitive, but used the information in different ways---some subjects showing greater misspecification when the visible partner matched, others showing greater misspecification when it mismatched---with these individual differences yielding no overall systematic effect. To test this, we first performed an significance test of the by-subject random slope for Visible Partner (this test was not part of pre-registration plan). The estimated by-subject random slope of 
 src_R{sprintf("%0.2f", d_rslp_est_s)} 
 was not significantly different from zero, 
 src_R{sprintf("\\(\\chi^2(1) = %0.2f\\)", d_rslp_chi_s)},
@@ -837,7 +851,7 @@ src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. 
   .rge_95 <- LH_interpolate(p2eta(.95, .m1), sens)
 
   ggplot(aes(deff), data = sens) +
-    scale_x_continuous(breaks = seq(.1, .6, .1)) +
+    scale_x_continuous(breaks = seq(.1, .5, length.out = 6)) +
     stat_function(fun = lpred, args = list(m = .m1)) +
     geom_point(aes(deff, psig), data = sens) +
     scale_y_continuous(breaks = seq(0, 1, .2)) +
@@ -846,24 +860,24 @@ src_R{sprintf("\\(p = %0.3f\\)", pchisq(d_rslp_chi_s, 1, lower.tail = FALSE))}. 
 	 y = "proportion significant")
 #+END_SRC
 
-#+CAPTION: Sensitivity analysis for Experiment 3. Points reflect the proportion of significant tests at each of the six effect sizes examined; line is a fit from a logistic regression model to allow smooth interpolation.
+#+CAPTION: Sensitivity analysis for Experiment 3. The points are the proportion of significant tests at each of the six effect sizes examined; the line is a fit from a logistic regression model to allow smooth interpolation.
 #+LABEL: fig:exp3-sens
 #+RESULTS: fig:exp3-sens
 [[file:exp3/img/exp3-sens.pdf]]
 
-We also peformed a sensitivity analysis for the test of the main effect of /Visible Partner/, following the same procedure described for Experiment\nbsp{}1, with the difference that the effect size range we examined was from .1 to .5. (This also was not a pre-registered analysis.) Results are shown in Figure\nbsp{}[[fig:exp3-sens]]. 
-The simulations suggest our analysis had: (1) 80% power to reject an effect of 
-src_R{round(p2eta(.8, .m1), 2)} log odds or smaller, corresponding to a difference in misspecification rate of about
+We also peformed a sensitivity analysis for the test of the main effect of /Visible Partner/, following the same procedure described for Experiment\nbsp{}1, with the difference that the effect size range was from .1 to .5 logits. (This analysis was also not pre-registered.) Results are shown in Figure\nbsp{}[[fig:exp3-sens]]. 
+The sensitivity analysis suggests the test of /Visible Partner/ had: (1) 80% power to detect an effect of at least 
+src_R{round(p2eta(.8, .m1), 2)} logits, corresponding to a difference in misspecification rate of about
 src_R{as.perc(.rge_80["diff"])} between conditions (e.g., 
-src_R{as.perc(.rge_80["low"])} in the high distortion condition versus
-src_R{as.perc(.rge_80["high"])}in the low distortion condition);
-(2) 90% power to reject an effect of 
-src_R{round(p2eta(.9, .m1), 2)} or smaller, or a difference in response rate of 
+src_R{as.perc(.rge_80["low"])} in the different partner versus
+src_R{as.perc(.rge_80["high"])} in the same partner condition);
+(2) 90% power to detect an effect of at least 
+src_R{round(p2eta(.9, .m1), 2)} logits, or a difference in response rate of 
 src_R{as.perc(.rge_90["diff"])} (e.g., 
 src_R{as.perc(.rge_90["low"])} versus
 src_R{as.perc(.rge_90["high"])});
-and (3) 95% power to reject an effect of 
-src_R{round(p2eta(.95, .m1), 2)} or smaller, or a difference in response rate of 
+and (3) 95% power to detect an effect of at least 
+src_R{round(p2eta(.95, .m1), 2)} logits, or a difference in response rate of 
 src_R{as.perc(.rge_95["diff"])} (e.g., 
 src_R{as.perc(.rge_95["low"])} versus
 src_R{as.perc(.rge_95["high"])}).

@@ -11,6 +11,7 @@
 
   library("rlang") # needed for !!
   as.perc <- function(x) sprintf("%0.1f%%", x * 100)
+  as.perc2 <- function(x) sprintf("%0.0f%%", x * 100)
 
   ## what R version are we using?
   this_r <- sub("^R version ([0-9]{1}\\.[0-9]{1}\\.[0-9]{1}).+",
@@ -101,7 +102,7 @@
 	       high = dat[[below, "high"]] + (dist / tdist) * ydist_hi)
       }
     }
-    v <- round(v, 2)
+    v <- round(v, 3)
     v["diff"] <- v["high"] - v["low"]
     return(v)
   }
