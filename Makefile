@@ -22,7 +22,7 @@ manuscript_nocleanimg : OShea_Martin_Barr_preprint.pdf cleanlatex
 # Make OShea_Martin_Barr.pdf, and then remove everything but the figures
 manuscript_noclean : OShea_Martin_Barr_preprint.pdf
 
-manuscript_els : OShea_Martin_Barr_els.pdf cleanlatex cleanimg
+manuscript_els : OShea_Martin_Barr_els.pdf elspackage.zip cleanlatex cleanimg
 
 %.R : %.org
 	@echo "--- Tangling source blocks from $<..."
@@ -57,6 +57,10 @@ OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.
 	@rm setup.org
 	@mv OShea_Martin_Barr.pdf OShea_Martin_Barr_els.pdf
 	@echo "--- Done.\n"
+
+elspackage.zip : OShea_Martin_Barr_els.pdf abstract.txt
+	zip -r elspackage.zip figs/*.png exp1/img/* exp2/img/* exp3/img/* \
+		OShea_Martin_Barr.tex OShea_Martin_Barr.bbl refs_R.bib abstract.txt
 
 setup_apa6 : 
 	@echo "--- Configuring setup.org to use apa6 class."
