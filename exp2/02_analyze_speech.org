@@ -1,6 +1,17 @@
 #+TITLE: Experiment 2: Analysis of speech
 #+PROPERTY: header-args:R :tangle scripts/02_analyze_speech.R :session *R* :results silent
 
+#+BEGIN_SRC R
+  #####################################################################
+  ## NOTE: this R script was automatically generated from the master file
+  ##       02_analyze_speech.org.
+  ##
+  ##       Use GNU make + Makefile to generate.
+  ##       It was not intended to be edited by hand.
+  #####################################################################
+
+#+END_SRC
+
 * Calculate descriptives
 
 #+BEGIN_SRC R

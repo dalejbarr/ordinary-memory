@@ -22,11 +22,11 @@ manuscript_nocleanimg : OShea_Martin_Barr_preprint.pdf cleanlatex
 # Make OShea_Martin_Barr.pdf, and then remove everything but the figures
 manuscript_noclean : OShea_Martin_Barr_preprint.pdf
 
-manuscript_els : OShea_Martin_Barr_els.pdf cleanlatex cleanimg
+manuscript_els : OShea_Martin_Barr_els.pdf elspackage.zip cleanlatex cleanimg
 
 %.R : %.org
 	@echo "--- Tangling source blocks from $<..."
-	@emacs --batch -l org $< -f org-babel-tangle 2>/dev/null
+	@emacs -q --batch -l org $< -f org-babel-tangle 2>/dev/null
 	@echo "--- Done.\n"
 
 OShea_Martin_Barr_preprint.pdf : setup_apa6  refs_R.bib abstract.txt OShea_Martin_Barr.org \
@@ -35,7 +35,7 @@ OShea_Martin_Barr_preprint.pdf : setup_apa6  refs_R.bib abstract.txt OShea_Marti
 	@mkdir -p exp2/img
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
-	@emacs --batch -l dotemacs -l org \
+	@emacs -q --batch -l dotemacs -l org \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null
@@ -50,13 +50,17 @@ OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.
 	@mkdir -p exp2/img
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
-	@emacs --batch -l dotemacs -l org \
+	@emacs -q --batch -l dotemacs -l org \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null
 	@rm setup.org
 	@mv OShea_Martin_Barr.pdf OShea_Martin_Barr_els.pdf
 	@echo "--- Done.\n"
+
+elspackage.zip : OShea_Martin_Barr_els.pdf abstract.txt
+	zip -r elspackage.zip figs/*.png exp1/img/* exp2/img/* exp3/img/* \
+		OShea_Martin_Barr.tex OShea_Martin_Barr.bbl refs_R.bib abstract.txt
 
 setup_apa6 : 
 	@echo "--- Configuring setup.org to use apa6 class."
