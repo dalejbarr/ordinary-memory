@@ -1,3 +1,5 @@
+TMPFILE := $(shell mktemp -d)
+
 ## final data image created by makefile
 EXP1_IMAGES = exp1/data_images/03_analyze_eyedata.rda
 EXP2_IMAGES = exp2/data_images/03_analyze_eyedata.rda
@@ -58,9 +60,21 @@ OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.
 	@mv OShea_Martin_Barr.pdf OShea_Martin_Barr_els.pdf
 	@echo "--- Done.\n"
 
-elspackage.zip : OShea_Martin_Barr_els.pdf abstract.txt
-	zip -r elspackage.zip figs/*.png exp1/img/* exp2/img/* exp3/img/* \
-		OShea_Martin_Barr.tex OShea_Martin_Barr.bbl refs_R.bib abstract.txt
+elspackage.zip : OShea_Martin_Barr_els.pdf abstract.txt refs_R.bib \
+		$(FIGS) $(EXP1_IMAGES) $(EXP2_IMAGES) $(EXP3_IMAGES)
+	rm -f elspackage.zip
+	cp figs/*.png $(TMPFILE)
+	cp exp1/img/* $(TMPFILE)
+	cp exp2/img/* $(TMPFILE)
+	cp exp3/img/* $(TMPFILE)
+	cp OShea_Martin_Barr.tex $(TMPFILE)
+	sed -i -E 's/\{figs\/|\{exp1\/img\/|\{exp2\/img\/|\{exp3\/img\//\{/' \
+		$(TMPFILE)/OShea_Martin_Barr.tex
+	sed -i 's/\\usepackage{minted}//' $(TMPFILE)/OShea_Martin_Barr.tex
+	sed -i -e "/refs_R/{r OShea_Martin_Barr.bbl" -e 'd}' $(TMPFILE)/OShea_Martin_Barr.tex
+	zip -rj elspackage.zip $(TMPFILE)/*
+# cp /usr/share/texmf/tex/latex/elsarticle/elsarticle.cls $(TMPFILE)
+# cp /usr/share/texmf/tex/latex/elsarticle/elsarticle-harv.bst $(TMPFILE)
 
 setup_apa6 : 
 	@echo "--- Configuring setup.org to use apa6 class."

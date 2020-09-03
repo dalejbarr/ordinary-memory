@@ -1,18 +1,1 @@
-How do speakers produce referential descriptions that satisfy
-addressees’ informational needs during real-time conversation?  A recent
-proposal is that ordinary memory processes can serve as a proxy for the
-consideration of common ground.  But this is only possible if speakers
-encode and access sufficiently detailed memory representations.  We
-tested this proposal by having speakers describe referents in contexts
-varying in perceptual similarity to previous contexts in the
-dialogue. Based on the analysis of a total of 4,817 descriptions from
-112 speakers over three experiments, we found little evidence that
-contextual similarity modulated the informational content of speakers’
-descriptions, regardless of whether that similarity was based on
-configurational cues (Exps. 1 and 2), or on the perceptual experience of
-interacting with a conversational partner (Exp. 3).  In contrast,
-speakers did modulate their descriptions when their beliefs about the
-addressee changed, even when the perceptual match between encoding and
-retrieval contexts was identical.  This suggests that the episodic
-representations accessed during message generation may be too
-impoverished to serve as an effective proxy for common ground.
+How do speakers produce referential descriptions that satisfy addressees’ informational needs during real-time conversation?  A recent proposal is that ordinary memory processes can serve as a proxy for the consideration of common ground.  But this is only possible if speakers encode and access sufficiently detailed memory representations.  We tested this proposal by having speakers describe referents in contexts varying in perceptual similarity to previous contexts in the dialogue. Based on the analysis of a total of 4,817 descriptions from 112 speakers over three experiments, we found little evidence that contextual similarity modulated the informational content of speakers’ descriptions, regardless of whether that similarity was based on configurational cues (Exps. 1 and 2), or on the perceptual experience of interacting with a conversational partner (Exp. 3).  In contrast, speakers did modulate their descriptions when their beliefs about the addressee changed, even when the perceptual match between encoding and retrieval contexts was identical.  This suggests that the episodic representations accessed during message generation may be too impoverished to serve as an effective proxy for common ground.

@@ -22,10 +22,11 @@ if (commandArgs(TRUE)[1] == "elsarticle") {
       "#+LATEX_HEADER: \\ead{dale.barr@glasgow.ac.uk}",
       "#+LATEX_HEADER: \\address{Institute of Neuroscience and Psychology, University of Glasgow, 62 Hillhead St., Glasgow G12 8QB, United Kingdom}",
       "#+LATEX_HEADER: \\cortext[cor1]{Corresponding author.}",
-      "#+LATEX_HEADER: \\begin{abstract}\\input{abstract.txt}\\end{abstract}",
+      "#+LATEX_HEADER: \\begin{abstract}",
+      paste0("#+LATEX_HEADER: ", readLines("abstract.txt")),
+      "#+LATEX_HEADER: \\end{abstract}",
       "#+LATEX_HEADER: \\hypersetup{colorlinks,citecolor=black,linkcolor=black,urlcolor=red}",      
       paste0("#+LATEX_HEADER: \\tnotetext[t1]{", ack, "}"),
-      "#+LATEX_HEADER: \\usepackage[pagewise]{lineno}",
       "#+LATEX_HEADER: \\linenumbers",
       sep = "\n")
 } else {

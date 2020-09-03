@@ -725,31 +725,10 @@ We applied the same exclusion criteria for participants and stimuli in Experimen
 			NO, PR, PO, DE, AS, AO),
 		 align = "lllrrrrrr",
 		 caption = "Distribution of utterance types in the Contrast-Singleton condition, Experiment 3. NO = no misspecification; PR = pre-nominal modifier; PO = post-nominal modifier; DE = deleted adjective; AS = Addition by self-repair; AO = addition by other-repair. Categories PR, PO, DE, AS, and AR were counted as misspecifications.",
-		 label = "tbl:exp3-utt-dist") %>%
+		 label = "tbl:exp3-utt-dist-cs") %>%
     print(include.rownames = FALSE,
 	  caption.placement = "top")
 #+END_SRC
-
-#+RESULTS: tbl:exp3-utt-dist-cs
-#+BEGIN_EXPORT latex
-% latex table generated in R 3.3.3 by xtable 1.8-4 package
-% Wed Aug 14 11:40:57 2019
-\begin{table}[ht]
-\centering
-\caption{Distribution of utterance types across Visible Partner and Addressee, Contrast-Singleton condition, Experiment 3.} 
-\label{tbl:exp3-utt-dist}
-\begin{tabular}{llrrrrrr}
-  \hline
-Visible Partner & Addressee & PR & NO & AO & PO & AS & DE \\ 
-  \hline
-same & same & 48.9\% & 41.2\% & 0.0\% & 9.0\% & 0.9\% & 0.0\% \\ 
-  same & different & 45.5\% & 41.4\% & 0.0\% & 8.6\% & 1.4\% & 3.2\% \\ 
-  different & same & 50.9\% & 34.1\% & 0.0\% & 11.4\% & 0.9\% & 2.7\% \\ 
-  different & different & 51.4\% & 33.2\% & 0.0\% & 13.6\% & 0.0\% & 1.8\% \\ 
-   \hline
-\end{tabular}
-\end{table}
-#+END_EXPORT
 
 #+NAME: tbl:exp3-utt-dist-sc
 #+BEGIN_SRC R :exports results :results verbatim export latex
@@ -768,31 +747,10 @@ same & same & 48.9\% & 41.2\% & 0.0\% & 9.0\% & 0.9\% & 0.0\% \\
 			NO, PR, PO, DE, AS, AO),
 		 align = "lllrrrrrr",
 		 caption = "Distribution of utterance types in Singleton-Contrast condition, Experiment 3. NO = no misspecification; PR = pre-nominal modifier; PO = post-nominal modifier; DE = deleted adjective; AS = Addition by self-repair; AO = addition by other-repair. Categories NO, DE, AS, and AO were counted as misspecifications.",
-		 label = "tbl:exp3-utt-dist") %>%
+		 label = "tbl:exp3-utt-dist-sc") %>%
     print(include.rownames = FALSE,
 	  caption.placement = "top")
 #+END_SRC
-
-#+RESULTS: tbl:exp3-utt-dist-sc
-#+BEGIN_EXPORT latex
-% latex table generated in R 3.3.3 by xtable 1.8-4 package
-% Wed Aug 14 11:40:40 2019
-\begin{table}[ht]
-\centering
-\caption{Distribution of utterance types across Visible Partner and Addressee, Singleton-Contrast condition, Experiment 3.} 
-\label{tbl:exp3-utt-dist}
-\begin{tabular}{llrrrrrr}
-  \hline
-Visible Partner & Addressee & PR & NO & AO & PO & AS & DE \\ 
-  \hline
-same & same & 28.2\% & 2.0\% & 32.2\% & 15.8\% & 21.8\% & 0.0\% \\ 
-  same & different & 23.0\% & 3.3\% & 33.0\% & 19.6\% & 20.6\% & 0.5\% \\ 
-  different & same & 22.5\% & 2.5\% & 39.5\% & 17.5\% & 18.0\% & 0.0\% \\ 
-  different & different & 23.2\% & 2.4\% & 38.4\% & 17.5\% & 18.5\% & 0.0\% \\ 
-   \hline
-\end{tabular}
-\end{table}
-#+END_EXPORT
 
 The logistic regression model of misspecification rate did not converge with maximal random effects. We fit a second model in which we reduced the random effects structure until convergence was reached and no singularity message was encountered. The reduced model contained by-subject random intercepts, by-subject random slopes for /Visible Partner/, the /Visible Partner-by-Addressee/ interaction, and the three way interaction, with covariances constrained to zero; by-item random intercepts, by-item random slopes for /Shift Direction/, /Shift Direction-by-Visible Partner/ interaction, the three way interaction, and with covariances also constrained to zero.
 
