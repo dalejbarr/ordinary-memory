@@ -53,6 +53,7 @@ OShea_Martin_Barr_els.pdf : setup_els refs_R.bib abstract.txt OShea_Martin_Barr.
 	@mkdir -p exp3/img
 	@echo "--- Compiling OShea_Martin_Barr.org to PDF..."
 	@emacs -q --batch -l dotemacs -l org \
+		--eval '(setq org-latex-title-command "")' \
 		--eval '(org-babel-lob-ingest "global_fns.org")' \
 		OShea_Martin_Barr.org \
 	       -f org-latex-export-to-pdf 2>/dev/null

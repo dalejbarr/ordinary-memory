@@ -17,6 +17,15 @@
 
 # word count: 11790
 
+#+BEGIN_SRC R :exports results :results output latex :var is_els=is_els() :session *R*
+  if (is_els == "TRUE") {
+    cat("", "\\begin{abstract}",
+	readLines("abstract.txt"),
+	"\\end{abstract}", "", "\\maketitle", "",
+	sep = "\n")
+  }
+#+END_SRC
+
 When planning spoken referential expressions, speakers face many potential choices about what to say and how to say it. What psychological factors govern these choices? It is generally assumed that when planning messages, speakers are beholden to the cooperative principle that underlies conversational interaction \citep{grice75}. Accordingly, speakers should formulate references that convey no more and no less information than their addressee would need to identify the referent of the expression against the background of their common ground: the set of assumptions, beliefs, and knowledge that is shared, and known to be shared with their interlocutors \citep{clarkmarshall81}. Because of the complex nature of reasoning about common ground---i.e., about what you know that I know that you know, etc.---it is assumed that interlocutors assess common ground using a set of simpler /co-presence heuristics/. For instance, interlocutors who can mutually see a vase on a table can assume the vase to be part of their common ground, based on its /physical co-presence/. It is also assumed that interlocutors keep track of things that have been said during a conversation---for instance, what objects have been mentioned and how they were described---and that these things form part of their common ground by virtue of their /linguistic co-presence/. Finally, they can assume certain information to be part of their common ground based on their mutual belonging to a common community (e.g., sports club, internet group, family, etc.) through the heuristic of /community membership/ \citep{clarkmarshall81}.
 
 Constructing expressions on the basis of this common ground---a process known as /audience design/ \citep{clarkmurphy82}---can help promote successful communication. However, within the cognitive demands of real-time conversation, common ground can be too uncertain or computationally demanding to estimate and track.  It would be expected, then, that speakers use certain shortcuts to make reference generation more efficient.
